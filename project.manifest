@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/",
     "remoteManifestUrl": "http://mechs.su/assets/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/version.manifest",
-    "version": "1.73.1",
+    "version": "1.73.2",
     "engineVersion": "3.8",
     "assets": {
         "ClientConfig.xml": {
@@ -1856,22 +1856,22 @@
         "models/world/wall/34_mobile.mdl": {
             "md5": "5c84f7d384684b2744e4ccbae3a36fd2"
         },
-        "platforms/.gitkeep": {
+        "platforms/empty": {
             "md5": "d41d8cd98f00b204e9800998ecf8427e"
         },
-        "platforms/linux/.gitkeep": {
+        "platforms/linux/empty": {
             "md5": "d41d8cd98f00b204e9800998ecf8427e"
         },
-        "platforms/mac/.gitkeep": {
+        "platforms/mac/empty": {
             "md5": "d41d8cd98f00b204e9800998ecf8427e"
         },
-        "platforms/mobile/.gitkeep": {
+        "platforms/mobile/empty": {
             "md5": "d41d8cd98f00b204e9800998ecf8427e"
         },
-        "platforms/user/.gitkeep": {
+        "platforms/user/empty": {
             "md5": "d41d8cd98f00b204e9800998ecf8427e"
         },
-        "platforms/win32/.gitkeep": {
+        "platforms/win32/empty": {
             "md5": "d41d8cd98f00b204e9800998ecf8427e"
         },
         "shaders/effects.ps": {
