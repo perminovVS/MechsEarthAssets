@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DialogsInfo>
+    <Quests Id="90000">
+        <Info Value="Диалог: Задания" />
+        <NameFileDialog Value="game/quest/Quests.xml" />
+    </Quests>
+    <QuestionMsgSmall Id="91000">
+        <Info Value="Диалог: Вопрос (маленькое окно)" />
+        <NameFileDialog Value="game/quest/QuestionMsgSmall.xml" />
+    </QuestionMsgSmall>
+    <QuestionMsgMiddle Id="92000">
+        <Info Value="Диалог: Вопрос (среднее окно)" />
+        <NameFileDialog Value="game/quest/QuestionMsgMiddle.xml" />
+    </QuestionMsgMiddle>
+    <QuestionMsgBig Id="93000">
+        <Info Value="Диалог: Вопрос (большое окно)" />
+        <NameFileDialog Value="game/quest/QuestionMsgBig.xml" />
+    </QuestionMsgBig>
+	<NotifyMsgSmall Id="22000">
+		<Info Value="Диалог: оповещения (маленькое окно)"/>
+		<NameFileDialog Value="game/quest/NotifyMsgSmall.xml"/>
+	</NotifyMsgSmall>
+	<NotifyMsgMiddle Id="23000">
+		<Info Value="Диалог: оповещения (среднее окно)"/>
+		<NameFileDialog Value="game/quest/NotifyMsgMiddle.xml"/>
+	</NotifyMsgMiddle>
+	<NotifyMsgBig Id="24000">
+		<Info Value="Диалог: оповещения (большое окно)"/>
+		<NameFileDialog Value="game/quest/NotifyMsgBig.xml"/>
+	</NotifyMsgBig>
+</DialogsInfo>

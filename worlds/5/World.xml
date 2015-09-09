@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<World>
+    <WorldName Name="база ТРЕБА" />
+    <WorldNation Nation="5" UseWorldNationOnly="0" WorldMaxLvl="0" />
+    <Terrain Use="1">
+        <Size X="1025" Y="1025" Cell="128" DeltaHeight="32768" HeightScale="2.000000" />
+        <Texture Name="worlds/5/terrain" />
+        <Texture_Snow Name="world/terrain/snow" />
+        <TextureDetail Name="world/terrain/detail" Scale="100" />
+    </Terrain>
+</World>
+<Zones>
+    <Zone Type="None" Id="1" Name="база ТРЕБА" X1="-8000" Y1="38000" X2="22000" Y2="60000" />
+    <Zone Type="None" Id="2" Name="ЗАПАДНЫЙ БУНКЕР ТРЕБА" Safe="1" X1="-47100" Y1="12300" X2="-41100" Y2="16700" />
+    <Zone Type="None" Id="3" Name="ВОСТОЧНЫЙ БУНКЕР ТРЕБА" Safe="1" X1="42300" Y1="-10300" X2="48200" Y2="-5500" />
+    <Zone Type="None" Id="4" Name="ЗАПАДНЫЕ ЭНЕРГО БЛОКИ" NoRecharge="1" X1="-40800" Y1="13600" X2="-39200" Y2="15200" />
+    <Zone Type="None" Id="5" Name="ВОСТОЧНЫЕ ЭНЕРГО БЛОКИ" NoRecharge="1" X1="48800" Y1="-8800" X2="50400" Y2="-7200" />
+</Zones>
+<GlobalMap>
+    <Center X="512" Y="512" />
+    <Limit X1="0" Y1="0" X2="1024" Y2="1024" />
+    <Marks>
+        <Mark Type="1" Name="ЗАВОД ТРЕБА" X="-3100" Y="48900" />
+        <Mark Type="1" Name="АПГРЕЙД МЕХОВ ТРЕБА" X="900" Y="42100" />
+        <Mark Type="2" Name="ЦЕНТРАЛЬНОЕ УКРЕПЛЕНИЕ" X="-58528" Y="-54538" />
+        <Mark Type="1" Name="база ТРЕБА" X="5590" Y="48552" />
+        <Mark Type="1" Name="МАГАЗИН ТРЕБА" X="14181" Y="47256" />
+        <Mark Type="1" Name="ВОСТОЧНЫЙ БУНКЕР ТРЕБА" X="45239" Y="-7929" />
+        <Mark Type="1" Name="НАУЧНАЯ СТАНЦИЯ ТРЕБА " X="9350" Y="42526" />
+        <Mark Type="1" Name="МАГАЗИН МЕХОВ ТРЕБА" X="9490" Y="52354" />
+        <Mark Type="1" Name="ЗАПАДНЫЙ БУНКЕР ТРЕБА" X="-45004" Y="15345" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-62097" Y="62102" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-33479" Y="56903" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-51302" Y="44904" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-51901" Y="-14506" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-51884" Y="-15092" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-32302" Y="-11899" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-32294" Y="-11301" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-3301" Y="16305" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="16900" Y="20908" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="17499" Y="20906" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="24500" Y="34290" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="40301" Y="56509" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="40305" Y="55705" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="55297" Y="50090" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="54899" Y="33892" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="35101" Y="9088" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-12100" Y="-21318" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-11720" Y="-21484" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="10901" Y="-17702" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="13891" Y="-17304" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-16092" Y="-31910" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-15493" Y="-31907" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-7914" Y="-31519" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-7910" Y="-32112" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-14490" Y="-45306" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-8094" Y="-47694" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="9713" Y="-46489" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="49702" Y="-38713" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="49699" Y="-39310" />
+        <Mark Type="2" Name="ЦЕНТРАЛЬНОЕ УКРЕПЛЕНИЕ" X="-6360" Y="56480" />
+        <Mark Type="1" Name="ЗАВОД УСТАНОВКИ НАВЫКОВ ТРЕБА" X="1700" Y="54200" />
+        <Mark Type="2" Name="БАЗА ТРЕБА" X="5600" Y="51900" />
+        <Mark Type="2" Name="ТП ТРЕБА ЧЕРВИ" X="57600" Y="-52800" />
+        <Mark Type="2" Name="БУНКЕРЫ БАЗЫ ТРЕБА" X="7600" Y="55400" />
+        <Mark Type="2" Name="БУНКЕРЫ" X="4800" Y="55600" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-57304" Y="58697" />
+    </Marks>
+</GlobalMap>

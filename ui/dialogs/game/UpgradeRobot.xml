@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Диалог: Апгрейд меха -->
+<UpgradeRobot Id="54000" Worker="Menu_UpgradeRobot">
+    <Image X="184" Y="93" W="400" H="350" Shader="26" VIS="1" ENB="0" />
+    <Text Text="upgrade_title" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="239" Y="100" W="200" H="32" VIS="1" ENB="1" />
+    <Text Text="upgrade_type" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="407" Y="172" W="200" H="32" VIS="1" ENB="1" />
+    <Button Command="delete_menu UpgradeRobot;" Key="escape" VIS="0" ENB="1" />
+    <Button Name="Upgrade" Text="upgrade_upgrade" Info="tooltip_upgrade_upgrade" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="24" Active="25" X="443" Y="415" W="130" H="18" VIS="1" ENB="1" UseHooks="1" />
+    <Text Text="upgrade_need_money" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="244" Y="125" W="110" H="32" VIS="1" ENB="1" UseHooks="1" />
+    <Text Name="NeedMoney" FontSet="big_7" Align="LEFT" ColorARGB="1 0.91 0.73 0" X="380" Y="125" W="176" H="32" VIS="1" ENB="1" UseHooks="1" />
+    <Text Text="upgrade_need_money1" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="244" Y="148" W="134" H="32" VIS="1" ENB="1" />
+    <Text Name="NeedMoney1" FontSet="big_7" Align="LEFT" ColorARGB="1 0.91 0.73 0" X="380" Y="148" W="109" H="32" VIS="1" ENB="1" />
+    <Text Name="Text" FontSet="big_7" Align="LEFT" ColorARGB="1 0.91 0.73 0" X="379" Y="170" W="60" H="32" VIS="1" ENB="1" UseHooks="1" />
+    <Text Name="TextType" FontSet="big_7" Align="LEFT" ColorARGB="1 0.91 0.73 0" X="250" Y="170" W="141" H="32" VIS="1" ENB="1" />
+    <List Name="UpgradeList" Gap="2" VIS="1" ENB="0" X="448" Y="203" W="126" H="201" UseHooks="1">
+        <Button Name="Prototype" FontSet="button" InnerBorderW="1" InnerBorderH="3" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Active="3" Check="3" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="236" Y="276" W="50" H="50" />
+    </List>
+    <!-- Слоты: Картинки -->
+    <Item Id="99" VIS="1" ENB="1">
+        <Item Id="100" ENB="0" X="254" Y="346" W="40" H="38" VIS="1" UseHooks="1">
+            <Image Id="300" Shader="83" VIS="1" ENB="1" Worker="Menu_ResearchSlotItem" WorkerShow="ImageDefaultWorkShow" X="254" Y="347" W="40" H="38" UseHooks="1" />
+            <Image Id="200" Shader="131" VIS="0" ENB="0" X="254" Y="347" W="40" H="38" UseHooks="1" />
+            <Text Id="400" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="277" Y="376" W="15" H="6" UseHooks="1" />
+        </Item>
+        <Item Id="101" ENB="0" X="299" Y="347" W="40" H="38" VIS="1">
+            <Image Id="301" Shader="83" VIS="1" ENB="1" Worker="Menu_ResearchSlotItem" WorkerShow="ImageDefaultWorkShow" X="299" Y="347" W="40" H="38" />
+            <Image Id="201" Shader="131" VIS="0" ENB="0" X="299" Y="347" W="40" H="38" />
+            <Text Id="401" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="323" Y="376" W="15" H="6" />
+        </Item>
+        <Item Id="102" ENB="0" X="346" Y="347" W="40" H="38" VIS="1">
+            <Image Id="302" Shader="83" VIS="1" ENB="1" Worker="Menu_ResearchSlotItem" WorkerShow="ImageDefaultWorkShow" X="347" Y="347" W="40" H="38" />
+            <Image Id="202" Shader="131" VIS="0" ENB="0" X="347" Y="347" W="40" H="38" />
+            <Text Id="402" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="372" Y="376" W="15" H="6" />
+        </Item>
+        <Item Id="103" ENB="0" X="394" Y="347" W="40" H="38" VIS="1">
+            <Image Id="303" Shader="83" VIS="1" ENB="1" Worker="Menu_ResearchSlotItem" WorkerShow="ImageDefaultWorkShow" X="393" Y="347" W="40" H="38" />
+            <Image Id="203" Shader="131" VIS="0" ENB="0" X="393" Y="347" W="40" H="38" />
+            <Text Id="403" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="417" Y="376" W="15" H="6" />
+        </Item>
+        <Item Id="104" ENB="0" X="254" Y="387" W="40" H="38" VIS="1" UseHooks="1">
+            <Image Id="304" Shader="83" VIS="1" ENB="1" Worker="Menu_ResearchSlotItem" WorkerShow="ImageDefaultWorkShow" X="254" Y="387" W="40" H="38" UseHooks="1" />
+            <Image Id="204" Shader="131" VIS="0" ENB="0" X="254" Y="387" W="40" H="38" UseHooks="1" />
+            <Text Id="404" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="277" Y="416" W="15" H="6" UseHooks="1" />
+        </Item>
+        <Item Id="105" ENB="0" X="299" Y="387" W="40" H="38" VIS="1">
+            <Image Id="305" Shader="83" VIS="1" ENB="1" Worker="Menu_ResearchSlotItem" WorkerShow="ImageDefaultWorkShow" X="299" Y="387" W="40" H="38" />
+            <Image Id="205" Shader="131" VIS="0" ENB="0" X="299" Y="387" W="40" H="38" />
+            <Text Id="405" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="323" Y="416" W="15" H="6" />
+        </Item>
+        <Item Id="106" ENB="0" X="346" Y="387" W="40" H="38" VIS="1">
+            <Image Id="306" Shader="83" VIS="1" ENB="1" Worker="Menu_ResearchSlotItem" WorkerShow="ImageDefaultWorkShow" X="347" Y="387" W="40" H="38" />
+            <Image Id="206" Shader="131" VIS="0" ENB="0" X="347" Y="387" W="40" H="38" />
+            <Text Id="406" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="372" Y="416" W="15" H="6" />
+        </Item>
+        <Item Id="107" ENB="0" X="394" Y="387" W="40" H="38" VIS="1">
+            <Image Id="307" Shader="83" VIS="1" ENB="1" Worker="Menu_ResearchSlotItem" WorkerShow="ImageDefaultWorkShow" X="393" Y="387" W="40" H="38" />
+            <Image Id="207" Shader="131" VIS="0" ENB="0" X="393" Y="387" W="40" H="38" />
+            <Text Id="407" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="417" Y="416" W="15" H="6" />
+        </Item>
+    </Item>
+    <!-- Всплывающие подсказки -->
+    <ToolTips Name="ToolTips">
+        <Image Shader="6" VIS="0" ENB="0" />
+        <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+    </ToolTips>
+</UpgradeRobot>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<SpriteSheets Root="textures/atlas/" enable="1">
+	<SpriteSheet FilePlist="ui.plist" FileTexture="ui.png" />
+	<SpriteSheet FilePlist="ui_new.plist" FileTexture="ui_new.png" />
+	<SpriteSheet FilePlist="ui_window_0.plist" FileTexture="ui_window_0.png" />
+	<SpriteSheet FilePlist="ui_window_1.plist" FileTexture="ui_window_1.png" />
+	<SpriteSheet FilePlist="icons.plist" FileTexture="icons.png" />
+</SpriteSheets>

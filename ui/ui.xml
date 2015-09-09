@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+ <Shaders>
+    <Resource Name="ui/empty" />                                 <!-- 1 -->
+    <Resource Name="ui/game/cursor/cursornor01" />             <!-- 2 -->
+    <Resource Name="ui/menupanel" />                             <!-- 3 -->
+    <Resource Name="ui/menubuttona" />           <!-- 4 -->
+    <Resource Name="ui/menupanel_dark" />                   	  <!-- 5 -->
+    <Resource Name="ui/tooltip" />                               <!-- 6 -->
+
+    <!-- Элемент Progress индикатора -->
+    <Resource Name="ui/indicatorelement" />                      <!-- 7 -->
+
+    <!-- Кнопки +, -, для прогрессбара -->
+    <Resource Name="ui/buttonplusa" />                           <!-- 8 -->
+    <Resource Name="ui/buttonplusp" />                           <!-- 9 -->
+    <Resource Name="ui/buttonminusa" />                          <!-- 10 -->
+    <Resource Name="ui/buttonminusp" />                          <!-- 11 -->
+
+    <!-- Кнопки чекбокса -->
+    <Resource Name="ui/buttoncheckp" />                          <!-- 12 -->
+    <Resource Name="ui/buttonchecka" />                          <!-- 13 -->
+    <Resource Name="ui/buttonchecke" />                          <!-- 14 -->
+
+    <!-- Панель help -->
+    <Resource Name="ui_window/help" />                            <!-- 15 -->
+    <Resource Name="ui/help/tv_01;ui/help/tv_02;ui/help/tv_03" />                               <!-- 16 -->
+
+    <!-- Панель инвентаря -->
+    <Resource Name="ui/invpanelenbe" />          <!-- 17 -->
+    <Resource Name="ui/invpanelenb" />           <!-- 18 -->
+    <Resource Name="ui/invpaneldis" />           <!-- 19 -->
+    <Resource Name="ui_window/inventory_cargo" />          <!-- 20 -->
+    <Resource Name="ui_window/inventory_container" />      <!-- 21 -->
+
+    <!-- Панель персонажа -->
+    <Resource Name="ui/empty" />		 <!-- 22 -->
+    <Resource Name="ui/empty" />                 <!-- 23 -->
+    <Resource Name="ui/upgrade/buttonn" />                       <!-- 24 -->
+    <Resource Name="ui/upgrade/buttona" />      					  <!-- 25 -->
+    <Resource Name="ui_window/upgrade" />                        <!-- 26 -->
+    <Resource Name="ui/game/panel/map/panel" />			        	  <!-- 27 -->
+
+    <!-- Кнопка входа в локацию -->
+    <Resource Name="ui/game/panel/btnlocinactive" />        	  <!-- 28 -->
+    <Resource Name="ui/game/panel/btnlocactivep" />         	  <!-- 29 -->
+    <Resource Name="ui/game/panel/btnlocactivea" />         	  <!-- 30 -->
+    <Resource Name="ui/game/panel/btnlocflash" />           	  <!-- 31 -->
+
+    <!-- Элементы индикатора -->
+    <Resource Name="ui/indicatorred" />          <!-- 32 -->
+    <Resource Name="ui/indicatorblu" />          <!-- 33 -->
+
+    <!-- Окна -->
+    <Resource Name="ui/empty" />                              <!-- 34 -->
+
+    <!-- Логотип на окно меню -->
+    <Resource Name="ui_window/main" />                           <!-- 35 -->
+    <Resource Name="ui_window/research" />                   <!-- 36 -->
+    <Resource Name="ui_window/teleport" />                   <!-- 37 -->
+	 
+	 <!-- кнопки шапки -->
+    <Resource Name="ui/empty" />                 <!-- 38 -->
+    <Resource Name="ui/empty" />                <!-- 39 -->
+    <Resource Name="ui_window/restore" />                    <!-- 40 -->
+    <Resource Name="ui/empty" />                                 <!-- 41 -->
+
+    <!-- Панели города -->
+    <Resource Name="ui_window/location" />                       <!-- 42 -->
+
+    <!-- Кнопки вызова параметров -->
+    <Resource Name="ui/inventory/panel_container/buttonn" />     <!-- 43 -->
+    <Resource Name="ui/inventory/panel_container/buttona" />     <!-- 44 -->
+    <Resource Name="ui/inventory/panel_container/arrow" />       <!-- 45 -->
+    <Resource Name="ui/inventory/panel_container/cross" />       <!-- 46 -->
+
+    <!-- Кнопка закрытия инвентаря -->
+    <Resource Name="ui/empty" />        <!-- 47 -->
+
+    <!-- Кнопки вверх и вниз -->
+    <Resource Name="ui/btnupa" />                <!-- 48 -->
+    <Resource Name="ui/btndowna" />              <!-- 49 -->
+
+    <!-- Панели параметров героя и робота -->
+    <Resource Name="ui_window/hero" />              <!-- 50 -->
+    <Resource Name="ui_window/robot" />        	  <!-- 51 -->
+
+    <!-- Кнопки + и - для панелей параметров -->
+    <Resource Name="ui/btnminusp" />             <!-- 52 -->
+    <Resource Name="ui/btnminusa" />             <!-- 53 -->
+    <Resource Name="ui/btnplusp" />              <!-- 54 -->
+    <Resource Name="ui/btnplusa" />              <!-- 55 -->
+
+    <!-- Кнопка ремонта -->
+    <Resource Name="ui/empty" />            <!-- 56 -->
+    <Resource Name="ui/empty" />            <!-- 57 -->
+
+    <!-- Кнопка выхода -->
+    <Resource Name="ui/btnexita" />              <!-- 58 -->
+
+    <!-- Панели города -->
+    <Resource Name="ui_window/city_shop" />           <!-- 59 -->
+    <Resource Name="ui_window/city_robot" />          <!-- 60 -->
+    <Resource Name="ui_window/city_insurance" />      <!-- 61 -->
+    <Resource Name="ui/empty" />      <!-- 62 -->
+
+     <!-- Кнопка подтверждения параметров -->
+    <Resource Name="ui/empty" />                                    <!-- 63 -->
+
+    <!-- Кнопка добычи -->
+    <Resource Name="ui/btnextactivep" />         <!-- 64 -->
+    <Resource Name="ui/btnextactivea" />         <!-- 65 -->
+    <Resource Name="ui/empty" />           <!-- 66 -->
+
+    <!-- Изображения на миникарте -->
+    <Resource Name="ui/game/panel/map/point_01" />            <!-- 67 mapmonster --> 
+    <Resource Name="ui/game/panel/map/point_01" />      <!-- 68 mapplayer_ranger -->
+    <Resource Name="ui/game/panel/map/point_03" />               <!-- 69 mapcity -->
+    <Resource Name="ui/game/panel/map/point_01" />       <!-- 70 mapplayer_party -->
+    <Resource Name="ui/game/panel/map/point_01" />        <!-- 71 mapcity_pirate -->
+    <Resource Name="ui/game/panel/map/point_01" />       <!-- 72 mapplayer_clean -->
+    <Resource Name="ui/game/panel/map/point_01" />    <!-- 73 mapplayer_criminal -->
+    <Resource Name="ui/game/panel/map/compas" /> 					  <!-- 74 -->
+    <Resource Name="ui_window/map_frame" />              <!-- 75 -->
+    <Resource Name="ui/game/panel/map/arrow" />              <!-- 76 -->
+
+    <!-- Панель инвентаря -->
+    <Resource Name="ui_window/inventory_inst" />           <!-- 77 -->
+    <!-- Панель торговли -->
+    <Resource Name="ui_window/trade" />                          <!-- 78 -->
+    <Resource Name="ui/trade/arrow" />                           <!-- 79 -->
+
+    <!-- Кнопка покупки робота -->
+    <Resource Name="ui/shop_body/buya" />          <!-- 80 -->
+
+    <!-- Глобальная карта -->
+    <Resource Name="ui/game/panel/map/line" />               <!-- 81 -->
+    <Resource Name="ui_window/global_map" />          <!-- 82 -->
+
+    <!-- Подложка под количество предметов в слотах -->
+    <Resource Name="ui/iconamount" />            <!-- 83 -->
+    <Resource Name="ui/trade/buttonn" />                         <!-- 84 -->
+    <Resource Name="ui/trade/buttona" />                         <!-- 85 -->
+
+    <!-- Скроллбар -->
+    <Resource Name="ui/scrollbar" />             					  <!-- 86 -->
+    <Resource Name="ui/scrollbutton" />          					  <!-- 87 -->
+
+    <!-- Элементы индикатора -->
+    <Resource Name="ui/indicatorelement" />		     <!-- 88 -->
+    <Resource Name="ui_window/color_change" />						  <!-- 89 -->
+
+    <Resource Name="ui/color/light" />                                 <!-- 90 -->
+    <Resource Name="ui/empty" />        	                       <!-- 91 -->
+    <Resource Name="ui/menubutton" />            <!-- 92 -->
+    <Resource Name="ui/empty" />             <!-- 93 -->
+    <Resource Name="ui/empty" />          <!-- 94 -->
+    <Resource Name="ui/trade/blockn" />                          <!-- 95 -->
+    <Resource Name="ui_window/menu_game" />              <!-- 96 -->
+    <Resource Name="ui/empty" />         <!-- 97 -->
+    <Resource Name="ui/trade/blocka" />                          <!-- 98 -->
+    <Resource Name="ui_window/items" />              <!-- 99 -->
+
+    <!-- Банеры -->
+    <Resource Name="ui/logo/01" />                               <!-- 100 -->
+    <Resource Name="ui/logo/01" />                               <!-- 101 -->
+
+    <!-- Кнопки окна квестов -->
+    <Resource Name="ui_window/quest" />             		  <!-- 102 -->
+    <Resource Name="ui/quest/panel/btnexitn" />             	  <!-- 103 -->
+    <Resource Name="ui/quest/panel/btnexita" />             	  <!-- 104 -->
+    <Resource Name="ui/quest/panel/buttonn" />             		  <!-- 105 -->
+    <Resource Name="ui/quest/panel/buttona" />             		  <!-- 106 -->
+    <Resource Name="ui/world/mapflag" />                         <!-- 107 -->
+    <Resource Name="ui/world/star_circle" />                     <!-- 108 -->
+    <Resource Name="ui/help/arrow" />                            <!-- 109 -->
+    <Resource Name="ui_window/color" />               <!-- 110 -->
+	 
+	 <!-- панель История чата-->
+    <Resource Name="ui_window/history" />                    	  <!-- 111 -->
+    <Resource Name="ui/history/panel/btnexitn" />             	  <!-- 112 -->
+    <Resource Name="ui/history/panel/btnexita" />             	  <!-- 113 -->
+    <Resource Name="ui/history/panel/quoten" />             	  <!-- 114 -->
+    <Resource Name="ui/history/panel/quotea" />             	  <!-- 115 -->
+    <Resource Name="ui/history/panel/selected_worksn" />         <!-- 116 -->
+    <Resource Name="ui/history/panel/selected_worksa" />         <!-- 117 -->
+    <Resource Name="ui/history/panel/deleten" />             	  <!-- 118 -->
+    <Resource Name="ui/history/panel/deletea" />             	  <!-- 119 -->
+    <Resource Name="ui/history/panel/clearn" />            		  <!-- 120 -->
+    <Resource Name="ui/history/panel/cleara" />             	  <!-- 121 -->
+    <Resource Name="ui_window/craft" />                      <!-- 122 -->
+    <Resource Name="ui/craft/slot_empty" />                      <!-- 123 -->
+    <Resource Name="ui/craft/slot_green" />             			  <!-- 124 -->
+    <Resource Name="ui/craft/slot_red" />            				  <!-- 125 -->
+    <Resource Name="ui/game/panel/polln" />            			<!-- 126 -->
+    <Resource Name="ui/game/panel/polla" />                     <!-- 127 -->
+    <Resource Name="ui/game/panel/pollc" />                     <!-- 128 -->
+
+    <!-- Кнопки вверх и вниз на панели трюма -->
+    <Resource Name="ui/inventory/panel_cargo/buttonn" />         <!-- 129 -->
+    <Resource Name="ui/inventory/panel_cargo/buttona" />         <!-- 130 -->
+
+    <Resource Name="ui/slot_red" />              <!-- 131 -->
+    <Resource Name="ui/inventory/panel_cargo/arrow" />           <!-- 132 -->
+
+    <!-- Кнопка квестов-->
+    <Resource Name="ui/game/panel/questsn" />             		  <!-- 133 -->
+    <Resource Name="ui/game/panel/questsa" />            		  <!-- 134 -->
+    <Resource Name="ui/game/panel/questsc" />           			  <!-- 135 -->
+    <Resource Name="ui/game/panel/questsf" />                    <!-- 136 -->
+    <Resource Name="ui/location/getquestsn" />                   <!-- 137 -->
+    <Resource Name="ui/location/getquestsa" />                   <!-- 138 -->
+    <Resource Name="ui/location/getquestsc" />                   <!-- 139 -->
+    <Resource Name="ui_window/msg_small" />                      <!-- 140 -->
+    <Resource Name="ui_window/msg_middle" />                     <!-- 141 -->
+    <Resource Name="ui_window/msg_big" />                        <!-- 142 -->
+    <Resource Name="ui_window/msg_small_system" />     <!-- 143 -->
+    <Resource Name="ui/msg/buttonn" />                           <!-- 144 -->
+    <Resource Name="ui/msg/buttona" />                           <!-- 145 -->
+    <Resource Name="ui/empty" />                                 <!-- 146 -->
+    <Resource Name="ui/game/panel/helpn" />                      <!-- 147 -->
+    <Resource Name="ui/game/panel/helpa" />                      <!-- 148 -->
+    <Resource Name="ui/game/panel/helpc" />                      <!-- 149 -->
+    <Resource Name="ui/game/cursor/cursoratt01;ui/game/cursor/cursoratt02;ui/game/cursor/cursoratt03;ui/game/cursor/cursoratt04" />             <!-- 150 -->
+    <Resource Name="ui/help/buttonn" />                          <!-- 151 -->
+    <Resource Name="ui/help/buttona" />                          <!-- 152 -->
+    <Resource Name="ui/empty" />                                 <!-- 153 -->
+    <Resource Name="ui/empty" />                                 <!-- 154 -->
+
+
+    <!-- Кнопки подлокаций -->
+    <!-- Магазин -->
+    <Resource Name="ui/location/shopn" />                        <!-- 155 -->
+    <Resource Name="ui/location/shopa" />                        <!-- 156 -->
+    <Resource Name="ui/location/shopc" />                        <!-- 157 -->
+    <!-- Магазин роботов -->
+    <Resource Name="ui/location/robotshopn" />                   <!-- 158 -->
+    <Resource Name="ui/location/robotshopa" />                   <!-- 159 -->
+    <Resource Name="ui/location/robotshopc" />                   <!-- 160 -->
+    <!-- Страховка -->
+    <Resource Name="ui/location/insurancen" />                   <!-- 161 -->
+    <Resource Name="ui/location/insurancea" />                   <!-- 162 -->
+    <Resource Name="ui/location/insurancec" />                   <!-- 163 -->
+    <!-- Лаборатория -->
+    <Resource Name="ui/location/researchn" />                    <!-- 164 -->
+    <Resource Name="ui/location/researcha" />                    <!-- 165 -->
+    <Resource Name="ui/location/researchc" />                    <!-- 166 -->
+    <!-- Склад -->
+    <Resource Name="ui/location/storehousen" />                  <!-- 167 -->
+    <Resource Name="ui/location/storehousea" />                  <!-- 168 -->
+    <Resource Name="ui/location/storehousec" />                  <!-- 169 -->
+    <!-- Склад роботов -->
+    <Resource Name="ui/location/storerobotsn" />                 <!-- 170 -->
+    <Resource Name="ui/location/storerobotsa" />                 <!-- 171 -->
+    <Resource Name="ui/location/storerobotsc" />                 <!-- 172 -->
+
+    <!-- Межлокационный телепорт -->
+    <Resource Name="ui/location/teleportn" />                    <!-- 173 -->
+    <Resource Name="ui/location/teleporta" />                    <!-- 174 -->
+    <Resource Name="ui/location/teleportc" />                    <!-- 175 -->
+
+    <!-- Панель лаборатории -->
+    <Resource Name="ui_window/city_research" />       <!-- 176 -->
+    <Resource Name="ui/empty" />      <!-- 177 -->
+    <Resource Name="ui/empty" />                                 <!-- 178 -->
+    <Resource Name="ui/empty" />                                 <!-- 179 -->
+
+    <!-- Панель склада роботов -->
+    <Resource Name="ui_window/city_store_robots" />    <!-- 180 -->
+    <!-- Кнопки продажи и смены робота -->
+    <Resource Name="ui/shop_body/sella" />         <!-- 181 -->
+    <Resource Name="ui/shop_body/changea" />       <!-- 182 -->
+    <Resource Name="ui_window/robot_tooltips" />                        <!-- 183 -->
+    <Resource Name="ui_window/trade_robot" />             <!-- 184 -->
+
+    <!-- Панели действий -->
+    <Resource Name="ui/game/panel/cmd/clan_dlgn" />             <!-- 185 -->
+    <Resource Name="ui/game/panel/cmd/clan_dlga" />             <!-- 186 -->
+    <Resource Name="ui/game/panel/cmd/clan_invn" />        		 <!-- 187 -->
+    <Resource Name="ui/game/panel/cmd/clan_inva" />  		       <!-- 188 -->
+    <Resource Name="ui/game/panel/cmd/trade_invn" />      		 <!-- 189 -->
+    <Resource Name="ui/game/panel/cmd/trade_inva" />     		 <!-- 190 -->
+    <Resource Name="ui/game/panel/cmd/party_invn" />      		 <!-- 191 -->
+    <Resource Name="ui/game/panel/cmd/party_inva" />     		 <!-- 192 -->
+    <Resource Name="ui/game/panel/cmd/party_expeln" />       	 <!-- 193 -->
+    <Resource Name="ui/game/panel/cmd/party_expela" />      	 <!-- 194 -->
+    <Resource Name="ui/game/panel/cmd/party_leaven" />        	 <!-- 195 -->
+    <Resource Name="ui/game/panel/cmd/party_leavea" />       	 <!-- 196 -->
+    <Resource Name="ui/game/panel/cmd/party_listn" />         	 <!-- 197 -->
+    <Resource Name="ui/game/panel/cmd/party_lista" />       	 <!-- 198 -->
+    <Resource Name="ui/game/panel/cmd/clan_pltkn" />            <!-- 199 -->
+    <Resource Name="ui/game/panel/cmd/clan_pltka" />            <!-- 200 -->
+
+    <!-- Изображения на миникарте -->
+    <Resource Name="ui/game/panel/map/point_01" />      <!-- 201 mapplayer_pirate -->
+    <Resource Name="ui/empty" />        <!-- 202 -->
+
+    <!-- Панели кланов -->
+    <Resource Name="ui_window/clan" />               <!-- 203 -->
+    <!-- Кнопка выхода из окна клана -->
+    <Resource Name="ui/clan/exita" />          <!-- 204 -->
+
+    <!-- Кнопка выхода из окна клана -->
+    <Resource Name="ui/game/panel/wpn/panel" />          		  <!-- 205 -->
+    <Resource Name="ui/game/panel/wpn/indicator_health" />       <!-- 206 -->
+    <Resource Name="ui/game/panel/wpn/indicator_reload" />       <!-- 207 -->
+    <Resource Name="ui/game/panel/wpn/panel_back" />       		  <!-- 208 -->
+    <Resource Name="ui/game/panel/wpn/indicator_ammunition" />   <!-- 209 -->
+    <Resource Name="ui/game/panel/wpn/indicator_ammunition_midle" /> <!-- 210 -->
+    <Resource Name="ui/game/panel/wpn/indicator_ammunition_small" /> <!-- 211 -->
+    <Resource Name="ui/game/panel/wpn/indicator_health_midle" />     <!-- 212 -->
+    <Resource Name="ui/game/panel/wpn/indicator_health_small" />     <!-- 213 -->
+    <Resource Name="ui/game/panel/indicator_exp" />              <!-- 214 -->
+    <Resource Name="ui/game/panel/progress_exp" />               <!-- 215 -->
+    <Resource Name="ui/game/panel/progress_skill" />          	 <!-- 216 -->
+    <Resource Name="ui_editor/panel" />				  <!-- 217 -->
+    <Resource Name="ui_editor/closea" />		  <!-- 218 -->
+    <Resource Name="ui_editor/close" />		  <!-- 219 -->
+    <Resource Name="ui_editor/itemrect" />          	  <!-- 220 -->
+    <Resource Name="ui_editor/itemviewport" />			  <!-- 221 -->
+    <Resource Name="ui_editor/itemtexture" />			  <!-- 222 -->
+
+	 <!-- Элементы RenderSettings -->
+    <Resource Name="ui/robot_head/progresshpfull" />		  	  <!-- 223 -->
+    <Resource Name="ui/robot_head/progresshpmid" />    	  	  <!-- 224 -->
+    <Resource Name="ui/robot_head/progresshpsmall" />         <!-- 225 -->
+    <Resource Name="ui/game/panel/indicatorcargosmall" />		  <!-- 226 -->
+    <Resource Name="ui/game/panel/indicatorcargomid" />			  <!-- 227 -->
+    <Resource Name="ui/game/panel/indicatorcargofull" />			  <!-- 228 -->
+    <Resource Name="ui/robot_head/indicatorextraction" />	  <!-- 229 -->
+    <Resource Name="ui/robot_head/indicatorteleportation" />  <!-- 230 -->
+	 
+    <Resource Name="ui/empty" />   				  <!-- 231 -->
+    <Resource Name="ui/game/panel/progressallf;ui/game/panel/progressallf_0;ui/game/panel/progressallf_1" /> 				  <!-- 232 -->
+    <Resource Name="ui/game/panel/progressall" />          	     <!-- 233 -->
+    <Resource Name="ui/game/panel/indicatorenrg" />          	  <!-- 234 -->
+    <Resource Name="ui/game/panel/indicatorhp" />          	  <!-- 235 -->
+    <Resource Name="ui/location/colorn" />          		  <!-- 236 -->
+    <Resource Name="ui/location/colora" />				  <!-- 237 -->
+    <Resource Name="ui/location/colorc" />          	  <!-- 238 -->
+    <Resource Name="ui/game/panel/chat/wnd" />						  <!-- 239 -->
+    <Resource Name="ui/game/panel/chat/edit" /> 					  <!-- 240 -->
+    <Resource Name="ui/game/panel/cmd/confirm_traden" />         <!-- 241 -->
+    <Resource Name="ui/game/panel/cmd/confirm_tradea" />         <!-- 242 -->
+    <Resource Name="ui/game/panel/cmd/confirm_tradec" />         <!-- 243 -->
+    <Resource Name="ui/game/panel/cmd/confirm_partyn" />         <!-- 244 -->
+    <Resource Name="ui/game/panel/cmd/confirm_partya" />         <!-- 245 -->
+    <Resource Name="ui/game/panel/cmd/confirm_partyc" />         <!-- 246 -->
+    <Resource Name="ui/game/panel/cmd/confirm_clann" />          <!-- 247 -->
+    <Resource Name="ui/game/panel/cmd/confirm_clana" />          <!-- 248 -->
+    <Resource Name="ui/game/panel/cmd/confirm_clanc" />          <!-- 249 -->
+    <Resource Name="ui/empty" />          							  <!-- 250 -->
+	 
+	 <!-- кнопки шапки -->
+    <Resource Name="ui/game/panel/openinvcrgn" />					  <!-- 251 -->
+    <Resource Name="ui/game/panel/openinvcrga" />					  <!-- 252 -->
+    <Resource Name="ui/game/panel/openinvcrgc" /> 		   		  <!-- 253 -->
+    <Resource Name="ui/game/panel/openinvinstn" />					  <!-- 254 -->
+    <Resource Name="ui/game/panel/openinvinsta" />					  <!-- 255-->
+    <Resource Name="ui/game/panel/openinvinstc" /> 		   	  <!-- 256 -->
+    <Resource Name="ui/empty" />			   	  <!-- 257 -->
+    <Resource Name="ui/empty" />					  <!-- 258 -->
+    <Resource Name="ui/empty" />          		  <!-- 259 -->    
+	 <Resource Name="ui/empty" />          		  <!-- 260 -->
+    <Resource Name="ui/game/panel/action/normal" />		  		  <!-- 261 -->
+    <Resource Name="ui/game/panel/action/citya" />          	  <!-- 262 -->
+    <Resource Name="ui/game/panel/action/cityp;ui/game/panel/action/normal" />          	  <!-- 263 -->
+    <Resource Name="ui/game/panel/action/deposita" />        	  <!-- 264 -->
+    <Resource Name="ui/game/panel/action/depositp;ui/game/panel/action/normal" />            <!-- 265 -->
+    <Resource Name="ui/game/panel/action/teleporta" />            <!-- 266 -->
+    <Resource Name="ui/game/panel/action/teleportp;ui/game/panel/action/normal" />           <!-- 267 -->
+    <Resource Name="ui/game/panel/heroparamsn" />          		  <!-- 268 -->
+    <Resource Name="ui/game/panel/heroparamsa" />          		  <!-- 269 -->
+	 <Resource Name="ui/game/panel/heroparamsc" />          		  <!-- 270 -->
+	 <Resource Name="ui/game/panel/heroparamsf" />          		  <!-- 271 -->
+	 <Resource Name="ui/game/panel/robotparamsn" />          	  <!-- 272 -->
+	 <Resource Name="ui/game/panel/robotparamsa" />          	  <!-- 273 -->
+	 <Resource Name="ui/game/panel/robotparamsc" />               <!-- 274 -->
+	 <Resource Name="ui/game/panel/robotparamsf" />          	  <!-- 275 -->
+	 <Resource Name="ui/game/panel/cmd/queryopenn" />          	  <!-- 276 -->
+	 <Resource Name="ui/game/panel/cmd/queryopena" />          	  <!-- 277 -->
+	 <Resource Name="ui/game/panel/cmd/queryopenc" />          	  <!-- 278 -->
+	 <Resource Name="ui/game/panel/cmd/queryopenf" />             <!-- 279 -->
+	 
+	 <!-- Оттенки индикатора, при нанесении урона -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_0" />           <!-- 280 -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_1" />           <!-- 281 -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_2" />           <!-- 282 -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_3" />           <!-- 283 -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_4" />           <!-- 284 -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_5" />           <!-- 285 -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_6" />           <!-- 286 -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_7" />           <!-- 287 -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_8" />           <!-- 288 -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_9" />           <!-- 289 -->
+	 <Resource Name="ui/game/panel/hp/indicatorhp_10" />          <!-- 290 -->
+	 <Resource Name="ui/empty" />                                 <!-- 291 -->
+	 
+	 <Resource Name="ui/game/panel/cmd/window" />          		  <!-- 292-->
+	 <Resource Name="ui/game/panel/cmd/window_element_1" />       <!-- 293-->
+	 <Resource Name="ui/game/panel/cmd/clanopenn" />          	  <!-- 294 -->
+	 <Resource Name="ui/game/panel/cmd/clanopena" />          	  <!-- 295 -->
+	 <Resource Name="ui/game/panel/cmd/clanopenc" />          	  <!-- 296 -->
+	 <Resource Name="ui/game/panel/cmd/clanopenf" />          	  <!-- 297 -->
+	 <Resource Name="ui/game/panel/cmd/partyopenn" />          	  <!-- 298 -->
+	 <Resource Name="ui/game/panel/cmd/partyopena" />          	  <!-- 299 -->
+	 <Resource Name="ui/game/panel/cmd/partyopenc" />          	  <!-- 300 -->
+	 <Resource Name="ui/game/panel/cmd/partyopenf" />          	  <!-- 301 -->
+	 <Resource Name="ui/game/panel/cmd/tradeopenn" />          	  <!-- 302 -->
+	 <Resource Name="ui/game/panel/cmd/tradeopena" />          	  <!-- 303 -->
+	 <Resource Name="ui/game/panel/cmd/tradeopenc" />          	  <!-- 304 -->
+	 <Resource Name="ui/game/panel/cmd/tradeopenf" />    		     <!-- 305 -->
+	 <Resource Name="ui/game/panel/cmd/window_128x64" /> 			  <!-- 306 -->
+	 <Resource Name="ui/game/panel/cmd/window_256x128" />         <!-- 307 -->
+	 <Resource Name="ui/game/panel/cmd/acceptn" />          	  	  <!-- 308 -->
+	 <Resource Name="ui/game/panel/cmd/accepta" />          	  	  <!-- 309 -->
+	 <Resource Name="ui/game/panel/cmd/canceln" />				  	  <!-- 310 -->
+	 <Resource Name="ui/game/panel/cmd/cancela" />          		  <!-- 311 -->
+	 <Resource Name="ui/game/panel/cmd/confirm_tradef" />         <!-- 312 -->
+	 <Resource Name="ui/game/panel/cmd/confirm_partyf" />         <!-- 313-->
+	 <Resource Name="ui/game/panel/cmd/confirm_clanf" />          <!-- 314 -->
+	 <Resource Name="ui/game/panel/cmd/window_element_2" />       <!-- 315 -->
+	 <Resource Name="ui/game/panel/bullets/no" />					  <!-- 316 -->
+	 <Resource Name="ui_window/login_sub" />          		  <!-- 317 -->
+	 <Resource Name="ui_window/login" />          			  <!-- 318 -->
+	 <Resource Name="ui/login/panel/element_0" />          		  <!-- 319 -->
+	 <Resource Name="ui/empty" />          		  <!-- 320 -->
+	 <Resource Name="ui_window/login_console" />          	    	  <!-- 321 -->
+	 <Resource Name="ui/login/panel/buttonn" />          			  <!-- 322 -->
+	 <Resource Name="ui/login/panel/buttona" />          			  <!-- 323 -->
+	 <Resource Name="ui/login/panel/buttonf" />          			  <!-- 324 -->
+	 <Resource Name="ui/login/panel/nametext" />          		  <!-- 325 -->
+	 <Resource Name="ui/login/panel/avatar" />          			  <!-- 326 -->
+	 <Resource Name="ui/login/panel/status_line" />          	  <!-- 327 -->
+	 <Resource Name="ui/login/panel/avatar_arrow" />          	  <!-- 328 -->
+	 <Resource Name="ui/game/panel/zones/zone_01" />              <!-- 329 -->
+	 <Resource Name="ui/game/panel/zones/zone_02" />              <!-- 330 -->
+	 <Resource Name="ui/game/panel/zones/zone_03" />              <!-- 331 -->
+	 <Resource Name="ui/game/panel/zones/zone_04" />              <!-- 332 -->
+	 <Resource Name="ui/game/panel/zones/zone_05" />              <!-- 333 -->
+	 <Resource Name="ui/game/panel/zones/zone_06" />              <!-- 334-->
+	 <Resource Name="ui/game/panel/zones/zone_07" />              <!-- 335 -->
+	 <Resource Name="ui/empty" />          							  <!-- 336 -->
+	 <Resource Name="ui/location/craftn" />          				  <!-- 337 -->
+	 <Resource Name="ui/location/crafta" />          				  <!-- 338 -->
+	 <Resource Name="ui/location/craftc" />          				  <!-- 339 -->
+	 <!-- Кнопки каналов чата -->
+	 <Resource Name="ui/game/panel/chat/ch_1n" />  					  <!-- 340 -->
+	 <Resource Name="ui/game/panel/chat/ch_1a" />          		  <!-- 341 -->
+	 <Resource Name="ui/game/panel/chat/ch_1c" />          		  <!-- 342 -->
+	 <Resource Name="ui/game/panel/chat/ch_1f" />          		  <!-- 343 -->
+	 <Resource Name="ui/game/panel/chat/ch_2n" />          		  <!-- 344 -->
+	 <Resource Name="ui/game/panel/chat/ch_2a" />          		  <!-- 345 -->
+	 <Resource Name="ui/game/panel/chat/ch_2c" />          		  <!-- 346 -->
+	 <Resource Name="ui/game/panel/chat/ch_2f" />          		  <!-- 347 -->
+	 <Resource Name="ui/game/panel/chat/ch_3n" />          		  <!-- 348 -->
+	 <Resource Name="ui/game/panel/chat/ch_3a" />          		  <!-- 349 -->
+	 <Resource Name="ui/game/panel/chat/ch_3c" />          		  <!-- 350 -->
+	 <Resource Name="ui/game/panel/chat/ch_3f" />          		  <!-- 351 -->
+	 <Resource Name="ui/game/panel/chat/ch_4n" />          		  <!-- 352 -->
+	 <Resource Name="ui/game/panel/chat/ch_4a" />          		  <!-- 353 -->
+	 <Resource Name="ui/game/panel/chat/ch_4c" />          		  <!-- 354 -->
+	 <Resource Name="ui/game/panel/chat/ch_4f" />          		  <!-- 355 -->
+	 <Resource Name="ui/game/panel/chat/ch_5n" />          		  <!-- 356 -->
+	 <Resource Name="ui/game/panel/chat/ch_5a" />          		  <!-- 357 -->
+	 <Resource Name="ui/game/panel/chat/ch_5c" />          		  <!-- 358 -->
+	 <Resource Name="ui/game/panel/chat/ch_5f" />          		  <!-- 359 -->
+	 <Resource Name="ui/game/panel/chat/ch_6n" />          		  <!-- 360 -->
+	 <Resource Name="ui/game/panel/chat/ch_6a" />          		  <!-- 361 -->
+	 <Resource Name="ui/game/panel/chat/ch_6c" />          		  <!-- 362 -->
+	 <Resource Name="ui/game/panel/chat/ch_6f" />          		  <!-- 363 -->
+	 <Resource Name="ui/game/panel/chat/ch_7n" />          		  <!-- 364 -->
+	 <Resource Name="ui/game/panel/chat/ch_7a" />          		  <!-- 365 -->
+	 <Resource Name="ui/game/panel/chat/ch_7c" />          		  <!-- 366 -->
+	 <Resource Name="ui/game/panel/chat/ch_7f" />          		  <!-- 367 -->
+	 <Resource Name="ui/game/panel/chat/ch_8n" />          		  <!-- 368-->
+	 <Resource Name="ui/game/panel/chat/ch_8a" />          		  <!-- 369 -->
+	 <Resource Name="ui/game/panel/chat/ch_8c" />          		  <!-- 370 -->
+	 <Resource Name="ui/game/panel/chat/ch_8f" />          		  <!-- 371 -->
+	 <Resource Name="ui/game/panel/chat/ch_9n" />          		  <!-- 372 -->
+	 <Resource Name="ui/game/panel/chat/ch_9a" />          		  <!-- 373 -->
+	 <Resource Name="ui/game/panel/chat/ch_9c" />          		  <!-- 374 -->
+	 <Resource Name="ui/game/panel/chat/ch_9f" />          		  <!-- 375 -->
+	 <Resource Name="ui/game/panel/chat/ch_10n" />          		  <!-- 376 -->
+	 <Resource Name="ui/game/panel/chat/ch_10a" />          		  <!-- 377 -->
+	 <Resource Name="ui/game/panel/chat/ch_10c" />          		  <!-- 378 -->
+	 <Resource Name="ui/game/panel/chat/ch_10f" />          		  <!-- 379 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_1n" />          	  <!-- 380 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_1a" />          	  <!-- 381 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_2n" />          	  <!-- 382 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_2a" />          	  <!-- 383 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_3n" />          	  <!-- 384 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_3a" />          	  <!-- 385 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_4n" />          	  <!-- 386 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_4a" />          	  <!-- 387 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_5n" />          	  <!-- 388 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_5a" />          	  <!-- 389 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_6n" />          	  <!-- 390 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_6a" />          	  <!-- 391 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_1c" />             <!-- 392 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_2c" />             <!-- 393 -->
+	 <Resource Name="ui/game/panel/chat/open_historyn" />         <!-- 394 -->
+	 <Resource Name="ui/game/panel/chat/open_historya" />         <!-- 395 -->
+	 <Resource Name="ui/game/panel/chat/open_historyc" />         <!-- 396 -->
+	 <Resource Name="ui/game/panel/chat/open_historyf" />         <!-- 397 -->
+	 <Resource Name="ui/history/panel/chat/ch_7n" />          	  <!-- 398 -->
+	 <Resource Name="ui/history/panel/chat/ch_7a" />          	  <!-- 399 -->
+	 <Resource Name="ui/history/panel/chat/ch_7c" />          	  <!-- 400 -->
+	 <Resource Name="ui/history/panel/chat/ch_7f" />          	  <!-- 401 -->
+	 <Resource Name="ui/history/panel/chat/ch_8n" />          	  <!-- 402 -->
+	 <Resource Name="ui/history/panel/chat/ch_8a" />          	  <!-- 403 -->
+	 <Resource Name="ui/history/panel/chat/ch_8c" />          	  <!-- 404 -->
+	 <Resource Name="ui/history/panel/chat/ch_8f" />          	  <!-- 405 -->
+	 <Resource Name="ui/history/panel/chat/ch_9n" />          	  <!-- 406 -->
+	 <Resource Name="ui/history/panel/chat/ch_9a" />          	  <!-- 407 -->
+	 <Resource Name="ui/history/panel/chat/ch_9c" />          	  <!-- 408 -->
+	 <Resource Name="ui/history/panel/chat/ch_9f" />          	  <!-- 409 -->
+	 <Resource Name="ui/history/panel/chat/ch_10n" />          	  <!-- 410 -->
+	 <Resource Name="ui/history/panel/chat/ch_10a" />          	  <!-- 411 -->
+	 <Resource Name="ui/history/panel/chat/ch_10c" />          	  <!-- 412 -->
+	 <Resource Name="ui/history/panel/chat/ch_10f" />          	  <!-- 413 -->
+	 <Resource Name="ui/history/panel/chat/ch_0n" />          	  <!-- 414 -->
+	 <Resource Name="ui/history/panel/chat/ch_0a" />          	  <!-- 415-->
+	 <Resource Name="ui/history/panel/chat/ch_0c" />          	  <!-- 416 -->
+	 <Resource Name="ui/history/panel/chat/ch_0f" />          	  <!-- 417 -->	 
+	 <Resource Name="ui/game/panel/chat/ch_sel_3c" />             <!-- 418 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_4c" />          	  <!-- 419 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_5c" />             <!-- 420 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_6c" />             <!-- 421 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_back_1" /> 		  <!-- 422 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_back_2" />         <!-- 423-->
+	 <Resource Name="ui/game/panel/chat/ch_sel_back_3" />         <!-- 424 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_back_4" />         <!-- 425 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_back_5" />         <!-- 426 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_back_6" />         <!-- 427 -->
+	 <Resource Name="ui/empty" />          							  <!-- 428 -->
+	 <!-- Элементы меню ParamsHero-->
+	 <Resource Name="ui/params/panel_hero/applyn" /> 				  <!-- 429 -->
+	 <Resource Name="ui/params/panel_hero/applya" />          	  <!-- 430-->
+	 <Resource Name="ui/repair/buttona" />                        <!-- 431 -->
+	 <Resource Name="ui/repair/buttonn" />                        <!-- 432 -->
+	 <Resource Name="ui_window/repair" />                         <!-- 433 -->
+	 <Resource Name="ui/repair/arrow" />                          <!-- 434 -->
+	 <Resource Name="ui_window/repair_01" />                      <!-- 435 -->
+	 <Resource Name="ui_window/repair_02" />                      <!-- 436 -->
+	 <Resource Name="ui/dynamic/square_pulse_01;ui/dynamic/square_pulse_02;ui/dynamic/square_pulse_03" />             <!-- 437 -->
+	 <Resource Name="ui/empty" />                 <!-- 438 -->
+	 <Resource Name="ui/empty" />                  <!-- 439 -->
+	 <Resource Name="ui/empty" />                <!-- 440 -->
+	 <Resource Name="ui/empty" />                <!-- 441 -->
+	 <Resource Name="ui/empty" />                  <!-- 442 -->
+   <Resource Name="ui/game/panel/chat/send" />                   <!-- 443 -->
+	 <Resource Name="ui/game/panel/chat/send_a" />                <!-- 444 -->	 
+	 <Resource Name="ui/game/panel/chat/ch_11n" />          		  <!-- 445 -->
+	 <Resource Name="ui/game/panel/chat/ch_11a" />          		  <!-- 446 -->
+	 <Resource Name="ui/game/panel/chat/ch_11c" />          		  <!-- 447 -->
+	 <Resource Name="ui/game/panel/chat/ch_11f" />          		  <!-- 448 -->		 
+	 <Resource Name="ui/game/panel/chat/ch_sel_11n" />        	  <!-- 449 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_11a" />         	  <!-- 450 -->
+	 <Resource Name="ui/game/panel/chat/ch_sel_11c" />         	  <!-- 451 -->
+	 <Resource Name="ui/params/panel_hero/windows_01" />      	  <!-- 452 -->	 
+	 <Resource Name="ui_new/button/checkbox/check" /><!-- 453 -->
+	 <Resource Name="ui_new/button/checkbox/empty" /><!-- 454 -->
+	 <Resource Name="ui_new/button/default/check" /><!-- 455 -->
+	 <Resource Name="ui_new/button/default/check_x2" /><!-- 456 -->
+	 <Resource Name="ui_new/button/default/check_x3" /><!-- 457 -->
+	 <Resource Name="ui_new/button/default/normal" /><!-- 458 -->
+	 <Resource Name="ui_new/button/default/normal_x2" /><!-- 459 -->
+	 <Resource Name="ui_new/button/default/normal_x3" /><!-- 460 -->
+	 <Resource Name="ui_new/button/default/select" /><!-- 461 -->
+	 <Resource Name="ui_new/button/default/select_x2" /><!-- 462 -->
+	 <Resource Name="ui_new/button/default/select_x3" /><!-- 463 -->
+	 <Resource Name="ui_new/button/help/normal" /><!-- 464 -->
+	 <Resource Name="ui_new/button/help/select" /><!-- 465 -->
+	 <Resource Name="ui_new/button/other/minus_normal" /><!-- 466 -->
+	 <Resource Name="ui_new/button/other/minus_select" /><!-- 467 -->
+	 <Resource Name="ui_new/button/other/plus_normal" /><!-- 468 -->
+	 <Resource Name="ui_new/button/other/plus_select" /><!-- 469 -->
+	 <Resource Name="ui_new/button/setting/normal" /><!-- 470 -->
+	 <Resource Name="ui_new/button/setting/select" /><!-- 471 -->
+	 <Resource Name="ui_new/div/div" /><!-- 472 -->
+	 <Resource Name="ui_new/div/div_x2" /><!-- 473 -->
+	 <Resource Name="ui_new/div/div_x4" /><!-- 474 -->
+	 <Resource Name="ui_new/div/div_x8" /><!-- 475 -->
+	 <Resource Name="ui_new/div/div_x16" /><!-- 476 -->
+	 <Resource Name="ui_new/div/div_x32" /><!-- 477 -->
+	 <Resource Name="ui_new/text/field/1x1" /><!-- 478 -->
+	 <Resource Name="ui_new/text/field/2x1" /><!-- 479 -->
+	 <Resource Name="ui_new/text/label/1x1" /><!-- 480 -->
+	 <Resource Name="ui_new/text/label/2x1" /><!-- 481 -->
+	 <Resource Name="ui_new/text/label/3x1" /><!-- 482 -->
+	 <Resource Name="ui_new/text/label/4x1" /><!-- 483 -->
+	 <Resource Name="ui_new/window/1x1" /><!-- 484 -->
+	 <Resource Name="ui_new/window/2x2" /><!-- 485 -->
+	 <Resource Name="ui_new/window/2x4" /><!-- 486 -->
+	 <Resource Name="ui_new/window/4x1" /><!-- 487 -->
+	 <Resource Name="ui_new/window/4x2" /><!-- 488 -->
+	 <Resource Name="ui_new/window/4x4" /><!-- 489 -->
+	 <Resource Name="ui_new/text/field/scale9" /><!-- 490 -->
+ </Shaders>
+ 
+ <Styles>
+	<Buttons>
+		<Style Name="default" FontSet="button_default" Normal="458;459;460" Active="461;462;463" ColorARGB="255 202 231 236" ActiveColorARGB="255 222 251 255" />
+		<Style Name="game_unit" FontSet="button_default" Normal="458;459;460" Active="461;462;463" ColorARGB="255 150 150 150" ActiveColorARGB="255 255 255 255" />
+		<Style Name="chat_unit" FontSet="button_default" Normal="458;459;460" Active="461;462;463" ColorARGB="255 150 150 150" ActiveColorARGB="255 255 255 255" />
+	</Buttons>
+	<Images>
+		<Style Name="window" Sprite="484;485;486;487;488;489" />
+	</Images>
+	<Texts>
+		<Style Name="label" FontSet="label" PlaceHolder="480;481;482;483" ColorARGB="255 202 231 236" />
+	</Texts>
+   <TextFields>
+     <Style Name="auth" FontSet="button" PlaceHolder="478;479" ColorARGB="255 202 231 236" ColorHolderARGB="255 102 131 136" />
+     <Style Name="chat" FontSet="chat" PlaceHolder="" ColorARGB="255 202 231 236" ColorHolderARGB="255 102 131 136" />
+     <Style Name="clan_name" FontSet="normal" PlaceHolder="" ColorARGB="255 230 214 143" ColorHolderARGB="255 180 164 93" />
+     <Style Name="old_edit_text" FontSet="normal" PlaceHolder="" ColorARGB="255 232 186 0" ColorHolderARGB="255 182 136 0" />
+     <Style Name="poll" FontSet="help_content" PlaceHolder="" ColorARGB="255 200 200 200" ColorHolderARGB="255 150 150 150" />
+   </TextFields>
+ </Styles>
+
+
+
+
+<!-- Прямоугольники, именованные прямоугольные области -->
+<RectangleFiles RootDir="ui/dialogs/">
+	
+	<!-- COMMON -->
+	<Resource Name="common/Common.xml" />
+	
+	<!-- GAME  -->
+	<Resource Name="game/InGame.xml" />
+	<Resource Name="game/GlobalMap.xml" />
+	<Resource Name="game/ItemsAmount.xml" />
+	<Resource Name="game/HistoryChat.xml" />
+	<Resource Name="game/Help.xml" />
+	<Resource Name="game/Poll.xml" />
+
+	<!-- GAME::LOCATION  -->	
+	<Resource Name="game/location/Location.xml" />
+	<Resource Name="game/location/LocInsurance.xml" />     <!-- LocInsurance   -->
+	<Resource Name="game/location/LocResearch.xml" />      <!-- LocResearch    -->
+	<Resource Name="game/location/LocGetQuests.xml" />     <!-- LocGetQuests   -->
+	<Resource Name="game/location/LocTeleportBeforeLocation.xml" />     <!-- LocTeleportBeforeLocation  -->
+	<Resource Name="game/location/Color.xml" />            <!-- Color -->
+	
+	<!-- GAME::QUEST  -->	
+	<Resource Name="game/quest/Quests.xml" />
+	
+	<!-- GAME::CLAN -->
+	<Resource Name="game/clan/ClanMain.xml" />
+	<Resource Name="game/clan/ClanPolitic.xml" />
+
+	<!-- MAIN  -->	
+	<Resource Name="net/Login.xml" />
+
+	<!-- MSG  -->
+	<Resource Name="msg/MsgWndSmallSystem00.xml" />    <!-- Маленькое окно системных сообщений без кнопок -->
+	<Resource Name="msg/MsgWndSmallSystem01.xml" />    <!-- Маленькое окно системных сообщений с одной кнопкой -->
+	<Resource Name="msg/MsgWndSmallSystem02.xml" />    <!-- Маленькое окно системных сообщений с двумя кнопками -->
+	<Resource Name="msg/MsgWndSmall00.xml" />    <!-- Маленькое окно сообщений без кнопок -->
+	<Resource Name="msg/MsgWndSmall01.xml" />    <!-- Маленькое окно сообщений с одной кнопкой -->
+	<Resource Name="msg/MsgWndSmall02.xml" />    <!-- Маленькое окно сообщений с двумя кнопками -->
+	<Resource Name="msg/MsgWndMiddle01.xml" />   <!-- Среднее окно сообщений с одной кнопкой -->
+	<Resource Name="msg/MsgWndMiddle02.xml" />   <!-- Среднее окно сообщений с двумя кнопками -->
+	<Resource Name="msg/MsgWndBig01.xml" />      <!-- Большое окно сообщений с одной кнопкой -->
+	<Resource Name="msg/MsgWndBig02.xml" />      <!-- Большое окно сообщений с двумя кнопками -->
+
+</RectangleFiles>
+
+
+
+
+ <Models>
+ </Models>
+
+
+<!-- Файлы с информацией о используемых шрифтах -->
+<Fonts>
+   <Resource Name="fonts/BasicFonts.xml" />                  <!-- Базовые шрифты -->
+</Fonts>
+
+
+ <Sounds>
+    <Resource Idx="1" Name="ui/button_01" />
+    <Resource Idx="2" Name="ui/exit_choise_01" />
+    <Resource Idx="3" Name="ui/panel_open_01" />
+    <Resource Idx="4" Name="ui/panel_close_01" />
+    <Resource Idx="5" Name="music/mainmenu01" />
+    <Resource Idx="6" Name="music/game01" />
+ </Sounds>
+
+
+
+
+
+<Dialogs RootDir="ui/dialogs/">
+
+	<GroupDialogs Name="Базовые" >	
+		<NameFileInfo Value="common.xml"/>
+	</GroupDialogs>
+
+	<GroupDialogs Name="Main" >	
+		<NameFileInfo Value="main.xml"/>
+	</GroupDialogs>
+
+	<GroupDialogs Name="Диалоги Сообщений" >	
+		<NameFileInfo Value="msg.xml"/>
+	</GroupDialogs>
+
+	<GroupDialogs Name="Диалоги взаимодействия с сетью" >	
+		<NameFileInfo Value="net.xml"/>
+	</GroupDialogs>
+
+	<GroupDialogs Name="Диалоги Игры" >	
+		<NameFileInfo Value="game.xml"/>
+	</GroupDialogs>
+
+</Dialogs>

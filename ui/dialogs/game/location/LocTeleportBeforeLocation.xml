@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rectangles>
+    <Rect Name="Tel_Bef_Loc_Scroll" X="540" Y="117" W="1" H="175" />
+</Rectangles>
+<!-- Диалог: LocTeleportBeforeLocation -->
+<LocTeleportBeforeLocation Id="68000" Worker="Menu_TeleportBeforeLocation" VIS="1" ENB="1">
+    <Button Key="escape" VIS="0" Command="delete_menu LocTeleportBeforeLocation;" ENB="1" />
+    <!-- фон диалога -->
+    <Image Shader="37" X="220" Y="80" W="360" H="360" VIS="1" ENB="1" />
+    <!-- Заголовок локации телепортации между городами -->
+    <Text Text="tel_bef_loc_title" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="258" Y="84" W="281" H="22" />
+    <!-- Список вариантов страховки -->
+    <List Name="List" Align="LEFT" Gap="5" VIS="1" ENB="0" X="275" Y="117" W="255" H="200" VpX="249" VpY="111" VpW="309" VpH="313" UseHooks="1">
+        <Button Name="Prototype" FontSet="button" InnerBorderH="5" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.98 0.98 0.98" Active="3" Check="4" Align="CENTER" WordWrap="1" VIS="0" ENB="0" X="330" Y="267" W="150" H="163" UseHooks="1" />
+        <Image Shader="86" VIS="1" ENB="0" X="551" Y="117" W="10" H="200" />
+        <Slider Name="Slider" LineRect="Tel_Bef_Loc_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="550" Y="267" W="10" H="25" VIS="1" ENB="1" />
+    </List>
+    <!-- Кнопка телепортации -->
+    <Button Name="Ok" Text="tel_bef_loc_teleported" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" VIS="1" ENB="1" X="397" Y="412" W="100" H="16" />
+    <Button Text="tel_bef_loc_close" Command="delete_menu LocTeleportBeforeLocation;" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" VIS="1" ENB="1" X="501" Y="412" W="74" H="16" />
+    <Text Name="NeedMoneyText" Text="tel_bef_loc_need_money" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="233" Y="346" W="211" H="20" VIS="1" ENB="0" />
+    <Text Name="NeedMoney" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="376" Y="346" W="140" H="20" VIS="1" ENB="1" />
+    <Text Name="NeedMoneyText1" Text="tel_bef_loc_need_money1" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="233" Y="370" W="231" H="20" VIS="1" ENB="0" />
+    <Text Name="NeedMoney1" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="376" Y="369" W="140" H="20" VIS="1" ENB="1" />
+    <!-- Всплывающие подсказки -->
+    <ToolTips Name="ToolTips" VIS="1" ENB="1">
+        <Image Shader="6" VIS="0" ENB="0" />
+        <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+    </ToolTips>
+</LocTeleportBeforeLocation>

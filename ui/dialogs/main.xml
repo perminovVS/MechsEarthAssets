@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DialogsInfo>
+    <Main Id="10000" AutoLoad="1">
+        <Info Value="Диалог: начальное меню" />
+        <NameFileDialog Value="main/Main.xml" />
+    </Main>
+    <Options Id="12000">
+        <Info Value="Диалог: настройки" />
+        <NameFileDialog Value="main/Options.xml" />
+    </Options>
+    <Launcher Id="13000">
+        <Info Value="Диалог: Обновление" />
+        <NameFileDialog Value="main\Launcher.xml" />
+    </Launcher>
+</DialogsInfo>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DialogsInfo>
+    <Trade Id="100000">
+        <Info Value="Диалог: торговля" />
+        <NameFileDialog Value="game/trade/Trade.xml" />
+    </Trade>
+    <RobotBuyConfirm Id="101000">
+        <Info Value="Диалог: подтверждение покупки робота" />
+        <NameFileDialog Value="game/trade/RobotBuyConfirm.xml" />
+    </RobotBuyConfirm>
+    <RobotSellConfirm Id="102000">
+        <Info Value="Диалог: подтверждение продажи робота" />
+        <NameFileDialog Value="game/trade/RobotSellConfirm.xml" />
+    </RobotSellConfirm>
+    <OfferMoney Id="103000">
+        <Info Value="Диалог: Торговля: предложить деньги" />
+        <NameFileDialog Value="game/trade/OfferMoney.xml" />
+    </OfferMoney>
+    <OfferMoney1 Id="103500">
+        <Info Value="Диалог: Торговля: предложить деньги 1" />
+        <NameFileDialog Value="game/trade/OfferMoney1.xml" />
+    </OfferMoney1>
+    <ConvertMoney1 Id="104000">
+        <Info Value="Диалог: Обмен Денег1" />
+        <NameFileDialog Value="game/trade/ConvertMoney1.xml" />
+    </ConvertMoney1>
+</DialogsInfo>

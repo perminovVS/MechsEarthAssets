@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DialogsInfo>
+    <Login Id="30000" AutoLoad="1">
+        <Info Value="Диалог: Авторизация/Регистрация" />
+        <NameFileDialog Value="net/Login.xml" />
+    </Login>
+    <ConnectingError Id="31000">
+        <Info Value="Диалог: Ошибка соединения с сервером" />
+        <NameFileDialog Value="net/ConnectingError.xml" />
+    </ConnectingError>
+    <Disconnect Id="32000">
+        <Info Value="Диалог: сервер отсоединил клиента" />
+        <NameFileDialog Value="net/Disconnect.xml" />
+    </Disconnect>
+</DialogsInfo>

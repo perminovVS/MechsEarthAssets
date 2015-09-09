@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Диалог: Всплывающие команды управления -->
+<EntityOption Id="57000" Worker="Menu_EntityOption">
+    <Image Rect="Common_WholeScreen" Shader="5" />
+    <Button Command="delete_menu EntityOption;" Rect="Common_WholeScreen" />
+    <Button Name="Prototype" Style="game_unit" Text="" X="0" Y="0" W="300" H="45" VIS="0" ENB="0" />
+    <!-- Всплывающие подсказки -->
+    <ToolTips Name="ToolTips">
+      <Image Shader="6" VIS="0" ENB="0" />
+      <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+    </ToolTips>
+</EntityOption>

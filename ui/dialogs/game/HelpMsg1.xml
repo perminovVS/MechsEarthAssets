@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Диалог: Помощь -->
+<HelpMsg Id="43000" Worker="Menu_HelpMsg">
+    <Image Id="1" Rect="Common_WholeScreen" Shader="5" />
+    <Image Id="2" Rect="MsgWndBig01_Wnd" Shader="142" ENB="0" />
+    <Text Id="6" Text="empty" FontSet="normal" Align="LEFT" VAlign="TOP" WordWrap="1" ColorARGB="1 0.9 0.84 0.56" VIS="1" ENB="0" X="217" Y="100" W="353" H="330" UseHooks="1" />
+    <Button Id="10" Text="ok" FontSet="button" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Key="enter" X="359" Y="433" W="80" H="18" VIS="1" ENB="1" UseHooks="1" />
+    <Button Id="11" Text="prev_sym" FontSet="button" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="246" Y="434" W="80" H="18" VIS="1" ENB="1" UseHooks="1" />
+    <Button Id="12" Text="next_sym" FontSet="button" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="479" Y="434" W="80" H="18" VIS="1" ENB="1" UseHooks="1" />
+    <!-- Невидимая кнопка, для выхода из окна помощи -->
+    <Button Id="98" Command="delete_menu HelpMsg;" Key="escape" VIS="0" ENB="0" />
+</HelpMsg>

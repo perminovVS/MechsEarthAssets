@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DialogsInfo>
+	<StartMenu Id="1000" AutoLoad="1" >
+		<Info Value="Стартовый элемент"/>
+		<NameFileDialog Value="common/StartMenu.xml"/>
+	</StartMenu>
+</DialogsInfo>

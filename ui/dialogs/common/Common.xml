@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rectangles>
+	<Rect Name="Common_WholeScreen" X="-800" Y="-600" W="2400" H="1800"/>
+</Rectangles>

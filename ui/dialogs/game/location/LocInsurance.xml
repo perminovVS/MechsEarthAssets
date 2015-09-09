@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rectangles>
+    <Rect Name="Insurance_Wnd" X=" 236" Y=" 217" W=" 512" H=" 256" />
+    <Rect Name="Insurance_Title" X=" 250" Y=" 225" W=" 300" H=" 35" />
+    <Rect Name="Insurance_Ok" X=" 415" Y=" 406" W=" 121" H=" 16" />
+    <Rect Name="Insurance_List" X=" 250" Y=" 278" W=" 300" H=" 82" />
+    <Rect Name="Insurance_Info" X=" 254" Y=" 377" W=" 288" H=" 20" />
+</Rectangles>
+<!-- Диалог: страхование -->
+<LocInsurance Id="62000" Worker="Menu_Insurance" VIS="1" ENB="1">
+    <!-- Кнопка вызова внутриигрового меню -->
+    <Button Id="200" Key="escape" VIS="0" Command="create_menu InGame;" ENB="1" UseHooks="1" />
+    <!-- фон диалога -->
+    <Image Id="2" Shader="61" ENB="0" X="236" Y="238" W="512" H="250" VIS="1" />
+    <!-- Заголовок локации страховки -->
+    <Text Id="1" Text="insurance_title" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" X="250" Y="252" W="300" H="35" VIS="1" ENB="1" />
+    <!-- Список вариантов страховки -->
+    <List Id="3" Align="LEFT" Gap="5" VIS="1" ENB="0" X="250" Y="296" W="300" H="82" VpX="248" VpY="300" VpW="298" VpH="80">
+        <Button Name="Prototype" Id="4" FontSet="normal" InnerBorderH="5" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Active="3" Check="4" Align="CENTER" WordWrap="1" VIS="0" ENB="0" ReplaceSrc="^" ReplaceDst="%" X="250" Y="296" W="300" H="82" VpX="0" VpY="-15" VpW="0" VpH="0" />
+    </List>
+    <!-- Кнопка страхования -->
+    <Button Id="5" Text="insurance_ok" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="3" Active="4" Command="" VIS="1" ENB="1" X="415" Y="422" W="121" H="16" />
+    <!-- Описания локации страховки -->
+    <Text Id="10" FontSet="signature" Align="CENTER" ColorARGB="1 0.9 0.84 0.56" ReplaceSrc="^" ReplaceDst="%" X="254" Y="391" W="288" H="20" VIS="1" ENB="1" />
+</LocInsurance>

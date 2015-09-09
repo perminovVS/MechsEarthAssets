@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<World>
+    <WorldName Name="ЗАЛЕЖИ ЖЕЛЕЗНОЙ РУДЫ" />
+    <WorldNation Nation="3" UseWorldNationOnly="0" WorldMaxLvl="0" />
+    <Terrain Use="1">
+        <Size X="1025" Y="1025" Cell="128" DeltaHeight="32768" HeightScale="2.000000" />
+        <Texture Name="worlds/9/terrain" />
+        <Texture_Snow Name="world/terrain/snow" />
+        <TextureDetail Name="world/terrain/detail" Scale="100.000000" />
+    </Terrain>
+</World>
+<Zones>
+    <Zone Type="None" Id="1" Name="ЗАЛЕЖИ ЖЕЛЕЗНОЙ РУДЫ" X1="-65000" Y1="-65000" X2="65000" Y2="65000" />
+    <Zone Type="None" Id="2" Name="" X1="-65000" Y1="-65000" X2="65000" Y2="65000" />
+    <Zone Type="None" Id="3" Name="СЕВЕРНЫЙ БУНКЕР ЭНЕРГОБЛОКИ" NoRecharge="1" X1="17000" Y1="44000" X2="24000" Y2="46000" />
+    <Zone Type="None" Id="4" Name="ЮЖНЫЙ БУНКЕР ЭНЕРГОБЛОКИ" NoRecharge="1" X1="-7500" Y1="-49500" X2="0" Y2="-46000" />
+</Zones>
+<GlobalMap>
+    <Center X="512" Y="512" />
+    <Limit X1="0" Y1="0" X2="1024" Y2="1024" />
+    <Marks>
+        <Mark Type="2" Name="ТП ЗАЛЕЖИ ЧЕРВИ" X="11268" Y="4991" />
+        <Mark Type="2" Name="ТП ЗАЛЕЖИ ЧЕРВИ" X="-9403" Y="5551" />
+        <Mark Type="1" Name="ЗАЛЕЖИ СЕВЕРНЫЙ БУНКЕР" X="20911" Y="45065" />
+        <Mark Type="1" Name="ЗАЛЕЖИ ЮЖНЫЙ БУНКЕР" X="-2932" Y="-48309" />
+        <Mark Type="2" Name="ТП ЗАЛЕЖИ ЖЕЛЕЗНОЙ РУДЫ" X="-1032" Y="-2470" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="41103" Y="-43109" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="39901" Y="-43097" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="43709" Y="-33894" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="44305" Y="-34489" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="31929" Y="-35298" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="31297" Y="-35288" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-43292" Y="-1917" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-43334" Y="-2272" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-42115" Y="311" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-42113" Y="703" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-44288" Y="3104" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-44700" Y="3101" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-39505" Y="38135" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-40106" Y="38340" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-46893" Y="41466" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-47692" Y="41270" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-36084" Y="46883" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-36478" Y="46878" />
+        <Mark Type="3" Name="ГАФНИЙ " X="46095" Y="47077" />
+        <Mark Type="3" Name="ГАФНИЙ " X="45510" Y="48487" />
+        <Mark Type="3" Name="ГАФНИЙ " X="46108" Y="48098" />
+        <Mark Type="3" Name="ГАФНИЙ " X="45911" Y="47270" />
+        <Mark Type="3" Name="ЖЕЛЕЗНАЯ РУДА " X="36304" Y="-6878" />
+        <Mark Type="3" Name="ЖЕЛЕЗНАЯ РУДА " X="36310" Y="-7879" />
+        <Mark Type="1" Name="ЗАЛЕЖИ ЦЕНТРАЛЬНЫЙ БУНКЕР" X="30820" Y="33350" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-44700" Y="3101" />
+    </Marks>
+</GlobalMap>

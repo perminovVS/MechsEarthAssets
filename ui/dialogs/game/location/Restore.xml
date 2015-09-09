@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Задания -->
+<Restore Id="71000" Worker="Menu_Restore">
+    <Image Shader="40" X="220" Y="80" W="360" H="360" VIS="1" ENB="1" VpX="219" VpY="80" VpW="364" VpH="275" />
+    <Text Text="restore_title" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="279" Y="84" W="250" H="22" />
+    <Button Name="Restore" Text="restore_execute" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="463" Y="328" W="110" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Button Command="delete_menu Restore;" Key="escape" VIS="0" ENB="1" />
+    <Text Text="restore_need_money" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="250" Y="114" W="160" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Text Name="NeedMoney" FontSet="msg" Align="LEFT" ColorARGB="1 0.91 0.73 0" X="410" Y="114" W="140" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Text Text="restore_need_money1" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="250" Y="132" W="160" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Text Name="NeedMoney1" FontSet="msg" Align="LEFT" ColorARGB="1 0.91 0.73 0" X="410" Y="132" W="140" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Text Text="restore_need_engineering" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="250" Y="150" W="160" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Text Name="NeedEngineering" FontSet="msg" Align="LEFT" ColorARGB="1 0.91 0.73 0" X="410" Y="150" W="140" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Image Name="SlotEmpty" Shader="123" X="0" Y="0" W="60" H="60" VIS="0" ENB="0" />
+    <Image Name="SlotGreen" Shader="124" X="0" Y="0" W="60" H="60" VIS="0" ENB="0" />
+    <Image Name="SlotRed" Shader="125" X="0" Y="0" W="60" H="60" VIS="0" ENB="0" />
+    <!-- Слоты: Картинки -->
+    <Item Name="Slots" X="269" Y="183" W="246" H="120" VIS="1" ENB="1">
+        <Item ENB="0" X="269" Y="183" W="60" H="60" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_CraftSlotItem" WorkerShow="ImageDefaultWorkShow" X="269" Y="183" W="60" H="60" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="269" Y="183" W="60" H="60" UseHooks="1" />
+            <Text Name="Amount" Align="CENTER" FontSet="msg" VIS="1" ENB="0" ColorARGB="1 0.78 0.78 0.78" X="269" Y="222" W="60" H="20" UseHooks="1" />
+        </Item>
+        <Item ENB="0" X="329" Y="183" W="60" H="60" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_CraftSlotItem" WorkerShow="ImageDefaultWorkShow" X="329" Y="183" W="60" H="60" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="329" Y="183" W="60" H="60" UseHooks="1" />
+            <Text Name="Amount" Align="CENTER" FontSet="msg" VIS="1" ENB="0" ColorARGB="1 0.78 0.78 0.78" X="329" Y="222" W="60" H="20" UseHooks="1" />
+        </Item>
+        <Item ENB="0" X="389" Y="183" W="60" H="60" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_CraftSlotItem" WorkerShow="ImageDefaultWorkShow" X="389" Y="183" W="60" H="60" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="389" Y="183" W="60" H="60" UseHooks="1" />
+            <Text Name="Amount" Align="CENTER" FontSet="msg" VIS="1" ENB="0" ColorARGB="1 0.78 0.78 0.78" X="389" Y="222" W="60" H="20" UseHooks="1" />
+        </Item>
+        <Item ENB="0" X="449" Y="183" W="60" H="60" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_CraftSlotItem" WorkerShow="ImageDefaultWorkShow" X="449" Y="183" W="60" H="60" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="449" Y="183" W="60" H="60" UseHooks="1" />
+            <Text Name="Amount" Align="CENTER" FontSet="msg" VIS="1" ENB="0" ColorARGB="1 0.78 0.78 0.78" X="449" Y="222" W="60" H="20" UseHooks="1" />
+        </Item>
+        <Item ENB="0" X="269" Y="243" W="60" H="60" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_CraftSlotItem" WorkerShow="ImageDefaultWorkShow" X="269" Y="243" W="60" H="60" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="269" Y="243" W="60" H="60" UseHooks="1" />
+            <Text Name="Amount" Align="CENTER" FontSet="msg" VIS="1" ENB="0" ColorARGB="1 0.78 0.78 0.78" X="269" Y="282" W="60" H="20" UseHooks="1" />
+        </Item>
+        <Item ENB="0" X="329" Y="243" W="60" H="60" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_CraftSlotItem" WorkerShow="ImageDefaultWorkShow" X="329" Y="243" W="60" H="60" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="329" Y="243" W="60" H="60" UseHooks="1" />
+            <Text Name="Amount" Align="CENTER" FontSet="msg" VIS="1" ENB="0" ColorARGB="1 0.78 0.78 0.78" X="329" Y="282" W="60" H="20" UseHooks="1" />
+        </Item>
+        <Item ENB="0" X="389" Y="243" W="60" H="60" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_CraftSlotItem" WorkerShow="ImageDefaultWorkShow" X="389" Y="243" W="60" H="60" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="389" Y="243" W="60" H="60" UseHooks="1" />
+            <Text Name="Amount" Align="CENTER" FontSet="msg" VIS="1" ENB="0" ColorARGB="1 0.78 0.78 0.78" X="389" Y="282" W="60" H="20" UseHooks="1" />
+        </Item>
+        <Item ENB="0" X="449" Y="243" W="60" H="60" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_CraftSlotItem" WorkerShow="ImageDefaultWorkShow" X="449" Y="243" W="60" H="60" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="449" Y="243" W="60" H="60" UseHooks="1" />
+            <Text Name="Amount" Align="CENTER" FontSet="msg" VIS="1" ENB="0" ColorARGB="1 0.78 0.78 0.78" X="449" Y="282" W="60" H="20" UseHooks="1" />
+        </Item>
+    </Item>
+    <!-- Всплывающие подсказки -->
+    <ToolTips Name="ToolTips">
+        <Image Shader="6" VIS="0" ENB="0" />
+        <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+    </ToolTips>
+</Restore>

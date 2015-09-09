@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+ <Shaders>
+
+    <Resource Name="ui/empty" />                                 <!-- 1 -->
+    <Resource Name="ui/launcher/panel/cursor" />                 <!-- 2 -->
+    <Resource Name="ui/launcher/panel/cursor_url" />             <!-- 3 -->
+    <Resource Name="ui/launcher/panel/scrollbutton" />           <!-- 4 -->	
+	<Resource Name="ui/launcher/panel/window" />                 <!-- 5 -->
+	<Resource Name="ui/launcher/panel/arrow" />                  <!-- 6 -->
+	<Resource Name="ui/launcher/panel/buttonn" />                <!-- 7 -->
+	<Resource Name="ui/launcher/panel/buttona" />                <!-- 8 -->
+    <Resource Name="ui/menupanel" />                             <!-- 9 -->
+
+
+ </Shaders>
+
+
+
+
+<!-- Прямоугольники, именованные прямоугольные области -->
+<RectangleFiles RootDir="ui/dialogs/">
+
+	<!-- MAIN  -->	
+	<Resource Name="main/Launcher.xml" />
+
+</RectangleFiles>
+
+
+
+
+ <Models>
+ </Models>
+
+
+<!-- Файлы с информацией о используемых шрифтах -->
+<Fonts>
+    <Font Name="Arial" Italic=0 Underline=0 StrikeOut=0 Weight=700 />	    <!-- 0 -->
+    <Font Name="Verdana" Italic=0 Underline=0 StrikeOut=0 Weight=500 />	    <!-- 1 -->
+	<Font Name="a_LCDNova" />  	                                            <!-- 2 -->
+
+
+   <Resource Name="ui/ui_launcher.xml" />
+</Fonts>
+
+<FontSet>
+   <Set Name="launcher_btn">
+      <R800x600   Font=0 Size=20 />
+      <R1024x768  Font=0 Size=20 />
+      <R1152x864  Font=0 Size=20 />
+      <R1280x1024 Font=0 Size=20 />
+      <R1600x1200 Font=0 Size=20 />
+   </Set>
+   <Set Name="launcher_content">
+      <R800x600   Font=0 Size=16 />
+      <R1024x768  Font=0 Size=16 />
+      <R1152x864  Font=0 Size=16 />
+      <R1280x1024 Font=0 Size=16 />
+      <R1600x1200 Font=0 Size=16 />
+   </Set>
+   <Set Name="launcher_content_url">
+      <R800x600   Font=0 Size=18 />
+      <R1024x768  Font=0 Size=18 />
+      <R1152x864  Font=0 Size=18 />
+      <R1280x1024 Font=0 Size=18 />
+      <R1600x1200 Font=0 Size=18 />
+   </Set>
+   <Set Name="launcher_url">
+      <R800x600   Font=1 Size=22 />
+      <R1024x768  Font=1 Size=22 />
+      <R1152x864  Font=1 Size=22 />
+      <R1280x1024 Font=1 Size=22 />
+      <R1600x1200 Font=1 Size=22 />
+   </Set>
+   <Set Name="launcher_title">
+      <R800x600   Font=0 Size=20 />
+      <R1024x768  Font=0 Size=20 />
+      <R1152x864  Font=0 Size=20 />
+      <R1280x1024 Font=0 Size=20 />
+      <R1600x1200 Font=0 Size=20 />
+   </Set>
+   <Set Name="launcher_console">
+      <R800x600   Font=2 Size=18 />
+      <R1024x768  Font=2 Size=18 />
+      <R1152x864  Font=2 Size=18 />
+      <R1280x1024 Font=2 Size=18 />
+      <R1600x1200 Font=2 Size=18 />
+   </Set>
+</FontSet>
+
+ <Sounds>
+ </Sounds>
+
+
+
+
+
+<Dialogs RootDir="ui/dialogs/">
+
+	<GroupDialogs Name="Main" >	
+		<NameFileInfo Value="main.xml"/>
+	</GroupDialogs>
+
+</Dialogs>
+<MechsTexts>
+	<Text Key="empty"									Value="" />
+	<Text Key="ok"										Value="ОК" />
+	<Text Key="cancel"								Value="ОТМЕНИТЬ" />
+	<Text Key="yes"									Value="ДА" />
+	<Text Key="no"										Value="НЕТ" />
+	<Text Key="apply"									Value="Применить" />
+	<Text Key="resume"								Value="Назад" />
+	<Text Key="next"									Value="Далее" />
+	<Text Key="prev"									Value="Назад" />
+	<Text Key="next_sym"								Value=">" />
+	<Text Key="prev_sym"								Value="<" />
+</MechsTexts>
