@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "1.73.4",
+    "version": "1.73.0",
     "engineVersion": "3.8",
     "assets": {
         "ClientConfig.xml": {
@@ -15,7 +15,7 @@
             "md5": "3d39922691e4e2b4eb4c5b0ae17daea1"
         },
         "MechsEarth.exe": {
-            "md5": "525cfdbe21364c6a296f914276bb679b"
+            "md5": "1e52f2ada978af3fdc15f0d6cd560460"
         },
         "fonts/BasicFonts.xml": {
             "md5": "016bb6b1245b6b37502b65aff1d4bb59"
@@ -277,6 +277,144 @@
         },
         "models/world/floor/layer_x4/floor02_4x4.mdl": {
             "md5": "ed2e2c7f54b387839b88497caf484603"
+        },
+        "models/world/house/house_24.mdl": {
+            "md5": "b48b092207ca982471a072d105c562bc"
+        },
+        "models/world/house/house_25.mdl": {
+            "md5": "92f6b91ddbb3a480e5d6532cba7e7615"
+        },
+        "models/world/house/house_26.mdl": {
+            "md5": "9ba776149b97f978c29ccac8c47c9138"
+        },
+        "models/world/house/house_27.mdl": {
+            "md5": "9ea9ea151f740123bc7e2f04ed102a60"
+        },
+        "models/world/house/house_28.mdl": {
+            "md5": "41a7e37c02f8e629057646006ed216ef"
+        },
+        "models/world/house/house_29.mdl": {
+            "md5": "66040ed1a3d4980d0b1d17797b1cea4f"
+        },
+        "models/world/house/house_30.mdl": {
+            "md5": "2ae0d8101ae7099852c14ac84ad337ce"
+        },
+        "models/world/house/house_31.mdl": {
+            "md5": "fea213b70332c17a45947919e015b0f2"
+        },
+        "models/world/house/house_31_01.mdl": {
+            "md5": "a0053ac7a4877404ea2d8fce2accac01"
+        },
+        "models/world/house/house_32.mdl": {
+            "md5": "15f4eaf93d6ba3a76730be49acd7743d"
+        },
+        "models/world/house/house_33.mdl": {
+            "md5": "978c6837ca0ec5217d3acdc74e4e81ec"
+        },
+        "models/world/house/house_34.mdl": {
+            "md5": "de6473aa3298c3f385b4b2ca06ece9ba"
+        },
+        "models/world/house/house_35.mdl": {
+            "md5": "bb95278739baa4fac98cfadc775d8a90"
+        },
+        "models/world/house/house_36.mdl": {
+            "md5": "058e1a8cb5b3d9ec40fea1a15a135ba3"
+        },
+        "models/world/house/house_37.mdl": {
+            "md5": "b9b807c0cc8042d8936ee654652c313a"
+        },
+        "models/world/house/house_38.mdl": {
+            "md5": "d1905b130c416871e80731c77df9e43d"
+        },
+        "models/world/house/house_39.mdl": {
+            "md5": "480029a2156cb87966ebe9139de516e2"
+        },
+        "models/world/house/house_40.mdl": {
+            "md5": "9fce28c8f6ec6b90324181f0fe9d7b6f"
+        },
+        "models/world/house/house_41.mdl": {
+            "md5": "801a176708751ad6e44ad8c96d4dd073"
+        },
+        "models/world/house/house_42.mdl": {
+            "md5": "9f7122a124c76440f72122857bccc9c8"
+        },
+        "models/world/house/house_43.mdl": {
+            "md5": "ea8a6c2075bcb036bc12bdbfc027f5f0"
+        },
+        "models/world/house/house_44.mdl": {
+            "md5": "45cb7648b35b5120550e120a1d96a03b"
+        },
+        "models/world/house/house_45.mdl": {
+            "md5": "4dbcc0c1d315aa79d94e1b51ddf51b9b"
+        },
+        "models/world/house/house_46.mdl": {
+            "md5": "9e1fd179777c78c6e7e0b5c4187993be"
+        },
+        "models/world/house/house_47.mdl": {
+            "md5": "023953daab80868533a7e50b152f0392"
+        },
+        "models/world/house/house_48.mdl": {
+            "md5": "11ff0adcf744969b19755a62ec9a50c1"
+        },
+        "models/world/house/house_49.mdl": {
+            "md5": "0330cc2b76ec1bb5ba454ed60479365f"
+        },
+        "models/world/house/house_50.mdl": {
+            "md5": "6089de25a7dfa6f31bf639cc2eaee9cb"
+        },
+        "models/world/house/house_51.mdl": {
+            "md5": "f5e45cb8683a79e5ee76aec5f63ca8ec"
+        },
+        "models/world/house/house_52.mdl": {
+            "md5": "6cdd739ca646941a9e8333a2478179f0"
+        },
+        "models/world/house/house_53.mdl": {
+            "md5": "ebc6068d68d1ae7f994ae8192c1672b2"
+        },
+        "models/world/house/house_54.mdl": {
+            "md5": "c380499824834954702baeb789e14e3c"
+        },
+        "models/world/house/house_55.mdl": {
+            "md5": "21268fbc4855524644a4c8a8ae86967a"
+        },
+        "models/world/house/house_56.mdl": {
+            "md5": "8d102524b362139b5e04b695ff3dce41"
+        },
+        "models/world/house/house_57.mdl": {
+            "md5": "1ff0313e8ddc4bf0cdf8a3f0adc664ee"
+        },
+        "models/world/house/house_58.mdl": {
+            "md5": "c60bc71e5d02c1391c50449bc60100b6"
+        },
+        "models/world/house/house_59.mdl": {
+            "md5": "4a81328c95e94c7bfb77c0c65b29937a"
+        },
+        "models/world/house/house_60.mdl": {
+            "md5": "4ff31513747b2fc3683b08a370114b78"
+        },
+        "models/world/house/house_61.mdl": {
+            "md5": "859aa3a773b80eb65fca30a31c734894"
+        },
+        "models/world/house/house_62.mdl": {
+            "md5": "3ee6769fb932782661506f8ce9602b36"
+        },
+        "models/world/house/house_63.mdl": {
+            "md5": "ec1db066001815c5671ab7d2680ee678"
+        },
+        "models/world/house/house_64.mdl": {
+            "md5": "86c80ddb8026d16945a4a289b07ffcfe"
+        },
+        "models/world/house/house_65.mdl": {
+            "md5": "3ad374066b47328689de275cb3311620"
+        },
+        "models/world/house/house_66.mdl": {
+            "md5": "b8e5314835ad38c06f6a89c935a336f7"
+        },
+        "models/world/house/house_67.mdl": {
+            "md5": "314a494731b422613872a51fecc404bb"
+        },
+        "models/world/house/house_68.mdl": {
+            "md5": "2cb8ad2a530d156ed84873b14fd653ce"
         },
         "models/world/lamp/00.mdl": {
             "md5": "c49dc3d6096a2457897754d48eb881ca"
@@ -4632,7 +4770,7 @@
             "md5": "7f5c235436db3d0746faf805be0db809"
         },
         "worlds/2/map.jpg": {
-            "md5": "37cd040ab25cabe23102e7cf16431b34"
+            "md5": "6bcb7b138a885213b2b672014ff0f07f"
         },
         "worlds/2/terrain.jpg": {
             "md5": "7250a51666fdb2777a7e6c6313532c60"
@@ -4728,7 +4866,7 @@
             "md5": "32118f1803bff5e6d665f2636f2b84a9"
         },
         "worlds/8/Layer.mz": {
-            "md5": "58617b5ca23b3ce9c180c1c5d289466a"
+            "md5": "734599f32c1c05614fe03fa479586808"
         },
         "worlds/8/PassiveEntities.bin": {
             "md5": "b3c03a6219dc6080924620457bb6fb91"
@@ -4737,10 +4875,10 @@
             "md5": "2c53b0809c0f8073fa10d890195ff737"
         },
         "worlds/8/World.xml": {
-            "md5": "76d8a318de40317636a9a77073628fc9"
+            "md5": "741dd505a7b3492dafc39e262d2b84ab"
         },
         "worlds/8/map.jpg": {
-            "md5": "4e942d9f0b2a3c8ba4497230c039c717"
+            "md5": "b8e1f8bf1af5a2c5bac877316831e81c"
         },
         "worlds/8/terrain.jpg": {
             "md5": "b3f5aa18b7b81562caf1c2d5d08a3a2a"

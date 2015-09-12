@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "1.73.4",
+    "version": "1.73.0",
     "engineVersion": "3.8",
     "assets": {
         "ClientConfig.xml": {
@@ -1129,6 +1129,24 @@
         },
         "models/world/wall/34_mobile.mdl": {
             "md5": "5c84f7d384684b2744e4ccbae3a36fd2"
+        },
+        "platforms/.gitkeep": {
+            "md5": "935bca95504baded4f683cd5db8a6ded"
+        },
+        "platforms/linux/.gitkeep": {
+            "md5": "935bca95504baded4f683cd5db8a6ded"
+        },
+        "platforms/mac/.gitkeep": {
+            "md5": "935bca95504baded4f683cd5db8a6ded"
+        },
+        "platforms/mobile/.gitkeep": {
+            "md5": "935bca95504baded4f683cd5db8a6ded"
+        },
+        "platforms/user/.gitkeep": {
+            "md5": "935bca95504baded4f683cd5db8a6ded"
+        },
+        "platforms/win32/.gitkeep": {
+            "md5": "935bca95504baded4f683cd5db8a6ded"
         },
         "shaders/effects.ps": {
             "md5": "8ed38a3086af35337257f5c9c581cd87"
