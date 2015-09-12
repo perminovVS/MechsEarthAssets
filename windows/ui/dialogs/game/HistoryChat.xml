@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rectangles>
+    <Rect Name="MessageList_Scroll" X=" 600" Y=" 138" W=" 1" H=" 277" />
+</Rectangles>
+<!-- Задания -->
+<HistoryChat Id="53000" Worker="Menu_HistoryChat">
+    <!-- Фон окна -->
+    <Item VIS="1" ENB="1" X="172" Y="91" W="450" H="360" UseHooks="1" />
+    <Image Shader="111" VIS="1" ENB="0" X="108" Y="65" W="607" H="512" UseHooks="1" />
+    <Text Text="history_title" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" Align="CENTER" X="209" Y="105" W="368" H="16" VIS="1" ENB="1" UseHooks="1" />
+    <!-- Кнопка выхода -->
+    <Button Key="escape" Info="tooltip_history_close" Normal="112" Active="113" VIS="1" ENB="1" Command="delete_menu HistoryChat;" X="583" Y="101" W="24" H="24" UseHooks="1" />
+    <List Name="MessageList" Gap="0" VIS="1" ENB="0" Param1="41" X="193" Y="141" W="404" H="290" VpX="190" VpY="142" VpW="405" VpH="290" UseHooks="1">
+		<Button Name="Prototype" FontSet="chat" InnerBorderW="1" InnerBorderH="0" ColorARGB="1 0.5 0.5 0.5" ActiveColorARGB="1 0.5 0.5 0.5" Active="3" Check="3" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="236" Y="276" W="50" H="50" VpX="0" VpY="0" VpW="0" VpH="0" />
+		<Button Name="Prototype_1" FontSet="chat" InnerBorderW="1" InnerBorderH="30" ColorARGB="1 0.2 0.8 0.2" ActiveColorARGB="1 0.2 0.8 0.2" Active="3" Check="3" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="236" Y="276" W="50" H="50" VpX="0" VpY="0" VpW="0" VpH="0" />
+        <Image Shader="86" VIS="1" ENB="0" X="600" Y="138" W="10" H="297" UseHooks="1" />
+        <Slider Name="Slider" LineRect="MessageList_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="600" Y="273" W="10" H="20" VIS="1" ENB="1" />
+    </List>
+    <Item Name="FlagsChannel" UseHooks="1">
+        <Button Name="Ch0" Text="empty" Info="chat_ch_0" Normal="414" Active="415" Check="416" Flash="417" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="122" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch1" Text="empty" Info="chat_ch_1" Normal="340" Active="341" Check="342" Flash="343" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="140" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch2" Text="empty" Info="chat_ch_2" Normal="344" Active="345" Check="346" Flash="347" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="158" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch3" Text="empty" Info="chat_ch_3" Normal="348" Active="349" Check="350" Flash="351" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="176" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch4" Text="empty" Info="chat_ch_4" Normal="352" Active="353" Check="354" Flash="355" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="194" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch5" Text="empty" Info="chat_ch_5" Normal="356" Active="357" Check="358" Flash="359" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="212" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch6" Text="empty" Info="chat_ch_6" Normal="360" Active="361" Check="362" Flash="363" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="230" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch7" Text="empty" Info="chat_ch_7" Normal="398" Active="399" Check="400" Flash="401" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="248" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch8" Text="empty" Info="chat_ch_8" Normal="402" Active="403" Check="404" Flash="405" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="266" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch9" Text="empty" Info="chat_ch_9" Normal="406" Active="407" Check="408" Flash="409" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="284" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch10" Text="empty" Info="chat_ch_10" Normal="410" Active="411" Check="412" Flash="413" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="302" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Ch11" Text="empty" Info="chat_ch_11" Normal="445" Active="446" Check="447" Flash="448" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="170" Y="320" W="18" H="18" VIS="1" ENB="1" UseHooks="1" />
+    </Item>
+    <Button Name="Quote" Text="empty" Info="tooltip_history_ctrl_quote" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="114" Active="115" VIS="1" X="202" Y="433" W="16" H="16" ENB="1" UseHooks="1" />
+    <Button Name="SelectedWorks" Text="empty" Info="tooltip_history_ctrl_selected_works" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="116" Active="117" VIS="1" X="226" Y="433" W="16" H="16" ENB="1" UseHooks="1" />
+    <Button Name="Delete" Text="empty" Info="tooltip_history_ctrl_delete" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="118" Active="119" VIS="1" X="249" Y="433" W="16" H="16" ENB="1" UseHooks="1" />
+    <Button Name="Clear" Text="empty" Info="tooltip_history_ctrl_clear" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="120" Active="121" VIS="1" X="272" Y="433" W="16" H="16" ENB="1" UseHooks="1" />
+    <!-- Всплывающие подсказки -->
+    <ToolTips Name="ToolTips">
+        <Image Shader="6" VIS="0" ENB="0" />
+        <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+    </ToolTips>
+</HistoryChat>

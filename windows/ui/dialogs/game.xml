@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Dialogs>
+
+	<GroupDialogs Name="Диалоги Игры: Общие" >	
+		<NameFileInfo Value="game/info/game.xml"/>
+	</GroupDialogs>
+	
+	<GroupDialogs Name="Диалоги Игры: Локации" >	
+		<NameFileInfo Value="game/info/location.xml"/>
+	</GroupDialogs>
+
+	<GroupDialogs Name="Диалоги Игры: Квесты" >	
+		<NameFileInfo Value="game/info/quest.xml"/>
+	</GroupDialogs>
+
+	<GroupDialogs Name="Диалоги Игры: Торговля" >	
+		<NameFileInfo Value="game/info/trade.xml"/>
+	</GroupDialogs>
+
+	<GroupDialogs Name="Диалоги Игры: Партия" >	
+		<NameFileInfo Value="game/info/party.xml"/>
+	</GroupDialogs>
+
+	<GroupDialogs Name="Диалоги Игры: Клан" >	
+		<NameFileInfo Value="game/info/clan.xml"/>
+	</GroupDialogs>
+
+</Dialogs>

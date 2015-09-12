@@ -1,0 +1,7 @@
+{
+    "packageUrl": "http://mechs.su/assets/android/",
+    "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
+    "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
+    "version": "1.73.4",
+    "engineVersion": "3.8"
+}

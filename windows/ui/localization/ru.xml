@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Localization>
+  <Text Key="app_name" Value="МЕХИ. Земля" />
+	<Text Key="empty" Value="" />
+	<Text Key="ok" 	Value="ОК" />
+	<Text Key="cancel" Value="ОТМЕНИТЬ" />
+	<Text Key="yes" Value="ДА" />
+	<Text Key="no" 	Value="НЕТ" />
+	<Text Key="apply" Value="Применить" />
+	<Text Key="resume" Value="Назад" />
+	<Text Key="next" Value="Далее" />
+	<Text Key="prev" Value="Назад" />
+	<Text Key="next_sym" Value="&gt;" />
+	<Text Key="prev_sym" Value="&lt;" />
+	<Text Key="version" Value="версия" />
+  <Text Key="common_count_holder" 	Value="Введи количество" />
+  <Text Key="common_text_holder" 	Value="Введи текст" />
+  
+	<Text Key="disconnect" 	Value="НЕТ соединения с сервером" />
+	<Text Key="registration_wrong_symbols" 	Value="В нике персонажа использованы недопустимые символы.\nИспользуйте только символы 0-9, a-z, A-Z, '_'." />
+
+	<Text Key="connecting_wnd_title" 	Value="Соединение с сервером" />
+	<Text Key="connecting_wnd_load_data" 	Value="Подождите… " />
+
+
+
+	<Text Key="poll_add_answer" 	Value="Предложить ответ" />
+	<Text Key="poll_your_answer" 	Value="Ваш ответ" />
+	<Text Key="poll_poll" 	Value="Голосовать" />
+
+	<Text Key="itemsamount_title" 	Value="Количество предметов" />
+
+	<Text Key="robot_death" 	Value="Робот уничтожен" />
+
+	<Text Key="robot_buy_confirm" 	Value="Купить робота?" />
+	<Text Key="robot_sell_confirm" 	Value="Продать робота?" />
+    
+	<Text Key="interface_change_move_type_speed" 	Value="Режим движения изменен: Скорость" />
+	<Text Key="interface_change_move_type_precision" 	Value="Режим движения изменен: Точность" />
+	<Text Key="interface_auto_aim_enable" 	Value="Активировано авто наведение" />
+	<Text Key="interface_auto_aim_disable" 	Value="Авто наведение отключено" />
+  <Text Key="interface_auto_fire_enable" 	Value="Активирована авто стрельба" />
+  <Text Key="interface_auto_fire_disable" 	Value="Авто стрельба отключена" />
+
+  <Text Key="command_auto_fire_enable" Value="авто стрельба" />
+  <Text Key="command_auto_fire_disable" Value="стрельбу отключить" />
+  <Text Key="command_auto_aim_enable" Value="авто наведение" />
+  <Text Key="command_auto_aim_disable" Value="наведение отключить" />
+  <Text Key="command_auto_collect_enable" Value="авто подбор" />
+  <Text Key="command_auto_collect_disable" Value="подбор отключить" />
+  <Text Key="command_auto_repair_enable" Value="авто ремонт" />
+  <Text Key="command_auto_repair_disable" Value="ремонт отключить" />
+  <Text Key="command_attach_container" Value="контейнер" />
+  <Text Key="command_chat_trade" Value="торговать" />
+  <Text Key="command_move_to" Value="следовать" />
+  <Text Key="command_stop_move" Value="остановиться" />
+  <Text Key="command_attack_to" Value="атаковать" />
+  <Text Key="command_change_weapon" Value="смена орудий" />
+
+
+  <Text Key="command_chat_copy" Value="копировать в буфер" />
+  <Text Key="command_chat_enter_text_field" Value="вставить в чат" />
+  <Text Key="command_chat_nick_enter_text_field" Value="вставить ник в чат" />
+  <Text Key="command_chat_reply" Value="ответить" />
+  <Text Key="command_chat_private_message" Value="написать лс" />
+  <Text Key="command_text_open_url" Value="открыть ссылку" />
+  
+
+
+  <Text Key="ingame_exit" 	Value="Выход из игры" />
+	<Text Key="ingame_options" 	Value="Опции" />
+	<Text Key="ingame_resume" 	Value="В игру" />
+
+	<Text Key="inv_container_pick_all" 	Value="В Трюм" />
+	<Text Key="inv_container_weight_all" 	Value="Общий вес:" />
+	<Text Key="inv_cargo_out_all" 	Value="Скинуть все" />
+	<Text Key="inv_cargo_confirm_out_all" 	Value="Вы уверены что хотите скинуть все?" />
+	<Text Key="tooltip_inv_cargo_capacity" 	Value="ЗАГРУЖЕННОСТЬ" />
+	<Text Key="tooltip_inv_cargo_out_all" 	Value="ВЫГРУЗИТЬ СОДЕРЖИМОЕ\nТРЮМА НА ЗЕМЛЮ" />
+
+	<Text Key="tooltip_exp" 	Value="ОПЫТ: %.2f%%%" />
+	<Text Key="tooltip_life" 	Value="ПРОЧНОСТЬ МЕХА:\n%d/%d" />
+	<Text Key="tooltip_energy" 	Value="ЗАРЯЖЕННОСТЬ БАТАРЕЙ:\n%d/%d" />
+	<Text Key="tooltip_capacity" 	Value="ЗАГРУЖЕННОСТЬ" />
+	<Text Key="tooltip_capacity_full" 	Value="ТРЮМ ПЕРЕПОЛНЕН" />
+	<Text Key="tooltip_money" 	Value="БОНЫ" />
+	<Text Key="tooltip_extract" 	Value="НАЧАТЬ ДОБЫЧУ" />
+	<Text Key="tooltip_extract_cancel" 	Value="ПРЕРВАТЬ ДОБЫЧУ" />
+	<Text Key="tooltip_enter_loc" 	Value="ВОЙТИ В ЗДАНИЕ" />
+	<Text Key="tooltip_exit_loc" 	Value="ВЫЙТИ НА ПОВЕРХНОСТЬ" />
+	<Text Key="tooltip_teleport" 	Value="ТЕЛЕПОРТИРОВАТЬСЯ" />
+	<Text Key="tooltip_teleport_cancel" 	Value="ОТМЕНИТЬ ТЕЛЕПОРТАЦИЮ" />
+	<Text Key="tooltip_action_repair" 	Value="ПОДКЛЮЧИТЬСЯ К РЕМОНТНОМУ ТЕРМИНАЛУ" />
+	<Text Key="tooltip_action_repair_cancel" 	Value="ОТКЛЮЧИТЬСЯ ОТ РЕМОНТНОГО ТЕРМИНАЛА" />
+	<Text Key="tooltip_action_restore" 	Value="РЕМОНТИРОВАТЬ РАЗРУШЕННУЮ ТЕХНИКУ" />
+	<Text Key="tooltip_action_restore_cancel" 	Value="ОТМЕНИТЬ РЕМОНТ" />
+	<Text Key="tooltip_action_upgrade" 	Value="ВЫБОР МОДИФИКАЦИЙ МЕХА" />
+	<Text Key="tooltip_action_upgrade_cancel" 	Value="ЗАКРЫТЬ ВЫБОР МОДИФИКАЦИЙ" />
+	<Text Key="tooltip_action_unmount" 	Value="ДЕМОНТИРОВАТЬ УСТАНОВЛЕННЫЙ ОБЪЕКТ" />
+	<Text Key="tooltip_robot_buy" 	Value="КУПИТЬ" />
+	<Text Key="tooltip_robot_change" 	Value="СМЕНИТЬ" />
+	<Text Key="tooltip_robot_sell" 	Value="ПРОДАТЬ" />
+	<Text Key="tooltip_robot_price" 	Value="БОНЫ" />
+	<Text Key="tooltip_robot_jet_price" 	Value="РЕГЛЫ" />
+	<Text Key="tooltip_get_quests" 	Value="КОМАНДОВАНИЕ" />
+	<Text Key="tooltip_craft" 	Value="ЗАВОД ОБОРУДОВАНИЯ" />
+	<Text Key="tooltip_color" 	Value="ПОКРАСОЧНАЯ МАСТЕРСКАЯ" />
+	<Text Key="tooltip_shop_robot" 	Value="САЛОН МЕХОВ" />
+	<Text Key="tooltip_shop" 	Value="МАГАЗИН" />
+	<Text Key="tooltip_insurance" 	Value="СТРАХОВКА" />
+	<Text Key="tooltip_research" 	Value="ЛАБОРАТОРИЯ" />
+	<Text Key="tooltip_storehouse" 	Value="СКЛАД" />
+	<Text Key="tooltip_storerobots" 	Value="СКЛАД МЕХОВ" />
+	<Text Key="tooltip_teleport_before_location" 	Value="ТЕЛЕПОРТАЦИЯ" />
+	<Text Key="tooltip_exit" 	Value="ЗАКРЫТЬ" />
+	<Text Key="tooltip_exit_cargo" 	Value="ЗАКРЫТЬ ТРЮМ" />
+	<Text Key="tooltip_open_cargo" 	Value="ОТКРЫТЬ ТРЮМ" />
+	<Text Key="tooltip_exit_inst" 	Value="ЗАКРЫТЬ ОТСЕК ОБОРУДОВАНИЯ" />
+	<Text Key="tooltip_open_inst" 	Value="ОТКРЫТЬ ОТСЕК ОБОРУДОВАНИЯ" />
+	<Text Key="tooltip_exit_world_map" 	Value="ЗАКРЫТЬ КАРТУ МИРА" />
+	<Text Key="tooltip_open_world_map" 	Value="ОТКРЫТЬ КАРТУ МИРА" />
+	<Text Key="tooltip_exit_loc" 	Value="ВЫЙТИ ИЗ ЛОКАЦИИ" />
+	<Text Key="tooltip_item_health" 	Value="ПРОЧНОСТЬ" />
+	<Text Key="tooltip_item_reload" 	Value="ГОТОВНОСТЬ ОРУДИЯ" />
+	<Text Key="tooltip_item_ammunition" 	Value="БОЕПРИПАСЫ" />
+	<Text Key="tooltip_zone01" 	Value="БЕЗОПАСНАЯ ЗОНА, АТАКОВАТЬ СОЮЗНЫХ МЕХОВ ЗАПРЕЩЕНО" />
+	<Text Key="tooltip_zone02" 	Value="PvP ЗОНА" />
+	<Text Key="tooltip_zone03" 	Value="ТЕЛЕПОРТАЦИЯ НЕ РАБОТАЕТ" />
+	<Text Key="tooltip_zone04" 	Value="ЗОНА ПОВЫШЕННОЙ ОПАСНОСТИ\nНЕ ОСТАВЛЯЙТЕ МЕХА НА ПОВЕРХНОСТИ\nОН МОЖЕТ БЫТЬ УНИЧТОЖЕН" />
+	<Text Key="tooltip_zone05" 	Value="ЗОНА БЕЗ НАЧИСЛЕНИЯ И СПИСАНИЯ КРИМИНАЛЬНЫХ ОЧКОВ" />
+	<Text Key="tooltip_zone06" 	Value="РЕАКТОРЫ НЕ РАБОТАЮТ" />
+	<Text Key="tooltip_zone07" 	Value="ПРИ ОТКЛЮЧЕНИИ ПИЛОТА ОТ СЕРВЕРА\nГРУЗ ПЕРЕГРУЖАЮЩИЙ МЕХА\nОСТАЕТСЯ НА ПОВЕРХНОСТИ" />
+
+  <Text Key="game_chat_holder" 	Value="Введите сообщение" />
+	<Text Key="game_auto_fire" 	Value="авто" />
+
+
+	<Text Key="tooltip_query" 	Value="ПРИГЛАШЕНИЯ" />
+	<Text Key="tooltip_query_ok" 	Value="ПРИНЯТЬ" />
+	<Text Key="tooltip_query_cancel" 	Value="ОТКЛОНИТЬ" />
+	<Text Key="query_trade_empty" 	Value="Новых запросов\nна торговлю\nнет" />
+	<Text Key="query_party_empty" 	Value="Новых запросов\nвступить в группу\nнет" />
+	<Text Key="query_clan_empty" 	Value="Новых запросов\nвступить в отряд\nнет" />
+	<Text Key="query_trade_invite" 	Value="Пришел запрос на торговлю от пилота:\n\c&lt;50 200 255&gt;%s\b" />
+	<Text Key="query_party_invite" 	Value="Пришел запрос вступить в группу от пилота:\n\c&lt;50 200 255&gt;%s\b" />
+	<Text Key="query_clan_invite" 	Value="Пришел запрос вступить в отряд к пилоту:\n\c&lt;50 200 255&gt;%s\b" />
+	<Text Key="query_clan_union_invite" 	Value="Пришел запрос\nсоюза от:\n\c&lt;50 200 255&gt;%s\b" />
+	<Text Key="query_clan_piece_invite" 	Value="Пришел запрос\nмира от:\n\c&lt;50 200 255&gt;%s\b" />
+
+	<Text Key="tooltip_quest_close" 	Value="ЗАКРЫТЬ ЗАДАНИЯ" />
+
+	<Text Key="tooltip_params_quests" 	Value="ЗАДАНИЯ" />
+	<Text Key="tooltip_params_hero" 	Value="ДАННЫЕ ПЕРСОНАЖА" />
+	<Text Key="tooltip_params_robot" 	Value="ПАРАМЕТРЫ МЕХА" />
+	<Text Key="tooltip_params_help" 	Value="ПОМОЩЬ" />
+	<Text Key="tooltip_params_poll" 	Value="ГОЛОСОВАНИЕ" />
+
+	
+	<Text Key="tooltip_params_robot_name" 	Value="МЕЖДУНАРОДНОЕ НАЗВАНИЕ МОДЕЛИ МЕХА" />
+	<Text Key="tooltip_params_robot_type" 	Value="ТИП - ОЧЕНЬ ВАЖНАЯ ХАРАКТЕРИСТИКА МОДЕЛИ МЕХА\nВСЕГО ЕСТЬ 4 ТИПА:\n- БОЕЦ, ХОРОШАЯ БРОНЯ И ПРОЧНОСТЬ\n- РАЗВЕДЧИК, БЫСТР И ПОВОРОТЛИВ\n- ТРАНСПОРТ, ВМЕСТИТЕЛЕН\n- ДОБЫТЧИК, ПОЛЕЗЕН ПРИ ДОБЫЧЕ ПОЛЕЗНЫХ ИСКОПАЕМЫХ" />
+
+	<Text Key="tooltip_params_robot_health" 	Value="ПРОЧНОСТЬ МЕХА - СКОЛЬКО ПОВРЕЖДЕНИЙ\nМОЖНО ПОЛУЧИТЬ ДО ПОЛНОГО РАЗРУШЕНИЯ" />
+	<Text Key="tooltip_params_robot_capacity" 	Value="ВМЕСТИМОСТЬ МЕХА - СКОЛЬКО МОЖНО\nУНЕСТИ НА БОРТУ ГРУЗА И ОБОРУДОВАНИЯ" />
+	<Text Key="tooltip_params_robot_speed" 	Value="СКОРОСТЬ МЕХА - НА СКОЛЬКО БЫСТРО\nПРОИСХОДИТ ДВИЖЕНИЕ, ЗАВИСИТ ОТ\nМОЩНОСТИ ДВИГАТЕЛЬНОЙ СИСТЕМЫ" />
+	<Text Key="tooltip_params_robot_energyparams" 	Value="ПОКАЗАНИЯ ДАТЧИКОВ ЭНЕРГО ОБОРУДОВАНИЯ МЕХА,\nА ТАКЖЕ СУММАРНАЯ МОЩНОСТЬ РЕАКТОРА И НАКОПИТЕЛЕЙ" />
+	<Text Key="tooltip_params_robot_power" 	Value="СУММАРНАЯ МОЩНОСТЬ ВСЕХ РЕАКТОРОВ\nЗАДЕЙСТВОВАННЫХ В ДАННЫЙ МОМЕНТ\nСИСТЕМОЙ ЭНЕРГООБЕСПЕЧЕНИЯ МЕХА" />
+	<Text Key="tooltip_params_robot_energy" 	Value="СУММАРНЫЙ ЕМКОСТЬ ВСЕХ НАКОПИТЕЛЕЙ\nЗАДЕЙСТВОВАННЫХ В ДАННЫЙ МОМЕНТ\nСИСТЕМОЙ ЭНЕРГООБЕСПЕЧЕНИЯ МЕХА" />
+	<Text Key="tooltip_params_robot_defence" 	Value="МЕХАНИЗМЫ ОБЕСПЕЧИВАЮЩИЕ ДОПОЛНИТЕЛЬНУЮ ЗАЩИТУ,\nС ИХ ПОМОЩЬЮ МЕХ ПОЛУЧАЕТ МЕНЬШЕ ПОВРЕЖДЕНИЙ" />
+	<Text Key="tooltip_params_robot_armour" 	Value="ДОПОЛНИТЕЛЬНЫЕ СТАЛЬНЫЕ ПЛАСТИНЫ,\nЗАЩИЩАЮЩИЕ ОТ ПРЯМЫХ УДАРНЫХ ПОВРЕЖДЕНИЙ " />
+	<Text Key="tooltip_params_robot_shield" 	Value="СОЗДАЕТ ПОЛЕ НА КОРПУСЕ МЕХА,\nУКРЕПЛЯЮЩЕЕ СТРУКТУРУ МЕТАЛЛА.\n\nБЫЛО РАЗРАБОТАНО КАК ЗАЩИТА ОТ ЭНЕРГЕТИЧЕСКОГО ОРУЖИЯ\nВЫДЕЛЯЕТ НАНО ЧИСТИЦЫ, КОТОРЫЕ ВСТУПАЮТ В ВЗАИМОДЕЙСТВИЕ\nС КРИСТАЛИЧЕСКОЙ РЕШЕТКОЙ ВЕЩЕСТВА,\nИ ПРИПЯТСТВУЮТ ПРОНИКНОВЕНИЮ ЭНЕРГИИ" />
+
+	<Text Key="tooltip_mod_robot_health" 	Value="ПРОЧНОСТЬ" />
+	<Text Key="tooltip_mod_robot_capacity" 	Value="ВМЕСТИМОСТЬ" />
+	<Text Key="tooltip_mod_robot_speed" 	Value="СКОРОСТЬ" />
+	<Text Key="tooltip_mod_robot_energyparams" 	Value="ЭНЕРГОСНАБЖЕНИЕ" />
+	<Text Key="tooltip_mod_robot_power" 	Value="МОЩНОСТЬ" />
+	<Text Key="tooltip_mod_robot_energy" 	Value="ЭНЕРГИЯ" />
+	<Text Key="tooltip_mod_robot_defence" 	Value="ПАРАМЕТРЫ ЗАЩИТЫ" />
+	<Text Key="tooltip_mod_robot_armour" 	Value="БРОНЯ" />
+	<Text Key="tooltip_mod_robot_shield" 	Value="ЭНЕРГЕТИЧЕСКИЙ ЩИТ" />
+	<Text Key="tooltip_mod_robot_weapon_fire" 	Value="ОГН. ПОВРЕЖДЕНИЕ" />
+	<Text Key="tooltip_mod_robot_weapon_energy" 	Value="ЭНЕРГЕТИЧЕСКОЕ ПОВРЕЖДЕНИЕ" />
+	<Text Key="tooltip_mod_robot_weapon_rockets" 	Value="РК ПОВРЕЖДЕНИЕ" />
+	<Text Key="tooltip_mod_robot_weapon_long_range" 	Value="ДАЛЬНОБОЙНОЕ ПОВРЕЖДЕНИЕ" />
+	<Text Key="tooltip_mod_robot_repair" 	Value="РЕМОНТ" />
+	<Text Key="tooltip_mod_robot_extract" 	Value="ДОБЫЧА" />
+
+
+	<Text Key="tooltip_mod_skill_precision" 	Value="ТОЧНОСТЬ" />
+	<Text Key="tooltip_mod_skill_extraction" 	Value="ДОБЫЧА" />
+	<Text Key="tooltip_mod_skill_trade" 	Value="ТОРГОВЛЯ" />
+	<Text Key="tooltip_mod_skill_engineering" 	Value="СПЕЦИАЛИСТ" />
+	<Text Key="tooltip_mod_skill_weapon_fire" 	Value="Пушка, Пулемет" />
+	<Text Key="tooltip_mod_skill_weapon_energy" 	Value="Эмпп, Фазер" />
+	<Text Key="tooltip_mod_skill_weapon_rockets" Value="Рк, Рк Энрг" />
+	<Text Key="tooltip_mod_skill_weapon_long_range" Value="Гранатомет, Гаубица, Пулемет Энрг" />
+	<Text Key="tooltip_mod_skill_shield" 	Value="ПОЛЯ" />
+	<Text Key="tooltip_mod_skill_armour" 	Value="БРОНЯ" />
+	<Text Key="tooltip_mod_skill_hold" 	Value="ТРЮМ" />
+	<Text Key="tooltip_mod_skill_energy" 	Value="ЭНЕРГОСНАБЖЕНИЕ" />
+
+	<Text Key="robot_case_fighter" 	Value="БОЕЦ" />
+	<Text Key="robot_case_scout" 	Value="РАЗВЕДЧИК" />
+	<Text Key="robot_case_trader" 	Value="ТРАНСПОРТНЫЙ" />
+	<Text Key="robot_case_miner" 	Value="ДОБЫТЧИК" />
+
+
+	<Text Key="params_robot_level" 	Value="Уровень" />
+	<Text Key="params_robot_current" 	Value="Текущий мех" />
+	<Text Key="params_robot_type" 	Value="Тип" />
+
+	<Text Key="params_robot_health" 	Value="Прочность" />
+	<Text Key="params_robot_capacity" 	Value="Вместимость" />
+	<Text Key="params_robot_speed" 	Value="Скорость" />
+
+	<Text Key="params_robot_energyparams" 	Value="Энергообеспечение" />
+	<Text Key="params_robot_power" 	Value="Мощность реактора" />
+	<Text Key="params_robot_energy" 	Value="Емкость накопителя" />
+
+	<Text Key="params_robot_defence" 	Value="Защитные системы" />
+	<Text Key="params_robot_armour" 	Value="Броня" />
+	<Text Key="params_robot_shield" 	Value="Поля" />
+
+
+	<Text Key="game_action_enter_loc" 	Value="ВОЙТИ" />
+	<Text Key="game_action_exit_loc" 	Value="ВЫЙТИ" />
+	<Text Key="game_action_teleport" 	Value="ТЕЛЕПОРТ" />
+	<Text Key="game_action_teleport_cancel" 	Value="ОТМЕНА" />
+	<Text Key="game_action_extract" 	Value="ДОБЫЧА" />
+	<Text Key="game_action_extract_cancel" 	Value="ПРЕРВАТЬ" />
+	<Text Key="game_action_repair" 	Value="РЕМОНТ" />
+	<Text Key="game_action_repair_cancel" 	Value="ЗАКРЫТЬ" />
+	<Text Key="game_action_upgrade" 	Value="АПГРЕЙД" />
+	<Text Key="game_action_upgrade_cancel" 	Value="ЗАКРЫТЬ" />
+	<Text Key="game_action_unmount" 	Value="ДЕМОНТИРОВАТЬ" />
+
+	<Text Key="game_robot_cost" 	Value="БОНЫ:" />
+	<Text Key="game_robot_cost_jet" 	Value="РЕГЛЫ:" />
+	<Text Key="game_robot_amount" 	Value="КОЛИЧЕСТВО:" />
+	<Text Key="game_item_cost" 	Value="ЦЕНА:" />
+	<Text Key="game_item_cost_jet" 	Value="ЦЕНА В РЕГЛАХ:" />
+	<Text Key="game_item_weight" 	Value="ВЕС:" />
+	<Text Key="game_item_health" 	Value="ПРОЧНОСТЬ:" />
+	<Text Key="game_item_broke" 	Value="СЛОМАН" />
+	<Text Key="game_item_destruct" 	Value="РАЗРУШЕН" />
+	<Text Key="game_item_bullets" 	Value="ПАТРОНЫ:" />
+	<Text Key="game_item_bullets_missile" 	Value="СНАРЯДЫ:" />
+	<Text Key="game_item_bullets_plasma" 	Value="ПЛАЗМА ЗАРЯДЫ:" />
+	<Text Key="game_item_bullets_grenade" 	Value="РАКЕТЫ:" />
+	<Text Key="game_item_bullets_repair" 	Value="ЗАПЧАСТИ:" />
+	<Text Key="game_item_bullets_eng" 	Value="ПАТРОНЫ ЭНРГ:" />
+
+	<Text Key="game_item_weapon_repair" 	Value="РЕМОНТ:" />
+	<Text Key="game_item_weapon_impact_damage" 	Value="УДАР:" />
+	<Text Key="game_item_weapon_energy_damage" 	Value="УДАР ЭНЕРГ:" />
+	<Text Key="game_item_weapon_range" 	Value="ДАЛЬНОСТЬ:" />
+	<Text Key="game_item_weapon_damage_area" 	Value="РАДИУС:" />
+	<Text Key="game_item_weapon_cost" 	Value="ЭНЕРГОПОТРЕБЛЕНИЕ:" />
+	<Text Key="game_item_weapon_firetime" 	Value="СКОРОСТРЕЛЬНОСТЬ:" />
+
+	<Text Key="game_item_energy_accumulator_capacity" 	Value="ЕМКОСТЬ:" />
+
+	<Text Key="game_item_energy_generator_capacity" 	Value="МОЩНОСТЬ:" />
+
+	<Text Key="game_item_defence_shield_forcefield" 	Value="МОЩНОСТЬ ЗАЩИТНОГО ПОЛЯ:" />
+	<Text Key="game_item_special_shield" 	Value="ЗАЩИТНОЕ ПОЛЕ:" />
+
+	<Text Key="game_item_defence_repair_hp" 	Value="HP:" />
+
+	<Text Key="game_item_special_mining_amount" 	Value="МОЩНОСТЬ ПОДЪЕМА:" />
+
+	<Text Key="game_item_special_cargo_amount" 	Value="ВМЕСТИМОСТЬ:" />
+
+	<Text Key="game_item_special_engine_velocity" 	Value="СКОРОСТЬ:" />
+
+	<Text Key="game_item_special_armour_armour" 	Value="БРОНЯ:" />
+
+	<Text Key="game_item_used_repair_hp" 	Value="HP:" />
+
+	<Text Key="game_item_used_energy_energy" 	Value="ЭНЕРГИЯ:" />
+
+	<Text Key="game_item_used_teleport_energy" 	Value="ЭНЕРГИЯ:" />
+	<Text Key="game_item_used_teleport_time" 	Value="ВРЕМЯ:" />
+
+	<Text Key="game_item_used_set_object_energy" 	Value="ЭНЕРГИЯ:" />
+
+	<Text Key="game_item_cargo_amount" 	Value="КОЛИЧЕСТВО:" />
+	<Text Key="game_item_robot_case" 	Value="ТОЛЬКО ДЛЯ" />
+	<Text Key="game_item_hero_level" 	Value="УРОВЕНЬ ПЕРСОНАЖА" />
+	<Text Key="game_item_heroskill_engineering_level" 	Value="УРОВЕНЬ СПЕЦИАЛИСТА" />
+
+	<Text Key="quest_short" 	Value="ЗАДАНИЯ" />
+	<Text Key="quest_detail" 	Value="ОПИСАНИЕ" />
+	<Text Key="quest_cancel" 	Value="ОТКАЗАТЬСЯ" />
+
+	<Text Key="history_title" 	Value="__/-- ЖУРНАЛ --\__" />
+	<Text Key="tooltip_history_close" 	Value="ЗАКРЫТЬ" />
+	<Text Key="tooltip_history_ctrl_quote" 	Value="Цитировать" />
+	<Text Key="tooltip_history_ctrl_selected_works" 	Value="В Избранное" />
+	<Text Key="tooltip_history_ctrl_delete" 	Value="Удалить" />
+	<Text Key="tooltip_history_ctrl_clear" 	Value="Очистить" />
+
+
+
+	<Text Key="location_exit" 	Value="Выйти" />
+	<Text Key="location_convert_money1" 	Value="Обмен РЕГЛОВ" />
+	<Text Key="location_text_convert_money1" 	Value="Обменять реглы на боны по курсу 1:%d" />
+	<Text Key="location_hero_list" 	Value="В здании находятся:" />
+
+
+	<Text Key="shop_item_type_all" 	Value="ВСЕ" />
+	<Text Key="shop_item_type_weapon" 	Value="ВООРУЖЕНИЕ" />
+	<Text Key="shop_item_type_energy" 	Value="ЭНЕРГОСНАБЖЕНИЕ" />
+	<Text Key="shop_item_type_defence" 	Value="ЗАЩИТА" />
+	<Text Key="shop_item_type_computer" 	Value="ЧИПЫ" />
+	<Text Key="shop_item_type_special" 	Value="ДОПОЛНИТЕЛЬНОЕ ОБОРУДОВАНИЕ" />
+	<Text Key="shop_item_type_used" 	Value="ИСПОЛЬЗУЕМЫЕ" />
+	<Text Key="shop_item_type_resource" 	Value="ГРУЗ" />
+	<Text Key="shop_item_type_bullets" 	Value="БОЕЗАПАС" />
+	<Text Key="shop_item_type_color" 	Value="ТРАФАРЕТЫ" />
+
+
+  <Text Key="color_title" Value="ПОКРАСОЧНАЯ МАСТЕРСКАЯ" />
+  <Text Key="color_title_change" Value="УСТАНОВКИ ТРАФАРЕТА" />
+  <Text Key="color_color" Value="ПОКРАСИТЬ" />
+  <Text Key="color_apply" Value="ПРИМЕНИТЬ" />
+  <Text Key="color_close" Value="ЗАКРЫТЬ" />
+  <Text Key="color_change" Value="ЗАДАТЬ ЦВЕТ" />
+  <Text Key="color_delete" Value="УДАЛИТЬ" />
+  <Text Key="color_clear" Value="ОТМЕНИТЬ" />
+  <Text Key="color_scale_add" Value="+" />
+  <Text Key="color_scale_remove" Value="-" />
+  <Text Key="color_rotate_right" Value="&gt;" />
+  <Text Key="color_rotate_left" Value="&lt;" />
+  <Text Key="color_rotate_up" Value="/\\" />
+  <Text Key="color_rotate_down" Value="\//" />
+  <Text Key="color_trafaret_right" Value="&gt;" />
+  <Text Key="color_trafaret_left" Value="&lt;" />
+  <Text Key="color_trafaret_up" Value="/\\" />
+  <Text Key="color_trafaret_down" Value="\//" />
+  <Text Key="color_trafaret_rotate" Value="&lt;&gt;" />
+  <Text Key="color_trafaret_plus" Value="+" />
+  <Text Key="color_trafaret_minus" Value="-" />
+
+  <Text Key="craft_title" Value="ЗАВОД ОБОРУДОВАНИЯ" />
+  <Text Key="craft_craft" Value="СОЗДАТЬ" />
+  <Text Key="craft_close" Value="ЗАКРЫТЬ" />
+  <Text Key="craft_design_info" Value="вставь чертеж или   предмет" />
+  <Text Key="craft_need_money" Value="ТРЕБУЕТСЯ БОН" />
+  <Text Key="craft_need_money1" Value="ТРЕБУЕТСЯ РЕГЛОВ" />
+  <Text Key="craft_need_engineering" Value="ТРЕБУЕМЫЙ НАВЫК" />
+
+  <Text Key="quest_get_get" Value="ПОЛУЧИТЬ" />
+  <Text Key="quest_get_title" Value="ПОЛУЧИТЬ ЗАДАНИЕ" />
+  <Text Key="quest_get_detail" Value="ОПИСАНИЕ" />
+
+  <Text Key="research_title" Value="ЗАВОД МОДИФИКАЦИИ ОБОРУДОВАНИЯ" />
+  <Text Key="research_title_list" Value="ВЫБЕРИТЕ УЛУЧШЕНИЕ" />
+  <Text Key="research_show_list" Value="ВЫБРАТЬ" />
+  <Text Key="research_research" Value="АПГРЕЙД" />
+  <Text Key="research_close" Value="ЗАКРЫТЬ" />
+  <Text Key="research_item_info" Value="вставь предмет" />
+  <Text Key="research_need_money" Value="ТРЕБУЕТСЯ БОН" />
+  <Text Key="research_need_money1" Value="ТРЕБУЕТСЯ РЕГЛОВ" />
+  <Text Key="research_stage" Value="ТЕКУЩИЙ УРОВЕНЬ" />
+
+  <Text Key="restore_title" Value="РЕМОНТ ТЕХНИКИ" />
+  <Text Key="restore_execute" Value="ВОССТАНОВИТЬ" />
+  <Text Key="restore_need_money" Value="ТРЕБУЕТСЯ БОН" />
+  <Text Key="restore_need_money1" Value="ТРЕБУЕТСЯ РЕГЛОВ" />
+  <Text Key="restore_need_engineering" Value="ТРЕБУЕМЫЙ НАВЫК" />
+  
+	<Text Key="params_hero_name_alias"				Value="Изменить псевдоним" />
+	<Text Key="params_hero_change_name"				Value="Изменить ник аккаунта" />
+	<Text Key="params_hero_change_alias"			Value="Изменить псевдоним персонажа" />
+  <Text Key="params_hero_change_name_holder"				Value="Ввести ник аккаунта" />
+  <Text Key="params_hero_change_alias_holder"			Value="Ввести псевдоним персонажа" />
+	<Text Key="params_hero_level"					Value="Уровень" />
+	<Text Key="params_hero_exp"						Value="Опыт" />
+	<Text Key="params_hero_nation"					Value="Нация" />
+	<Text Key="params_hero_level_nation"			Value="Ранг" />
+	<Text Key="params_hero_status"					Value="Статус" />
+	<Text Key="params_hero_status_ranger"			Value="Наёмник" />
+	<Text Key="params_hero_status_clean"			Value="Нейтрал" />
+	<Text Key="params_hero_status_crime"			Value="Нарушитель" />
+	<Text Key="params_hero_status_pirate"			Value="Повстанец" />
+	<Text Key="params_hero_money"					Value="Боны" />
+	<Text Key="params_hero_ex_money"				Value="Реглы" />
+	<Text Key="params_hero_skills"					Value="Навыки" />
+	<Text Key="params_hero_skill_precision"			Value="Снайпер" />
+	<Text Key="params_hero_skill_extraction"		Value="Добыча" />
+	<Text Key="params_hero_skill_engineering"		Value="Специалист" />
+	<Text Key="params_hero_skill_trade"				Value="Торговля" />	
+	<Text Key="params_hero_skill_missile"			Value="Пушка" />
+	<Text Key="params_hero_skill_bullet"			Value="Пулемет" />
+	<Text Key="params_hero_skill_empp"				Value="Эмпп" />
+	<Text Key="params_hero_skill_faser"				Value="Фазер" />
+	<Text Key="params_hero_skill_rk"				Value="Рк" />
+	<Text Key="params_hero_skill_rk_eng"			Value="Рк энрг" />
+	<Text Key="params_hero_skill_howitzer"			Value="Гаубица" />
+	<Text Key="params_hero_skill_launcher"			Value="Гранатомет" />
+	<Text Key="params_hero_skill_bulleteng"			Value="Пулемет энрг" />	
+	<Text Key="params_hero_more_skill_exp"			Value="Другие" />
+	<Text Key="params_hero_weapon"					Value="Удар" />
+	<Text Key="params_hero_used"					Value="Умения" />
+	<Text Key="params_hero_used_armour"				Value="Броня" />
+	<Text Key="params_hero_used_shield"				Value="Поля" />
+	<Text Key="params_hero_used_hold"				Value="Трюм" />
+	<Text Key="params_hero_used_energy"				Value="Энерг." />	
+	<Text Key="params_hero_no_premium"				Value="Базовый аккаунт" />
+	<Text Key="params_hero_premium"					Value="Премиум аккаунт" />
+	<Text Key="params_hero_buy_premium_account"		Value="Получить премиум" />
+	<Text Key="params_hero_extend_premium_account"	Value="Продлить премиум" />
+
+  <Text Key="options_tmp" Value="9" />
+  <Text Key="options_tmp2" Value="2x" />
+  <Text Key="options_title" Value="Настройки" />
+  <Text Key="options_soundvolume" Value="Звуки" />
+  <Text Key="options_musicvolume" Value="Музыка" />
+  <Text Key="options_disable_sound" Value="Отключить звук" />
+  <Text Key="options_disable_snow" Value="Отключить снег" />
+  <Text Key="options_disable_color" Value="Отключить покраску" />
+  <Text Key="options_disable_detail" Value="Отключить детализацию" />
+  <Text Key="options_disable_effect" Value="Отключить эффекты" />
+  <Text Key="options_vsync" Value="VSync" />
+  <Text Key="options_enable_debug" Value="Включить отладку" />
+  <Text Key="options_distance" Value="Дальность вида" />
+  <Text Key="options_resolution" Value="Разрешение" />
+  <Text Key="options_range_antialiasing" Value="Сглаживание моделей" />
+  <Text Key="options_range_anisotropying" Value="Сглаживание текстур" />
+  <Text Key="options_fullscreen" Value="Полноэкранный режим" />
+  <Text Key="options_move_type" Value="Способ передвижения" />
+  <Text Key="options_move_type_control" Value="точность" />
+  <Text Key="options_move_type_speed" Value="скорость" />
+  <Text Key="options_ping" Value="Ping: %d  средний: %d      FPS: %.1f" />
+  <Text Key="options_note" Value="ЧТОБЫ НАСТРОЙКИ ВСТУПИЛИ В СИЛУ ТРЕБУЕТСЯ ПЕРЕЗАПУСК ИГРЫ" />
+
+  <Text Key="LGN_RSP_VERSION_WRONG" Value="\nТребуется версия \c&lt;190 60 60&gt;%.1d.%d.x\b Обновите клиент" />
+  <Text Key="LGN_RSP_LGN_PWD_WRONG" Value="\nНеверные идентификационные данные" />
+  <Text Key="LGN_RSP_HERO_EXIST" Value="\nИдентификация пройдена." />
+  <Text Key="LGN_RSP_HERO_LOAD" Value="\nЗагружается профиль:\n\c&lt;40 40 240&gt;%s.\b" />
+  <Text Key="LGN_RSP_HERO_NOT_EXIST" Value="\nПрофиль &apos;\c&lt;240 40 40&gt;%s\b&apos; не найден." />
+  <Text Key="LGN_RSP_HERO_NOT_EXIST_REG_BAN" Value="\nСоздание новых профилей недоступно,\nпопробуйте позже." />
+  <Text Key="LGN_RSP_HERO_NAME_WRONG" Value="\nИмя профиля не верно.\n\c&lt;240 40 40&gt;Вы ввели недопустимые символы!\b\nИспользуйте 0-9, a-z, A-Z, &apos;_&apos;." />
+  <Text Key="LGN_RSP_HERO_EMAIL_WRONG" Value="\nНе верно введен email\nПример правильного: user@mail.ru" />
+  <Text Key="LGN_RSP_HERO_NAME_EXIST" Value="\nТакой профиль уже создан, выберите другое имя." />
+  <Text Key="LGN_RSP_HERO_LGN_NOT_EXIST" Value="\nНе существует аккаунта с таким email" />
+  <Text Key="LGN_RSP_HERO_LGN_EXIST" Value="\nПрофиль с таким email уже есть." />
+  <Text Key="LGN_RSP_HERO_BUSY" Value="\n\c&lt;40 40 240&gt;К персонажу уже подключен другой профиль.\b" />
+  <Text Key="LGN_RSP_HERO_PWD_WRONG" Value="\n\c&lt;240 40 40&gt;Неверные идентификационные данные.\b" />
+  <Text Key="LGN_RSP_HERO_CANT_CREATE" Value="\n\c&lt;240 40 40&gt;Ошибка создания профиля.\b" />
+  <Text Key="LGN_RSP_PSWD_NOT_CHECKED" Value="\n\c&lt;240 40 40&gt;Произошла ошибка идентификации.\b" />
+  <Text Key="LGN_RSP_LOGIN_OK" Value="\nПолучение сведений о мире &apos;\c&lt;40 40 240&gt;%s\b&apos;." />
+  <Text Key="LGN_RSP_LOGIN_OK_BAN" Value="\n\c&lt;240 40 40&gt;Профиль заблокирован\b\nПричина: %s\nобратитесь в службу поддержки!" />
+  <Text Key="LGN_RSP_LOGIN_OK_BAN_ON_HOURS" Value="\n\c&lt;240 40 40&gt;Профиль временно заблокирован,\b осталось %dд %dч %dм\nПричина: %s" />
+  <Text Key="LGN_RSP_LOGIN_WRONG_HERO" Value="\nНет доступа к данному персонажу." />
+  <Text Key="LGN_RSP_LOGIN_NO_MONEY" Value="\nНе достаточно средств." />
+  <Text Key="CONNECT_ERROR_CANT_CONNECT" Value="Невозможно установить соединение" />
+  <Text Key="CONNECT_ERROR_CANCEL" Value="Отмена команды соединения с сервером" />
+  <Text Key="ACCESS_ALLOW" Value="Разрешено" />
+  <Text Key="ACCESS_DENIED_NO_REASON" Value="Запрещено без объяснения причин" />
+  <Text Key="ACCESS_DENIED_NO_MONEY" Value="Сервер временно не работает" />
+  <Text Key="ACCESS_DENIED_CANT_CONNECT_BILLING" Value="Запрещено. Сервер не может соединиться с сервером билинга" />
+  <Text Key="DISCONNECT_REASON_SERVER_STOP" Value="Сервер остановлен" />
+  <Text Key="DISCONNECT_REASON_CANT_CONNECT_BILLING" Value="Сервер не может получить доступ к биллинговому центру" />
+  <Text Key="DISCONNECT_REASON_LOST_CONNECTION" Value="Соединение разорвано" />
+  <Text Key="DISCONNECT_REASON_MODIFIED_PACKETS" Value="Соединение разорвано, получен некорректный пакет" />
+  <Text Key="DISCONNECT_REASON_CONNECT_FAILED" Value="Сервер недоступен" />
+  <Text Key="login_connecting" Value="Подключение к серверу..." />
+  <Text Key="login_on_connect" Value="\nПодключение установлено." />
+  <Text Key="login_no_connect" Value="\nНет связи [\c&lt;240 40 40&gt;%s\b]." />
+  <Text Key="login_auth_wait_response" Value="Подождите, идет ожидание/получение ответа." />
+  <Text Key="login_authorization" Value="\nИдентификация..." />
+  <Text Key="login_load_world" Value="\nЗагружаю мир &apos;\c&lt;40 40 240&gt;%s\b&apos;." />
+  <Text Key="login_in_game" Value="Загружаем " />
+  <Text Key="login_cancel" Value="Отключиться" />
+  <Text Key="login_create" Value="Создать" />
+  <Text Key="login_reg" Value="Регистрация" />
+  <Text Key="login_reg_title" Value="Создание профиля" />
+  <Text Key="login_reg_name_holder" Value="Введите имя профиля" />
+  <Text Key="login_reg_use_symbols" Value="Используйте символы 0-9, a-z, A-Z, &apos;_&apos;." />
+  <Text Key="login_reg_empty_name" Value="\c&lt;240 40 40&gt;Вы не ввели имя персонажа!\b Используйте символы 0-9, a-z, A-Z, &apos;_&apos;." />
+  <Text Key="login_reg_wrong_symbols" Value="\c&lt;240 40 40&gt;Вы ввели недопустимые символы!\b Используйте 0-9, a-z, A-Z, &apos;_&apos;." />
+  <Text Key="login_reg_help" Value="Для регистрации персонажа, нажмите кнопку &apos;\c&lt;40 40 240&gt;%s\b&apos; и введите имя" />
+  <Text Key="login_reg_help1" Value="Для регистрации введите желаемый Email/пароль, и жмите Войти/Создать" />
+  <Text Key="login_auth_title" Value="Идентификация" />
+  <Text Key="login_auth_login_holder" Value="Введите ваш email" />
+  <Text Key="login_auth_password_holder" Value="Введите ваш пароль" />
+  <Text Key="login_auth_send" Value="Войти" />
+  <Text Key="login_heroes_panel" Value="Выбор персонажа" />
+  <Text Key="login_auth_show_pass" Value="*" />
+  <Text Key="login_auth_show_user_list" Value="Л" />
+  <Text Key="tooltip_login_auth_show_pass" Value="Показать/Скрыть пароль" />
+  <Text Key="tooltip_login_auth_show_user_list" Value="Выбрать профиль из списка" />
+  <Text Key="login_auth_no_connect" Value="\c&lt;240 40 40&gt;Подключение ещё не установлено!\b" />
+  <Text Key="login_auth" Value="Авторизация" />
+  <Text Key="login_auth_login_use" Value="Введите ваш email" />
+  <Text Key="login_auth_password_use" Value="Введите ваш пароль( не менее %d символов, \c&lt;90 90 240&gt;регистр букв учитывается!\b )" />
+  <Text Key="login_auth_login_wrong" Value="Email не корректен" />
+  <Text Key="login_auth_password_wrong" Value="Пароль слишком короткий( введите не менее %d символов )" />
+
+  <Text Key="mainmenu_connect" Value="Подключиться" />
+  <Text Key="mainmenu_register" Value="Регистрация" />
+  <Text Key="mainmenu_options" Value="Настройки" />
+  <Text Key="mainmenu_exit" Value="Выход" />
+  <Text Key="mainmenu_url" Value="открыть сайт" />
+  <Text Key="mainmenu_need_update" Value="ТРЕБУЕТСЯ ОБНОВЛЕНИЕ" />
+  <Text Key="main_get_info" Value="Получение данных.." />
+
+  <Text Key="startmsg_title"										Value="Правительство" />
+  <Text Key="startmsg_text"										Value="  Пилот, ты на Земле.\n\n  Зайди в здание правительства ( нажми кнопку войти ) и возьми ПЕРВОЕ задание.\n\n  Выжившие колонии людей возвращаются на планету предков. Многие погибли, чтобы ты чувствовал себя здесь в безопасности. Возвращение необходимо, ибо колонии переполнены и ресурсы, которыми обладает земля, очень важны. Не будем тянуть время, перейдем к главному.\n\n  Добыча ресурсов твоя основная цель, командование хорошо заплатит за них, но есть масса препятствий: это мутировавшая живность планеты и кроты, (те, кто по каким то причинам не с могли эвакуироваться и пережили все катаклизмы здесь на земле). Постоянно прибывает подкрепление и ты не останешься один, но здешний мир жесток - будь готов ко всему. Нажми F1, чтобы узнать подробности управления своим роботом и его приборами." />
+
+  <Text Key="premium_account_title"				Value="Приобрести премиум аккаунт" />
+  <Text Key="premium_account_buy"					Value="Продлить премиум аккаунт:" />
+  <Text Key="premium_account_info"				Value="Премиум аккаунт увеличивает получаемый опыт и опыт владения орудием на\c&lt;100 250 100&gt; 50%%%%%\b. Так же увеличивает до\c&lt;100 250 100&gt; 12 часов\b время выхода в опасных зонах.\n\nДоступны функции:\n- Следовать за выбранной целью\n- Авто подбор контейнеров\n- Авто использование комплектов запчастей из трюма" />
+  <Text Key="premium_account_ok"					Value="Приобрести" />
+  <Text Key="premium_account_cancel"				Value="Отмена" />
+	
+	<Text Key="tooltip_params_hero_params_apply"			Value="ПРИМЕНИТЬ" />
+	<Text Key="tooltip_params_hero_params_point"			Value="КОЛИЧЕСТВО НЕРАСПРЕДЕЛЕННЫХ ОЧКОВ\n\nОНИ ДАЮТСЯ ПРИ ДОСТИЖЕНИИ НОВОГО УРОВНЯ\nИ ПОЗВОЛЯЮТ УЛУЧШИТЬ УМЕНИЯ ВАШЕГО ПЕРСОНАЖА\n" />
+	<Text Key="tooltip_params_hero_params_point_free"		Value="КОЛИЧЕСТВО ОЧКОВ КОТОРЫЕ\n\nМОЖНО БЕСПЛАТНО ПЕРЕРАСПРЕДЕЛИТЬ\n" />
+	<Text Key="tooltip_params_hero_name"					Value="НИК АККАУНТА, кликините что бы изменить" />
+	<Text Key="tooltip_params_hero_name_alias"				Value="ПСЕВДОНИМ ПЕРСОНАЖА, кликините что бы изменить" />
+	<Text Key="tooltip_params_hero_level"					Value="УРОВЕНЬ ПЕРСОНАЖА\n\nЧЕМ БОЛЬШЕ УРОВЕНЬ, ТЕМ БОЛЬШЕ ВОЗМОЖНОСТЕЙ\nИ УМЕНИЙ, БОЛЕЕ СИЛЬНЫМ МЕХОМ МОЖНО УПРАВЛЯТЬ,\nТАКЖЕ ДОСТУПНО БОЛЕЕ СИЛЬНОЕ ВООРУЖЕНИЕ\n" />
+	<Text Key="tooltip_params_hero_exp"						Value="КОЛИЧЕСТВО ОПЫТА\n\nЭТО ЕЩЁ ОДНА МЕРА УРОВНЯ ПЕРСОНАЖА,\nТОЛЬКО В БОЛЕЕ ШИРОКОМ ВАРИАНТЕ;\nПРИ ДОСТИЖЕНИИ ПОРОГА ТЕКУЩЕГО ОПЫТА,\nУРОВЕНЬ ПОВЫШАЕТСЯ." />
+	<Text Key="tooltip_params_hero_nation"					Value="НАЦИЯ, В КОТОРОЙ ВЫ СОСТОИТЕ" />
+	<Text Key="tooltip_params_hero_level_nation"			Value="ВАШ РАНГ В НАЦИИ\n\nПОВЫШАЕТСЯ КОГДА ВЫ УНИЧТОЖАЕТЕ\nВРАЖЕСКИХ МЕХОВ ИЛИ ВЫПОЛНЯЕТЕ\nНАЦИОНАЛЬНЫЕ ЗАДАНИЯ" />
+  <Text Key="tooltip_params_hero_premium"					Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ И ОПЫТ ВЛАДЕНИЯ ОРУДИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ.\n\nДОСТУПНЫ ФУНКЦИИ:\n- СЛЕДОВАТЬ ЗА ВЫБРАННОЙ ЦЕЛЬЮ\n- АВТО ПОДБОР КОНТЕЙНЕРОВ\n- АВТО ИСПОЛЬЗОВАНИЕ КОМПЛЕКТОВ ЗАПЧАСТЕЙ ИЗ ТРЮМА" />
+	<Text Key="tooltip_params_params_hero_buy_premium_account"	Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ И ОПЫТ ВЛАДЕНИЯ ОРУДИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ" />
+	<Text Key="tooltip_params_hero_extend_premium_account"	Value="ПРЕМИУМ АККАУНТ, кликините что бы продлить" />
+
+	<Text Key="tooltip_params_hero_status"					Value="ВАШ КРИМИНАЛЬНЫЙ СТАТУС\n\nСВИДЕТЕЛЬСТВУЕТ О ТОМ, НАРУШАЕТЕ ЛИ ВЫ ЗАКОН\nИЛИ НАПРОТИВ, БОРИТЕСЬ С НАРУШИТЕЛЯМИ\nВ НЕКОТОРЫЕ ГОРОДА ВОЗМОЖЕН ВХОД\n ТОЛЬКО С ОПРЕДЕЛЕННЫМ СТАТУСОМ" />
+	<Text Key="tooltip_params_hero_status_ranger"			Value="ВЫ ИЗВЕСТНЫ КАК НАЁМНИК И ВЫСТУПАЕТЕ ЗА ИСКОРЕНЕНИЕ ПОВСТАНЧЕСТВА" />
+	<Text Key="tooltip_params_hero_status_clean"			Value="НЕЙТРАЛЬНЫЙ ПИЛОТ" />
+	<Text Key="tooltip_params_hero_status_crime"			Value="ВЫ СОВЕРШИЛИ ПРОТИВОПРАВНОЕ ДЕЙСТВИЕ И СЧИТАЕТЕСЬ НАРУШИТЕЛЕМ" />
+	<Text Key="tooltip_params_hero_status_pirate"			Value="ВЫ ИЗВЕСТНЫ КАК ПОВСТАНЕЦ" />
+	<Text Key="tooltip_params_hero_money"					Value="МЕСТНЫЕ ДЕНЬГИ\n\nЭТО ОСНОВНОЙ РЕСУРС НА ПЛАНЕТЕ\n, ЛЮБЫЕ ОПЕРАЦИИ КУПЛИ/ПРОДАЖИ \nВОЗМОЖНЫ ТОЛЬКО ЗА БОНЫ" />
+	<Text Key="tooltip_params_hero_ex_money"				Value="ДОПОЛНИТЕЛЬНЫЕ ДЕНЬГИ\n\nТРЕБУЮТСЯ ДЛЯ ПОКУПКИ КАКИХ ЛИБО\nУНИКАЛЬНЫХ УСЛУГ/ПРЕДМЕТОВ" />
+	<Text Key="tooltip_params_hero_skill_precision"			Value="НАВЫК СНАЙПЕРА ОЧЕНЬ ВАЖЕН,\nОН ПОМОЖЕТ ВАМ В БОРЬБЕ С МОНСТРАМИ  И ПРОТИВНИКАМИ, КОТОРЫЕ СТАРШЕ ВАС ПО  УРОВНЮ" />
+	<Text Key="tooltip_params_hero_skill_extraction"		Value="ДОБЫЧА  ИСКОПАЕМЫХ – НАВЫК ВАЖЕН,\nУВИЛИЧИВ СВОЁ УМЕНИЕ ДОБЫЧИ ПОМОЖЕТ ВАМ БОЛЕЕ  ЭФФЕКТИВНО ИСПОЛЬЗОВАТЬ СПЕЦ. ОБОРУДОВАНИЕ .\n ЧТО ЗНАЧИТЕЛЬНО ПОМОЖЕТ В ПРОЦЕССЕ, СОХРАНИТ ВАМ ВРЕМЯ И СРЕДСТВА." />
+	<Text Key="tooltip_params_hero_skill_engineering"		Value="ВЛАДЕНИЕ ДАННЫМ НАВЫКОМ ЗНАЧИТЕЛЬНО ОБЛЕГЧИТ ВАМ ЖИЗНЬ,\n ПОВЫСИТ  ВАШЕ УМЕНИЕ, ЧТО ПОЗВОЛИТ  УВЕЛИЧИТЬ СКОРОСТЬ РАБОТЫ РЕМ. ДРОЙДОВ" />
+	<Text Key="tooltip_params_hero_skill_trade"				Value="НАВЫК ТОРГОВЛИ ПОМОЖЕТ ВАМ ПРОИЗВОДИТЬ\nОПЕРАЦИИ ПРОДАЖ В МАГАЗИНЫ БОЛЕЕ ВЫГОДНО " />
+	<Text Key="tooltip_params_hero_weapon"					Value="НАВЫК УДАР:\nУВЕЛИЧИВАЕТ ПОВРЕЖДЕНИЯ, НАНОСИМЫЕ ВСЕМИ ВИДАМИ ОРУЖИЯ КРОМЕ ЛАЗЕРОВ " />
+	<Text Key="tooltip_params_hero_used_armour"				Value="БРОНЯ  - СИСТЕМА БРОНИРОВАНИЯ - \nЭТОТ НАВЫК  ЗНАЧИТЕЛЬНО УВЕЛИЧИТ ФИЗИЧЕСКУЮ ЗАЩИТУ ВАШЕГО МЕХА." />
+	<Text Key="tooltip_params_hero_used_shield"				Value="ЭНЕРГЕТИЧЕСКАЯ ЗАЩИТА - \nЭТОТ НАВЫК  ПОЗВОЛИТ БОЛЕЕ ЭФФЕКТИВНО ИСПОЛЬЗОВАТЬ ЗАЩИТНЫЕ ПОЛЯ И  УВЕЛИЧИТ ЭНЕРГЕТИЧЕСКУЮ ЗАЩИТУ ВАШЕГО МЕХА." />
+	<Text Key="tooltip_params_hero_used_hold"				Value="ЛОГИСТ - \nЭТОТ НАВЫК  ПОЗВОЛИТ БЛАГОРАЗУМНО ИСПОЛЬЗОВАТЬ ВАШИ ТРЮМА (УВЕЛИЧЕНИЕ ЁМКОСТИ ТРЮМА)." />
+	<Text Key="tooltip_params_hero_used_energy"				Value="СИСТЕМА ЖИЗНЕОБЕСПЕЧЕНИЯ (Ж/О) ВАШЕГО МЕХА,\nОДИН  ИЗ НАИБОЛЕЕ ВАЖНЫХ НАВЫКОВ, ПОЗВОЛИТ МАКСИМАЛЬНО ЭФФЕКТИВНО РАСПОРЯЖАТЬСЯ ЭНЕРГИЕЙ ВАШЕГО МЕХА\nУВЕЛИЧИВАЕТ ОБЪЁМ ВАШИХ НАКОПИТЕЛЕЙ И МОЩНОСТЬ РЕАКТОРОВ." />
+
+	<Text Key="tooltip_params_hero_skill_missile"			Value="ПУШКА:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, БОЛЬШОЙ УРОН НА СРЕДНЕЙ И ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, СРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
+	<Text Key="tooltip_params_hero_skill_bullet"			Value="ПУЛЕМЕТ:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА СРЕДНЕЙ И БЛИЖНЕЙ ДИСТАНЦИИ,\nБОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
+	<Text Key="tooltip_params_hero_skill_empp"				Value="ЭМПП:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, БОЛЬШОЙ УРОН НА СРЕДНЕЙ И БЛИЖНЕЙ ДИСТАНЦИИ,\nСРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
+	<Text Key="tooltip_params_hero_skill_faser"				Value="ФАЗЕР:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, БОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
+	<Text Key="tooltip_params_hero_skill_rk"				Value="РАКЕТНЫЙ КОМПЛЕКС:\nРАКЕТНОЕ ОРУДИЕ, ОСНОВНОЙ УДАР ОГНЕСТРЕЛЬНЫЙ,\nСРЕДНИЙ УРОН НА ВСЕЙ ДИСТАНЦИИ, БОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
+	<Text Key="tooltip_params_hero_skill_rk_eng"			Value="РАКЕТНЫЙ КОМПЛЕКС ЭНЕРГЕТИЧЕСКИЙ:\nРАКЕТНОЕ ОРУДИЕ, ОСНОВНОЙ УДАР ЭНЕРГЕТИЧЕСКИЙ,\nСРЕДНИЙ УРОН НА ВСЕЙ ДИСТАНЦИИ, БОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
+	<Text Key="tooltip_params_hero_skill_howitzer"			Value="ГАУБИЦА:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, БОЛЬШОЙ УРОН ПО ПЛОЩАДИ ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ, СТРЕЛЯЕТ НАВЕСОМ" />
+	<Text Key="tooltip_params_hero_skill_launcher"			Value="ГРАНАТОМЕТ:\nРАКЕТНОЕ ОРУДИЕ, СРЕДНИЙ УРОН ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ" />
+	<Text Key="tooltip_params_hero_skill_bulleteng"			Value="ПУЛЕМЕТ ЭНЕРГЕТИЧЕСКИЙ:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА СРЕДНЕЙ ДИСТАНЦИИ\nНИЗКАЯ СКОРОСТРЕЛЬНОСТЬ" />
+	
+	<Text Key="tooltip_params_hero_more_skill_exp"			Value="ПОКАЗАТЕЛЬ ДРУГИЕ ВИДЫ ОРУДИЙ" />
+
+
+	<Text Key="insurance_title" 	Value="Выберите вариант страховки" />
+	<Text Key="insurance_info" 	Value="Застраховано %d^ модулей" />
+	<Text Key="insurance_ok" 	Value="Застраховать" />
+	<Text Key="insurance_min" 	Value="Минимальная [%d^ ]: %d" />
+	<Text Key="insurance_mid" 	Value="Средняя [%d^ ]: %d" />
+	<Text Key="insurance_max" 	Value="Максимальная [%d^ ]: %d" />
+
+	<Text Key="tel_bef_loc_teleported" 	Value="ТЕЛЕПОРТ" />
+	<Text Key="tel_bef_loc_close" 	 Value="ЗАКРЫТЬ" />
+	<Text Key="tel_bef_loc_title" 	Value="Выберите место телепортации" />
+	
+    <Text Key="tel_bef_loc_need_money"  Value="ТРЕБУЕТСЯ БОН" />
+    <Text Key="tel_bef_loc_need_money1" Value="ТРЕБУЕТСЯ РЕГЛОВ" />
+
+	<Text Key="reserch_chance_breakage" 	Value="%i^" />
+	<Text Key="tooltip_reserch_chance_breakage" 	Value="ШАНС ПОЛОМКИ ПРИ УЛУЧШЕНИИ" />
+	<Text Key="tooltip_reserch_skill" 	Value="ТЕКУЩЕЕ КОЛ-ВО УСТАНОВЛЕННЫХ НАВЫКОВ" />
+
+	<Text Key="reserch_need_money" 	Value="%i бон" />
+	<Text Key="tooltip_reserch_need_money" 	Value="КОЛИЧЕСТВО БОНОВ, НЕОБХОДИМЫХ ДЛЯ УЛУЧШЕНИЯ" />
+
+	<Text Key="reserch_need_jets" 	Value="%i реглов" />
+	<Text Key="tooltip_reserch_need_jets" 	Value="КОЛИЧЕСТВО РЕГЛОВ, НЕОБХОДИМЫХ ДЛЯ УЛУЧШЕНИЯ" />
+
+	<Text Key="trade_addmoney" 	Value="БОНЫ" />
+	<Text Key="trade_addmoney1" 	Value="РЕГЛЫ" />
+	<Text Key="trade_agree" 	Value="СОГЛАСЕН" />
+	<Text Key="trade_offer_money" 	Value="Предложить боны" />
+	<Text Key="trade_offer_money1" 	Value="Предложить реглы" />
+	<Text Key="trade_wnd_text" 	Value="ТОРГОВЛЯ" />
+	<Text Key="trade_select_robot" 	Value="МЕХИ" />
+
+	<Text Key="repair_title" 	Value="РЕМОНТНЫЙ ТЕРМИНАЛ" />
+	<Text Key="repair_price_mech" 	Value="ЦЕНА МЕХА:" />
+	<Text Key="repair_price" 	Value="%d бон" />
+	<Text Key="repair_price_item_mech" 	Value="ЦЕНА ВСЕГО:" />
+	<Text Key="repair_price_item" 	Value="ЦЕНА ВЫБРАННОГО:" />
+	<Text Key="repair_price_not" 	Value="НЕТ" />
+	<Text Key="repair_price_mech_not_need" 	Value="НЕ ТРЕБУЕТСЯ" />
+	<Text Key="tooltip_repair_all_mech_item" 	Value="РЕМОНТ ВСЕГО УСТАНОВЛЕННОГО ОБОРУДОВАНИЯ" />
+	<Text Key="repair_all_mech_item" 	Value="РЕМОНТ НА МЕХЕ" />
+	<Text Key="repair_all_item" 	Value="РЕМОНТ" />
+	<Text Key="tooltip_repair_all_item" 	Value="РЕМОНТ ВЫБРАННОГО ОБОРУДОВАНИЯ" />
+	<Text Key="repair_load_weapon_mech" 	Value="ЗАРЯДИТЬ НА МЕХЕ" />
+	<Text Key="tooltip_repair_load_weapon_mech" 	Value="ЗАРЯДИТЬ БОЕКОМПЛЕКТ ОРУДИЙ НА МЕХЕ" />
+	<Text Key="repair_load_weapon" 	Value="ЗАРЯДИТЬ" />
+	<Text Key="tooltip_repair_load_weapon" 	Value="ЗАРЯДИТЬ БОЕКОМПЛЕКТ ВЫБРАННЫХ ОРУДИЙ" />
+	<Text Key="repair_mech_city" 	Value="РЕМОНТ(БОНЫ)" />
+	<Text Key="tooltip_repair_mech_city" 	Value="РЕМОНТ МЕХА ИСПОЛЬЗУЯ РЕАКТОР ТЕРМИНАЛА" />
+
+	<Text Key="upgrade_title" 	Value="МОДИФИКАЦИЯ МЕХА" />
+	<Text Key="upgrade_type" 	Value="ТИП МОДИФИКАЦИИ" />
+	<Text Key="upgrade_need_money" 	Value="ТРЕБУЕТСЯ БОН" />
+	<Text Key="upgrade_need_money1" 	Value="ТРЕБУЕТСЯ РЕГЛОВ" />
+	<Text Key="upgrade_upgrade" 	Value="МОДИФИЦИРОВАТЬ" />
+	<Text Key="tooltip_upgrade_upgrade" 	Value="ПРИМЕНИТЬ ВЫБРАННУЮ МОДИФИКАЦИЮ" />
+	<Text Key="upgrade_type_armour" 	Value="БРОНЯ" />
+	<Text Key="upgrade_type_shield" 	Value="ПОЛЯ" />
+	<Text Key="upgrade_type_health" 	Value="ПРОЧНОСТЬ" />
+	<Text Key="upgrade_type_capacity" 	Value="ВМЕСТИМОСТЬ" />
+	<Text Key="upgrade_type_speed" 	Value="СКОРОСТЬ" />
+
+  <Text Key="chat_my_send_message" 	Value="вы=&gt; %s" />
+  <Text Key="chat_my_receive_message" 	Value="%s=&gt; вы" />
+  
+  <Text Key="chat_my_send_message_pattern_for_find" 	Value="вы=&gt; " />
+  <Text Key="chat_my_receive_message_pattern_for_find" 	Value="=&gt; вы" />
+
+
+  <Text Key="chat_entity_changes_hero_experience" 	Value="Опыт: %+d" />
+  <Text Key="chat_entity_changes_hero_params_points" 	Value="Очки параметров: %+d" />
+  <Text Key="chat_entity_changes_hero_money" 	Value="Боны: %+d" />
+  <Text Key="chat_entity_changes_hero_money_1" 	Value="Реглы: %+d" />
+  <Text Key="chat_entity_changes_heroskills_precision" 	Value="Снайпер: %+d" />
+  <Text Key="chat_entity_changes_heroskills_extraction" 	Value="Навык добычи: %+d" />
+  <Text Key="chat_entity_changes_heroskills_trade" 	Value="Навык торговли: %+d" />
+  <Text Key="chat_entity_changes_heroskills_engineering" 	Value="Специалист: %+d" />
+  <Text Key="chat_entity_changes_heroskills_weapon" 	Value="Навык удар: %+d" />
+  <Text Key="chat_entity_changes_heroskills_shield" 	Value="Навык использования полей: %+d" />
+  <Text Key="chat_entity_changes_heroskills_armour" 	Value="Навык использования брони: %+d" />
+  <Text Key="chat_entity_changes_heroskills_hold" 	Value="Навык использования трюма: %+d" />
+  <Text Key="chat_entity_changes_heroskills_energy" 	Value="Навык экономии энергии: %+d" />
+  <Text Key="chat_entity_changes_hero_insurance" 	Value="Страховка: %+d" />
+  <Text Key="chat_entity_changes_robot_speed" 	Value="Скорость: %+d" />
+  <Text Key="chat_entity_changes_hero_nation_experience" 	Value="Опыт нации: %+d" />
+  <Text Key="chat_entity_changes_heroskills_missile" 	Value="Опыт владения пушкой: %+d" />
+  <Text Key="chat_entity_changes_heroskills_bullet" 	Value="Опыт владения пулеметом: %+d" />
+  <Text Key="chat_entity_changes_heroskills_empp" 	Value="Опыт владения эмпп: %+d" />
+  <Text Key="chat_entity_changes_heroskills_faser" 	Value="Опыт владения фазером: %+d" />
+  <Text Key="chat_entity_changes_heroskills_rk" 	Value="Опыт владения рк: %+d" />
+  <Text Key="chat_entity_changes_heroskills_rkeng" 	Value="Опыт владения рк энрг: %+d" />
+  <Text Key="chat_entity_changes_heroskills_howitzer" 	Value="Опыт владения гаубицей: %+d" />
+  <Text Key="chat_entity_changes_heroskills_launcher" 	Value="Опыт владения гранатометом: %+d" />
+  <Text Key="chat_entity_changes_heroskills_bulleteng" 	Value="Опыт владения энрг пулеметом: %+d" />
+
+	<Text Key="chat_shot_far" 	Value="Выстрел невозможен [далеко]" />
+	<Text Key="chat_shot_near" 	Value="Выстрел невозможен [слишком близко]" />
+	<Text Key="chat_shot_havnt_energy" 	Value="Выстрел невозможен [не хватает энергии]" />
+	<Text Key="chat_shot_havnt_bullets" 	Value="Выстрел невозможен [не хватает патронов]" />
+	<Text Key="chat_shot_missed" 	Value="Выстрел был не точен [промах]" />
+	<Text Key="chat_shot_to_safe_zone" 	Value="Выстрел невозможен [цель в зоне безопасности]" />
+	<Text Key="chat_shot_from_safe_zone" 	Value="Выстрел невозможен [вы в зоне безопасности]" />
+	<Text Key="chat_no_money" 	Value="Не хватает средств" />
+	<Text Key="chat_not_enough_jets" 	Value="Не хватает реглов" />
+	<Text Key="chat_robot_buy_need_money" 	Value="Не хватает средств для покупки робота" />
+	<Text Key="chat_robot_buy_low_level" 	Value="У вас не достаточно опыта, что бы управлять этим роботом" />
+	<Text Key="chat_robot_store_need_space" 	Value="Ангар роботов не может вместить больше" />
+	<Text Key="chat_name_container" 	Value="[контейнер]" />
+	<Text Key="chat_name_robot" 	Value="[робот &lt;%s&gt;]" />
+	<Text Key="chat_name_hero" 	Value="[герой &lt;%s&gt;]" />
+	<Text Key="chat_name_city" 	Value="[локация &lt;%s&gt;]" />
+	<Text Key="chat_name_deposit" 	Value="[месторождение]" />
+	<Text Key="chat_robot_death" 	Value="Ваш робот уничтожен \c&lt;200 50 50&gt;%s\b" />
+	<Text Key="chat_robot_damage_to_you" 	Value="%s нанес вам %d урона" />
+	<Text Key="chat_robot_damage_from_you" 	Value="Вы нанесли %s %d урона" />
+	<Text Key="chat_robot_damage_itself" 	Value="Вы ударили себя на %d урона" />
+	<Text Key="chat_robot_damage_from_unknown" 	Value="Вы получили %d урона" />
+	<Text Key="chat_monster_death" 	Value="Вы убили \c&lt;50 50 200&gt;%s\b" />
+	<Text Key="chat_extract_mineral" 	Value="Добыто %d энерона[ов] %d энергии" />
+	<Text Key="chat_extract_metal" 	Value="Добыто %d аместонита за %d энергии" />
+	<Text Key="chat_extract_crystal" 	Value="Добыто %d кристалл[ов] за %d энергии" />
+	<Text Key="chat_extract_interrupted" 	Value="Добыча прервана" />
+	<Text Key="chat_extract_need_energy" 	Value="Добыча не возможна [не хватает энергии]" />
+	<Text Key="chat_extract_resources" 	Value="Добыто %d ресурсов, потрачено %d энергии" />
+	<Text Key="chat_extract_empty" 	Value="Источник ресурсов опустошен" />
+	<Text Key="chat_buy_premium" 	Value="Премиум аккаунт продлен(дней: %d часов: %d)" />
+	<Text Key="chat_new_quest" 	Value="Вы получили новое задание" />
+	<Text Key="chat_quest_complete" 	Value="Задание выполнено" />
+	<Text Key="chat_quest_cancel_reject" 	Value="Сейчас нельзя прекратить выполнение задания" />
+	<Text Key="chat_item_level_low" 	Value="Установка/Использование предмета не возможна [не достаточно опыта]" />
+	<Text Key="chat_item_skill_level_low" 	Value="Установка орудия не возможна [не достаточно умений использования данного вида орудий]" />
+	<Text Key="chat_item_wrong_case" 	Value="Установка/Использование предмета не возможна [тип робота не подходит]" />
+	<Text Key="chat_party_cant_invite_wait_you_confirm" 	Value="Вы не можете приглашать пока не ответили на приглашение от %s" />
+	<Text Key="chat_party_cant_invite_wait_he_response" 	Value="Вы не можете приглашать пока не получили ответа от %s" />
+	<Text Key="chat_party_cant_invite_you_not_leader" 	Value="Лидером группы является %s, вы не можете приглашать" />
+	<Text Key="chat_party_cant_invite_he_wait_confirm" 	Value="Вы не можете пригласить %s, потому что он уже приглашен" />
+	<Text Key="chat_party_cant_invite_he_already_in" 	Value="Вы не можете пригласить %s, потому что он уже в группе" />
+	<Text Key="chat_party_cant_invite_yourself" 	Value="Вы не можете пригласить самого себя" />
+	<Text Key="chat_party_invite_you" 	Value="Вы пригласили в группу %s" />
+	<Text Key="chat_party_invite" 	Value="Вас пригласил в группу %s" />
+	<Text Key="chat_party_cant_confirm_you_not_invite" 	Value="Вы не были приглашены в группу и не можете подтвердить приглашение" />
+	<Text Key="chat_party_join" 	Value="К вам присоединился %s" />
+	<Text Key="chat_party_joined" 	Value="Вы присоединились к группе" />
+	<Text Key="chat_party_he_not_join" 	Value="%s отказался присоединиться к вам" />
+	<Text Key="chat_party_you_not_join" 	Value="Вы отказались присоединиться к %s" />
+	<Text Key="chat_party_he_not_join_timeout" 	Value="%s не присоединился к вам, время приглашения истекло" />
+	<Text Key="chat_party_you_not_join_timeout" 	Value="Вы не присоединились к %s, время приглашения истекло" />
+	<Text Key="chat_wrong_nick" 	Value="Пилота %s не существует" />
+	<Text Key="chat_party_cant_leave_wait_confirm" 	Value="Вы не можете выйти из группы пока не дождетесь подтверждения на приглашение от %s" />
+	<Text Key="chat_party_cant_leave_you_not_in" 	Value="Вы не состоите в группе, и не можете из нее выйти" />
+	<Text Key="chat_party_he_leave" 	Value="%s покинул группу" />
+	<Text Key="chat_party_you_leave" 	Value="Вы покинули группу" />
+	<Text Key="chat_party_destroy" 	Value="Группа распалась, в ней осталось меньше одного человека" />
+	<Text Key="chat_party_created" 	Value="Вы создали новую группу" />
+	<Text Key="chat_party_change_leader" 	Value="У группы новый лидер %s" />
+	<Text Key="chat_party_cant_expel_not_in" 	Value="Вы не можете выгнать потому что не состоите в группе" />
+	<Text Key="chat_party_cant_expel_not_leader" 	Value="Лидером группы является %s, вы не можете выгнать" />
+	<Text Key="chat_party_cant_expel_he_not_in" 	Value="Вы не можете выгнать потому что %s не состоит в вашей группе" />
+	<Text Key="chat_party_expel" 	Value="Вас исключили из группы" />
+	<Text Key="chat_party_you_no_consist" 	Value="Вы не состоите не в одной группе" />
+	<Text Key="chat_party_have_max_size" 	Value="Вы не можете пригласить %s, достигнут максимальный размер группы" />
+	<Text Key="chat_he_offline" 	Value="Вы не можете пригласить %s [он вне досягаемости]" />
+	<Text Key="chat_party_list" 	Value="%s" />
+
+
+	<Text Key="chat_clan_cant_invite_you_not_leader" 	Value="Лидером отряда является %s, вы не можете приглашать" />
+	<Text Key="chat_clan_cant_invite_he_already_in" 	Value="Вы не можете пригласить %s, потому что он уже в отряде" />
+	<Text Key="chat_clan_invite_you" 	Value="Вы пригласили в отряд %s" />
+	<Text Key="chat_clan_invite" 	Value="Вас пригласил в отряд %s" />
+	<Text Key="chat_clan_union_invite_you" 	Value="Вы предложили союз %s" />
+	<Text Key="chat_clan_union_invite" 	Value="Вам предложил союз %s" />
+	<Text Key="chat_clan_piece_invite_you" 	Value="Вы предложили мир %s" />
+	<Text Key="chat_clan_piece_invite" 	Value="Вам предложил мир %s" />
+	<Text Key="chat_clan_wrong_invite_time" 	Value="Вы не можете пригласить %s, потому что у него не истек штраф - %d мин" />
+	<Text Key="chat_set_object_need_energy" 	Value="Не хватает энергии на установку" />
+
+	<Text Key="chat_clan_cant_confirm_you_not_invite" 	Value="Вы не были приглашены в отряд и не можете принять приглашение" />
+	<Text Key="chat_clan_joined" 	Value="Вы присоединились к отряду" />
+	<Text Key="chat_clan_create" 	Value="Вы создали отряд" />
+	<Text Key="chat_clan_you_not_in" 	Value="Вы не состоите в отряде" />
+	<Text Key="chat_clan_you_leave" 	Value="Вы покинули отряд" />
+	<Text Key="chat_clan_expel" 	Value="Вас исключили из отряда" />
+	<Text Key="chat_clan_cant_expel_you_not_leader" 	Value="Лидером отряд является %s, вы не можете выгнать" />
+	<Text Key="chat_clan_destroy" 	Value="Лидер распустил отряд" />
+	<Text Key="chat_clan_leader_change" 	Value="Лидер отряда теперь %s" />
+	<Text Key="chat_clan_have_max_size" 	Value="Вы не можете пригласить %s, достигнут максимальный размер отряда" />
+	<Text Key="chat_clan_wrong_lvl" 	Value="У вас должен быть %i уровень" />
+	<Text Key="chat_clan_wrong_name" 	Value="Название клана не допустимо!\nОно может состоять из символов:\n 0-9 a-z A-Z" />
+	<Text Key="chat_clan_name_already_used" 	Value="Отряд с таким названием уже существует" />
+	<Text Key="chat_clan_declare_war" 	Value="Ваш отряд начал боевые действия против %s" />
+	<Text Key="chat_clan_make_piece" 	Value="Ваш отряд теперь нейтрален к %s" />
+	<Text Key="chat_clan_make_union" 	Value="Ваш отряд заключил союз с %s" />
+
+
+	<Text Key="chat_enter_loc_reject_pirates" 	Value="Ангары этой базы для вас закрыты - здесь не любят повстанцев" />
+	<Text Key="chat_enter_loc_reject_pirates_by_pirates" 	Value="Сюда пускают только повстанцев" />
+	<Text Key="chat_enter_loc_reject_rangers" 	Value="Это повстанческая база, наёмнов тут не место" />
+	<Text Key="chat_enter_loc_reject_rangers_by_rangers" 	Value="В этом городе допускаются только наёмники" />
+	<Text Key="chat_tel_reject_pirates" 	Value="Телепортер контролируется наёмниками" />
+	<Text Key="chat_tel_reject_pirates_by_pirates" 	Value="Телепортер пускает только опытных повстанцев" />
+	<Text Key="chat_tel_reject_rangers" 	Value="Телепортер контролируется повстанцами" />
+	<Text Key="chat_tel_reject_rangers_by_rangers" 	Value="Телепортер пускает только опытных наёмников" />
+	<Text Key="chat_teleport_close" 	Value="Телепорт закрыт" />
+	<Text Key="chat_teleport_close_open_from" 	Value="Телепорт закрыт, открытие через %d мин" />
+	<Text Key="chat_teleport_open_from" 	Value="Телепорт '%s' откроется через %d мин." />
+	<Text Key="chat_teleport_open" 	Value="Телепорт '%s' открыт на %d мин" />
+	<Text Key="chat_teleport_close_on" 	Value="Телепорт '%s' закрыт, следующее открытие через %d мин" />
+	<Text Key="chat_lose_item" 	Value="Вы потеряли оборудование: %s" />
+	<Text Key="chat_broken_weapon" 	Value="\c&lt;205 150 150&gt;Оружие сломано\b" />
+	<Text Key="chat_broke_weapon" 	Value="\c&lt;205 150 150&gt;Оружие сломалось\b" />
+	<Text Key="chat_broke_accum" 	Value="\c&lt;205 150 150&gt;Один из установленых накопителей сломан\b" />
+	<Text Key="chat_broke_generator" 	Value="\c&lt;205 150 150&gt;Отказал реактор\b" />
+	<Text Key="chat_broke_repair" 	Value="\c&lt;205 150 150&gt;Поврежден ремонтный модуль\b" />
+	<Text Key="chat_broke_shield" 	Value="\c&lt;205 150 150&gt;Поле повреждено\b" />
+	<Text Key="chat_broke_armour" 	Value="\c&lt;205 150 150&gt;Броня сломалась\b" />
+	<Text Key="chat_broke_computer" 	Value="\c&lt;205 150 150&gt;Один из чипов вышел из строя\b" />
+	<Text Key="chat_broke_extractor" 	Value="\c&lt;205 150 150&gt;Добывающая установка вышла из строя\b" />
+	<Text Key="chat_broke_hold" 	Value="\c&lt;205 150 150&gt;Пробит дополнительный грузовой отсек\b" />
+	<Text Key="chat_broke_engine" 	Value="\c&lt;205 150 150&gt;Двигатель сломан\b" />
+	<Text Key="chat_destr_weapon" 	Value="\c&lt;205 150 150&gt;Оружие разрушено\b" />
+	<Text Key="chat_destr_accum" 	Value="\c&lt;205 150 150&gt;Накопитель рузрушен\b" />
+	<Text Key="chat_destr_generator" 	Value="\c&lt;205 150 150&gt;Реактор разрушен\b" />
+	<Text Key="chat_destr_repair" 	Value="\c&lt;205 150 150&gt;Ремонтный модуль разрушен\b" />
+	<Text Key="chat_destr_shield" 	Value="\c&lt;205 150 150&gt;Поле разрушено\b" />
+	<Text Key="chat_destr_armour" 	Value="\c&lt;205 150 150&gt;Броня разрушена\b" />
+	<Text Key="chat_destr_computer" 	Value="\c&lt;205 150 150&gt;Чип разрушен\b" />
+	<Text Key="chat_destr_extractor" 	Value="\c&lt;205 150 150&gt;Добывающая установка разрушена\b" />
+	<Text Key="chat_destr_hold" 	Value="\c&lt;205 150 150&gt;Грузовой отсек разрушен\b" />
+	<Text Key="chat_destr_engine" 	Value="\c&lt;205 150 150&gt;Двигатель разрушен\b" />
+	<Text Key="chat_destr_bullets" 	Value="\c&lt;205 150 150&gt;Исчерпаны снаряды\b" />
+
+	<Text Key="chat_teleport_from_no_teleport_zone" 	Value="перемещение не возможно [анамальная зона]" />
+	<Text Key="chat_teleport_need_energy" 	Value="перемещение не возможно [не хватает энергии]" />
+	<Text Key="chat_teleport_interrupted" 	Value="перемещение прервано" />
+
+	<Text Key="chat_trade_invite_you" 	Value="Вы предложили %s торговать" />
+	<Text Key="chat_trade_invite" 	Value="%s предложили вам торговать" />
+	<Text Key="chat_trade_cant_invite_already_in" 	Value="Вы не можете приглашать, потому уже торгуете" />
+	<Text Key="chat_trade_cant_invite_he_already_in" 	Value="Вы не можете пригласить %s, потому что он уже торгует" />
+	<Text Key="chat_trade_cant_confirm_you_not_invite" 	Value="Вас не приглашали торговать, и не можете подтвердить приглашение" />
+	<Text Key="chat_trade_he_not_join" 	Value="%s отказался торговать с вами" />
+	<Text Key="chat_trade_you_not_join" 	Value="Вы отказались торговать с %s" />
+	<Text Key="chat_trade_he_not_join_timeout" 	Value="%s отказался торговать с вами, время приглашения истекло" />
+	<Text Key="chat_trade_you_not_join_timeout" 	Value="Вы отказались торговать с %s, время приглашения истекло" />
+	<Text Key="chat_trade_freeze" 	Value="Во время обездвижиеня нельзя торговать" />
+	<Text Key="chat_trade_nonreachable" 	Value="Вы не можете торговать с %s, поскольку он вне досягаемости" />
+
+	<Text Key="chat_research_item_modifier_true" 	Value="Предмет успешно улучшен" />
+	<Text Key="chat_research_item_modifier_false" 	Value="Предмет улучшить не удалось" />
+	<Text Key="chat_research_item_modifier_break" 	Value="Предмет при улучшении был поврежден на одну ступень вниз" />
+	<Text Key="chat_research_item_modifier_max_level" 	Value="Достигнут максимальный уровень улучшений" />
+
+	<Text Key="chat_research_robot_modifier_true" 	Value="Робот успешно модифицирован" />
+	<Text Key="chat_research_robot_modifier_false" 	Value="Робота модифицировать не удалось" />
+	<Text Key="chat_research_robot_modifier_break" 	Value="Робот при модифицировании был поврежден на одну ступень вниз" />
+
+	<Text Key="chat_ban" 	Value="Чат заблокирован на %dд %dч %dм, причина: %s" />
+	<Text Key="chat_ban_on" 	Value="Вам запрещено посылать сообщения в чат" />
+	<Text Key="chat_ban_off" 	Value="Вам разрешено писать сообщения в чат" />
+	<Text Key="chat_change_weapon_ok" 	Value="Орудия успешно переставлены" />
+	<Text Key="chat_player_other_nation" 	Value="%s состоит в другой нации" />
+	<Text Key="chat_nation_only" 	Value="Доступно только нации %s" />
+
+	<Text Key="trade_invite_confirm" 	Value="%s предложил вам торговать.\nВы согласны?" />
+	<Text Key="tooltip_trade_invite_confirm" 	Value="ПОДТВЕРДИТЬ ТОРГОВЛЮ" />
+	<Text Key="party_invite_confirm" 	Value="%s предложил вам присоедениться к партии.\nВы согласны?" />
+	<Text Key="tooltip_party_invite_confirm" 	Value="ПОДТВЕРДИТЬ ВСТУПЛЕНИЕ В ГРУППУ" />
+
+	<Text Key="tooltip_party" 	Value="ГРУППА" />
+	<Text Key="tooltip_party_invite" 	Value="ПРИГЛАСИТЬ ПЕРСОНАЖА В ГРУППУ" />
+	<Text Key="tooltip_party_leave" 	Value="ПОКИНУТЬ ГРУППУ" />
+	<Text Key="tooltip_party_expel" 	Value="ВЫГНАТЬ ИЗ ГРУППЫ" />
+	<Text Key="tooltip_party_list" 	Value="СПИСОК ИГРОКОВ В ГРУППЕ" />
+	<Text Key="tooltip_trade" 	Value="ТОРГОВЛЯ" />
+	<Text Key="tooltip_trade_invite" 	Value="ПРЕДЛОЖИТЬ ТОРГОВАТЬ" />
+	<Text Key="tooltip_clan" 	Value="ОТРЯД" />
+	<Text Key="tooltip_clan_dlg_open" 	Value="ПАНЕЛЬ ОТРЯДА" />
+	<Text Key="tooltip_clan_main" 	Value="ОТРЯД" />
+	<Text Key="tooltip_clan_politic" 	Value="ПОЛИТИКА ОТРЯДА" />
+	<Text Key="tooltip_clan_invite" 	Value="ПРИГЛАСИТЬ В ОТРЯД" />
+
+	<Text Key="clan_wnd_title" 	Value="Управление отрядом" />
+	<Text Key="no_clan" 	Value="Нет отряда" />
+	<Text Key="clan_name" 	Value="%s(%i уровень)" />
+	<Text Key="clan_create_btn" 	Value="Создать" />
+	<Text Key="clan_destroy_btn" 	Value="Раcпустить" />
+	<Text Key="clan_leave_btn" 	Value="Покинуть" />
+	<Text Key="clan_expel_btn" 	Value="Выгнать" />
+	<Text Key="clan_ch_leader_btn" 	Value="Передать управление" />
+	<Text Key="clan_set_icon_btn" 	Value="знаме" />
+	<Text Key="clan_invite_confirm" 	Value="%s предложил вам присоедениться к отряду.\nСтоимость - %i бон. Вы согласны?" />
+	<Text Key="clan_declare_war" 	Value="Объявить войну" />
+	<Text Key="clan_make_piece" 	Value="Предложить мир" />
+	<Text Key="clan_make_union" 	Value="Предложить союз" />
+	<Text Key="clan_break_union" 	Value="Разорвать союз" />
+	<Text Key="clan_politic_title" 	Value="Политика отряда" />
+	<Text Key="clan_politic_war" 	Value="война" />
+	<Text Key="clan_politic_union" 	Value="союз" />
+	<Text Key="clan_politic_piece" 	Value="нейтралитет" />
+	<Text Key="tooltip_clan_invite_confirm" 	Value="ПОДТВЕРДИТЬ ВСТУПЛЕНИЕ В ОТРЯД" />
+	<Text Key="tooltip_clan_invite" 	Value="ПРИГЛАСИТЬ В ОТРЯД" />
+	<Text Key="tooltip_clan_create" 	Value="СОЗДАТЬ ОТРЯД" />
+	<Text Key="tooltip_clan_destroy" 	Value="РАСФОРМИРОВАТЬ ОТРЯД" />
+	<Text Key="tooltip_clan_leave" 	Value="ВЫЙТИ ИЗ ОТРЯДА" />
+	<Text Key="tooltip_clan_expel" 	Value="ВЫГНАТЬ ИЗ ОТРЯДА" />
+	<Text Key="tooltip_clan_ch_leader" 	Value="ПЕРЕДАТЬ УПРАВЛЕНИЕ" />
+	<Text Key="tooltip_clan_set_icon" 	Value="УСТАНОВИТЬ СИМВОЛ" />
+  <Text Key="clan_enter_name_holder" 	Value="Введите имя отряда" />
+	<Text Key="clan_enter_name" 	Value="\c&lt;232 186 0&gt;Стоимость регистрации нового отряда - %s%i \bбонов.\nВаш уровень должен быть не меньше %s%i\b." />
+	<Text Key="clan_create_can" 	Value="\c&lt;232 232 150&gt;У вас достаточно мастерства и средств что бы создать отряд,\nвведите название отряда и нажмите кнопку создать!" />
+	<Text Key="clan_create_name_info" Value="\c&lt;232 232 150&gt;Название отряда может состоять из символов:\n\c&lt;100 250 100&gt;0-9 a-z A-Z" />
+	<Text Key="clan_create_cant_no_money" 	Value="\c&lt;250 120 120&gt;Не хватает %i бонов для создания отряда." />
+	<Text Key="clan_create_cant_no_lvl" 	Value="\c&lt;250 120 120&gt;У вас не достаточный уровень." />
+	<Text Key="clan_create_cant" 	Value="\c&lt;250 120 120&gt;Вы не можете создать отряд:" />
+	<Text Key="clan_create_color_good" 	Value="\c&lt;100 250 100&gt;" />
+	<Text Key="clan_create_color_bad" 	Value="\c&lt;255 0 50&gt;" />
+	<Text Key="clan_ask_destroy" 	Value="Вы уверены !?\nОперация не обратима!\n\c&lt;250 120 120&gt;Отряд будет резрушен навсегда!!\b" />
+	<Text Key="clan_ask_leave" 	Value="Вы уверены !?\n\c&lt;250 120 120&gt;Назад могут и не взять!\b" />
+	<Text Key="clan_ask_expel" 	Value="Вы действительно хотите исключить\n\c&lt;100 250 100&gt;%s\b из отряда?" />
+	<Text Key="clan_ask_clan_ch_ld" 	Value="Вы действительно хотите передать\nуправление \c&lt;50 200 255&gt;%s\b!?" />
+	<Text Key="clan_set_icon" 	Value="Иконка должна лежать в\n каталоге с игрой, выберите её из списка справа\n(формат файла - jpg, 32x32,\n размер до 2 Кб)" />
+	<Text Key="clan_set_icon_file_not_found" 	Value="Файл не найден." />
+	<Text Key="clan_set_icon_wrong_file_size" 	Value="Неправильный размер файла." />
+	<Text Key="clan_set_icon_wrong_file_format" 	Value="Неправильный формат файла." />
+	<Text Key="clan_member_online" 	Value="\c&lt;100 250 100&gt;%s\b" />
+	<Text Key="clan_member_offline" 	Value="\c&lt;250 120 120&gt;%s\b" />
+	<Text Key="clan_member_leader" 	Value="\c&lt;50 200 255&gt;%s%s &lt;- командор\b" />
+	<Text Key="question_decrease_skills_for_jets" 	Value="Перераспределение навыков является необратимой операцией,\nкоторая может сказаться на боевых качествах Вашего робота как положительно, так и отрицательно.\командование не несёт ответственность за эффективность проведения данной операции,\nответственность лежит на самом пилоте робота.\n\nПерераспределение очков навыка\nобойдется вам в %d реглов.\nСогласны ли вы?" />
+
+
+	<Text Key="world_robot_head_state_teleportation" 	Value="ТЕЛЕПОРТАЦИЯ" />
+	<Text Key="world_robot_head_state_extract" 	Value="ДОБЫЧА" />
+	<Text Key="world_robot_head_state_restore" 	Value="ВОССТАНОВЛЕНИЕ" />
+
+	<Text Key="chat_ch_info_1" 	Value="Международный" />
+	<Text Key="chat_ch_info_2" 	Value="Нация" />
+	<Text Key="chat_ch_info_3" 	Value="Торговля" />
+	<Text Key="chat_ch_info_4" 	Value="Приват" />
+	<Text Key="chat_ch_info_5" 	Value="Отряд" />
+	<Text Key="chat_ch_info_6" 	Value="Группа" />
+	<Text Key="chat_ch_info_7" 	Value="Личные" />
+	<Text Key="chat_ch_info_8" 	Value="Убийства" />
+	<Text Key="chat_ch_info_9" 	Value="Сервер" />
+	<Text Key="chat_ch_info_10" 	Value="Квесты" />
+	<Text Key="chat_ch_info_11" 	Value="Союзники" />
+
+	<Text Key="chat_ch_0" 	Value="Избранное" />
+	<Text Key="chat_ch_1" 	Value="Международный" />
+	<Text Key="chat_ch_2" 	Value="Нация" />
+	<Text Key="chat_ch_3" 	Value="Торговля" />
+	<Text Key="chat_ch_4" 	Value="Приват" />
+	<Text Key="chat_ch_5" 	Value="Отряд" />
+	<Text Key="chat_ch_6" 	Value="Группа" />
+	<Text Key="chat_ch_7" 	Value="Личные" />
+	<Text Key="chat_ch_8" 	Value="Убийства" />
+	<Text Key="chat_ch_9" 	Value="Сервер" />
+	<Text Key="chat_ch_10" 	Value="Квесты" />
+	<Text Key="chat_ch_11" 	Value="Союзники" />
+	<Text Key="chat_open_history" 	Value="Открыть журнал" />
+  <Text Key="tooltip_chat_send" 	Value="Отправить сообщение" />
+</Localization>

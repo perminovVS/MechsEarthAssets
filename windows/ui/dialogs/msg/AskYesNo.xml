@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Диалог: Запрос: Да/Нет -->
+<AskYesNo Id="25000" Worker="Menu_AskYesNo">
+    <Image Id="2" Rect="MsgWndSmallSystem02_Wnd" Shader="143" ENB="0">
+        <Text Id="3" Text="empty" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" X="246" Y="252" W="309" H="60" VIS="1" ENB="1"  />
+    </Image>
+    <Button Id="10" Text="yes" FontSet="button" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Key="enter" X="310" Y="317" W="80" H="18" VIS="1" ENB="1"  />
+    <Button Id="11" Text="no" FontSet="button" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Key="escape" X="441" Y="316" W="80" H="18" VIS="1" ENB="1"  />
+</AskYesNo>

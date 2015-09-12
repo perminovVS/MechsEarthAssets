@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DialogsInfo>
+
+	<DialogEditor	Id="500000">		
+		<Info Value="Диалог: Редактор диалогов"/>
+		<NameFileDialog Value="tools/DialogEditor.xml"/>
+	</DialogEditor>
+
+</DialogsInfo>

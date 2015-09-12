@@ -1,0 +1,68 @@
+lensflare/atomic
+{
+// 	dist	size	shader
+flare	0 	250 	lensflare/rays
+flare	0.38	8.5	lensflare/circle	colour 0.02 0.03 0.09
+flare	0.44	32	lensflare/circle	colour 0.02 0.03 0.09
+flare	0.46	18	lensflare/circle	colour 0.02 0.03 0.09
+flare	0.62	9	lensflare/circle	colour 0.15 0.07 0
+flare	0.76	4	lensflare/gradient	colour 0.35 0.51 0.43
+flare	1	7	lensflare/gradient	colour 0.35 0.51 0.43
+flare	1.16	51	lensflare/circle	colour 0.15 0.07 0
+flare	1.18	14	lensflare/circle	colour 0.15 0.07 0
+flare	1.36	23	lensflare/circle	colour 0 0.19 0.09
+flare	1.37	21	lensflare/gradient	colour 0.04 0.16 0.72
+flare	1.68	67	lensflare/ring01
+flare	2	145	lensflare/ring02
+
+// Other features, such as white out etc
+glare range 240
+glare size 900
+
+//glare colour 0.8 0.6 0.6
+//glare shader lensflare/glare
+
+glare colour 0.64 0.36 0.36
+glare shader lensflare/gradient
+
+// Set how long it takes to fade out when obscured
+// time is in milliseconds
+persistence 300
+}
+
+lensflare/atomic2
+{
+// 	dist	size	shader
+flare	0 	70 	lensflare/rays
+//flare	0.38	8.5	lensflare/circle	colour 0.02 0.03 0.09
+//flare	0.44	32	lensflare/circle	colour 0.02 0.03 0.09
+//flare	0.46	18	lensflare/circle	colour 0.02 0.03 0.09
+//flare	0.62	9	lensflare/circle	colour 0.15 0.07 0
+//flare	0.76	4	lensflare/gradient	colour 0.35 0.51 0.43
+//flare	1	7	lensflare/gradient	colour 0.35 0.51 0.43
+//flare	1.16	51	lensflare/circle	colour 0.15 0.07 0
+//flare	1.18	14	lensflare/circle	colour 0.15 0.07 0
+//flare	1.36	23	lensflare/circle	colour 0 0.19 0.09
+//flare	1.37	21	lensflare/gradient	colour 0.04 0.16 0.72
+//flare	1.68	67	lensflare/ring01
+//flare	2	145	lensflare/ring02
+
+// Other features, such as white out etc
+glare range 200
+glare size 200
+glare colour 0.4 0.4 0.0
+glare shader lensflare/gradient
+
+// Set how long it takes to fade out when obscured
+// time is in milliseconds
+persistence 300
+}
+
+lensflare/WindowGlare
+{
+   glare range 200
+   glare size 100
+   glare colour 1 1 1
+   glare shader lensflare/gradient
+   persistence 300
+}

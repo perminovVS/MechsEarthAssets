@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Диалог: телепортация -->
+<Teleportation Id="41000" Worker="Menu_Teleportation" />

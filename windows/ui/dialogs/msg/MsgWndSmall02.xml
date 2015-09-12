@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rectangles>
+	<Rect Name="MsgWndSmall02_Wnd" X=" 144" Y=" 236" W=" 512" H=" 128"/>
+	<Rect Name="MsgWndSmall02_Text" X=" 254" Y=" 270" W=" 374" H=" 60"/>
+	<Rect Name="MsgWndSmall02_Ok" X=" 340" Y=" 333" W=" 80" H=" 18"/>
+	<Rect Name="MsgWndSmall02_Cancel" X=" 462" Y=" 333" W=" 80" H=" 18"/>
+	<Rect Name="MsgWndSmall02_Yes" X=" 340" Y=" 333" W=" 80" H=" 18"/>
+	<Rect Name="MsgWndSmall02_No" X=" 462" Y=" 333" W=" 80" H=" 18"/>
+</Rectangles>

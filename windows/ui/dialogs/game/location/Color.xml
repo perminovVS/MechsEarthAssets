@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rectangles>
+    <Rect Name="ColorRed_Scroll" X=" 319" Y=" 326" W=" 94" H=" 10" />
+    <Rect Name="ColorGreen_Scroll" X=" 319" Y=" 360" W=" 94" H=" 10" />
+    <Rect Name="ColorBlue_Scroll" X=" 319" Y=" 399" W=" 94" H=" 10" />
+</Rectangles>
+<Color Id="72000" Worker="Menu_Color">
+    <Image Shader="110" X="220" Y="80" W="360" H="360" VIS="1" ENB="1" UseHooks="1" />
+    <Text Text="color_title" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="279" Y="84" W="250" H="22" />
+    <Button Name="Color" Text="color_color" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="488" Y="286" W="86" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="Change" Text="color_change" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="488" Y="308" W="86" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="Delete" Text="color_delete" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="488" Y="330" W="86" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="Clear" Text="color_clear" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="488" Y="392" W="86" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="Close" Text="color_close" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="488" Y="415" W="86" H="20" VIS="1" ENB="1" Command="delete_menu Color;" UseHooks="1" />
+    <Model Name="Model" Scale="0.1" X="259" Y="110" W="145" H="170" VIS="1" ENB="1" VpX="257" VpY="110" VpW="146" VpH="170" />
+    <Button Name="ModelScaleAdd" Text="color_scale_add" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="388" Y="263" W="12" H="14" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelScaleRemove" Text="color_scale_remove" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="374" Y="263" W="12" H="14" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelRotateRight" Text="color_rotate_right" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="391" Y="188" W="12" H="14" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelRotateLeft" Text="color_rotate_left" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="259" Y="188" W="13" H="14" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelRotateUp" Text="color_rotate_up" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="326" Y="109" W="14" H="14" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelRotateDown" Text="color_rotate_down" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="326" Y="265" W="14" H="15" VIS="1" ENB="1" UseHooks="1" />
+    <Image Name="ModelTexture" Shader="1" X="413" Y="111" W="144" H="169" VIS="1" ENB="1" UseHooks="1" />
+    <Image Name="ModelBlend" Shader="1" X="413" Y="111" W="144" H="169" VIS="1" ENB="1" UseHooks="1" />
+    <Image Name="ModelCurrentBlendLight" Shader="90" X="412" Y="111" W="144" H="169" VIS="0" ENB="1" UseHooks="1" VpX="407" VpY="106" VpW="155" VpH="176" Move="1" />
+    <Button Name="ModelTrafaretRight" Text="color_trafaret_right" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="545" Y="188" W="12" H="14" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelTrafaretLeft" Text="color_trafaret_left" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="413" Y="188" W="13" H="14" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelTrafaretUp" Text="color_trafaret_up" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="480" Y="109" W="14" H="14" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelTrafaretDown" Text="color_trafaret_down" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="480" Y="265" W="14" H="15" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelTrafaretRotate" Text="color_trafaret_rotate" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="560" Y="109" W="14" H="15" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelTrafaretPlus" Text="color_trafaret_plus" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="560" Y="250" W="14" H="15" VIS="1" ENB="1" UseHooks="1" />
+    <Button Name="ModelTrafaretMinus" Text="color_trafaret_minus" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="560" Y="266" W="14" H="15" VIS="1" ENB="1" UseHooks="1" />
+    <Image Name="SlotEmpty" Shader="123" X="0" Y="0" W="60" H="60" VIS="0" ENB="0" />
+    <Image Name="SlotGreen" Shader="124" X="0" Y="0" W="60" H="60" VIS="0" ENB="0" />
+    <Image Name="SlotRed" Shader="125" X="0" Y="0" W="60" H="60" VIS="0" ENB="0" />
+    <!-- Слоты: Картинки -->
+    <Item Name="Slots" X="242" Y="286" W="246" H="150" VIS="1" ENB="0" UseHooks="1">
+        <Item ENB="1" X="242" Y="286" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="242" Y="286" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="242" Y="286" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="291" Y="286" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="291" Y="286" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="291" Y="286" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="340" Y="286" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="340" Y="286" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="340" Y="286" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="389" Y="286" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="389" Y="286" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="389" Y="286" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="438" Y="286" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="438" Y="286" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="438" Y="286" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="242" Y="337" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="242" Y="337" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="242" Y="337" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="291" Y="337" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="291" Y="337" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="291" Y="337" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="340" Y="337" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="340" Y="337" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="340" Y="337" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="389" Y="337" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="389" Y="337" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="389" Y="337" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="438" Y="337" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="438" Y="337" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="438" Y="337" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="242" Y="386" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="242" Y="386" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="242" Y="386" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="291" Y="386" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="291" Y="386" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="291" Y="386" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="340" Y="386" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="340" Y="386" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="340" Y="386" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="389" Y="386" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="389" Y="386" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="389" Y="386" W="49" H="49" UseHooks="1" />
+        </Item>
+        <Item ENB="1" X="438" Y="386" W="49" H="49" VIS="1" UseHooks="1">
+            <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_ColorSlotItem" WorkerShow="ImageDefaultWorkShow" X="438" Y="386" W="49" H="49" UseHooks="1" />
+            <Image Name="State" Shader="123" VIS="1" ENB="0" X="438" Y="386" W="49" H="49" UseHooks="1" />
+        </Item>
+    </Item>
+    <Image Name="ChangeWindow" Shader="89" X="226" Y="283" W="348" H="153" VIS="1" ENB="1" UseHooks="1">
+        <Text Text="color_title_change" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="279" Y="283" W="250" H="22" />
+        <Slider Name="ColorRed" LineRect="ColorRed_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="0" SliderPos="0" X="319" Y="326" W="15" H="10" VIS="1" ENB="1" />
+        <Slider Name="ColorGreen" LineRect="ColorGreen_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="0" SliderPos="0" X="319" Y="360" W="15" H="10" VIS="1" ENB="1" />
+        <Slider Name="ColorBlue" LineRect="ColorBlue_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="0" SliderPos="0" X="319" Y="399" W="15" H="10" VIS="1" ENB="1" />
+        <Button Name="Apply" Text="color_apply" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="489" Y="390" W="80" H="20" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Cancel" Text="color_clear" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="489" Y="411" W="80" H="20" VIS="1" ENB="1" UseHooks="1" />
+        <Image Name="ColorBlend" Shader="1" X="489" Y="314" W="49" H="42" VIS="1" ENB="1" UseHooks="1" />
+        <Image Name="ColorBlendRed" Shader="1" X="274" Y="318" W="39" H="26" VIS="1" ENB="1" UseHooks="1" />
+        <Image Name="ColorBlendGreen" Shader="1" X="274" Y="354" W="39" H="26" VIS="1" ENB="1" UseHooks="1" />
+        <Image Name="ColorBlendBlue" Shader="1" X="274" Y="391" W="39" H="26" VIS="1" ENB="1" UseHooks="1" />
+    </Image>
+    <!-- Всплывающие подсказки -->
+    <ToolTips Name="ToolTips">
+        <Image Shader="6" VIS="0" ENB="0" />
+        <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+    </ToolTips>
+</Color>

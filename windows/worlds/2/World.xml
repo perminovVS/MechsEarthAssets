@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<World>
+    <WorldName Name="База ОПОРА" />
+    <WorldNation Nation="0" UseWorldNationOnly="0" WorldMaxLvl="0" />
+    <Terrain Use="1">
+        <Size X="1025" Y="1025" Cell="128" DeltaHeight="32768" HeightScale="2.000000" />
+        <Texture Name="worlds/2/terrain" />
+        <Texture_Snow Name="world/terrain/snow" />
+        <TextureDetail Name="world/terrain/detail" Scale="100.000000" />
+    </Terrain>
+</World>
+<Zones>
+    <Zone Type="None" Id="1" Name="база ОПОРА" Safe="1" X1="-9500" Y1="-11700" X2="21000" Y2="9500" />
+    <Zone Type="None" Id="2" Name="ЗАПАДНЫЙ БУНКЕР ОПОРА" Safe="1" X1="-49900" Y1="-6200" X2="-43900" Y2="-2500" />
+    <Zone Type="None" Id="3" Name="ВОСТОЧНЫЙ БУНКЕР ОПОРА" Safe="1" X1="49300" Y1="-26000" X2="54900" Y2="-22600" />
+    <Zone Type="None" Id="4" Name="СЕВЕРНЫЙ БУНКЕР ОПОРА" Safe="1" X1="-9900" Y1="52200" X2="-4300" Y2="55600" />
+    <Zone Type="None" Id="5" Name="база ОПОРА" Safe="1" X1="-1300" Y1="-7600" X2="15600" Y2="21800" />
+    <Zone Type="None" Id="6" Name="ВОСТОЧНЫЕ ЭНЕРГО БЛОКИ" NoRecharge="1" X1="55500" Y1="-25100" X2="56500" Y2="-23900" />
+    <Zone Type="None" Id="7" Name="СЕВЕРНЫЕ ЭНЕРГО БЛОКИ" NoRecharge="1" X1="-7900" Y1="57100" X2="-6500" Y2="58300" />
+</Zones>
+<GlobalMap>
+    <Center X="512" Y="512" />
+    <Limit X1="0" Y1="0" X2="1024" Y2="1024" />
+    <Marks>
+        <Mark Type="1" Name="ЗАВОД ОПОРА" X="-4819" Y="-6994" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="54100" Y="-49700" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="12510" Y="36910" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-2300" Y="31310" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="60140" Y="25170" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="34710" Y="21510" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="37080" Y="3900" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="34900" Y="-8890" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="30100" Y="-20900" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="30100" Y="-21700" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-4080" Y="-23700" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-37103" Y="-19682" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-37508" Y="-19531" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-51900" Y="-22090" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-22690" Y="-33490" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-22699" Y="-44290" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-23079" Y="-44100" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-21900" Y="-56700" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-31110" Y="-56890" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="-43890" Y="-34910" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-22300" Y="13700" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="-23100" Y="13700" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-58500" Y="36900" />
+        <Mark Type="1" Name="МАГАЗИН ОПОРА" X="6640" Y="790" />
+        <Mark Type="1" Name="НАУЧНАЯ СТАНЦИЯ ОПОРА" X="8970" Y="5630" />
+        <Mark Type="2" Name="БАЗА ОПОРА" X="15400" Y="800" />
+        <Mark Type="1" Name="база ОПОРА" X="1200" Y="0" />
+        <Mark Type="1" Name="МАГАЗИН МЕХОВ ОПОРА" X="9800" Y="-630" />
+        <Mark Type="1" Name="ВОСТОЧНЫЙ БУНКЕР ОПОРА" X="52192" Y="-24181" />
+        <Mark Type="1" Name="СЕВЕРНЫЙ БУНКЕР ОПОРА" X="-6919" Y="53761" />
+        <Mark Type="1" Name="ЗАПАДНЫЙ БУНКЕР ОПОРА" X="-47127" Y="-4309" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ " X="2696" Y="58899" />
+        <Mark Type="2" Name="ЧЕРВИ" X="49781" Y="-58773" />
+        <Mark Type="1" Name="АПГРЕЙД МЕХОВ ОПОРА" X="1600" Y="-7800" />
+        <Mark Type="2" Name="ЦЕНТРАЛЬНОЕ УКРЕПЛЕНИЕ" X="840" Y="5580" />
+        <Mark Type="1" Name="ЗАВОД УСТАНОВКИ НАВЫКОВ ОПОРА" X="7262" Y="-6500" />
+        <Mark Type="3" Name="КРИСТАЛЛЫ" X="5520" Y="-28310" />
+        <Mark Type="2" Name="БУНКЕРЫ" X="15400" Y="-5600" />
+        <Mark Type="2" Name="БУНКЕРЫ БАЗЫ ОПОРА" X="6200" Y="7800" />
+        <Mark Type="2" Name="ЦЕНТРАЛЬНОЕ УКРЕПЛЕНЕ" X="54754" Y="58220" />
+    </Marks>
+</GlobalMap>

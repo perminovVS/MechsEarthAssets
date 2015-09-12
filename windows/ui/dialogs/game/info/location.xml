@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DialogsInfo>
+    <Location Id="60000" AutoLoad="1">
+        <Info Value="Диалог: нахождения в локации" />
+        <NameFileDialog Value="game/location/Location.xml" />
+    </Location>
+    <LocShop Id="61000">
+        <Info Value="Диалог: Магазин" />
+        <NameFileDialog Value="game/location/LocShop.xml" />
+    </LocShop>
+    <LocInsurance Id="62000">
+        <Info Value="Диалог: страхование" />
+        <NameFileDialog Value="game/location/LocInsurance.xml" />
+    </LocInsurance>
+    <LocStoreHouse Id="63000">
+        <Info Value="Диалог: склад" />
+        <NameFileDialog Value="game/location/LocStoreHouse.xml" />
+    </LocStoreHouse>
+    <LocShopBody Id="64000">
+        <Info Value="Диалог: магазин корпусов" />
+        <NameFileDialog Value="game/location/LocShopBody.xml" />
+    </LocShopBody>
+    <LocGetQuests Id="65000">
+        <Info Value="Диалог: задания" />
+        <NameFileDialog Value="game/location/LocGetQuests.xml" />
+    </LocGetQuests>
+    <LocRobotStoreHouse Id="66000">
+        <Info Value="Диалог: склад роботов" />
+        <NameFileDialog Value="game/location/LocRobotStoreHouse.xml" />
+    </LocRobotStoreHouse>
+    <LocResearch Id="67000">
+        <Info Value="Диалог: лаборатория" />
+        <NameFileDialog Value="game/location/LocResearch.xml" />
+    </LocResearch>
+    <LocTeleportBeforeLocation Id="68000">
+        <Info Value="Диалог: Аэропорт" />
+        <NameFileDialog Value="game/location/LocTeleportBeforeLocation.xml" />
+    </LocTeleportBeforeLocation>
+    <Repair Id="69000">
+        <Info Value="Диалог: Ремонт" />
+        <NameFileDialog Value="game/location/Repair.xml" />
+    </Repair>
+    <LocCraft Id="70000">
+        <Info Value="Диалог: Крафт" />
+        <NameFileDialog Value="game/location/LocCraft.xml" />
+    </LocCraft>
+    <Restore Id="71000">
+        <Info Value="Диалог: Восстановление" />
+        <NameFileDialog Value="game/location/Restore.xml" />
+    </Restore>
+    <Color Id="72000">
+        <Info Value="Диалог: Завод покраски" />
+        <NameFileDialog Value="game/location/Color.xml" />
+    </Color>
+</DialogsInfo>

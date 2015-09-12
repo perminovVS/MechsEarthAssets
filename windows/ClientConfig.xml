@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Client>
+    <VisionRange Value="4000" />
+    <Address Value="ru.mechs.su" />
+    <RakThreadPriority Value="0" />
+</Client>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Диалог: подтверждение покупки робота -->
+<RobotBuyConfirm Id="101000" Worker="Menu_RobotBuyConfirm">
+    <Image Id="1" Rect="Common_WholeScreen" Shader="5" />
+    <Image Id="2" Rect="MsgWndSmallSystem02_Wnd" Shader="143" ENB="0">
+        <Text Id="3" Text="robot_buy_confirm" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" X="162" Y="247" W="474" H="60" VIS="1" ENB="1" />
+    </Image>
+    <Button Id="4" Text="yes" FontSet="button" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu RobotBuyConfirm;" Key="enter" X="289" Y="318" W="80" H="18" VIS="1" ENB="1" />
+    <Button Id="5" Text="no" FontSet="button" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu RobotBuyConfirm;" Key="escape" X="428" Y="317" W="80" H="18" VIS="1" ENB="1" />
+</RobotBuyConfirm>

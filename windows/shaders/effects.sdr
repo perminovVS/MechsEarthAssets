@@ -1,0 +1,346 @@
+
+effects/explosion01
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/explosion01
+		blendfunc add
+		depthwrite off
+	}
+}
+
+effects/explosion
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/explosion
+		blendfunc add
+		depthwrite off
+	}
+}
+
+effects/exp_core
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/blurry_cloud
+		depthwrite off
+		blendfunc add
+		tex clamp
+	}
+}
+
+effects/exp_core2
+{
+	sort 13.000
+	{
+		tex map effects/gradient
+		tex no_downsample
+		tex clamp
+		blendfunc add
+		depthwrite off
+	}
+}
+
+effects/specks
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/specks
+		depthwrite off
+		blendfunc add
+		tex clamp
+	}
+}
+
+effects/spikey_star
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/spikey_star
+		depthwrite off
+		blendfunc add
+		tex clamp
+	}
+}
+
+effects/cloud_with_specks
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/cloud_with_specks
+		depthwrite off
+		blendfunc add
+		tex clamp
+	}
+}
+
+effects/smoke
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/smoke
+		depthwrite off
+		blendfunc add
+		tex clamp
+	}
+}
+
+effects/cresty
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/cresty
+		depthwrite off
+		blendfunc add
+		tex clamp
+	}
+}
+
+effects/bubble
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/bubble
+		depthwrite off
+		blendfunc add
+		tex clamp
+	}
+}
+
+effects/bubble01
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/bubble01
+		depthwrite off
+		blendfunc add
+		tex clamp
+	}
+}
+
+effects/whoopsmall
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/whoopsmall
+		depthwrite off
+		blendfunc add
+		tex clamp
+	}
+}
+
+effects/whoopsmall_rot
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/whoopsmall
+		depthwrite off
+		blendfunc add
+		tex clamp
+		texmod angle 0.500 0.500 90.000
+	}
+}
+
+effects/light
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/light01
+		depthwrite off
+		tex clamp
+		blendfunc add
+	}
+}
+
+effects/light02
+{
+	cull none
+	sort 13.000
+	{
+		tex map effects/light02
+		depthwrite off
+		tex clamp
+		blendfunc add
+	}
+}
+
+effects/circular_gradient
+{
+	sort 13.000
+	{
+		tex map effects/gradient
+		tex no_downsample
+		tex clamp
+		blendfunc add
+		depthwrite off
+	}
+}
+
+effects/cloud_particle
+{
+	sort 13.000
+	{
+		tex map effects/smoke
+		tex clamp
+		blendfunc blend
+		depthwrite off
+	}
+}
+
+effects/cloud_particle_blue
+{
+	sort 13.000
+	{
+		tex map effects/smoke_blue
+		blendfunc blend
+		depthwrite off
+	}
+}
+
+effects/cloud_particle02
+{
+	sort 13.000
+	{
+		tex map effects/cloud_particle02
+		tex clamp
+		blendfunc blend
+		depthwrite off
+	}
+}
+
+effects/cloud_particle03
+{
+	sort 13.000
+	{
+		tex map effects/cloud_particle01
+		tex clamp
+		blendfunc blend
+		depthwrite off
+	}
+}
+
+effects/spark3
+{
+	sort 13.000
+	{
+		tex map effects/spark3
+		tex clamp
+		blendfunc add
+		depthwrite off
+		rgbsrc wave invsawtooth -4.000 6.000 0.000 0.200
+	}
+}
+
+effects/flame
+{
+	sort 13.000
+	{
+		tex map effects/flame
+		tex clamp
+		blendfunc add
+		depthwrite off
+	}
+}
+
+effects/glow
+{
+	sort 13.000
+	{
+		tex map effects/glow
+		tex clamp
+		depthwrite off
+		blendfunc add
+	}
+}
+
+effects/glow02
+{
+	sort 13.000
+	{
+		tex map effects/glow
+		tex clamp
+		depthwrite off
+		blendfunc blend
+	}
+}
+
+effects/glow_blue
+{
+	sort 13.000
+	{
+		tex map effects/glow_blue
+		tex clamp
+		depthwrite off
+		blendfunc add
+	}
+}
+
+explosion_smoke
+{
+}
+
+effects/debris
+{
+	sort 13.000
+	{
+		tex map effects/debris
+		tex clamp
+		depthwrite off
+		blendfunc blend
+	}
+}
+
+effects/snowflake
+{
+	sort 13.000
+	{
+		tex map snowflake
+		blendfunc blend
+		depthwrite off
+	}
+}
+
+effects/rain
+{
+	sort 13.000
+	{
+		tex map effects/rain
+		blendfunc blend
+		depthwrite off
+	}
+}
+
+cloud_particle
+{
+	sort 13.000
+	{
+		tex map mist
+		tex clamp
+		blendfunc blend
+		depthwrite off
+	}
+}
+
+invisible
+{
+	{
+		tex map effects/bubble
+		blendfunc blend
+		texmod scroll 0.200 0.050
+	}
+}
+

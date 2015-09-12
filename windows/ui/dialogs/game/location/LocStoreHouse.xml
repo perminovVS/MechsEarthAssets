@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Диалог: склад -->
+<LocStoreHouse Id="63000" Worker="Menu_StoreHouse" VIS="1" ENB="1">
+    <!-- Перетаскиваемый элемент -->
+    <Image Id="1" Worker="Image_DragItem" WorkerShow="ImageDefaultWorkShow" VIS="1" ENB="1" UseHooks="1" />
+    <!-- Изображение панели -->
+    <Image Id="10" X="189" Y="184" W="238" H="460" Shader="20" ENB="0" VpX="188" VpY="246" VpW="157" VpH="199" VIS="1" UseHooks="1" />
+    <Image Id="11" X="339" Y="184" W="238" H="460" Shader="20" ENB="0" VpX="345" VpY="246" VpW="157" VpH="199" VIS="1" UseHooks="1" />
+    <Image Id="12" X="441" Y="184" W="238" H="460" Shader="20" ENB="0" VpX="490" VpY="243" VpW="113" VpH="196" VIS="1" UseHooks="1" />
+    <!-- Кнопка вызова внутриигрового меню -->
+    <Button Id="3" Key="escape" VIS="0" Command="create_menu InGame;" ENB="1" />
+    <!-- Кнопки вверх и вниз -->
+    <Button Id="5" TextureW="16" TextureH="16" Normal="0" Active="48" VIS="1" ENB="1" X="556" Y="213" W="14" H="14" />
+    <Button Id="6" TextureW="16" TextureH="16" Normal="0" Active="49" VIS="1" ENB="1" X="571" Y="220" W="14" H="14" />
+    <!-- Слоты контейнера -->
+    <Item Id="100" VIS="1" ENB="1">
+        <Image Id="101" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="199" Y="253" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="102" Shader="3" VIS="0" ENB="0" X="199" Y="253" W="42" H="42" />
+            <Image Id="103" Shader="83" VIS="1" ENB="0" X="199" Y="280" W="40" H="12" UseHooks="1" />
+            <Text Id="104" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="199" Y="280" W="40" H="12" UseHooks="1" />
+            <Image Id="105" Shader="131" VIS="0" ENB="0" X="199" Y="253" W="42" H="42" />
+        </Image>
+        <Image Id="111" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="250" Y="253" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="112" Shader="3" VIS="0" ENB="0" X="250" Y="253" W="42" H="42" />
+            <Image Id="113" Shader="83" VIS="1" ENB="0" X="250" Y="280" W="40" H="12" UseHooks="1" />
+            <Text Id="114" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="250" Y="280" W="40" H="12" UseHooks="1" />
+            <Image Id="115" Shader="131" VIS="0" ENB="0" X="250" Y="253" W="42" H="42" />
+        </Image>
+        <Image Id="121" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="301" Y="253" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="122" Shader="3" VIS="0" ENB="0" X="301" Y="253" W="42" H="42" />
+            <Image Id="123" Shader="83" VIS="1" ENB="0" X="301" Y="280" W="40" H="12" UseHooks="1" />
+            <Text Id="124" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="301" Y="280" W="40" H="12" UseHooks="1" />
+            <Image Id="125" Shader="131" VIS="0" ENB="0" X="301" Y="253" W="42" H="42" />
+        </Image>
+        <Image Id="131" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="349" Y="253" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="132" Shader="3" VIS="0" ENB="0" X="349" Y="253" W="42" H="42" />
+            <Image Id="133" Shader="83" VIS="1" ENB="0" X="349" Y="280" W="40" H="12" UseHooks="1" />
+            <Text Id="134" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="349" Y="280" W="40" H="12" UseHooks="1" />
+            <Image Id="135" Shader="131" VIS="0" ENB="0" X="349" Y="253" W="42" H="42" />
+        </Image>
+        <Image Id="141" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="400" Y="253" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="142" Shader="3" VIS="0" ENB="0" X="400" Y="253" W="42" H="42" />
+            <Image Id="143" Shader="83" VIS="1" ENB="0" X="400" Y="280" W="40" H="12" UseHooks="1" />
+            <Text Id="144" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="400" Y="280" W="40" H="12" UseHooks="1" />
+            <Image Id="145" Shader="131" VIS="0" ENB="0" X="400" Y="253" W="42" H="42" />
+        </Image>
+        <Image Id="151" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="450" Y="253" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="152" Shader="3" VIS="0" ENB="0" X="450" Y="253" W="42" H="42" />
+            <Image Id="153" Shader="83" VIS="1" ENB="0" X="450" Y="280" W="40" H="12" UseHooks="1" />
+            <Text Id="154" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="450" Y="280" W="40" H="12" UseHooks="1" />
+            <Image Id="155" Shader="131" VIS="0" ENB="0" X="450" Y="253" W="42" H="42" />
+        </Image>
+        <Image Id="161" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="502" Y="253" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="162" Shader="3" VIS="0" ENB="0" X="502" Y="253" W="42" H="42" />
+            <Image Id="163" Shader="83" VIS="1" ENB="0" X="502" Y="280" W="40" H="12" UseHooks="1" />
+            <Text Id="164" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="502" Y="280" W="40" H="12" UseHooks="1" />
+            <Image Id="165" Shader="131" VIS="0" ENB="0" X="502" Y="253" W="42" H="42" />
+        </Image>
+        <Image Id="171" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="552" Y="253" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="172" Shader="3" VIS="0" ENB="0" X="552" Y="253" W="42" H="42" />
+            <Image Id="173" Shader="83" VIS="1" ENB="0" X="552" Y="280" W="40" H="12" UseHooks="1" />
+            <Text Id="174" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="552" Y="280" W="40" H="12" UseHooks="1" />
+            <Image Id="175" Shader="131" VIS="0" ENB="0" X="552" Y="253" W="42" H="42" />
+        </Image>
+        <Image Id="201" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="199" Y="300" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="202" Shader="3" VIS="0" ENB="0" X="199" Y="300" W="42" H="42" />
+            <Image Id="203" Shader="83" VIS="1" ENB="0" X="199" Y="326" W="40" H="12" UseHooks="1" />
+            <Text Id="204" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="199" Y="326" W="40" H="12" UseHooks="1" />
+            <Image Id="205" Shader="131" VIS="0" ENB="0" X="199" Y="300" W="42" H="42" />
+        </Image>
+        <Image Id="211" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="250" Y="300" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="212" Shader="3" VIS="0" ENB="0" X="250" Y="300" W="42" H="42" />
+            <Image Id="213" Shader="83" VIS="1" ENB="0" X="250" Y="326" W="40" H="12" UseHooks="1" />
+            <Text Id="214" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="250" Y="326" W="40" H="12" UseHooks="1" />
+            <Image Id="215" Shader="131" VIS="0" ENB="0" X="250" Y="300" W="42" H="42" />
+        </Image>
+        <Image Id="221" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="301" Y="300" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="222" Shader="3" VIS="0" ENB="0" X="301" Y="300" W="42" H="42" />
+            <Image Id="223" Shader="83" VIS="1" ENB="0" X="301" Y="326" W="40" H="12" UseHooks="1" />
+            <Text Id="224" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="301" Y="326" W="40" H="12" UseHooks="1" />
+            <Image Id="225" Shader="131" VIS="0" ENB="0" X="301" Y="300" W="42" H="42" />
+        </Image>
+        <Image Id="231" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="349" Y="300" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="232" Shader="3" VIS="0" ENB="0" X="349" Y="300" W="42" H="42" />
+            <Image Id="233" Shader="83" VIS="1" ENB="0" X="349" Y="326" W="40" H="12" UseHooks="1" />
+            <Text Id="234" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="349" Y="326" W="40" H="12" UseHooks="1" />
+            <Image Id="235" Shader="131" VIS="0" ENB="0" X="349" Y="300" W="42" H="42" />
+        </Image>
+        <Image Id="241" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="400" Y="300" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="242" Shader="3" VIS="0" ENB="0" X="400" Y="300" W="42" H="42" />
+            <Image Id="243" Shader="83" VIS="1" ENB="0" X="400" Y="326" W="40" H="12" UseHooks="1" />
+            <Text Id="244" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="400" Y="326" W="40" H="12" UseHooks="1" />
+            <Image Id="245" Shader="131" VIS="0" ENB="0" X="400" Y="300" W="42" H="42" />
+        </Image>
+        <Image Id="251" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="450" Y="300" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="252" Shader="3" VIS="0" ENB="0" X="450" Y="300" W="42" H="42" />
+            <Image Id="253" Shader="83" VIS="1" ENB="0" X="450" Y="326" W="40" H="12" UseHooks="1" />
+            <Text Id="254" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="450" Y="326" W="40" H="12" UseHooks="1" />
+            <Image Id="255" Shader="131" VIS="0" ENB="0" X="450" Y="300" W="42" H="42" />
+        </Image>
+        <Image Id="261" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="502" Y="300" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="262" Shader="3" VIS="0" ENB="0" X="502" Y="300" W="42" H="42" />
+            <Image Id="263" Shader="83" VIS="1" ENB="0" X="502" Y="326" W="40" H="12" UseHooks="1" />
+            <Text Id="264" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="502" Y="326" W="40" H="12" UseHooks="1" />
+            <Image Id="265" Shader="131" VIS="0" ENB="0" X="502" Y="300" W="42" H="42" />
+        </Image>
+        <Image Id="271" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="552" Y="300" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="272" Shader="3" VIS="0" ENB="0" X="552" Y="300" W="42" H="42" />
+            <Image Id="273" Shader="83" VIS="1" ENB="0" X="552" Y="326" W="40" H="12" UseHooks="1" />
+            <Text Id="274" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="552" Y="326" W="40" H="12" UseHooks="1" />
+            <Image Id="275" Shader="131" VIS="0" ENB="0" X="552" Y="300" W="42" H="42" />
+        </Image>
+        <Image Id="301" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="199" Y="347" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="302" Shader="3" VIS="0" ENB="0" X="199" Y="347" W="42" H="42" />
+            <Image Id="303" Shader="83" VIS="1" ENB="0" X="199" Y="374" W="40" H="12" UseHooks="1" />
+            <Text Id="304" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="199" Y="374" W="40" H="12" UseHooks="1" />
+            <Image Id="305" Shader="131" VIS="0" ENB="0" X="199" Y="347" W="42" H="42" />
+        </Image>
+        <Image Id="311" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="250" Y="347" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="312" Shader="3" VIS="0" ENB="0" X="250" Y="347" W="42" H="42" />
+            <Image Id="313" Shader="83" VIS="1" ENB="0" X="250" Y="374" W="40" H="12" UseHooks="1" />
+            <Text Id="314" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="250" Y="374" W="40" H="12" UseHooks="1" />
+            <Image Id="315" Shader="131" VIS="0" ENB="0" X="250" Y="347" W="42" H="42" />
+        </Image>
+        <Image Id="321" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="301" Y="347" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="322" Shader="3" VIS="0" ENB="0" X="301" Y="347" W="42" H="42" />
+            <Image Id="323" Shader="83" VIS="1" ENB="0" X="301" Y="374" W="40" H="12" UseHooks="1" />
+            <Text Id="324" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="301" Y="374" W="40" H="12" UseHooks="1" />
+            <Image Id="325" Shader="131" VIS="0" ENB="0" X="301" Y="347" W="42" H="42" />
+        </Image>
+        <Image Id="331" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="349" Y="347" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="332" Shader="3" VIS="0" ENB="0" X="349" Y="347" W="42" H="42" />
+            <Image Id="333" Shader="83" VIS="1" ENB="0" X="349" Y="374" W="40" H="12" UseHooks="1" />
+            <Text Id="334" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="349" Y="374" W="40" H="12" UseHooks="1" />
+            <Image Id="335" Shader="131" VIS="0" ENB="0" X="349" Y="347" W="42" H="42" />
+        </Image>
+        <Image Id="341" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="400" Y="347" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="342" Shader="3" VIS="0" ENB="0" X="400" Y="347" W="42" H="42" />
+            <Image Id="343" Shader="83" VIS="1" ENB="0" X="400" Y="374" W="40" H="12" UseHooks="1" />
+            <Text Id="344" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="400" Y="374" W="40" H="12" UseHooks="1" />
+            <Image Id="345" Shader="131" VIS="0" ENB="0" X="400" Y="347" W="42" H="42" />
+        </Image>
+        <Image Id="351" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="450" Y="347" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="352" Shader="3" VIS="0" ENB="0" X="450" Y="347" W="42" H="42" />
+            <Image Id="353" Shader="83" VIS="1" ENB="0" X="450" Y="374" W="40" H="12" UseHooks="1" />
+            <Text Id="354" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="450" Y="374" W="40" H="12" UseHooks="1" />
+            <Image Id="355" Shader="131" VIS="0" ENB="0" X="450" Y="347" W="42" H="42" />
+        </Image>
+        <Image Id="361" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="502" Y="347" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="362" Shader="3" VIS="0" ENB="0" X="502" Y="347" W="42" H="42" />
+            <Image Id="363" Shader="83" VIS="1" ENB="0" X="502" Y="374" W="40" H="12" UseHooks="1" />
+            <Text Id="364" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="502" Y="374" W="40" H="12" UseHooks="1" />
+            <Image Id="365" Shader="131" VIS="0" ENB="0" X="502" Y="347" W="42" H="42" />
+        </Image>
+        <Image Id="371" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="552" Y="347" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="372" Shader="3" VIS="0" ENB="0" X="552" Y="347" W="42" H="42" />
+            <Image Id="373" Shader="83" VIS="1" ENB="0" X="552" Y="374" W="40" H="12" UseHooks="1" />
+            <Text Id="374" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="552" Y="374" W="40" H="12" UseHooks="1" />
+            <Image Id="375" Shader="131" VIS="0" ENB="0" X="552" Y="347" W="42" H="42" />
+        </Image>
+        <Image Id="401" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="199" Y="394" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="402" Shader="3" VIS="0" ENB="0" X="199" Y="394" W="42" H="42" />
+            <Image Id="403" Shader="83" VIS="1" ENB="0" X="199" Y="420" W="40" H="12" UseHooks="1" />
+            <Text Id="404" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="199" Y="420" W="40" H="12" UseHooks="1" />
+            <Image Id="405" Shader="131" VIS="0" ENB="0" X="199" Y="394" W="42" H="42" />
+        </Image>
+        <Image Id="411" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="250" Y="394" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="412" Shader="3" VIS="0" ENB="0" X="250" Y="394" W="42" H="42" />
+            <Image Id="413" Shader="83" VIS="1" ENB="0" X="250" Y="420" W="40" H="12" UseHooks="1" />
+            <Text Id="414" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="250" Y="420" W="40" H="12" UseHooks="1" />
+            <Image Id="415" Shader="131" VIS="0" ENB="0" X="250" Y="394" W="42" H="42" />
+        </Image>
+        <Image Id="421" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="301" Y="394" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="422" Shader="3" VIS="0" ENB="0" X="301" Y="394" W="42" H="42" />
+            <Image Id="423" Shader="83" VIS="1" ENB="0" X="301" Y="420" W="40" H="12" UseHooks="1" />
+            <Text Id="424" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="301" Y="420" W="40" H="12" UseHooks="1" />
+            <Image Id="425" Shader="131" VIS="0" ENB="0" X="301" Y="394" W="42" H="42" />
+        </Image>
+        <Image Id="431" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="349" Y="394" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="432" Shader="3" VIS="0" ENB="0" X="349" Y="394" W="42" H="42" />
+            <Image Id="433" Shader="83" VIS="1" ENB="0" X="349" Y="420" W="40" H="12" UseHooks="1" />
+            <Text Id="434" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="349" Y="420" W="40" H="12" UseHooks="1" />
+            <Image Id="435" Shader="131" VIS="0" ENB="0" X="349" Y="394" W="42" H="42" />
+        </Image>
+        <Image Id="441" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="400" Y="394" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="442" Shader="3" VIS="0" ENB="0" X="400" Y="394" W="42" H="42" />
+            <Image Id="443" Shader="83" VIS="1" ENB="0" X="400" Y="420" W="40" H="12" UseHooks="1" />
+            <Text Id="444" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="400" Y="420" W="40" H="12" UseHooks="1" />
+            <Image Id="445" Shader="131" VIS="0" ENB="0" X="400" Y="394" W="42" H="42" />
+        </Image>
+        <Image Id="451" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="450" Y="394" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="452" Shader="3" VIS="0" ENB="0" X="450" Y="394" W="42" H="42" />
+            <Image Id="453" Shader="83" VIS="1" ENB="0" X="450" Y="420" W="40" H="12" UseHooks="1" />
+            <Text Id="454" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="450" Y="420" W="40" H="12" UseHooks="1" />
+            <Image Id="455" Shader="131" VIS="0" ENB="0" X="450" Y="394" W="42" H="42" />
+        </Image>
+        <Image Id="461" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="502" Y="394" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="462" Shader="3" VIS="0" ENB="0" X="502" Y="394" W="42" H="42" />
+            <Image Id="463" Shader="83" VIS="1" ENB="0" X="502" Y="420" W="40" H="12" UseHooks="1" />
+            <Text Id="464" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="502" Y="420" W="40" H="12" UseHooks="1" />
+            <Image Id="465" Shader="131" VIS="0" ENB="0" X="502" Y="394" W="42" H="42" />
+        </Image>
+        <Image Id="471" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="552" Y="394" W="42" H="42" VIS="1" ENB="1">
+            <Image Id="472" Shader="3" VIS="0" ENB="0" X="552" Y="394" W="42" H="42" />
+            <Image Id="473" Shader="83" VIS="1" ENB="0" X="552" Y="420" W="40" H="12" UseHooks="1" />
+            <Text Id="474" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="552" Y="420" W="40" H="12" UseHooks="1" />
+            <Image Id="475" Shader="131" VIS="0" ENB="0" X="552" Y="394" W="42" H="42" />
+        </Image>
+    </Item>
+    <!-- Всплывающие подсказки -->
+    <ToolTips Id="700" VIS="1" ENB="1">
+        <Image Id="701" Shader="6" VIS="0" ENB="0" />
+        <Text Id="702" Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+    </ToolTips>
+</LocStoreHouse>

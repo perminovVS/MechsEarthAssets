@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DialogsInfo>
+    <ClanMain Id="110000">
+        <Info Value="Диалог: ClanMain" />
+        <NameFileDialog Value="game/clan/ClanMain.xml" />
+    </ClanMain>
+    <ClanPolitic Id="111000">
+        <Info Value="Диалог: ClanPolitic" />
+        <NameFileDialog Value="game/clan/ClanPolitic.xml" />
+    </ClanPolitic>
+</DialogsInfo>

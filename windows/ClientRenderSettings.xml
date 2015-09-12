@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RenderSettings>
+  <RobotHead>
+    <ColorInMyParty ColorARGB="255 50 200 255" 	/>
+    <!-- Светло-голубой -->
+    <ColorInMyClan  ColorARGB="255 255 255 0" 	/>
+    <!-- Желтый -->
+    <ColorInClanUnion ColorARGB="255 130 222 161"/>
+    <!-- зеленый -->
+    <ColorInClanWar  ColorARGB="255 255 0 0" 	/>
+    <!-- Красный -->
+    <ColorRanger	 ColorARGB="255 250 250 100" 	/>
+    <!-- Светло-желтый -->
+    <ColorClean		 ColorARGB="255 130 222 161" 	/>
+    <!-- ссиня -->
+    <ColorCriminal	 ColorARGB="255 255 0 255" 	/>
+    <!-- Фиолетовый -->
+    <ColorPirate	 ColorARGB="255 255 0 0" 		/>
+    <!-- Красный -->
+    <ColorMonster	 ColorARGB="200 100 250 100" 	/>
+    <!-- Светло-зеленый -->
+    <ColorUpgrade	 ColorARGB="255 130 222 161" 	/>
+    <!-- ссиня -->
+    <Name 			 FontSet="small_dem_bold" ShaderIdCircle="108" 	Height="10.0"  />
+    <NameClan		 FontSet="small"  			Height="2.0"  />
+    <NameUpgrade	 FontSet="small"  			Height="5.0"  />
+    <NameMonster	 FontSet="small"  			Height="8.0"  />
+    <ProgressHP		 Height="10.0" W="50.0" H="4.0" ShaderIdFull="223" ShaderIdMid="224" ShaderIdSmall="225" />
+    <Teleportation>
+      <Shader Box="3" Indicator="230" IndicatorBackground="5" />
+      <Size BoxHeight="5" TextHeight="7" IndicatorHeight="2" IndicatorW="50" IndicatorH="4" />
+      <Text	 FontSet="small" ColorARGB="255 110 150 255"  />
+      <!-- белый -->
+    </Teleportation>
+    <Extraction>
+      <Shader Box="3" Indicator="229" IndicatorBackground="5" />
+      <Size BoxHeight="5" TextHeight="7" IndicatorHeight="2" IndicatorW="50" IndicatorH="4" />
+      <Text	 FontSet="small" ColorARGB="255 255 255 255" />
+      <!-- белый -->
+    </Extraction>
+  </RobotHead>
+  <MapView>
+    <Monster        Shader="67" ColorRGB="200 100 100"   W="8" H="8" />
+    <PlayerRanger   Shader="68" ColorRGB="200 200 50"    W="8" H="8" />
+    <City           Shader="69" ColorRGB="100 200 100"   W="8" H="8"  />
+    <Teleport       Shader="69" ColorRGB="100 200 100"   W="8" H="8"  />
+    <Quest          Shader="107" ColorRGB="255 255 255"   W="8" H="8"  />
+    <Scaner         Shader="67" ColorRGB="100 100 255"   W="8" H="8"  />
+    <Deposit        Shader="69" ColorRGB="50 200 50"     W="8" H="8"  />
+    <PlayerParty    Shader="70" ColorRGB="112 128 144"   W="10" H="10" />
+    <CityCrime      Shader="71" ColorRGB="200 100 100"   W="8" H="8"  />
+    <PlayerClean    Shader="72" ColorRGB="50 200 50"     W="8" H="8" />
+    <PlayerCrime    Shader="73" ColorRGB="250 80 250"    W="8" H="8" />
+    <PlayerPirate   Shader="201" ColorRGB="255 50 50"  W="8" H="8" />
+  </MapView>
+  <GameData>
+    <IndicatorCapacity ShaderSmall="226" ShaderMid="227" ShaderFull="228" />
+    <ActionData>
+      <Normal 		Shader="261" 				 	/>
+      <City 		Shader="263" 	ShaderA="262"	/>
+      <Deposit 	Shader="265" 	ShaderA="264"	/>
+      <Teleport 	Shader="267" 	ShaderA="266"	/>
+      <Repair 		Shader="263" 	ShaderA="262"	/>
+      <UpgradeRobot 		Shader="263" 	ShaderA="262"	/>
+    </ActionData>
+    <IndicatorWeaponData>
+      <Health ShaderSmall="213" ShaderMid="212" ShaderFull="206" />
+      <Ammunition ShaderSmall="211" ShaderMid="210" ShaderFull="209" />
+    </IndicatorWeaponData>
+  </GameData>
+  <ChatData>
+    <Channels>
+      <Channel Id="1" 	ColorARGB="255 205 133 63" 	Title="chat_ch_1"		Info="chat_ch_info_1" ShaderBack="422" />
+      <Channel Id="2" 	ColorARGB="255 135 206 235" 	Title="chat_ch_2"		Info="chat_ch_info_2" ShaderBack="423" />
+      <Channel Id="3" 	ColorARGB="255 20 150 220"		Title="chat_ch_3"		Info="chat_ch_info_3" ShaderBack="424" />
+      <Channel Id="4" 	ColorARGB="255 50 183 106" 	Title="chat_ch_4"		Info="chat_ch_info_4" ShaderBack="425" />
+      <Channel Id="5" 	ColorARGB="255 205 215 0" 		Title="chat_ch_5"		Info="chat_ch_info_5" ShaderBack="426" />
+      <Channel Id="6"   ColorARGB="255 5 141 197"    Title="chat_ch_6"    Info="chat_ch_info_6" ShaderBack="427" />
+      <Channel Id="7"	ColorARGB="255 222 202 173" 	Title="chat_ch_7"		Info="chat_ch_info_7" ShaderBack="422" />
+      <Channel Id="8" 	ColorARGB="255 190 64 64" 		Title="chat_ch_8"		Info="chat_ch_info_8" ShaderBack="422" />
+      <Channel Id="9" 	ColorARGB="255 205 205 205"   Title="chat_ch_9"		Info="chat_ch_info_9" ShaderBack="422" />
+      <Channel Id="10" 	ColorARGB="255 205 130 71" 	Title="chat_ch_10"	Info="chat_ch_info_10" ShaderBack="422" />
+      <Channel Id="11" 	ColorARGB="255 238 130 238"   	Title="chat_ch_11"	Info="chat_ch_info_11" ShaderBack="426" />
+    </Channels>
+    <Names>
+      <Common 			ColorARGB="255 50 155 50" />
+      <My	 			ColorARGB="255 50 200 255" />
+      <Party 			ColorARGB="255 50 200 255" />
+      <Clan 			ColorARGB="255 150 150 100" />
+      <ClanLeader 	ColorARGB="255 255 255 255" />
+      <Private	 		ColorARGB="255 50 155 50" />
+    </Names>
+    <Separator ColorARGB="255 250 250 100" />
+  </ChatData>
+</RenderSettings>

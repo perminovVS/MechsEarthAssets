@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rectangles>
+	<Rect Name="MsgWndSmall01_Wnd" X=" 144" Y=" 236" W=" 512" H=" 128"/>
+	<Rect Name="MsgWndSmall01_Text" X=" 254" Y=" 270" W=" 374" H=" 60"/>
+	<Rect Name="MsgWndSmall01_Ok" X=" 405" Y=" 333" W=" 80" H=" 18"/>
+</Rectangles>
