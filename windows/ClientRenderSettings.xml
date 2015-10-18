@@ -87,9 +87,21 @@
       <My	 			ColorARGB="255 50 200 255" />
       <Party 			ColorARGB="255 50 200 255" />
       <Clan 			ColorARGB="255 150 150 100" />
-      <ClanLeader 	ColorARGB="255 255 255 255" />
+      <ClanLeader		ColorARGB="255 255 255 255" />
       <Private	 		ColorARGB="255 50 155 50" />
     </Names>
     <Separator ColorARGB="255 250 250 100" />
   </ChatData>
+  <SkyBox>
+	<Clear ColorRGB="100 150 200" texture="715" />
+	<Clear ColorRGB="100 112 135" texture="714" />
+	<Clear ColorRGB="100 112 135" texture="714" />
+	<Clear ColorRGB="100 150 200" texture="715" />
+	<Clear ColorRGB="100 112 135" texture="714" />
+	<Anomaly ColorRGB="100 60 60" texture="713" />
+	<Anomaly ColorRGB="50 120 50" texture="712" />
+	<Anomaly ColorRGB="50 120 50" texture="712" />
+	<Anomaly ColorRGB="100 60 60" texture="713" />
+	<Anomaly ColorRGB="50 120 50" texture="712" />
+  </SkyBox>
 </RenderSettings>

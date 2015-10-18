@@ -159,6 +159,7 @@
             <Button Name="Ch11" Text="empty" Info="chat_ch_11" Normal="449" Check="451" Active="450" X="468" Y="441" W="36" H="18" VIS="1" ENB="1" UseHooks="1" TextureW="36" TextureH="18" />
         </Item>
         <Button Name="OpenHistory" Text="empty" Info="chat_open_history" Normal="394" Active="395" Check="396" Flash="397" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="600" Y="534" W="16" H="16" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="ChangeNotification" Text="empty" Info="chat_change_notification" Normal="440" Active="441" Check="442" X="600" Y="517" W="16" H="16" VIS="1" ENB="1" UseHooks="1" />
     </Item>
 	
     <!-- <Group Id="LeftBottom" HAlignAdd="LEFT" VAlignAdd="BOTTOM">-->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- Диалог: настройки -->
 <Options Id="12000" Worker="Menu_Options">
-	<Button Command="delete_menu Options;create_menu Main;" Rect="Common_WholeScreen" />
+	<Button Command="delete_menu Options;" Rect="Common_WholeScreen" />
 	<Image Style="window" Name="Panel" X="144" Y="44" W="512" H="512">
 		<Text Style="label" Text="options_title" X="193" Y="53" W="400" H="32" />
 		<Text Text="options_soundvolume" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="90" W="200" H="16" VIS="1" ENB="1" />

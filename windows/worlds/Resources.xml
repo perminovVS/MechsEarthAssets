@@ -29,9 +29,9 @@
     <Resource Idx="27" Name="models/mech/monster/12" />
     <Resource Idx="28" Name="models/mech/monster/13" />
     <Resource Idx="29" Name="models/mech/player/23" />
-    <Resource Idx="30" Name="none" />
-    <Resource Idx="31" Name="models/stone03_10" />
-    <Resource Idx="32" Name="models/stone03_11" />
+    <Resource Idx="30" Name="models/world/sky_box/cylinder" />
+    <Resource Idx="31" Name="models/world/sky_box/hemispherical" />
+    <Resource Idx="32" Name="none" />
     <Resource Idx="33" Name="models/stone03_01" />
     <Resource Idx="34" Name="models/stone03_02" />
     <Resource Idx="35" Name="models/stone03_11" />
@@ -745,10 +745,10 @@
     <Resource Idx="35" Name="icons/robots/06_01" />
     <Resource Idx="36" Name="icons/robots/06_02" />
     <Resource Idx="37" Name="icons/robots/06_03" />
-    <Resource Idx="38" Name="none" />
+    <Resource Idx="38" Name="icons/robots/23" />
     <Resource Idx="39" Name="game/pointattack" />
-    <Resource Idx="40" Name="none" />
-    <Resource Idx="41" Name="none" />
+    <Resource Idx="40" Name="icons/robots/23_01" />
+    <Resource Idx="41" Name="icons/robots/23_02" />
     <Resource Idx="42" Name="game/pointmove" />
     <Resource Idx="43" Name="icons/robots/07" />
     <Resource Idx="44" Name="icons/robots/07_01" />
@@ -1419,12 +1419,12 @@
     <Resource Idx="709" Name="none" />
     <Resource Idx="710" Name="none" />
     <Resource Idx="711" Name="none" />
-    <Resource Idx="712" Name="none" />
-    <Resource Idx="713" Name="none" />
-    <Resource Idx="714" Name="none" />
-    <Resource Idx="715" Name="none" />
-    <Resource Idx="716" Name="none" />
-    <Resource Idx="717" Name="none" />
+    <Resource Idx="712" Name="world/sky_box/anomaly_01" />
+    <Resource Idx="713" Name="world/sky_box/anomaly_00" />
+    <Resource Idx="714" Name="world/sky_box/clear_01" />
+    <Resource Idx="715" Name="world/sky_box/clear_00" />
+    <Resource Idx="716" Name="world/sky_box/hemispherical" />
+    <Resource Idx="717" Name="world/sky_box/cylinder" />
     <Resource Idx="718" Name="world/sky_box/fog" />
     <Resource Idx="719" Name="world/ut/lamp/01" />
     <Resource Idx="720" Name="world/ut/other/01" />

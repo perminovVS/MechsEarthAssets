@@ -308,7 +308,7 @@ effects/snowflake
 {
 	sort 13.000
 	{
-		tex map snowflake
+		tex map effects/snowflake
 		blendfunc blend
 		depthwrite off
 	}

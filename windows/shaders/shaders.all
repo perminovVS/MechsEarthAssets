@@ -2002,7 +2002,7 @@ effects/snowflake
 {
 	sort 13.000
 	{
-		tex map snowflake
+		tex map effects/snowflake
 		blendfunc blend
 		depthwrite off
 	}
@@ -2039,25 +2039,24 @@ invisible
 }
 
 
-world/sky_box/anomaly
+world/sky_box/hemispherical
 {
     glprogramm shader_sky_box
 	sky
-	cull front
-	sort 9.000
+	cull back
+	sort 8.000
 	{
-		tex map world/sky_box/01
-		tex map world/sky_box/01_1
-		blendfunc blend
+		tex1 map world/sky_box/anomaly_01
+		tex1 map world/sky_box/main
 	}
 }
 
-world/sky_box/fog
+world/sky_box/cylinder
 {
     glprogramm shader_sky_box_fog
 	sky
 	cull front
-	sort 8.000
+	sort 9.000
 	{
 		tex map world/sky_box/01
 		blendfunc blend

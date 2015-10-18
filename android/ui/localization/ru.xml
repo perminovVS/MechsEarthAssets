@@ -65,6 +65,8 @@
   <Text Key="command_chat_private_message" Value="написать лс" />
   <Text Key="command_text_open_url" Value="открыть ссылку" />
   
+  <Text Key="notification_chat_receive_private" 	Value="МЕХИ. Земля> «%s» пишет вам" />
+  <Text Key="notification_chat_robot_damage_to_you" 	Value="МЕХИ. Земля> вы атакованы" />
 
 
   <Text Key="ingame_exit" 	Value="Выход из игры" />
@@ -519,15 +521,15 @@
 	<Text Key="tooltip_params_hero_params_apply"			Value="ПРИМЕНИТЬ" />
 	<Text Key="tooltip_params_hero_params_point"			Value="КОЛИЧЕСТВО НЕРАСПРЕДЕЛЕННЫХ ОЧКОВ\n\nОНИ ДАЮТСЯ ПРИ ДОСТИЖЕНИИ НОВОГО УРОВНЯ\nИ ПОЗВОЛЯЮТ УЛУЧШИТЬ УМЕНИЯ ВАШЕГО ПЕРСОНАЖА\n" />
 	<Text Key="tooltip_params_hero_params_point_free"		Value="КОЛИЧЕСТВО ОЧКОВ КОТОРЫЕ\n\nМОЖНО БЕСПЛАТНО ПЕРЕРАСПРЕДЕЛИТЬ\n" />
-	<Text Key="tooltip_params_hero_name"					Value="НИК АККАУНТА, кликините что бы изменить" />
-	<Text Key="tooltip_params_hero_name_alias"				Value="ПСЕВДОНИМ ПЕРСОНАЖА, кликините что бы изменить" />
+	<Text Key="tooltip_params_hero_name"					Value="НИК АККАУНТА, нажмите что бы изменить" />
+	<Text Key="tooltip_params_hero_name_alias"				Value="ПСЕВДОНИМ ПЕРСОНАЖА, нажмите что бы изменить" />
 	<Text Key="tooltip_params_hero_level"					Value="УРОВЕНЬ ПЕРСОНАЖА\n\nЧЕМ БОЛЬШЕ УРОВЕНЬ, ТЕМ БОЛЬШЕ ВОЗМОЖНОСТЕЙ\nИ УМЕНИЙ, БОЛЕЕ СИЛЬНЫМ МЕХОМ МОЖНО УПРАВЛЯТЬ,\nТАКЖЕ ДОСТУПНО БОЛЕЕ СИЛЬНОЕ ВООРУЖЕНИЕ\n" />
 	<Text Key="tooltip_params_hero_exp"						Value="КОЛИЧЕСТВО ОПЫТА\n\nЭТО ЕЩЁ ОДНА МЕРА УРОВНЯ ПЕРСОНАЖА,\nТОЛЬКО В БОЛЕЕ ШИРОКОМ ВАРИАНТЕ;\nПРИ ДОСТИЖЕНИИ ПОРОГА ТЕКУЩЕГО ОПЫТА,\nУРОВЕНЬ ПОВЫШАЕТСЯ." />
 	<Text Key="tooltip_params_hero_nation"					Value="НАЦИЯ, В КОТОРОЙ ВЫ СОСТОИТЕ" />
 	<Text Key="tooltip_params_hero_level_nation"			Value="ВАШ РАНГ В НАЦИИ\n\nПОВЫШАЕТСЯ КОГДА ВЫ УНИЧТОЖАЕТЕ\nВРАЖЕСКИХ МЕХОВ ИЛИ ВЫПОЛНЯЕТЕ\nНАЦИОНАЛЬНЫЕ ЗАДАНИЯ" />
   <Text Key="tooltip_params_hero_premium"					Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ И ОПЫТ ВЛАДЕНИЯ ОРУДИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ.\n\nДОСТУПНЫ ФУНКЦИИ:\n- СЛЕДОВАТЬ ЗА ВЫБРАННОЙ ЦЕЛЬЮ\n- АВТО ПОДБОР КОНТЕЙНЕРОВ\n- АВТО ИСПОЛЬЗОВАНИЕ КОМПЛЕКТОВ ЗАПЧАСТЕЙ ИЗ ТРЮМА" />
 	<Text Key="tooltip_params_params_hero_buy_premium_account"	Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ И ОПЫТ ВЛАДЕНИЯ ОРУДИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ" />
-	<Text Key="tooltip_params_hero_extend_premium_account"	Value="ПРЕМИУМ АККАУНТ, кликините что бы продлить" />
+	<Text Key="tooltip_params_hero_extend_premium_account"	Value="ПРЕМИУМ АККАУНТ, нажмите что бы продлить" />
 
 	<Text Key="tooltip_params_hero_status"					Value="ВАШ КРИМИНАЛЬНЫЙ СТАТУС\n\nСВИДЕТЕЛЬСТВУЕТ О ТОМ, НАРУШАЕТЕ ЛИ ВЫ ЗАКОН\nИЛИ НАПРОТИВ, БОРИТЕСЬ С НАРУШИТЕЛЯМИ\nВ НЕКОТОРЫЕ ГОРОДА ВОЗМОЖЕН ВХОД\n ТОЛЬКО С ОПРЕДЕЛЕННЫМ СТАТУСОМ" />
 	<Text Key="tooltip_params_hero_status_ranger"			Value="ВЫ ИЗВЕСТНЫ КАК НАЁМНИК И ВЫСТУПАЕТЕ ЗА ИСКОРЕНЕНИЕ ПОВСТАНЧЕСТВА" />
@@ -917,6 +919,7 @@
 	<Text Key="chat_ch_9" 	Value="Сервер" />
 	<Text Key="chat_ch_10" 	Value="Квесты" />
 	<Text Key="chat_ch_11" 	Value="Союзники" />
+  <Text Key="chat_change_notification" 	Value="Вкл/Откл уведомление о приватных сообщениях" />
 	<Text Key="chat_open_history" 	Value="Открыть журнал" />
   <Text Key="tooltip_chat_send" 	Value="Отправить сообщение" />
 </Localization>

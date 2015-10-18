@@ -12,7 +12,7 @@
 <Zones>
     <Zone Type="None" Id="1" Name="" X1="-65000" Y1="-65000" X2="65000" Y2="65000" />
     <Zone Type="None" Id="2" Name="" NoUseTeleportator="1" X1="-65000" Y1="-65000" X2="65000" Y2="65000" />
-    <Zone Type="None" Id="10" Name="ПРОБА ОРУДИЙ" X1="-5000" Y1="9200" X2="-3800" Y2="10200" />
+    <Zone Type="None" Id="10" Name="ПРОБА ОРУДИЙ" X1="-5000" Y1="8000" X2="-3800" Y2="10200" />
     <Zone Type="None" Id="11" Name="РЕМ СТАНЦИЯ" X1="2700" Y1="7000" X2="4400" Y2="10400" />
 </Zones>
 <GlobalMap>

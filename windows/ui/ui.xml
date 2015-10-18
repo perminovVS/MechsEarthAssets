@@ -546,9 +546,9 @@
 	 <Resource Name="ui/dynamic/square_pulse_01;ui/dynamic/square_pulse_02;ui/dynamic/square_pulse_03" />             <!-- 437 -->
 	 <Resource Name="ui/empty" />                 <!-- 438 -->
 	 <Resource Name="ui/empty" />                  <!-- 439 -->
-	 <Resource Name="ui/empty" />                <!-- 440 -->
-	 <Resource Name="ui/empty" />                <!-- 441 -->
-	 <Resource Name="ui/empty" />                  <!-- 442 -->
+	 <Resource Name="ui/game/panel/chat/notification_n" /> <!-- 440 -->
+	 <Resource Name="ui/game/panel/chat/notification_a" /> <!-- 441 -->
+	 <Resource Name="ui/game/panel/chat/notification_c" /> <!-- 442 -->
    <Resource Name="ui/game/panel/chat/send" />                   <!-- 443 -->
 	 <Resource Name="ui/game/panel/chat/send_a" />                <!-- 444 -->	 
 	 <Resource Name="ui/game/panel/chat/ch_11n" />          		  <!-- 445 -->
