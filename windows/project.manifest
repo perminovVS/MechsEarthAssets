@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "1.74.1",
+    "version": "1.74.2",
     "engineVersion": "3.8",
     "assets": {
         "ClientConfig.xml": {
@@ -15,7 +15,7 @@
             "md5": "264417c3a8aeefe358a51b419eb6dbc1"
         },
         "MechsEarth.exe": {
-            "md5": "a1d29fe87916a9b6f74e3bbbdd809ddc"
+            "md5": "64bbaec4c98b273bb5bf4d6b608c1d6b"
         },
         "fonts/BasicFonts.xml": {
             "md5": "016bb6b1245b6b37502b65aff1d4bb59"
