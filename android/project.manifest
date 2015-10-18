@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "1.74.0",
+    "version": "1.74.1",
     "engineVersion": "3.8",
     "assets": {
         "ClientConfig.xml": {
@@ -3427,6 +3427,18 @@
         },
         "textures/world/sky_box/01_1.tga": {
             "md5": "9512ca13a5f0d3bf314607dbabae6067"
+        },
+        "textures/world/sky_box/anomaly_00.jpg": {
+            "md5": "7005d118f9834b22962afc010d68b536"
+        },
+        "textures/world/sky_box/anomaly_01.jpg": {
+            "md5": "6873be1b00b6323f70de4f4dde7f770f"
+        },
+        "textures/world/sky_box/clear_00.jpg": {
+            "md5": "9d0657ffe338778c9f9843776100823e"
+        },
+        "textures/world/sky_box/clear_01.jpg": {
+            "md5": "a8e9e5fe5d7b5658628b12dd6ebddab1"
         },
         "textures/world/terrain/detail.jpg": {
             "md5": "0605cecef588f21ae566c1d94282b02c"
