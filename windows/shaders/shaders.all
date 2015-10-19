@@ -2046,8 +2046,8 @@ world/sky_box/hemispherical
 	cull back
 	sort 8.000
 	{
-		tex1 map world/sky_box/anomaly_01
-		tex1 map world/sky_box/main
+		tex map world/sky_box/01
+		tex map world/sky_box/01
 	}
 }
 

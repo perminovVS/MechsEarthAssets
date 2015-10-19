@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "1.74.2",
+    "version": "1.74.4",
     "engineVersion": "3.8",
     "assets": {
         "ClientConfig.xml": {
@@ -15,7 +15,7 @@
             "md5": "264417c3a8aeefe358a51b419eb6dbc1"
         },
         "MechsEarth.exe": {
-            "md5": "64bbaec4c98b273bb5bf4d6b608c1d6b"
+            "md5": "0903e785557951c9f2430c1146783e74"
         },
         "fonts/BasicFonts.xml": {
             "md5": "016bb6b1245b6b37502b65aff1d4bb59"
@@ -1773,7 +1773,7 @@
             "md5": "b3778cf65417b2715c79ab09262f41a9"
         },
         "shaders/shaders.all": {
-            "md5": "c78a86357a686c7650920151b65965c0"
+            "md5": "566645b8d037013af864e17131a30867"
         },
         "sounds/ogg/monsters/01/death01.ogg": {
             "md5": "0fc570978b7e4038ad275622ff302d10"
