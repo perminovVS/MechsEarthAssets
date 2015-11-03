@@ -44,8 +44,8 @@
 		<Button Name="AnisotropyingRangeDec" UseHooks="1" Normal="52" Active="53" X="400" Y="420" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
 		<Text Name="Anisotropying" Text="options_tmp2" FontSet="msg_title" Align="CENTER" ColorARGB="1 0.78 0.78 0.78" X="424" Y="418" W="28" H="16" VIS="1" ENB="1" />
 
-    <Button Name="VSync" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="440" W="14" H="14" VIS="1" ENB="1" />
-    <Text Text="options_vsync" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="438" W="260" H="16" VIS="1" ENB="0" />			
+    <Button Name="DisableVSync" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="440" W="14" H="14" VIS="1" ENB="1" />
+    <Text Text="options_disable_vsync" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="438" W="260" H="16" VIS="1" ENB="0" />			
 		
 		<Text Name="NeedRestart" Text="options_note" FontSet="button" Align="LEFT" ColorARGB="1 1 0.60 0.44" ENB="0" VIS="0" X="160" Y="500" W="500" H="16" />
 		<Text Name="Ping" Text="empty" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="161" Y="526" W="200" H="16" VIS="1" ENB="1" />

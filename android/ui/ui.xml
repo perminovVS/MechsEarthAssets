@@ -631,7 +631,6 @@
 	
 	<!-- GAME  -->
 	<Resource Name="game/InGame.xml" />
-	<Resource Name="game/GlobalMap.xml" />
 	<Resource Name="game/ItemsAmount.xml" />
 	<Resource Name="game/HistoryChat.xml" />
 	<Resource Name="game/Help.xml" />

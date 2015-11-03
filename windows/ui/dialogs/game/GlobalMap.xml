@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Rectangles>
-    <Rect Name="Map_Content" X=" 185" Y=" 94" W=" 438" H=" 426" />
-</Rectangles>
 <!-- Большая карта -->
 <GlobalMap Id="50000" Worker="Menu_GlobalMap">
 	<Image Shader="82" VIS="1" ENB="0" X="174" Y="84" W="484" H="488" />
     <Item Worker="Item_GlobalMapView" WorkerShow="Item_GlobalMapView_Show"  ENB="1" X="185" Y="94" W="436" H="422" VpX="184" VpY="93" VpW="437" VpH="425" VIS="1" >
 		<Image Name="MapImage" Shader="1" VIS="0" ENB="0" X="-112" Y="-212" W="1024" H="1024" VpX="184" VpY="93" VpW="437" VpH="425" />
-        <Image Name="ViewPoint" Shader="76" W="64" H="64" ENB="0" VIS="1" X="0" Y="0"  VpX="184" VpY="93" VpW="437" VpH="425" />
-		<Text Name="MapTitle" Text="empty" FontSet="normal" ColorARGB="0.7 0.56 0.84 0.56" Align="LEFT" X="237" Y="140" W="421" H="40" VIS="1" ENB="0" />
+    <Image Name="ViewPoint" Shader="76" W="64" H="64" ENB="0" VIS="1" X="0" Y="0"  VpX="184" VpY="93" VpW="437" VpH="425" />
+		<Text Name="MapTitle" Text="empty" FontSet="normal" ColorARGB="1.0 0.792 0.905 0.925" Align="LEFT" X="237" Y="140" W="421" H="40" VIS="1" ENB="0" />
+    <Text Name="Coordinate" Text="empty" FontSet="small" ColorARGB="1.0 0.792 0.905 0.925" Align="LEFT" VAlign="LEFT" X="237" Y="160" W="421" H="10" VpX="184" VpY="93" VpW="437" VpH="425"  VIS="1" ENB="0" />
 		
 		<!-- Всплывающие подсказки -->
 		<ToolTips Name="ToolTips">

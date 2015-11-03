@@ -70,49 +70,36 @@ world/ut/bridge/02
 }
 world/ut/crystals/blue
 {
+    glprogramm shader_crystals
 	cull none
 	sort 8.000
 	{
 		tex map world/ut/crystals/blue
-		texmod scroll -0.200 0.000
-	}
-	{
 		tex map world/ut/crystals/crystals
-		texmod scale 2.000 2.000
-		blendfunc add
 	}
 }
 
 world/ut/crystals/red
 {
+    glprogramm shader_crystals
 	cull none
 	sort 8.000
 	{
 		tex map world/ut/crystals/red
-		texmod scroll -0.200 0.000
-	}
-	{
 		tex map world/ut/crystals/crystals
-		texmod scale 2.000 2.000
-		blendfunc add
 	}
 }
 
 world/ut/crystals/green
 {
+    glprogramm shader_crystals
 	cull none
 	sort 8.000
 	{
 		tex map world/ut/crystals/green
-		texmod scroll -0.200 0.000
-	}
-	{
 		tex map world/ut/crystals/crystals
-		texmod scale 2.000 2.000
-		blendfunc add
 	}
 }
-
 world/ut/crystals/metal
 {
 	cull none
@@ -2042,24 +2029,24 @@ invisible
 world/sky_box/hemispherical
 {
     glprogramm shader_sky_box
-	sky
-	cull back
-	sort 8.000
-	{
-		tex map world/sky_box/01
-		tex map world/sky_box/01
-	}
+    sky
+    cull back
+    sort 8.000
+    {
+        tex map world/sky_box/01
+        tex map world/sky_box/01
+    }
 }
 
 world/sky_box/cylinder
 {
     glprogramm shader_sky_box_fog
-	sky
-	cull front
-	sort 9.000
-	{
-		tex map world/sky_box/01
-		blendfunc blend
-	}
+    sky
+    cull front
+    sort 9.000
+    {
+        tex map world/sky_box/01
+        blendfunc blend
+    }
 }
 

@@ -294,6 +294,8 @@
 	<Text Key="quest_short" 	Value="ЗАДАНИЯ" />
 	<Text Key="quest_detail" 	Value="ОПИСАНИЕ" />
 	<Text Key="quest_cancel" 	Value="ОТКАЗАТЬСЯ" />
+  
+  <Text Key="global_map_coordinates" 	Value="АБВГДЕЖЗИК" />
 
 	<Text Key="history_title" 	Value="__/-- ЖУРНАЛ --\__" />
 	<Text Key="tooltip_history_close" 	Value="ЗАКРЫТЬ" />
@@ -424,7 +426,7 @@
   <Text Key="options_disable_color" Value="Отключить покраску" />
   <Text Key="options_disable_detail" Value="Отключить детализацию" />
   <Text Key="options_disable_effect" Value="Отключить эффекты" />
-  <Text Key="options_vsync" Value="VSync" />
+  <Text Key="options_disable_vsync" Value="Отключить VSync" />
   <Text Key="options_enable_debug" Value="Включить отладку" />
   <Text Key="options_distance" Value="Дальность вида" />
   <Text Key="options_resolution" Value="Разрешение" />

@@ -1231,11 +1231,11 @@
     <Resource Idx="521" Name="mech/device/01_01" />
     <Resource Idx="522" Name="icons/cargo/ball" />
     <Resource Idx="523" Name="fighter03_2" />
-    <Resource Idx="524" Name="game/range_max" />
-    <Resource Idx="525" Name="game/range_max" />
+    <Resource Idx="524" Name="none" />
+    <Resource Idx="525" Name="none" />
     <Resource Idx="526" Name="game/pointselect" />
-    <Resource Idx="527" Name="game/range_min" />
-    <Resource Idx="528" Name="game/range_min" />
+    <Resource Idx="527" Name="none" />
+    <Resource Idx="528" Name="none" />
     <Resource Idx="529" Name="world/terrain/detail" />
     <Resource Idx="530" Name="icons/used_upgrade/armour" />
     <Resource Idx="531" Name="icons/used_upgrade/armour_pak" />
