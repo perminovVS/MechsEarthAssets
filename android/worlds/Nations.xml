@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NationList>
-   <Nation Id="0" Name="Opora" FullName="ОПОРА" Shader="world/nation/nation_0" >
+   <Nation Id="0" Name="Opora" FullName="ОПОРА" Shader="ui/nation/nation_0" >
       <FriendList>
          <Friend Name="Opora_security" />
          <Friend Name="Common" />
@@ -15,7 +15,7 @@
       </FriendList>
    </Nation>
 
-   <Nation Id="2" Name="Treba_security" Shader="world/nation/nation_5">
+   <Nation Id="2" Name="Treba_security" Shader="ui/nation/nation_5">
       <FriendList>
          <Friend Name="Treba" />
          <Friend Name="Monster" />
@@ -36,7 +36,7 @@
       </FriendList>
    </Nation>
 
-   <Nation Id="4" Name="Krada" FullName="КРАДА" Shader="world/nation/nation_4">
+   <Nation Id="4" Name="Krada" FullName="КРАДА" Shader="ui/nation/nation_4">
       <FriendList>
          <Friend Name="Krada_security" />
          <Friend Name="Common" />
@@ -44,7 +44,7 @@
       </FriendList>
    </Nation>
 
-   <Nation Id="5" Name="Treba" FullName="ТРЕБА" Shader="world/nation/nation_5">
+   <Nation Id="5" Name="Treba" FullName="ТРЕБА" Shader="ui/nation/nation_5">
       <FriendList>
          <Friend Name="Treba_security" />
          <Friend Name="Common" />
@@ -52,7 +52,7 @@
       </FriendList>
    </Nation>
 
-   <Nation Id="6" Name="Krada_security" Shader="world/nation/nation_4">
+   <Nation Id="6" Name="Krada_security" Shader="ui/nation/nation_4">
       <FriendList>
          <Friend Name="Krada" />
          <Friend Name="Common" />
@@ -60,7 +60,7 @@
       </FriendList>
    </Nation>
 
-   <Nation Id="7" Name="Opora_security" Shader="world/nation/nation_0">
+   <Nation Id="7" Name="Opora_security" Shader="ui/nation/nation_0">
       <FriendList>
          <Friend Name="Opora" />
          <Friend Name="Common" />
