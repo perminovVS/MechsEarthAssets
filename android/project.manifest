@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "1.76.0",
+    "version": "1.76.2",
     "engineVersion": "3.8",
     "assets": {
         "ClientConfig.xml": {
@@ -1173,13 +1173,13 @@
             "md5": "fba376b74aa0facdc445321623bcab0a"
         },
         "shaders/programs/base_fog.vert": {
-            "md5": "fdd52fce973c854f3857e4e25e127a2c"
+            "md5": "9ca1552eb689a2c774886da8657ef8e5"
         },
         "shaders/programs/common.frag": {
             "md5": "1c53e33263511788852691a240c43499"
         },
         "shaders/programs/common.vert": {
-            "md5": "2facc54647b740534db44f970b538ae1"
+            "md5": "ba7da696d78ca84a708530e291c28d77"
         },
         "shaders/programs/common_blend.frag": {
             "md5": "70b92be9fd62e0c71ac27f4df1cdd55c"
@@ -1192,9 +1192,6 @@
         },
         "shaders/programs/crystals.frag": {
             "md5": "b0de716231bf82983a96851c9e03f2f6"
-        },
-        "shaders/programs/fog.vert": {
-            "md5": "08485109281ce60ecf3dacc28b422eb1"
         },
         "shaders/programs/grass.frag": {
             "md5": "46429bf77580a0711ae9e9daaa5abfa9"
@@ -1209,7 +1206,7 @@
             "md5": "2fec03103fb4e2be0e7d77dcb09d1e64"
         },
         "shaders/programs/terrain.vert": {
-            "md5": "6e289a6ad4abb3b6a37d884634e6e73c"
+            "md5": "29c5ea80ab0f6879d6837d9c486aa1b2"
         },
         "shaders/shaders.all": {
             "md5": "9fd59120936c466ac570fe2e8276947b"

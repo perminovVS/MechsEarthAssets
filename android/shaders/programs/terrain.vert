@@ -33,7 +33,7 @@ void main()
 #endif
     
 	vec2 distanceVectorToEye = a_position.xy - u_eye.xy;
-    distanceToEyeSquared = distanceVectorToEye.x*distanceVectorToEye.x + distanceVectorToEye.y*distanceVectorToEye.y;
+    distanceToEyeSquared = (distanceVectorToEye.x*distanceVectorToEye.x + distanceVectorToEye.y*distanceVectorToEye.y)*0.001;
     
 #ifndef SETTINGS_IS_MAX_OPTIMIZATION 
 	v_DistanceToEyeZSquared = a_position.z - u_eye.z;
