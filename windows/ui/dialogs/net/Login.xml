@@ -7,18 +7,18 @@
 <Login Id="30000" Worker="Menu_Login" WorkerShow="Menu_Login_Show">
     <Image Rect="Common_WholeScreen" Shader="5" />
     <Item Name="MainPanel" X="234" Y="242" W="330" H="113" UseHooks="1" VIS="1" ENB="1" Key="escape">
-        <Item Name="RegPanel" X="234" Y="121" W="290" H="112" VpX="29" VpY="18" VpW="747" VpH="413" UseHooks="1" VIS="1" ENB="1">
-            <Image Name="Images" Shader="317" X="234" Y="120" W="290" H="114" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0" UseHooks="1">
-                <Image Name="IconHero" Shader="0" X="438" Y="134" W="64" H="64" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0" UseHooks="1" />
-                <Image Shader="326" X="434" Y="130" W="72" H="72" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0" UseHooks="1" />
-                <Text Text="login_reg_title" FontSet="login" ColorARGB="1 0.91 0.73 0" X="237" Y="124" W="202" H="14" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0" />
+        <Item Name="RegPanel" X="234" Y="121" W="290" H="112" UseHooks="1" VIS="1" ENB="1">
+            <Image Name="Images" Shader="317" X="234" Y="120" W="290" H="114" VIS="1" ENB="0" UseHooks="1">
+                <Image Name="IconHero" Shader="0" X="438" Y="134" W="64" H="64" VIS="1" ENB="0" UseHooks="1" />
+                <Image Shader="326" X="434" Y="130" W="72" H="72" VIS="1" ENB="0" UseHooks="1" />
+                <Text Text="login_reg_title" FontSet="login" ColorARGB="1 0.91 0.73 0" X="237" Y="124" W="202" H="14" VIS="1" ENB="0" />
             </Image>
-            <TextField Style="auth" Name="NameHero" PlaceHolderKey="login_reg_name_holder" EngLang="1" X="250" Y="159" W="135" H="30" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1" />
-            <Button Name="CreateHero" Text="login_create" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" X="246" Y="206" W="90" H="20" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1" UseHooks="1" />
-            <Button Name="AvatarNext" Normal="322" Active="323" X="471" Y="206" W="36" H="20" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1" UseHooks="1" />
-            <Image Shader="328" Angle="90" X="476" Y="208" W="28" H="16" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0" UseHooks="1" />
-            <Button Name="AvatarPrev" Normal="322" Active="323" X="433" Y="206" W="36" H="20" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1" UseHooks="1" />
-            <Image Shader="328" Angle="-90" X="437" Y="208" W="28" H="16" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0" UseHooks="1" />
+            <TextField Style="auth" Name="NameHero" PlaceHolderKey="login_reg_name_holder" EngLang="1" X="250" Y="159" W="135" H="30" VIS="1" ENB="1" />
+            <Button Name="CreateHero" Text="login_create" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" X="246" Y="206" W="90" H="20" VIS="1" ENB="1" UseHooks="1" />
+            <Button Name="AvatarNext" Normal="322" Active="323" X="471" Y="206" W="36" H="20" VIS="1" ENB="1" UseHooks="1" />
+            <Image Shader="328" Angle="90" X="476" Y="208" W="28" H="16" VIS="1" ENB="0" UseHooks="1" />
+            <Button Name="AvatarPrev" Normal="322" Active="323" X="433" Y="206" W="36" H="20" VIS="1" ENB="1" UseHooks="1" />
+            <Image Shader="328" Angle="-90" X="437" Y="208" W="28" H="16" VIS="1" ENB="0" UseHooks="1" />
         </Item>
         <Item Name="HeroesPanel" X="36" Y="0" W="134" H="341" VpX="31" VpY="0" VpW="745" VpH="600" UseHooks="1" VIS="1" ENB="1">
             <Image Shader="317" X="36" Y="125" W="132" H="343" VpX="31" VpY="0" VpW="745" VpH="600" VIS="1" ENB="0" />
@@ -30,28 +30,26 @@
             </List>
         </Item>
         <Item Name="AuthPanel" X="234" Y="121" W="290" H="112" UseHooks="1" VIS="1" ENB="1">
-            <Image Shader="317" X="234" Y="120" W="290" H="114" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0">
-                <Text Text="login_auth_title" FontSet="login" ColorARGB="1 0.91 0.73 0" X="237" Y="124" W="202" H="14" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0" />
+            <Image Shader="317" X="234" Y="120" W="290" H="114" VIS="1" ENB="0">
+                <Text Text="login_auth_title" FontSet="login" ColorARGB="1 0.91 0.73 0" X="237" Y="124" W="202" H="14" VIS="1" ENB="0" />
             </Image>
-            <TextField Style="auth" Name="Login" PlaceHolderKey="login_auth_login_holder" EngLang="1" X="300" Y="140" W="144" H="32" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1" />
-            <TextField Style="auth" Name="Password" Secure="1" PlaceHolderKey="login_auth_password_holder" EngLang="1" X="300" Y="174" W="144" H="32" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1" />
+            <TextField Style="auth" Name="Login" PlaceHolderKey="login_auth_login_holder" EngLang="1" X="300" Y="140" W="144" H="32" VIS="1" ENB="1" />
+            <TextField Style="auth" Name="Password" Secure="1" PlaceHolderKey="login_auth_password_holder" EngLang="1" X="300" Y="174" W="144" H="32" VIS="1" ENB="1" />
           
             <Button Name="Enter" Text="login_auth_send" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" X="246" Y="206" W="62" H="20" VpX="27" VpY="16" VpW="745" VpH="411" VIS="1" ENB="1" UseHooks="1" />
-            <Button Name="ShowPassword" Text="login_auth_show_pass" Info="tooltip_login_auth_show_pass" FontSet="login" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" X="478" Y="185" W="16" H="19" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1" UseHooks="1" />
+            <Button Name="ShowPassword" Text="login_auth_show_pass" Info="tooltip_login_auth_show_pass" FontSet="login" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" X="478" Y="185" W="16" H="19" VIS="1" ENB="1" UseHooks="1" />
         </Item>
-        <Image Shader="318" X="172" Y="229" W="449" H="200" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1">
-            <Image X="180" Y="406" W="435" H="24" VpX="29" VpY="18" VpW="747" VpH="413" Shader="327" VIS="1" ENB="0" />
-            <Image X="180" Y="237" W="344" H="167" VpX="29" VpY="18" VpW="747" VpH="413" Shader="321" VIS="1" ENB="0" />
-            <Image X="184" Y="241" W="336" H="158" VpX="29" VpY="18" VpW="747" VpH="413" Shader="5" VIS="1" ENB="0" />
-            <Image Shader="319" X="620" Y="267" W="200" H="20" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0" />
-            <Image Shader="319" X="620" Y="371" W="200" H="20" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0" />
+        <Image Shader="318" X="172" Y="229" W="449" H="200" VIS="1" ENB="1">
+            <Image X="180" Y="406" W="435" H="24" Shader="327" VIS="1" ENB="0" />
+            <Image X="180" Y="237" W="344" H="167" Shader="321" VIS="1" ENB="0" />
+            <Image X="184" Y="241" W="336" H="158" Shader="5" VIS="1" ENB="0" />
         </Image>
-        <Text Name="ConsoleDisplay" Text="empty" FontSet="login" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="190" Y="243" W="324" H="144" VIS="1" ENB="0" VpX="29" VpY="18" VpW="747" VpH="413" />
-        <Text Name="StatusLine" Text="empty" FontSet="button" Align="LEFT" VAlign="CENTER" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="181" Y="408" W="432" H="14" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="0" />
-        <Button Name="Cancel" Text="login_cancel" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" X="526" Y="380" W="90" H="25" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1" UseHooks="1" />
+        <Text Name="ConsoleDisplay" Text="empty" FontSet="login" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="190" Y="243" W="324" H="144" VIS="1" ENB="0" />
+        <Text Name="StatusLine" Text="empty" FontSet="button" Align="LEFT" VAlign="CENTER" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="181" Y="408" W="432" H="14" VIS="1" ENB="0" />
+        <Button Name="Cancel" Text="login_cancel" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" X="526" Y="380" W="90" H="25" VIS="1" ENB="1" UseHooks="1" />
         <Button Name="Escape" Key="escape" VIS="0" ENB="0" UseHooks="1" />
-        <Button Name="Registration" Text="login_reg" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" Check="323" Flash="324" TimeToFlash="30" CountFlash="50" X="526" Y="350" W="90" H="25" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1" UseHooks="1" />
-        <Button Name="Authorization" Text="login_auth" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" Check="323" Flash="324" TimeToFlash="30" CountFlash="50" X="526" Y="320" W="90" H="25" VpX="29" VpY="18" VpW="747" VpH="413" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Registration" Text="login_reg" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" Check="323" Flash="324" TimeToFlash="30" CountFlash="50" X="526" Y="350" W="90" H="25" VIS="1" ENB="1" UseHooks="1" />
+        <Button Name="Authorization" Text="login_auth" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="322" Active="323" Check="323" Flash="324" TimeToFlash="30" CountFlash="50" X="526" Y="320" W="90" H="25" VIS="1" ENB="1" UseHooks="1" />
     </Item>
     <!-- Всплывающие подсказки -->
     <ToolTips Name="ToolTips">

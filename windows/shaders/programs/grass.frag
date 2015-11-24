@@ -10,9 +10,10 @@ uniform vec4 u_color;
 void main()
 {
 	vec4 color = texture2D(CC_Texture0, v_texCoord);
-	if (color.a > 0.1) 
+	if (color.a > 0.15) 
 	{
-		gl_FragColor = color;
+		gl_FragColor.rgb = color.rgb;
+		gl_FragColor.a = 1.0;
 
 #ifndef SETTINGS_DISABLE_FOG
 	    if( v_fogFactor < 1.0 )

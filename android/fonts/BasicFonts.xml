@@ -27,6 +27,11 @@
     <hd Font="3" Size="10" />
     <fullhd Font="3" Size="9" />
   </Set>
+  <Set Name="params_small">
+    <sd Font="3" Size="8" />
+    <hd Font="3" Size="8" />
+    <fullhd Font="3" Size="8" />
+  </Set>
   <Set Name="small_dem_bold">
     <sd Font="6" Size="10" />
     <hd Font="6" Size="10" />

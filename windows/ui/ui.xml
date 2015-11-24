@@ -423,7 +423,7 @@
 	 <Resource Name="ui/game/panel/bullets/no" />					  <!-- 316 -->
 	 <Resource Name="ui_window/login_sub" />          		  <!-- 317 -->
 	 <Resource Name="ui_window/login" />          			  <!-- 318 -->
-	 <Resource Name="ui/login/panel/element_0" />          		  <!-- 319 -->
+	 <Resource Name="ui/empty" />          		  <!-- 319 -->
 	 <Resource Name="ui/empty" />          		  <!-- 320 -->
 	 <Resource Name="ui_window/login_console" />          	    	  <!-- 321 -->
 	 <Resource Name="ui/login/panel/buttonn" />          			  <!-- 322 -->
