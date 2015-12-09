@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "1.77.0",
+    "version": "1.78.0",
     "engineVersion": "3.9",
     "assets": {
         "ClientConfig.xml": {
@@ -1215,7 +1215,7 @@
             "md5": "29c5ea80ab0f6879d6837d9c486aa1b2"
         },
         "shaders/shaders.all": {
-            "md5": "9fd59120936c466ac570fe2e8276947b"
+            "md5": "62a097599bfad3a879eea0f7e5c82549"
         },
         "sounds/ogg/monsters/01/death01.ogg": {
             "md5": "0fc570978b7e4038ad275622ff302d10"
@@ -1857,10 +1857,10 @@
             "md5": "4129d3994eca970de418159c571c0dfc"
         },
         "textures/atlas/icons.plist": {
-            "md5": "42dfa6f24b7e0582e7259d160a2048bf"
+            "md5": "325ddc2b16c6db30eef1e9f3354fdec4"
         },
         "textures/atlas/icons.png": {
-            "md5": "7713c2275ee9f4fac3d36d70e7ff8b83"
+            "md5": "1f51c77b2aa7720a2a321bcd196cad4b"
         },
         "textures/atlas/ui.plist": {
             "md5": "a3cd6705f6aab420760d86359cfa1740"
@@ -3345,7 +3345,7 @@
             "md5": "fc0001e3b70c877e0fafba52fbd2f39a"
         },
         "textures/world/house/house_40.jpg": {
-            "md5": "3d5fc835f33c3cfe984e49aa34a698ce"
+            "md5": "7b3b546f9f55f72bfaf0200810d3ec73"
         },
         "textures/world/house/house_41.jpg": {
             "md5": "4d166b800855aebe8fd570e79ce11d1e"
@@ -3774,16 +3774,16 @@
             "md5": "c78655712e07fb3eaf49d7e61677c894"
         },
         "textures/world/ut/turret/01.jpg": {
-            "md5": "0a532de128b3c0d91e854809727e7840"
+            "md5": "4bc4ce2827cf0fa6c52da6d2d63e65b7"
         },
         "textures/world/ut/unit/01.jpg": {
-            "md5": "8f849e21015b68d588c2716e1fc7333c"
+            "md5": "68ce416e203f4b49bcc5914151acedf6"
         },
         "textures/world/ut/unit/02.jpg": {
             "md5": "ff820c44fce684b94c07359a9948c709"
         },
         "textures/world/ut/unit/03.jpg": {
-            "md5": "111a9400e34860323b7370df8f857b44"
+            "md5": "4090b726a0ea056abad4c54a83de04ba"
         },
         "textures/world/ut/unit/04.jpg": {
             "md5": "fb87a7c479f85d58c3deb9beab48169c"
@@ -3891,7 +3891,7 @@
             "md5": "6d2048e704b0ad3da41878427bfa1d7c"
         },
         "textures/world/wall/33.jpg": {
-            "md5": "3edd5ad337f88ccbf48bd2c04562a157"
+            "md5": "06309fe735071e389001f9e13e99e837"
         },
         "textures/world/wall/34.jpg": {
             "md5": "8e0f1bdda5a52b9457682c5dad73dfe8"
@@ -4089,7 +4089,7 @@
             "md5": "c016029f6bbbfe5198c97a06395d3e48"
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "691915c493fdb97e36e4878e280cfd67"
+            "md5": "88a332bc17a77c3e36b24973525eaa1b"
         },
         "ui/dialogs/main/Options.xml": {
             "md5": "8a8dd5973a3ca0f94e826fbad410dec1"
@@ -4155,7 +4155,7 @@
             "md5": "038dc8f5baab868224d830b638fade57"
         },
         "ui/localization/ru.xml": {
-            "md5": "1f773eb66f740b1e947dca067cd7ef5d"
+            "md5": "a647a41b53a6959dd20026b8249190aa"
         },
         "ui/ui.xml": {
             "md5": "72b8c640e35456e3968e84fbdc823308"
@@ -4164,10 +4164,10 @@
             "md5": "62e9d3e087889605d3bf2c144862db53"
         },
         "worlds/1/Layer.mz": {
-            "md5": "4095a531fe7f8e9d954a5cb46876bf8c"
+            "md5": "e5ba80ad2c60576be67e94b7ccdb1214"
         },
         "worlds/1/PassiveEntities.bin": {
-            "md5": "68704d6dd986af5e081b1b4dd28acfcb"
+            "md5": "6d8f24e1549a6bbd9b18a5cd7aab8acc"
         },
         "worlds/1/Terrain.mz": {
             "md5": "4fb7ac34c16aa4cc649340917d2bb24e"
@@ -4182,22 +4182,22 @@
             "md5": "2767976a641a96515a9947ea2e8788c3"
         },
         "worlds/10/Layer.mz": {
-            "md5": "a1fd97ff5934e12a28e83e9086662242"
+            "md5": "adfe95d39fe63cf1bb5b0f8c1d1faa00"
         },
         "worlds/10/PassiveEntities.bin": {
-            "md5": "8e53d1e80aa553f08d296d2d31a3dc33"
+            "md5": "74eafa1bbe979e9d079234784cff68d5"
         },
         "worlds/10/Terrain.mz": {
-            "md5": "d3f64070c88b5c13a13e33c5606ec170"
+            "md5": "7d84970932f61247f11bd3b0d316fe56"
         },
         "worlds/10/World.xml": {
-            "md5": "6dbf7e48c898a7b384bd0d474ff3f9f4"
+            "md5": "b20c268274bb8e4d8036d821e979e9cc"
         },
         "worlds/10/map.jpg": {
-            "md5": "de832ef46185497ee20232eceec6658d"
+            "md5": "add134cc750cd0f8f64b2ae9727a9e83"
         },
         "worlds/10/terrain.jpg": {
-            "md5": "7351af7f1949d04604b8cdfd3981c90d"
+            "md5": "16605d87a50d5e9f63d7f7e5f0a4a676"
         },
         "worlds/11/Layer.mz": {
             "md5": "e5f50bc11f23173009c68c760b468e8b"
@@ -4218,10 +4218,10 @@
             "md5": "afa75d3b2bbcc681738e21fca2ab7487"
         },
         "worlds/2/Layer.mz": {
-            "md5": "0d6688ed67bc61810a8ec4ffb473a913"
+            "md5": "17de10d9e92dab398c7293e7fa842b05"
         },
         "worlds/2/PassiveEntities.bin": {
-            "md5": "ff2dfa17b973d6863455d35d4cefcf62"
+            "md5": "07cccd80112a21c9e597cf62d43fddf3"
         },
         "worlds/2/Terrain.mz": {
             "md5": "9ffa2396950078b88bf608599dedc0cc"
@@ -4272,10 +4272,10 @@
             "md5": "401edf96cda4d33f35ae97c55f950eb8"
         },
         "worlds/5/Layer.mz": {
-            "md5": "105acd310905047f4cbd398d8232b5c9"
+            "md5": "1f9ba5b28bbc573ee7b39562b4f4d8e4"
         },
         "worlds/5/PassiveEntities.bin": {
-            "md5": "1f08ce069d12748fcfab68a25756a81d"
+            "md5": "5045671b43b302b68ec007d4f01f50fd"
         },
         "worlds/5/Terrain.mz": {
             "md5": "30cf9dfc3e3500ca11e5b85714718009"
@@ -4290,16 +4290,16 @@
             "md5": "82d789775e3c1fac28730a8ee2058c97"
         },
         "worlds/6/Layer.mz": {
-            "md5": "f5d9b1d0cfbd0a7404c5f3f8d4415527"
+            "md5": "d146e75a244d59cb79bde6146d0432a4"
         },
         "worlds/6/PassiveEntities.bin": {
-            "md5": "b6ab04c7b2c01cd5f727a5a978cc8d11"
+            "md5": "858b05b6aca2a23374370f2b2e1b8121"
         },
         "worlds/6/Terrain.mz": {
             "md5": "b27228af88bfdc8ad2fe656e772b3b5a"
         },
         "worlds/6/World.xml": {
-            "md5": "2d1e31daabd81465c67d1f9a5477db21"
+            "md5": "c5f59083ab846ab75d678d68c6bcdb79"
         },
         "worlds/6/map.jpg": {
             "md5": "dbf62ec773293325458d62fb945913c8"
@@ -4326,7 +4326,7 @@
             "md5": "ee9f3c1b9cd0e6d44e3bbe95d8d659b7"
         },
         "worlds/8/Layer.mz": {
-            "md5": "3e8bada36fd8dd873b31ae7eba45363d"
+            "md5": "978be54222d2320a3556c41deb18a0fa"
         },
         "worlds/8/PassiveEntities.bin": {
             "md5": "b3c03a6219dc6080924620457bb6fb91"
@@ -4362,7 +4362,7 @@
             "md5": "dbbffea2acd97f63886b5e2aa028276b"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "197670604d0a83e55409aa6296ca9fcc"
+            "md5": "73656a29aee2d9aa44555d253d06b4be"
         },
         "worlds/Nations.xml": {
             "md5": "decfc65a26d52621e27318451867dc29"

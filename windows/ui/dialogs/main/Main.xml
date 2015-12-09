@@ -9,5 +9,4 @@
     <Text Name="Version" HAlignAdd="RIGHT" VAlignAdd="BOTTOM" X="600" Y="582" W="196" H="16" Text="version" FontSet="signature" Align="RIGHT" VAlign="TOP" ColorARGB="1 1 1 1" />
     <Text Name="Info" X="57" Y="460" W="327" H="104" Text="main_get_info" FontSet="normal_text" Align="LEFT" VAlign="TOP" ColorARGB="1 0.1 0.84 0.1" VpX="0" VpY="0" VpW="0" VpH="0" VIS="0" ENB="0" />
     <Button Name="OpenUrl" Text="mainmenu_url" FontSet="normal_text" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.53 0.81 0.92" VIS="1" ENB="1" X="290" Y="547" W="110" H="16" UseHooks="1" />
-    <Button Name="NeedUpdate" Text="mainmenu_need_update" FontSet="button" Align="LEFT" ColorARGB="1 0.9 0.3 0.3" ActiveColorARGB="1 0.8 0.3 0.3" X="31" Y="415" W="220" H="16" VIS="1" ENB="1" UseHooks="1" />
 </Main>

@@ -508,7 +508,6 @@
   <Text Key="mainmenu_options" Value="Настройки" />
   <Text Key="mainmenu_exit" Value="Выход" />
   <Text Key="mainmenu_url" Value="открыть сайт" />
-  <Text Key="mainmenu_need_update" Value="ТРЕБУЕТСЯ ОБНОВЛЕНИЕ" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
   <Text Key="startmsg_title"										Value="Правительство" />
