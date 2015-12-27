@@ -31,7 +31,7 @@
     <Resource Idx="29" Name="models/mech/player/23" />
     <Resource Idx="30" Name="models/world/sky_box/cylinder" />
     <Resource Idx="31" Name="models/world/sky_box/hemispherical" />
-    <Resource Idx="32" Name="none" />
+    <Resource Idx="32" Name="models/mech/player/new_year" />
     <Resource Idx="33" Name="models/stone03_01" />
     <Resource Idx="34" Name="models/stone03_02" />
     <Resource Idx="35" Name="models/stone03_11" />
@@ -826,7 +826,7 @@
     <Resource Idx="116" Name="icons/energy_accumulator/06" />
     <Resource Idx="117" Name="icons/robots/01_04" />
     <Resource Idx="118" Name="icons/robots/01_05" />
-    <Resource Idx="119" Name="none" />
+    <Resource Idx="119" Name="mech/player/new_year" />
     <Resource Idx="120" Name="icons/defence_repair/01" />
     <Resource Idx="121" Name="world/ex/semisphere" />
     <Resource Idx="122" Name="icons/special_extractor/02" />
@@ -852,7 +852,7 @@
     <Resource Idx="142" Name="icons/bullets/missile_01" />
     <Resource Idx="143" Name="world/shrub/15_17" />
     <Resource Idx="144" Name="icons/bullets/missile_02" />
-    <Resource Idx="145" Name="none" />
+    <Resource Idx="145" Name="icons/robots/new_year" />
     <Resource Idx="146" Name="icons/bullets/fazer_03" />
     <Resource Idx="147" Name="icons/bullets/fazer_04" />
     <Resource Idx="148" Name="mech/krot/08" />

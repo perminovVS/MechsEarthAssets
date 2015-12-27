@@ -1882,6 +1882,7 @@ cloud_particle
 
 invisible
 {
+	sort 2.000
 	{
 		tex map effects/bubble
 		blendfunc blend

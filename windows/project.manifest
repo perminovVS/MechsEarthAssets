@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "1.78.0",
+    "version": "1.78.0.1",
     "engineVersion": "3.9",
     "assets": {
         "ClientConfig.xml": {
@@ -166,6 +166,9 @@
         },
         "models/mech/player/23.mdl": {
             "md5": "61b7d83285804d39fdf5d6456dbbfc54"
+        },
+        "models/mech/player/new_year.mdl": {
+            "md5": "6a18522dee65ecd20a3cad6eeaa5d303"
         },
         "models/mech/turret/01.mdl": {
             "md5": "bc90e50b097af111f9173dcf17d22561"
@@ -1761,7 +1764,7 @@
             "md5": "8ed38a3086af35337257f5c9c581cd87"
         },
         "shaders/effects.sdr": {
-            "md5": "4a3c1508b6185cd53018f54f6835f0a5"
+            "md5": "403704a86bd9e1a629690a3378cd4019"
         },
         "shaders/game.sdr": {
             "md5": "e1acdb7e7c209fb380d0c15f32289ec9"
@@ -1815,7 +1818,7 @@
             "md5": "29c5ea80ab0f6879d6837d9c486aa1b2"
         },
         "shaders/shaders.all": {
-            "md5": "62a097599bfad3a879eea0f7e5c82549"
+            "md5": "270fa20801a2bcc59703cfa4316c04f7"
         },
         "sounds/ogg/monsters/01/death01.ogg": {
             "md5": "0fc570978b7e4038ad275622ff302d10"
@@ -2457,10 +2460,10 @@
             "md5": "4129d3994eca970de418159c571c0dfc"
         },
         "textures/atlas/icons.plist": {
-            "md5": "325ddc2b16c6db30eef1e9f3354fdec4"
+            "md5": "40291233b3769b077d5e27acdf2e9cbd"
         },
         "textures/atlas/icons.png": {
-            "md5": "1f51c77b2aa7720a2a321bcd196cad4b"
+            "md5": "7753345ca66a4bc9adbcf6f6cc9d42ea"
         },
         "textures/atlas/ui.plist": {
             "md5": "a3cd6705f6aab420760d86359cfa1740"
@@ -3716,6 +3719,9 @@
         "textures/mech/player/23_02.jpg": {
             "md5": "c7a1703ac257ec78cd93baa6fa7defcf"
         },
+        "textures/mech/player/new_year.jpg": {
+            "md5": "c168004ab0c8b550cfa4620c9f5659a1"
+        },
         "textures/mech/turret/01.jpg": {
             "md5": "ab13702236b877063891e804f39f00ad"
         },
@@ -4764,7 +4770,7 @@
             "md5": "62e9d3e087889605d3bf2c144862db53"
         },
         "worlds/1/Layer.mz": {
-            "md5": "e5ba80ad2c60576be67e94b7ccdb1214"
+            "md5": "67473ad85ff85071a7aa302cd36beffe"
         },
         "worlds/1/PassiveEntities.bin": {
             "md5": "6d8f24e1549a6bbd9b18a5cd7aab8acc"
@@ -4962,13 +4968,13 @@
             "md5": "871d849a364a476c6fa1ad541858e9fd"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "73656a29aee2d9aa44555d253d06b4be"
+            "md5": "f759800a13a6864c78189f6efc55372a"
         },
         "worlds/Nations.xml": {
             "md5": "decfc65a26d52621e27318451867dc29"
         },
         "worlds/Resources.xml": {
-            "md5": "724e6c44afadeb62f1288a91430a5e3f"
+            "md5": "d133bfe3b52426023a270e2acd7fbb68"
         }
     },
     "searchPaths": []
