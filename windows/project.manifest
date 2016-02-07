@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "1.78.0.2",
+    "version": "1.78.0.3",
     "engineVersion": "3.9",
     "assets": {
         "ClientConfig.xml": {
@@ -4947,7 +4947,7 @@
             "md5": "0dc03bbda21e2497cbcc5847da7c53b9"
         },
         "worlds/8/terrain.jpg": {
-            "md5": "fe97bae74ae3b376c8fcf15878f86010"
+            "md5": "4211500d69845deb70f6fd55e8bf1fde"
         },
         "worlds/9/Layer.mz": {
             "md5": "bf8533bb97faacf9451d61bc00a0973d"
