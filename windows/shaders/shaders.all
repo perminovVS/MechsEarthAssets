@@ -1914,4 +1914,85 @@ world/sky_box/cylinder
         blendfunc blend
     }
 }
-
+
+
+mech/monster/boss_01
+{
+	cull none
+	{
+		tex map mech/monster/01
+		rgbsrc constant 1.0 0.3 0.3
+	}
+}
+
+mech/monster/boss_02
+{
+	cull none
+	{
+		tex map mech/monster/02
+		rgbsrc constant 1.0 0.3 0.3
+	}
+}
+
+mech/monster/boss_03
+{
+	cull none
+	{
+		tex map mech/monster/03
+		rgbsrc constant 1.0 0.3 0.3
+	}
+}
+
+mech/monster/boss_04
+{
+	cull none
+	{
+		tex map mech/monster/04
+		rgbsrc constant 1.0 0.3 0.3
+	}
+}
+
+mech/monster/boss_05
+{
+	cull none
+	{
+		tex map mech/monster/05
+		rgbsrc constant 1.0 0.3 0.3
+	}
+}
+
+mech/monster/boss_06
+{
+	cull none
+	{
+		tex map mech/monster/06
+		rgbsrc constant 1.0 0.3 0.3
+	}
+}
+
+mech/monster/boss_07
+{
+	cull none
+	{
+		tex map mech/monster/07
+		rgbsrc constant 1.0 0.3 0.3
+	}
+}
+
+mech/monster/boss_08
+{
+	cull none
+	{
+		tex map mech/monster/08
+		rgbsrc constant 1.0 0.3 0.3
+	}
+}
+
+mech/monster/boss_09
+{
+	cull none
+	{
+		tex map mech/monster/08
+		rgbsrc constant 1.0 0.3 0.3
+	}
+}

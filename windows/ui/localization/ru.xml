@@ -41,6 +41,8 @@
 	<Text Key="interface_auto_aim_disable" 	Value="Авто наведение отключено" />
   <Text Key="interface_auto_fire_enable" 	Value="Активирована авто стрельба" />
   <Text Key="interface_auto_fire_disable" 	Value="Авто стрельба отключена" />
+  <Text Key="interface_select_command_file" 	Value="Выбор файла чат команд" />
+  <Text Key="interface_select_command_file_mask" 	Value="Файлы чат команд (*.cmd)" />
 
   <Text Key="command_auto_fire_enable" Value="авто стрельба" />
   <Text Key="command_auto_fire_disable" Value="стрельбу отключить" />
@@ -56,6 +58,7 @@
   <Text Key="command_stop_move" Value="остановиться" />
   <Text Key="command_attack_to" Value="атаковать" />
   <Text Key="command_change_weapon" Value="смена орудий" />
+  <Text Key="command_nation_invite" Value="пригласить в нацию" />
 
 
   <Text Key="command_chat_copy" Value="копировать в буфер" />
@@ -136,6 +139,11 @@
   <Text Key="game_chat_holder" 	Value="Введите сообщение" />
 	<Text Key="game_auto_fire" 	Value="авто" />
 
+  <Text Key="global_north" 	Value="север" />
+  <Text Key="global_south" 	Value="юг" />
+  <Text Key="global_west" 	Value="запад" />
+  <Text Key="global_east" 	Value="восток" />
+
 
 	<Text Key="tooltip_query" 	Value="ПРИГЛАШЕНИЯ" />
 	<Text Key="tooltip_query_ok" 	Value="ПРИНЯТЬ" />
@@ -143,11 +151,13 @@
 	<Text Key="query_trade_empty" 	Value="Новых запросов\nна торговлю\nнет" />
 	<Text Key="query_party_empty" 	Value="Новых запросов\nвступить в группу\nнет" />
 	<Text Key="query_clan_empty" 	Value="Новых запросов\nвступить в отряд\nнет" />
+  <Text Key="query_nation_empty" 	Value="Новых запросов\nвступить в нацию\nнет" />
 	<Text Key="query_trade_invite" 	Value="Пришел запрос на торговлю от пилота:\n\c&lt;50 200 255&gt;%s\b" />
 	<Text Key="query_party_invite" 	Value="Пришел запрос вступить в группу от пилота:\n\c&lt;50 200 255&gt;%s\b" />
 	<Text Key="query_clan_invite" 	Value="Пришел запрос вступить в отряд к пилоту:\n\c&lt;50 200 255&gt;%s\b" />
 	<Text Key="query_clan_union_invite" 	Value="Пришел запрос\nсоюза от:\n\c&lt;50 200 255&gt;%s\b" />
 	<Text Key="query_clan_piece_invite" 	Value="Пришел запрос\nмира от:\n\c&lt;50 200 255&gt;%s\b" />
+  <Text Key="query_nation_invite" 	Value="Пришел запрос\nнации от:\n\c&lt;50 200 255&gt;%s\b" />
 
 	<Text Key="tooltip_quest_close" 	Value="ЗАКРЫТЬ ЗАДАНИЯ" />
 
@@ -727,6 +737,8 @@
 	<Text Key="chat_party_list" 	Value="%s" />
 
 
+  <Text Key="chat_nation_invite_you" 	Value="Вы предложили нацию %s" />
+  <Text Key="chat_nation_invite" 	Value="Вам предложил нацию %s" />
 	<Text Key="chat_clan_cant_invite_you_not_leader" 	Value="Лидером отряда является %s, вы не можете приглашать" />
 	<Text Key="chat_clan_cant_invite_he_already_in" 	Value="Вы не можете пригласить %s, потому что он уже в отряде" />
 	<Text Key="chat_clan_invite_you" 	Value="Вы пригласили в отряд %s" />
@@ -829,6 +841,7 @@
 	<Text Key="tooltip_trade_invite_confirm" 	Value="ПОДТВЕРДИТЬ ТОРГОВЛЮ" />
 	<Text Key="party_invite_confirm" 	Value="%s предложил вам присоедениться к партии.\nВы согласны?" />
 	<Text Key="tooltip_party_invite_confirm" 	Value="ПОДТВЕРДИТЬ ВСТУПЛЕНИЕ В ГРУППУ" />
+  <Text Key="tooltip_nation_invite_confirm" 	Value="ПОДТВЕРДИТЬ ВСТУПЛЕНИЕ В НАЦИЮ" />
 
 	<Text Key="tooltip_party" 	Value="ГРУППА" />
 	<Text Key="tooltip_party_invite" 	Value="ПРИГЛАСИТЬ ПЕРСОНАЖА В ГРУППУ" />
@@ -882,10 +895,11 @@
 	<Text Key="clan_ask_leave" 	Value="Вы уверены !?\n\c&lt;250 120 120&gt;Назад могут и не взять!\b" />
 	<Text Key="clan_ask_expel" 	Value="Вы действительно хотите исключить\n\c&lt;100 250 100&gt;%s\b из отряда?" />
 	<Text Key="clan_ask_clan_ch_ld" 	Value="Вы действительно хотите передать\nуправление \c&lt;50 200 255&gt;%s\b!?" />
-	<Text Key="clan_set_icon" 	Value="Иконка должна лежать в\n каталоге с игрой, выберите её из списка справа\n(формат файла - jpg, 32x32,\n размер до 2 Кб)" />
+	<Text Key="clan_set_icon" 	Value="Выбор иконки для отряда. Формат файла - jpg, разрешение 32x32, размер до 2 Кб" />
+  <Text Key="clan_set_icon_mask" 	Value="Файлы картинок (*.jpg)" />
 	<Text Key="clan_set_icon_file_not_found" 	Value="Файл не найден." />
-	<Text Key="clan_set_icon_wrong_file_size" 	Value="Неправильный размер файла." />
-	<Text Key="clan_set_icon_wrong_file_format" 	Value="Неправильный формат файла." />
+	<Text Key="clan_set_icon_wrong_file_size" 	Value="Файл слишком большой - %.2f, максимум 2 Кб." />
+	<Text Key="clan_set_icon_wrong_file_format" 	Value="Неправильный формат файла, требуется jpg." />
 	<Text Key="clan_member_online" 	Value="\c&lt;100 250 100&gt;%s\b" />
 	<Text Key="clan_member_offline" 	Value="\c&lt;250 120 120&gt;%s\b" />
 	<Text Key="clan_member_leader" 	Value="\c&lt;50 200 255&gt;%s%s &lt;- командор\b" />

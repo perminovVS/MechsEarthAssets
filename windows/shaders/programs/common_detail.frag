@@ -11,7 +11,7 @@ uniform float u_DetailUV;
 // main fragment
 void main()
 {
-    gl_FragColor = texture2D(CC_Texture0, v_texCoord);
+    gl_FragColor = u_color*texture2D(CC_Texture0, v_texCoord);
 	
 	gl_FragColor += (texture2D(u_Detail, v_texCoord*u_DetailUV) - 0.5);
     

@@ -36,18 +36,6 @@
             <Button Name="AskNo" Text="no" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="92" Active="3" VIS="1" ENB="1" X="424" Y="350" W="40" H="25" UseHooks="1" />
             <Button Name="AskYes" Text="yes" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="92" Active="3" VIS="1" ENB="1" X="342" Y="350" W="40" H="25" UseHooks="1" />
         </Item>
-        <Item Name="DialogSetIcon" X="215" Y="249" W="175" H="217" ENB="1" VIS="1">
-            <Image Shader="5" X="199" Y="192" W="186" H="260" ENB="0" VIS="1" UseHooks="1" />
-            <Image Shader="5" X="202" Y="452" W="221" H="20" ENB="0" VIS="1" />
-            <Image Shader="5" X="553" Y="170" W="55" H="22" ENB="0" VIS="1" />
-            <Image Shader="5" X="385" Y="192" W="224" H="77" ENB="0" VIS="1" UseHooks="1" />
-            <Image Shader="5" X="592" Y="269" W="16" H="188" ENB="0" VIS="1" />
-            <Image Shader="5" X="385" Y="427" W="207" H="28" ENB="0" VIS="1" UseHooks="1" />
-            <Image Shader="140" X="179" Y="234" W="206" H="201" ENB="1" VIS="1" />
-            <Text Text="clan_set_icon" Align="LEFT" VAlign="TOP" WordWrap="1" FontSet="small" ColorARGB="1 0.9 0.84 0.56" X="222" Y="280" W="154" H="59" VIS="1" ENB="1" UseHooks="1" />
-            <Button Name="IconSet" Text="apply" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="92" Active="3" VIS="1" ENB="1" X="222" Y="372" W="70" H="25" UseHooks="1" />
-            <Button Name="IconCancel" Text="resume" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="92" Active="3" VIS="1" ENB="1" X="302" Y="372" W="70" H="25" UseHooks="1" />
-        </Item>
         <!-- Всплывающие подсказки -->
         <ToolTips>
             <Image Shader="6" VIS="0" ENB="0" />

@@ -110,16 +110,15 @@
     <!-- Кнопка добычи -->
     <Resource Name="ui/btnextactivep" />         <!-- 64 -->
     <Resource Name="ui/btnextactivea" />         <!-- 65 -->
-    <Resource Name="ui/empty" />           <!-- 66 -->
-
-    <!-- Изображения на миникарте -->
-    <Resource Name="ui/game/panel/map/point_01" />            <!-- 67 mapmonster --> 
-    <Resource Name="ui/game/panel/map/point_01" />      <!-- 68 mapplayer_ranger -->
-    <Resource Name="ui/game/panel/map/point_03" />               <!-- 69 mapcity -->
-    <Resource Name="ui/game/panel/map/point_01" />       <!-- 70 mapplayer_party -->
-    <Resource Name="ui/game/panel/map/point_01" />        <!-- 71 mapcity_pirate -->
-    <Resource Name="ui/game/panel/map/point_01" />       <!-- 72 mapplayer_clean -->
-    <Resource Name="ui/game/panel/map/point_01" />    <!-- 73 mapplayer_criminal -->
+   <!-- Изображения на миникарте -->
+    <Resource Name="ui/game/panel/map/point_my" />           <!-- 66 -->
+    <Resource Name="ui/game/panel/map/point_01" />            <!-- 67  --> 
+    <Resource Name="ui/game/panel/map/pulse/01;ui/game/panel/map/pulse/02;ui/game/panel/map/pulse/03;ui/game/panel/map/pulse/04;ui/game/panel/map/pulse/05;ui/game/panel/map/pulse/06;ui/game/panel/map/pulse/07" />      <!-- 68  -->
+    <Resource Name="ui/game/panel/map/point_03" />               <!-- 69  -->
+    <Resource Name="ui/game/panel/map/radar/01;ui/game/panel/map/radar/02;ui/game/panel/map/radar/03;ui/game/panel/map/radar/04;ui/game/panel/map/radar/05;ui/game/panel/map/radar/06;ui/game/panel/map/radar/07;ui/game/panel/map/radar/08" />       <!-- 70  -->
+    <Resource Name="ui/empty" />        <!-- 71  -->
+    <Resource Name="ui/empty" />       <!-- 72  -->
+    <Resource Name="ui/empty" />    <!-- 73  -->
     <Resource Name="ui/game/panel/map/compas" /> 					  <!-- 74 -->
     <Resource Name="ui_window/map_frame" />              <!-- 75 -->
     <Resource Name="ui/game/panel/map/arrow" />              <!-- 76 -->
@@ -171,7 +170,7 @@
     <Resource Name="ui/quest/panel/btnexita" />             	  <!-- 104 -->
     <Resource Name="ui/quest/panel/buttonn" />             		  <!-- 105 -->
     <Resource Name="ui/quest/panel/buttona" />             		  <!-- 106 -->
-    <Resource Name="ui/world/mapflag" />                         <!-- 107 -->
+    <Resource Name="ui/empty" />                         <!-- 107 -->
     <Resource Name="ui/world/star_circle" />                     <!-- 108 -->
     <Resource Name="ui/help/arrow" />                            <!-- 109 -->
     <Resource Name="ui_window/color" />               <!-- 110 -->
@@ -358,9 +357,9 @@
     <Resource Name="ui/game/panel/openinvinstn" />					  <!-- 254 -->
     <Resource Name="ui/game/panel/openinvinsta" />					  <!-- 255-->
     <Resource Name="ui/game/panel/openinvinstc" /> 		   	  <!-- 256 -->
-    <Resource Name="ui/empty" />			   	  <!-- 257 -->
-    <Resource Name="ui/empty" />					  <!-- 258 -->
-    <Resource Name="ui/empty" />          		  <!-- 259 -->    
+    <Resource Name="ui/game/panel/cmd/nation/confirm_n" />			   	  <!-- 257 -->
+    <Resource Name="ui/game/panel/cmd/nation/confirm_a" />					  <!-- 258 -->
+    <Resource Name="ui/game/panel/cmd/nation/confirm_f" />          		  <!-- 259 -->    
 	 <Resource Name="ui/empty" />          		  <!-- 260 -->
     <Resource Name="ui/game/panel/action/normal" />		  		  <!-- 261 -->
     <Resource Name="ui/game/panel/action/citya" />          	  <!-- 262 -->
@@ -423,7 +422,7 @@
 	 <Resource Name="ui/game/panel/bullets/no" />					  <!-- 316 -->
 	 <Resource Name="ui_window/login_sub" />          		  <!-- 317 -->
 	 <Resource Name="ui_window/login" />          			  <!-- 318 -->
-	 <Resource Name="ui/empty" />          		  <!-- 319 -->
+	 <Resource Name="ui/game/panel/cmd/window_element_3" />          		  <!-- 319 -->
 	 <Resource Name="ui/empty" />          		  <!-- 320 -->
 	 <Resource Name="ui_window/login_console" />          	    	  <!-- 321 -->
 	 <Resource Name="ui/login/panel/buttonn" />          			  <!-- 322 -->

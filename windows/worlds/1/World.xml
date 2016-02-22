@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <World>
-    <WorldName Name="Научный полигон" />
+    <WorldName Name="База новобранцев" />
     <WorldNation Nation="9" UseWorldNationOnly="1" WorldMaxLvl="50" />
     <Terrain Use="1">
         <Size X="1025" Y="1025" Cell="128" DeltaHeight="32768" HeightScale="2.000000" />
@@ -27,7 +27,7 @@
     <Center X="512" Y="512" />
     <Limit X1="0" Y1="0" X2="1024" Y2="1024" />
     <Marks>
-        <Mark Type="1" Name="ПРАВИТЕЛЬСТВО" X="-1930" Y="5805" />
+        <Mark Type="1" Name="ПРАВИТЕЛЬСТВО" X="-1914" Y="5326" />
         <Mark Type="1" Name="НАУЧНАЯ СТАНЦИЯ" X="-7748" Y="-4445" />
         <Mark Type="1" Name="МАГАЗИН МЕХОВ" X="-7654" Y="1521" />
         <Mark Type="2" Name="ОПОРА" X="2793" Y="334" />
@@ -38,7 +38,7 @@
         <Mark Type="3" Name="КРИСТАЛЛЫ" X="-50298" Y="-36479" />
         <Mark Type="3" Name="КРИСТАЛЛЫ " X="-35704" Y="-18518" />
         <Mark Type="3" Name="КРИСТАЛЛЫ " X="-36500" Y="-18501" />
-        <Mark Type="2" Name="НАУЧНАЯ БАЗА" X="-5155" Y="12918" />
+        <Mark Type="2" Name="БАЗА НОВОБРАНЦЕВ" X="-5155" Y="12918" />
         <Mark Type="2" Name="КРАДА" X="976" Y="-1285" />
         <Mark Type="2" Name="ТРЕБА" X="4633" Y="1888" />
         <Mark Type="2" Name="ВАРАНЫ" X="-45930" Y="46190" />

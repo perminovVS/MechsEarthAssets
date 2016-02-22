@@ -1396,15 +1396,15 @@
     <Resource Idx="686" Name="icons/cargo/certificate" />
     <Resource Idx="687" Name="icons/cargo/certificate_weapon_mid" />
     <Resource Idx="688" Name="icons/cargo/certificate_weapon_max" />
-    <Resource Idx="689" Name="none" />
-    <Resource Idx="690" Name="none" />
-    <Resource Idx="691" Name="none" />
-    <Resource Idx="692" Name="none" />
-    <Resource Idx="693" Name="none" />
-    <Resource Idx="694" Name="none" />
-    <Resource Idx="695" Name="none" />
-    <Resource Idx="696" Name="none" />
-    <Resource Idx="697" Name="none" />
+    <Resource Idx="689" Name="mech/monster/boss_01" />
+    <Resource Idx="690" Name="mech/monster/boss_02" />
+    <Resource Idx="691" Name="mech/monster/boss_03" />
+    <Resource Idx="692" Name="mech/monster/boss_04" />
+    <Resource Idx="693" Name="mech/monster/boss_05" />
+    <Resource Idx="694" Name="mech/monster/boss_06" />
+    <Resource Idx="695" Name="mech/monster/boss_07" />
+    <Resource Idx="696" Name="mech/monster/boss_08" />
+    <Resource Idx="697" Name="mech/monster/boss_09" />
     <Resource Idx="698" Name="none" />
     <Resource Idx="699" Name="none" />
     <Resource Idx="700" Name="none" />

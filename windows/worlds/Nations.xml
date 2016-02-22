@@ -20,6 +20,7 @@
          <Friend Name="Treba" />
          <Friend Name="Monster" />
          <Friend Name="Common" />
+         <Friend Name="Newbie" />
       </FriendList>
    </Nation>
 
@@ -57,6 +58,7 @@
          <Friend Name="Krada" />
          <Friend Name="Common" />
          <Friend Name="Monster" />
+         <Friend Name="Newbie" />
       </FriendList>
    </Nation>
 
@@ -65,6 +67,7 @@
          <Friend Name="Opora" />
          <Friend Name="Common" />
          <Friend Name="Monster" />
+         <Friend Name="Newbie" />
       </FriendList>
    </Nation>
 

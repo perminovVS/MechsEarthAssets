@@ -10,25 +10,29 @@
     <!--<Group Id="LeftTop" HAlignAdd="LEFT" VAlignAdd="TOP">-->
 		<Item HAlignAdd="LEFT" VAlignAdd="TOP" X="132" Y="25" W="103" H="64" Name="CommandsPanel" ENB="0" VIS="0" DebugInfo="Содержит все управляющие кнопки">
 			<Item Name="QueryPanel" X="133" Y="27" W="104" H="128" ENB="0" VIS="0">
-				<Image Shader="307" ENB="1" X="134" Y="31" W="100" H="100" VIS="1" DebugInfo="фоновое изображени">
-					<Image Shader="293" ENB="1" X="131" Y="-8" W="14" H="50" VIS="1" DebugInfo="левая палка" />
-					<Image Shader="293" ENB="1" X="224" Y="-8" W="14" H="50" VIS="1" DebugInfo="правая палка" />
+				<Image Shader="307" ENB="1" X="134" Y="31" W="126" H="100" VIS="1" DebugInfo="фоновое изображени">
+					<Image Shader="319" ENB="1" X="126" Y="40" W="14" H="14" VIS="1"/>
+					<Image Shader="319" ENB="1" X="126" Y="100" W="14" H="14" VIS="1"/>
 				</Image>
-				<Image Shader="315" ENB="1" X="140" Y="57" W="89" H="2" VIS="1" DebugInfo="разделительная линия" UseHooks="1" />
+				<Image Shader="315" ENB="1" X="140" Y="57" W="115" H="2" VIS="1" DebugInfo="разделительная линия" UseHooks="1" />
 				<Item Name="TradeConfirmPanel" ENB="0" VIS="0">
-					<Text Name="QueryText" Text="query_trade_empty" FontSet="normal_text" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="140" Y="66" W="108" H="41" VIS="1" ENB="0" VpX="0" VpY="0" VpW="0" VpH="0" />
+					<Text Name="QueryText" Text="query_trade_empty" FontSet="normal_text" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="140" Y="66" W="134" H="41" VIS="1" ENB="0" VpX="0" VpY="0" VpW="0" VpH="0" />
 				</Item>
 				<Item Name="PartyConfirmPanel" ENB="0" VIS="0">
-					<Text Name="QueryText" Text="query_party_empty" FontSet="normal_text" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="140" Y="66" W="108" H="41" VIS="1" ENB="0" VpX="0" VpY="0" VpW="0" VpH="0" />
+					<Text Name="QueryText" Text="query_party_empty" FontSet="normal_text" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="140" Y="66" W="134" H="41" VIS="1" ENB="0" VpX="0" VpY="0" VpW="0" VpH="0" />
 				</Item>
 				<Item Name="ClanConfirmPanel" ENB="0" VIS="0">
-					<Text Name="QueryText" Text="query_clan_empty" FontSet="normal_text" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="140" Y="66" W="108" H="41" VIS="1" ENB="0" VpX="0" VpY="0" VpW="0" VpH="0" />
+					<Text Name="QueryText" Text="query_clan_empty" FontSet="normal_text" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="140" Y="66" W="134" H="41" VIS="1" ENB="0" VpX="0" VpY="0" VpW="0" VpH="0" />
 				</Item>
+        <Item Name="NationConfirmPanel" ENB="0" VIS="0">
+          <Text Name="QueryText" Text="query_nation_empty" FontSet="normal_text" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.1 0.84 0.1" X="140" Y="66" W="134" H="41" VIS="1" ENB="0" VpX="0" VpY="0" VpW="0" VpH="0" />
+        </Item>
 				<Button Name="OpenTradeConfirm" Info="tooltip_trade_invite_confirm" Normal="241" Active="242" Check="243" Flash="312" TimeToFlash="10" CountFlash="15" ENB="1" X="148" Y="36" W="20" H="20" VIS="1" UseHooks="1" DebugInfo="Запрос торговли" />
 				<Button Name="OpenPartyConfirm" Info="tooltip_party_invite_confirm" Normal="244" Active="245" Check="246" Flash="313" TimeToFlash="10" CountFlash="15" ENB="1" X="175" Y="36" W="20" H="20" VIS="1" UseHooks="1" DebugInfo="Запрос партии" />
 				<Button Name="OpenClanConfirm" Info="tooltip_clan_invite_confirm" Normal="247" Active="248" Check="249" Flash="314" TimeToFlash="10" CountFlash="15" ENB="1" X="201" Y="36" W="20" H="20" VIS="1" UseHooks="1" DebugInfo="Запрос клана" />
-				<Button Name="Accept" Info="tooltip_query_ok" Normal="308" Active="309" ENB="1" VIS="1" X="211" Y="106" W="18" H="18" UseHooks="1" DebugInfo="Принять" />
-				<Button Name="Break" Info="tooltip_query_cancel" Normal="310" Active="311" ENB="1" VIS="1" X="182" Y="106" W="18" H="18" UseHooks="1" DebugInfo="Отклонить" />
+				<Button Name="OpenNationConfirm" Info="tooltip_nation_invite_confirm" Normal="257" Active="258" Check="258" Flash="259" TimeToFlash="10" CountFlash="15" ENB="1" X="227" Y="36" W="20" H="20" VIS="1" UseHooks="1" DebugInfo="Запрос нации" />
+				<Button Name="Accept" Info="tooltip_query_ok" Normal="308" Active="309" ENB="1" VIS="1" X="237" Y="106" W="18" H="18" UseHooks="1" DebugInfo="Принять" />
+				<Button Name="Break" Info="tooltip_query_cancel" Normal="310" Active="311" ENB="1" VIS="1" X="208" Y="106" W="18" H="18" UseHooks="1" DebugInfo="Отклонить" />
 			</Item>
 			<Item Name="ClanPanel" X="156" Y="27" W="122" H="64" ENB="0" VIS="0">
 				<Image Shader="292" ENB="1" X="159" Y="31" W="75" H="30" VIS="1" DebugInfo="фоновое изображени" VpX="152" VpY="23" VpW="118" VpH="60" UseHooks="1">
@@ -63,10 +67,11 @@
 		<Button Name="TradeOpen" HAlignAdd="LEFT" VAlignAdd="TOP" Info1="tooltip_trade" Normal="302" Active="303" Check="304" Flash="305" TimeToFlash="5" CountFlash="10" ENB="1" X="156" Y="0" W="28" H="25" VIS="1" UseHooks="1" DebugInfo="открыть окно кнопок торговли" />
 	
 		<!-- Панель миникарты -->
+    <Image HAlignAdd="LEFT" VAlignAdd="TOP"  Name="MapImage" Shader="1" VIS="1" ENB="0" X="0" Y="0" W="1024" H="1024" VpX="4" VpY="4" VpW="120" VpH="120" />
 		<Image HAlignAdd="LEFT" VAlignAdd="TOP" Shader="27" ENB="0" X="0" Y="0" W="128" H="128" VIS="1" DebugInfo="задник миникарты" />
-		<Image Name="MapCompas" HAlignAdd="LEFT" VAlignAdd="TOP" Shader="74" ENB="0" VIS="1" X="7" Y="7" W="116" H="116" UseHooks="1" DebugInfo="вращающийся компас миникарты" />
+		<Image Name="MapCompas" HAlignAdd="LEFT" VAlignAdd="TOP" Shader="74" ENB="0" VIS="1" X="7" Y="7" W="116" H="116" />
 		<Button Name="OpenWorldMap" HAlignAdd="LEFT" VAlignAdd="TOP" Normal="1" Active="1" Key="m" X="7" Y="7" W="116" H="116" VIS="1" ENB="1" DebugInfo="кнопка открытия большой карты" UseHooks="1" />
-		<Item HAlignAdd="LEFT" VAlignAdd="TOP" WorkerShow="Item_MapView_Show" ENB="0" X="10" Y="9" W="110" H="110" VIS="1" UseHooks="1" DebugInfo="Миникарта. отвечает за вывод объектов на ней" />
+    <Item Name="MapView" HAlignAdd="LEFT" VAlignAdd="TOP" WorkerShow="Item_MapView_Show" ENB="0" X="10" Y="9" W="110" H="110" VIS="1" UseHooks="1" DebugInfo="Миникарта. отвечает за вывод объектов на ней" />
 	
 		<Button Name="HeroParams" HAlignAdd="LEFT" VAlignAdd="TOP" TextureW="25" TextureH="25" Info="tooltip_params_hero" Normal="268" Active="269" Check="270" Flash="271" TimeToFlash="5" CountFlash="50" ENB="1" Key="h" X="6" Y="127" W="25" H="25" VIS="1" UseHooks="1" DebugInfo="открыть информацию о герое" />
 		<Button Name="RobotParams" HAlignAdd="LEFT" VAlignAdd="TOP" TextureW="25" TextureH="25" Info="tooltip_params_robot" Normal="272" Active="273" Check="274" Flash="275" TimeToFlash="5" CountFlash="4" ENB="1" Key="r" X="31" Y="127" W="25" H="25" VIS="1" UseHooks="1" DebugInfo="открыть информацию о роботе" />

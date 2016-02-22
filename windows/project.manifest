@@ -2,8 +2,8 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "1.78.0.3",
-    "engineVersion": "3.9",
+    "version": "1.78.9",
+    "engineVersion": "3.11",
     "assets": {
         "ClientConfig.xml": {
             "md5": "86ff41c13d507452ee769697255315cf"
@@ -12,7 +12,7 @@
             "md5": "d1715874ec6898185573da2e26fcb844"
         },
         "ClientRenderSettings.xml": {
-            "md5": "264417c3a8aeefe358a51b419eb6dbc1"
+            "md5": "cfad8583b00a304106aa734f5e13ff38"
         },
         "fonts/BasicFonts.xml": {
             "md5": "cfe11150efdcdc3e8617e99e6c955cfa"
@@ -1785,13 +1785,13 @@
             "md5": "ba7da696d78ca84a708530e291c28d77"
         },
         "shaders/programs/common_blend.frag": {
-            "md5": "70b92be9fd62e0c71ac27f4df1cdd55c"
+            "md5": "f01c25f39baaee3388d84fa8b8afc1ca"
         },
         "shaders/programs/common_blend_detail.frag": {
-            "md5": "5782eec5e81a4293818fc3961fe0581b"
+            "md5": "75b83a1e665f82e7f59dfd2772f7bf76"
         },
         "shaders/programs/common_detail.frag": {
-            "md5": "b068ef8024a45110cba4dd8780620547"
+            "md5": "948c696de0ade3575003e9656ab71912"
         },
         "shaders/programs/crystals.frag": {
             "md5": "b0de716231bf82983a96851c9e03f2f6"
@@ -1818,7 +1818,7 @@
             "md5": "29c5ea80ab0f6879d6837d9c486aa1b2"
         },
         "shaders/shaders.all": {
-            "md5": "270fa20801a2bcc59703cfa4316c04f7"
+            "md5": "7077bed8202cd4d16de2d50dde96a94a"
         },
         "sounds/ogg/monsters/01/death01.ogg": {
             "md5": "0fc570978b7e4038ad275622ff302d10"
@@ -2466,10 +2466,10 @@
             "md5": "7753345ca66a4bc9adbcf6f6cc9d42ea"
         },
         "textures/atlas/ui.plist": {
-            "md5": "a3cd6705f6aab420760d86359cfa1740"
+            "md5": "085917ce6881bcd933e6e47f1f863f0b"
         },
         "textures/atlas/ui.png": {
-            "md5": "c9f9d99fd1a9010184bd8faae6b3ad4a"
+            "md5": "bd0159ea760571132abea39d22d48873"
         },
         "textures/atlas/ui_new.plist": {
             "md5": "55263147a712fdc8fff55953c2a66ced"
@@ -4533,10 +4533,10 @@
             "md5": "7ea04683a89e24d92423abdcf9163d7e"
         },
         "ui/dialogs/game/Game.xml": {
-            "md5": "de893aa77fc0e9d088ecaef7abc33841"
+            "md5": "3249070acea17df77105d9bacf5f4bfe"
         },
         "ui/dialogs/game/GlobalMap.xml": {
-            "md5": "16b69be6fbaaf8e135c83d27ddd95ac3"
+            "md5": "d43e85df4d647a93d46062dca7efc83a"
         },
         "ui/dialogs/game/Help.xml": {
             "md5": "fe936c451b83556b6beb89dd917f4348"
@@ -4587,7 +4587,7 @@
             "md5": "9971de6709e5a19ecf2fda292dfd7413"
         },
         "ui/dialogs/game/clan/ClanMain.xml": {
-            "md5": "9b47f09a1fd8ab9a6b68b1bc8140d5db"
+            "md5": "b77515b1922b5be1479986a34702dac8"
         },
         "ui/dialogs/game/clan/ClanPolitic.xml": {
             "md5": "e7c661f087bca4fce6c84722349b370a"
@@ -4761,34 +4761,37 @@
             "md5": "038dc8f5baab868224d830b638fade57"
         },
         "ui/localization/ru.xml": {
-            "md5": "a647a41b53a6959dd20026b8249190aa"
+            "md5": "472cb6e381b2a26e4bfa548c85d60444"
         },
         "ui/ui.xml": {
-            "md5": "72b8c640e35456e3968e84fbdc823308"
+            "md5": "bac5181cbaf02bfa621262b9a1d997da"
         },
         "ui/ui_launcher.xml": {
             "md5": "62e9d3e087889605d3bf2c144862db53"
         },
         "worlds/1/Layer.mz": {
-            "md5": "67473ad85ff85071a7aa302cd36beffe"
+            "md5": "fea3c097b185d952ca508da2675805be"
         },
         "worlds/1/PassiveEntities.bin": {
-            "md5": "6d8f24e1549a6bbd9b18a5cd7aab8acc"
+            "md5": "0211dd9f7e15bc3c3d6c6c41fdb431be"
         },
         "worlds/1/Terrain.mz": {
             "md5": "4fb7ac34c16aa4cc649340917d2bb24e"
         },
         "worlds/1/World.xml": {
-            "md5": "c7a035d461ca4e5a12acd117c64e759e"
+            "md5": "f160f7f0b4f3e9a3fd1db24e72279ed1"
         },
         "worlds/1/map.jpg": {
+            "md5": "89dc100a63c4308fc406763abcf7cfee"
+        },
+        "worlds/1/map_mini.jpg": {
             "md5": "2c53f62624698f569862fd93fd13b914"
         },
         "worlds/1/terrain.jpg": {
             "md5": "10305b7d26c33ea940faabaac9966816"
         },
         "worlds/10/Layer.mz": {
-            "md5": "adfe95d39fe63cf1bb5b0f8c1d1faa00"
+            "md5": "1451ca14969e5469b07545092a50ccfb"
         },
         "worlds/10/PassiveEntities.bin": {
             "md5": "74eafa1bbe979e9d079234784cff68d5"
@@ -4797,7 +4800,7 @@
             "md5": "7d84970932f61247f11bd3b0d316fe56"
         },
         "worlds/10/World.xml": {
-            "md5": "b20c268274bb8e4d8036d821e979e9cc"
+            "md5": "a2ebc45075f48be978396f6d1a236e50"
         },
         "worlds/10/map.jpg": {
             "md5": "c0bb13302f16581530e046f93a9eb32c"
@@ -4824,16 +4827,16 @@
             "md5": "3987c3bb36e3568857f7001c65e2edfa"
         },
         "worlds/2/Layer.mz": {
-            "md5": "17de10d9e92dab398c7293e7fa842b05"
+            "md5": "010a024f638d867b5ffea58e1a04f0dc"
         },
         "worlds/2/PassiveEntities.bin": {
-            "md5": "07cccd80112a21c9e597cf62d43fddf3"
+            "md5": "8f9f4db615a81326a3abe4a78d3ada38"
         },
         "worlds/2/Terrain.mz": {
             "md5": "9ffa2396950078b88bf608599dedc0cc"
         },
         "worlds/2/World.xml": {
-            "md5": "a64ef30fcdc60cbdad3cc6d2267b150d"
+            "md5": "981d76c88ff271d88555487b587bccdd"
         },
         "worlds/2/map.jpg": {
             "md5": "eec98b945fd9e37daa588c69d438fefc"
@@ -4878,10 +4881,10 @@
             "md5": "fbacf890ae9540ffdb647726a6cd3755"
         },
         "worlds/5/Layer.mz": {
-            "md5": "1f9ba5b28bbc573ee7b39562b4f4d8e4"
+            "md5": "1bdf5f8afd7473cd7a952cf787a57d43"
         },
         "worlds/5/PassiveEntities.bin": {
-            "md5": "5045671b43b302b68ec007d4f01f50fd"
+            "md5": "3b167a0efe1e8b00623085773aa7de3f"
         },
         "worlds/5/Terrain.mz": {
             "md5": "30cf9dfc3e3500ca11e5b85714718009"
@@ -4896,16 +4899,16 @@
             "md5": "440c33df3134507c725c23acfdc432c0"
         },
         "worlds/6/Layer.mz": {
-            "md5": "d146e75a244d59cb79bde6146d0432a4"
+            "md5": "a2ffb215581962da3c1587f603882298"
         },
         "worlds/6/PassiveEntities.bin": {
-            "md5": "858b05b6aca2a23374370f2b2e1b8121"
+            "md5": "e2a0b30fa82f6e67d605bba7b7db33e3"
         },
         "worlds/6/Terrain.mz": {
             "md5": "b27228af88bfdc8ad2fe656e772b3b5a"
         },
         "worlds/6/World.xml": {
-            "md5": "c5f59083ab846ab75d678d68c6bcdb79"
+            "md5": "f31fe81de1b26c9f54e28a707e39d626"
         },
         "worlds/6/map.jpg": {
             "md5": "fedc86c35adbde5d571cf7b22c559928"
@@ -4950,31 +4953,31 @@
             "md5": "4211500d69845deb70f6fd55e8bf1fde"
         },
         "worlds/9/Layer.mz": {
-            "md5": "bf8533bb97faacf9451d61bc00a0973d"
+            "md5": "bcfa6ab6db481a01a9bc970abaea51a6"
         },
         "worlds/9/PassiveEntities.bin": {
-            "md5": "99ce22c08c13cc9488f72c94e632d171"
+            "md5": "25631fbb5b821ecec494d3cdf53676df"
         },
         "worlds/9/Terrain.mz": {
-            "md5": "2b40ebbedf89c36e4ebbe61568d6e1d7"
+            "md5": "b9283e77e66c9db29e74fbcf1df9afb9"
         },
         "worlds/9/World.xml": {
-            "md5": "36725610ae3b37f2bad9dcccb5cbdc02"
+            "md5": "e82c008587ee4b0f921e4e2ddee3748e"
         },
         "worlds/9/map.jpg": {
-            "md5": "86cd473046b64d9df2a382eaeb9d26cf"
+            "md5": "3b1bbe546d23561f2957f28d8af2e872"
         },
         "worlds/9/terrain.jpg": {
-            "md5": "871d849a364a476c6fa1ad541858e9fd"
+            "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "be5116bce0ad6edc1f53f78a3d46dfa1"
+            "md5": "b2f937b2b9dc5176a873dee1fa03f713"
         },
         "worlds/Nations.xml": {
-            "md5": "decfc65a26d52621e27318451867dc29"
+            "md5": "629b2233f883e1072e3b6894d16bbeac"
         },
         "worlds/Resources.xml": {
-            "md5": "d133bfe3b52426023a270e2acd7fbb68"
+            "md5": "ee5bc74c89640cc02725768ce5c597af"
         }
     },
     "searchPaths": []
