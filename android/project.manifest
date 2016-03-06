@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "1.78.9",
+    "version": "1.78.9.1",
     "engineVersion": "3.11",
     "assets": {
         "ClientConfig.xml": {
@@ -1182,7 +1182,7 @@
             "md5": "1c53e33263511788852691a240c43499"
         },
         "shaders/programs/common.vert": {
-            "md5": "ba7da696d78ca84a708530e291c28d77"
+            "md5": "e4557b4335dc962b54d362099a14c3bf"
         },
         "shaders/programs/common_blend.frag": {
             "md5": "f01c25f39baaee3388d84fa8b8afc1ca"
