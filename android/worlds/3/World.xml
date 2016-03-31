@@ -6,13 +6,13 @@
         <Size X="1025" Y="1025" Cell="128" DeltaHeight="32768" HeightScale="2.000000" />
         <Texture Name="worlds/3/terrain" />
         <Texture_Snow Name="world/terrain/snow" />
-        <TextureDetail Name="world/terrain/detail" Scale="100" />
+        <TextureDetail Name="world/terrain/detail" Scale="100.000000" />
     </Terrain>
 </World>
 <Zones>
     <Zone Type="None" Id="1" Name="ПОЛИГОН" X1="-65000" Y1="-65000" X2="65000" Y2="65000" />
-    <Zone Type="None" Id="2" Name="БУНКЕР ВОСТОЧНЫЙ" Safe="1" X1="4800" Y1="21200" X2="11600" Y2="32000" />
-    <Zone Type="None" Id="3" Name="БУНКЕР ЗАПАДНЫЙ" Safe="1" X1="-21800" Y1="20000" X2="-8600" Y2="36000" />
+    <Zone Type="None" Id="2" Name="БУНКЕР ВОСТОЧНЫЙ" Safe="1" X1="4800" Y1="22900" X2="9400" Y2="27600" />
+    <Zone Type="None" Id="3" Name="БУНКЕР ЗАПАДНЫЙ" Safe="1" X1="-14100" Y1="22000" X2="-8400" Y2="27600" />
     <Zone Type="None" Id="4" Name="PvP зона" Pvp="1" X1="-8450" Y1="24773" X2="4450" Y2="31250" />
     <Zone Type="None" Id="5" Name="" NoTeleport="1" Enable="0" X1="-11800" Y1="23400" X2="-6800" Y2="32000" />
     <Zone Type="None" Id="6" Name="" NoTeleport="1" Enable="0" X1="2800" Y1="24200" X2="7200" Y2="32000" />
@@ -26,14 +26,14 @@
     <Center X="512" Y="512" />
     <Limit X1="0" Y1="0" X2="1024" Y2="1024" />
     <Marks>
-        <Mark Type="2" Name="ВЫХОД" X="-7884" Y="30678" />
-        <Mark Type="2" Name="ВЫХОД" X="-7890" Y="25292" />
-        <Mark Type="2" Name="ВЫХОД" X="3906" Y="25285" />
-        <Mark Type="2" Name="ВЫХОД" X="3917" Y="30707" />
-        <Mark Type="2" Name="PVP" X="5740" Y="27350" />
-        <Mark Type="2" Name="PVP" X="-9968" Y="27251" />
-        <Mark Type="1" Name="БУНКЕР ВОСТОЧНЫЙ" X="7419" Y="24338" />
-        <Mark Type="1" Name="БУНКЕР ЗАПАДНЫЙ" X="-10954" Y="24696" />
+        <Mark Type="2" Name="ВЫХОД" X="-7791" Y="31128" />
+        <Mark Type="2" Name="ВЫХОД" X="-7749" Y="25426" />
+        <Mark Type="2" Name="ВЫХОД" X="4201" Y="25384" />
+        <Mark Type="2" Name="ВЫХОД" X="4157" Y="31077" />
+        <Mark Type="2" Name="PVP" X="6355" Y="27288" />
+        <Mark Type="2" Name="PVP" X="-9963" Y="27307" />
+        <Mark Type="1" Name="БУНКЕР ВОСТОЧНЫЙ" X="7428" Y="25412" />
+        <Mark Type="1" Name="БУНКЕР ЗАПАДНЫЙ" X="-10981" Y="25403" />
         <Mark Type="2" Name="ПОЛИГОН" X="-2800" Y="4800" />
         <Mark Type="2" Name="УКРЕПЛЕНИЕ КРОТОВ" X="150" Y="-43160" />
     </Marks>

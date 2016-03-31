@@ -6,7 +6,6 @@ uniform mat4 u_texCoordMod;
 uniform int u_useTexCoordMod;
 // varying
 varying vec2 v_texCoord;
-
 #ifndef SETTINGS_DISABLE_FOG
 varying float v_fogFactor;
 uniform vec3 u_eye_mv;
@@ -14,19 +13,18 @@ uniform vec3 u_eye_mv;
 // u_fog_distance_squared.y = fogEndSquared
 uniform vec2 u_fog_distance_squared;
 #endif
-
 // main vertex
 void main()
 {
     gl_Position = CC_MVPMatrix * a_position;
-	if( u_useTexCoordMod > 0 )
+    if( u_useTexCoordMod > 0 )
 	{
-		v_texCoord = (u_texCoordMod*vec4(a_texCoord, 1.0, 1.0)).xy;
-	}
+        v_texCoord = (u_texCoordMod*vec4(a_texCoord, 1.0, 1.0)).xy;
+    }
 	else
 	{
-		v_texCoord = a_texCoord;
-	}
+        v_texCoord = a_texCoord;
+    }
 #ifndef SETTINGS_DISABLE_FOG
     v_fogFactor = 1.1;
     if (u_fog_distance_squared.x > 0.0)

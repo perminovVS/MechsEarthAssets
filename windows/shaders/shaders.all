@@ -1915,7 +1915,6 @@ world/sky_box/cylinder
     }
 }
 
-
 mech/monster/boss_01
 {
 	cull none

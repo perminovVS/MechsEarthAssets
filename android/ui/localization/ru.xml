@@ -864,7 +864,7 @@
 	<Text Key="clan_leave_btn" 	Value="Покинуть" />
 	<Text Key="clan_expel_btn" 	Value="Выгнать" />
 	<Text Key="clan_ch_leader_btn" 	Value="Передать управление" />
-	<Text Key="clan_set_icon_btn" 	Value="знаме" />
+	<Text Key="clan_set_icon_btn" 	Value="Выбрать знамя" />
 	<Text Key="clan_invite_confirm" 	Value="%s предложил вам присоедениться к отряду.\nСтоимость - %i бон. Вы согласны?" />
 	<Text Key="clan_declare_war" 	Value="Объявить войну" />
 	<Text Key="clan_make_piece" 	Value="Предложить мир" />
@@ -899,6 +899,7 @@
   <Text Key="clan_set_icon_mask" 	Value="Файлы картинок (*.jpg)" />
 	<Text Key="clan_set_icon_file_not_found" 	Value="Файл не найден." />
 	<Text Key="clan_set_icon_wrong_file_size" 	Value="Файл слишком большой - %.2f, максимум 2 Кб." />
+	<Text Key="clan_set_icon_wrong_file_resolution" 	Value="Необходимо разрешение 32x32, у данного файла %dx%d." />
 	<Text Key="clan_set_icon_wrong_file_format" 	Value="Неправильный формат файла, требуется jpg." />
 	<Text Key="clan_member_online" 	Value="\c&lt;100 250 100&gt;%s\b" />
 	<Text Key="clan_member_offline" 	Value="\c&lt;250 120 120&gt;%s\b" />

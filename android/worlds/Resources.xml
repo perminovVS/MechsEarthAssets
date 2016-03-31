@@ -2727,6 +2727,7 @@
     <Resource Idx="129" Name="shield" />
     <Resource Idx="130" Name="smoke_hp_small" />
     <Resource Idx="131" Name="smoke_hp_middle" />
+    <Resource Idx="132" Name="trail_medicgun1" />
 </Effects>
 <Sounds>
     <Resource Idx="1" Name="robots/01/move01" />

@@ -945,50 +945,50 @@ trail_bullet
 
 flash_laser1
 {
-	shader effects/circular_gradient
-	emitter_rate 20.000
-	life 0.200
+	shader effects/glow_blue
+	emitter_rate 10.000
+	life 0.100
 	size 2.000
-	emitter_life 0.500
+	emitter_life 0.100
 	fade_rgb
-	emitter_area sphere 0.500
+	emitter_area sphere 0.000
 	minspeed 250.000
 	maxspeed 300.000
-	direction -1.000 0.000 0.000
-	motionblur 1.100
-	colour 0.000 1.000 0.100 1.000
+	direction 1.000 -0.000 0.000
+	motionblur 1.500
+	colour 0.000 0.750 0.750 1.000
 }
 
 flash_laser2
 {
-	shader effects/exp_core2
+	shader effects/glow_blue
 	emitter_rate 10.000
-	life 0.200
+	life 0.100
 	size 4.000
-	emitter_life 0.400
+	emitter_life 0.100
 	fade_rgb
-	emitter_area sphere 0.500
+	emitter_area sphere 0.000
 	minspeed 550.000
 	maxspeed 1200.000
 	direction 1.000 0.000 0.000
-	motionblur 1.100
-	colour 0.000 0.400 0.000 1.000
+	motionblur 1.500
+	colour 0.000 0.750 0.750 1.000
 }
 
 trail_laser1
 {
-	shader effects/circular_gradient
-	emitter_rate 35.000
-	life 0.050
-	size 1.000
-	emitter_life 0.500
+	shader effects/glow_blue
+	emitter_rate 10.000
+	life 0.220
+	size 5.000
+	emitter_life 0.200
 	fade_rgb
-	emitter_area sphere 0.100
+	emitter_area sphere 0.000
 	minspeed 1000.000
 	maxspeed 10000.000
-	direction -1.000 0.000 0.000
+	direction 1.000 0.000 0.000
 	motionblur 1.000
-	colour 0.250 1.000 0.250 1.000
+	colour 0.000 0.750 0.750 1.000
 }
 
 hit_laser1
@@ -996,55 +996,54 @@ hit_laser1
 	shader effects/bubble01
 	emitter_rate 30.000
 	emitter_life 1.000
-	size 100.000
+	size 140.000
 	growby 5.000
 	life 0.180
-	colour 0.000 0.300 0.000 1.000
+	colour 0.000 0.750 0.750 1.000
 }
 
 hit_laser2
 {
-	shader effects/light02
-	colour 0.350 1.000 0.500 1.000
+	shader effects/glow_blue
+	colour 0.000 0.750 0.750 1.000
 	emitter_rate 350.000
 	emitter_life 1.000
 	fade_rgb
-	life 0.100
-	size 50.000
+	life 0.050
+	size 30.000
 	direction out
-	minspeed 1800.000
-	maxspeed 500.000
+	minspeed 3000.000
+	maxspeed 1000.000
 	spread 1.000
 	motionblur 0.100
 }
 
 hit_laser3
 {
-	shader effects/exp_core2
-	emitter_rate 1000.000
-	life 1.000
-	size 5.000
-	growby -10.000
-	colour 0.300 1.000 0.200 1.000
-	minspeed 600.000
-	direction out
-	drag 5.000
-	emitter_area box 0.000 1.000 1.000
-	emitter_life 0.200
+	shader effects/glow_blue
+	colour 0.000 0.750 0.750 1.000
+	emitter_rate 350.000
+	emitter_life 1.000
 	fade_rgb
-	direction 0.000 0.000 0.000
+	life 0.050
+	size 30.000
+	direction out
+	minspeed 3000.000
+	maxspeed 1000.000
+	spread 1.000
+	motionblur 0.100
 }
 
 hit_laser_
 {
-	shader effects/bubble
+	shader effects/bubble01
 	fade_rgb
 	emitter_rate 1.000
 	emitter_life 2.000
-	size 10.000
+	size 15.000
 	growby 100.000
 	life 1.000
-	colour 0.000 0.800 0.000 1.000
+	colour 0.000 0.750 0.750 1.000
 }
 
 flash_ion
