@@ -42,6 +42,26 @@ game/pointselect
 		rgbsrc constant 0.000 1.000 0.000
 	}
 }
+
+game/range_max
+{
+	cull none
+	sort 14.000
+	{
+		tex map game/range_max
+		blendfunc blend
+	}
+}
+
+game/range_min
+{
+	cull none
+	sort 16.000
+	{
+		tex map game/range_min
+		blendfunc blend
+	}
+}
 world/ut/bridge/01
 {
 	cull none

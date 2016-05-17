@@ -5,7 +5,7 @@ attribute vec2 a_texCoord;
 // varying
 varying vec2 v_texCoord;
 
-#ifndef SETTINGS_DISABLE_FOG
+#ifndef COMPILE_WITHOUT_FOG
 // varying
 varying float v_fogFactor;
 // uniform
@@ -21,7 +21,7 @@ void main()
 	gl_Position = CC_MVPMatrix * a_position;
 	v_texCoord = a_texCoord;
     
-#ifndef SETTINGS_DISABLE_FOG
+#ifndef COMPILE_WITHOUT_FOG
     v_fogFactor = 1.1;
     if (u_fog_distance_squared.x > 0.0)
     {

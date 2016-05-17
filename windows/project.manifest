@@ -2,14 +2,14 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "1.78.11",
+    "version": "1.78.12",
     "engineVersion": "3.11",
     "assets": {
         "ClientConfig.xml": {
             "md5": "86ff41c13d507452ee769697255315cf"
         },
         "ClientGameSettings.xml": {
-            "md5": "d1715874ec6898185573da2e26fcb844"
+            "md5": "a7fa4f9c913e0fc22577fa7914973df2"
         },
         "ClientRenderSettings.xml": {
             "md5": "cfad8583b00a304106aa734f5e13ff38"
@@ -111,7 +111,7 @@
             "md5": "b65941c848bfdc1f2d5053c6e474cd98"
         },
         "models/mech/player/05.mdl": {
-            "md5": "3bef72bb3ca0633e220ede1bb4c61621"
+            "md5": "14d4ca724ad1db019cdc93936cd68bab"
         },
         "models/mech/player/06.mdl": {
             "md5": "c443839b940421830c15a535f474a2a2"
@@ -1761,31 +1761,22 @@
             "md5": "935bca95504baded4f683cd5db8a6ded"
         },
         "shaders/particle.all": {
-            "md5": "6490e2f4e7cf8ff37bc38b1213c1ba48"
+            "md5": "527e742a9d5dfe196bd85231c250b25b"
         },
         "shaders/programs/base.vert": {
             "md5": "fba376b74aa0facdc445321623bcab0a"
         },
         "shaders/programs/base_fog.vert": {
-            "md5": "9ca1552eb689a2c774886da8657ef8e5"
+            "md5": "426df02c61ef25d55d0dd00b649239c4"
         },
         "shaders/programs/common.frag": {
-            "md5": "1c53e33263511788852691a240c43499"
+            "md5": "a8046b2b409ed37330e80d3781a987cd"
         },
         "shaders/programs/common.vert": {
-            "md5": "e4557b4335dc962b54d362099a14c3bf"
-        },
-        "shaders/programs/common_blend.frag": {
-            "md5": "f01c25f39baaee3388d84fa8b8afc1ca"
-        },
-        "shaders/programs/common_blend_detail.frag": {
-            "md5": "75b83a1e665f82e7f59dfd2772f7bf76"
-        },
-        "shaders/programs/common_detail.frag": {
-            "md5": "948c696de0ade3575003e9656ab71912"
+            "md5": "ea57ec0dc6babd9879ec2199a1584ebc"
         },
         "shaders/programs/crystals.frag": {
-            "md5": "b0de716231bf82983a96851c9e03f2f6"
+            "md5": "8da69bb8de1c2d3097c9b6002f313724"
         },
         "shaders/programs/fxaa.frag": {
             "md5": "cd1af105473a3acd81390e7138e09193"
@@ -1794,7 +1785,13 @@
             "md5": "8a0a9d20a3f29dcfc146271418b79392"
         },
         "shaders/programs/grass.frag": {
-            "md5": "d80a482188c24d27bd79cb793f54096f"
+            "md5": "22231f0b2513463392da4478cd5bde47"
+        },
+        "shaders/programs/particle.frag": {
+            "md5": "4a17024ace2570ca46f5ebb6fc214d33"
+        },
+        "shaders/programs/particle.vert": {
+            "md5": "16ae9f1f3891745f2eb1cf95ed3d1729"
         },
         "shaders/programs/skybox.frag": {
             "md5": "1f7b4504462b6dc0d56cf0907f6480dd"
@@ -1803,13 +1800,13 @@
             "md5": "7ed14a9cb9500eaba0304b533b3509fa"
         },
         "shaders/programs/terrain.frag": {
-            "md5": "2fec03103fb4e2be0e7d77dcb09d1e64"
+            "md5": "a86891cc23cfb8b58c3663bd42eac75d"
         },
         "shaders/programs/terrain.vert": {
-            "md5": "29c5ea80ab0f6879d6837d9c486aa1b2"
+            "md5": "c2b17f27f32e8914785650e74d0bf5fc"
         },
         "shaders/shaders.all": {
-            "md5": "2ce60b80d99eb1d577a13e9fa06082d4"
+            "md5": "a47579f748fd376884743cb67d86d7f4"
         },
         "sounds/ogg/monsters/01/death01.ogg": {
             "md5": "0fc570978b7e4038ad275622ff302d10"
@@ -2451,10 +2448,10 @@
             "md5": "4129d3994eca970de418159c571c0dfc"
         },
         "textures/atlas/icons.plist": {
-            "md5": "40291233b3769b077d5e27acdf2e9cbd"
+            "md5": "947622b0dacc2bf47bdf52ea7c19c86c"
         },
         "textures/atlas/icons.png": {
-            "md5": "7753345ca66a4bc9adbcf6f6cc9d42ea"
+            "md5": "5df77f0dbb09f4b6cbcc66a8440bf7bb"
         },
         "textures/atlas/ui.plist": {
             "md5": "085917ce6881bcd933e6e47f1f863f0b"
@@ -2596,6 +2593,12 @@
         },
         "textures/game/pointmove06.tga": {
             "md5": "a75f067520417cd03f9f1a32e6d1854b"
+        },
+        "textures/game/range_max.tga": {
+            "md5": "22c3e77e53913baf823c68c12536eb0d"
+        },
+        "textures/game/range_min.tga": {
+            "md5": "a6da5f93c7e4b8e18b43d6e6593e3289"
         },
         "textures/icons/trafaret/01.png": {
             "md5": "729849671df46fe76f02f28c081f1c6f"
@@ -3489,16 +3492,13 @@
             "md5": "6e7c48ed2a85fd73c6450d8405529b66"
         },
         "textures/mech/player/05.jpg": {
-            "md5": "972a875e610577cae18717313a67188e"
+            "md5": "f7909d66178b0022ae593cc08d93bf11"
         },
         "textures/mech/player/05_01.jpg": {
-            "md5": "7c31c2a980792a38d4a5836e1da471bd"
+            "md5": "2cbf28eac59251a4ce5d667bf0334f2f"
         },
         "textures/mech/player/05_02.jpg": {
-            "md5": "2e21b7690fba91e43704bd2ccb642d73"
-        },
-        "textures/mech/player/05_03.jpg": {
-            "md5": "9d7f23fec6e639b3bf4ceac13694d59f"
+            "md5": "3fe28c95047f64fed181da07d32369d6"
         },
         "textures/mech/player/06.jpg": {
             "md5": "2f85765fe03fee48d065354d249cb739"
@@ -4752,7 +4752,7 @@
             "md5": "038dc8f5baab868224d830b638fade57"
         },
         "ui/localization/ru.xml": {
-            "md5": "83391c273976d18cb0c0b0cca5f67a2a"
+            "md5": "ff08e553bfce95252a6df9b4fbb136d9"
         },
         "ui/ui.xml": {
             "md5": "bac5181cbaf02bfa621262b9a1d997da"
@@ -4761,25 +4761,25 @@
             "md5": "62e9d3e087889605d3bf2c144862db53"
         },
         "worlds/1/Layer.mz": {
-            "md5": "d718ffc30a5ac7290e7498a1906777da"
+            "md5": "26e2d517a0a4a5996836c86eaa169db8"
         },
         "worlds/1/PassiveEntities.bin": {
-            "md5": "0211dd9f7e15bc3c3d6c6c41fdb431be"
+            "md5": "0d7ac09bb958a5fa17c087735d4c06e0"
         },
         "worlds/1/Terrain.mz": {
-            "md5": "4fb7ac34c16aa4cc649340917d2bb24e"
+            "md5": "eaa72778ade56d73ce7446410eb7dd76"
         },
         "worlds/1/World.xml": {
-            "md5": "f160f7f0b4f3e9a3fd1db24e72279ed1"
+            "md5": "a2da34346351edc192dfdca749bbfe51"
         },
         "worlds/1/map.jpg": {
-            "md5": "89dc100a63c4308fc406763abcf7cfee"
+            "md5": "d1f9c4f2558f4309e465c7b3f1b1d1b3"
         },
         "worlds/1/map_mini.jpg": {
-            "md5": "2c53f62624698f569862fd93fd13b914"
+            "md5": "2cb3ada15538b77c5ff37282bcf30dcd"
         },
         "worlds/1/terrain.jpg": {
-            "md5": "10305b7d26c33ea940faabaac9966816"
+            "md5": "72d9472b6049baae7d709e90a58139d2"
         },
         "worlds/10/Layer.mz": {
             "md5": "5a278edc9dbef0816dad2ecdccd24338"
@@ -4794,28 +4794,28 @@
             "md5": "a2ebc45075f48be978396f6d1a236e50"
         },
         "worlds/10/map.jpg": {
-            "md5": "c0bb13302f16581530e046f93a9eb32c"
+            "md5": "b7c1f312f092bb4034bd97df721132f6"
         },
         "worlds/10/terrain.jpg": {
-            "md5": "16605d87a50d5e9f63d7f7e5f0a4a676"
+            "md5": "eb852d97168f19716268300154b88660"
         },
         "worlds/11/Layer.mz": {
-            "md5": "e5f50bc11f23173009c68c760b468e8b"
+            "md5": "8f5515ed5a569718948d802a9bf631d3"
         },
         "worlds/11/PassiveEntities.bin": {
-            "md5": "bbb69aba8ea3704a0b2a60de7c85323a"
+            "md5": "978b0f67cecef7ed8717c40e391888c4"
         },
         "worlds/11/Terrain.mz": {
-            "md5": "0259162f72bed6c04d6822646b758d70"
+            "md5": "3da23014c01a095f1ddfb9f72c197411"
         },
         "worlds/11/World.xml": {
-            "md5": "b2e2a3193fa47613913384ea8b6abc3f"
+            "md5": "2c984875fc6c8f383bd7c1011786a98e"
         },
         "worlds/11/map.jpg": {
-            "md5": "e550175a24189cce3fdea63af1949cfd"
+            "md5": "6cb347c72d6f1dd50412bc6d0f823ffc"
         },
         "worlds/11/terrain.jpg": {
-            "md5": "3987c3bb36e3568857f7001c65e2edfa"
+            "md5": "59d3d871e9577c44c874c158056cacf0"
         },
         "worlds/2/Layer.mz": {
             "md5": "010a024f638d867b5ffea58e1a04f0dc"
@@ -4830,28 +4830,28 @@
             "md5": "981d76c88ff271d88555487b587bccdd"
         },
         "worlds/2/map.jpg": {
-            "md5": "eec98b945fd9e37daa588c69d438fefc"
+            "md5": "d8795c646552587d06827588a31dd69d"
         },
         "worlds/2/terrain.jpg": {
-            "md5": "0bb376a4ee682f593d214dfa7c7c25d6"
+            "md5": "28dc74b11edcd9cb198940c93d4054da"
         },
         "worlds/3/Layer.mz": {
-            "md5": "f911f570846264510ead68aceb14ba0a"
+            "md5": "e6719ab9e3de6b3268c1a69196ace786"
         },
         "worlds/3/PassiveEntities.bin": {
-            "md5": "2900d854244aba2dc5a84240a0ff880c"
+            "md5": "32b4614f9c94deee58a49742964e7966"
         },
         "worlds/3/Terrain.mz": {
-            "md5": "62af6ca1193302d5ba4c9b8bdeb9d41a"
+            "md5": "be858be34fde0b39499168e06a96e5d3"
         },
         "worlds/3/World.xml": {
-            "md5": "d335ba155a126dca17d2cf69ed277a11"
+            "md5": "c96019749567fb8ff3e33849b86b2cd7"
         },
         "worlds/3/map.jpg": {
-            "md5": "104fb0a771ea7d0f2f314b9a2d38764b"
+            "md5": "39893b7f7158fddf765a5edc045ea0a3"
         },
         "worlds/3/terrain.jpg": {
-            "md5": "4456183f4166ecd4ce5961e8ab7cba56"
+            "md5": "e385b32d3b600098c2833b076676accd"
         },
         "worlds/4/Layer.mz": {
             "md5": "28dd3b37f674b5fe7f8338d8db8c4754"
@@ -4884,10 +4884,10 @@
             "md5": "28192f269d809c215823243fd71de377"
         },
         "worlds/5/map.jpg": {
-            "md5": "d4134dfdf497a4675886b52669cb1a87"
+            "md5": "7e4b95eda8b2892be0186ee201efefed"
         },
         "worlds/5/terrain.jpg": {
-            "md5": "440c33df3134507c725c23acfdc432c0"
+            "md5": "f017078de97df4c0e850e39cd551c754"
         },
         "worlds/6/Layer.mz": {
             "md5": "464c024019f0fe80a732302566e07a40"
@@ -4902,10 +4902,10 @@
             "md5": "f31fe81de1b26c9f54e28a707e39d626"
         },
         "worlds/6/map.jpg": {
-            "md5": "fedc86c35adbde5d571cf7b22c559928"
+            "md5": "f41b20190aeb2c5e46e31c22b401f71b"
         },
         "worlds/6/terrain.jpg": {
-            "md5": "1633a74b39f2a88bc526819bc0aa874d"
+            "md5": "25ba1b65fef7677f896648a016f7b019"
         },
         "worlds/7/Layer.mz": {
             "md5": "89dad62fa8bbdd52f355734814bee07c"
@@ -4932,16 +4932,16 @@
             "md5": "b3c03a6219dc6080924620457bb6fb91"
         },
         "worlds/8/Terrain.mz": {
-            "md5": "6a4f930b9c3796be960cafe22c133897"
+            "md5": "9bed62f363cbda7aa43a0501548b33e9"
         },
         "worlds/8/World.xml": {
             "md5": "741dd505a7b3492dafc39e262d2b84ab"
         },
         "worlds/8/map.jpg": {
-            "md5": "0dc03bbda21e2497cbcc5847da7c53b9"
+            "md5": "c94507bba4a9708248be4ea229086113"
         },
         "worlds/8/terrain.jpg": {
-            "md5": "4211500d69845deb70f6fd55e8bf1fde"
+            "md5": "2c514f228ba8879befe2a02d3f29cd2f"
         },
         "worlds/9/Layer.mz": {
             "md5": "bcfa6ab6db481a01a9bc970abaea51a6"
@@ -4962,13 +4962,13 @@
             "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "d4d1e0629204054125645f6714a346a2"
+            "md5": "7b609413c62a9ed00fc1fae62008fd34"
         },
         "worlds/Nations.xml": {
             "md5": "629b2233f883e1072e3b6894d16bbeac"
         },
         "worlds/Resources.xml": {
-            "md5": "ac848ce37bb2ec3b0e11e63c384702fd"
+            "md5": "2bb89092054763f1ff5866f2ad2043ee"
         }
     },
     "searchPaths": []
