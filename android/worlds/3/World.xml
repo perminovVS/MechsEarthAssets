@@ -11,8 +11,8 @@
 </World>
 <Zones>
     <Zone Type="None" Id="1" Name="ПОЛИГОН" X1="-65000" Y1="-65000" X2="65000" Y2="65000" />
-    <Zone Type="None" Id="2" Name="БУНКЕР ВОСТОЧНЫЙ" Safe="1" X1="4800" Y1="22900" X2="9400" Y2="27600" />
-    <Zone Type="None" Id="3" Name="БУНКЕР ЗАПАДНЫЙ" Safe="1" X1="-14100" Y1="22000" X2="-8400" Y2="27600" />
+    <Zone Type="None" Id="2" Name="БУНКЕР ВОСТОЧНЫЙ" Safe="1" X1="4800" Y1="21200" X2="11600" Y2="32000" />
+    <Zone Type="None" Id="3" Name="БУНКЕР ЗАПАДНЫЙ" Safe="1" X1="-21800" Y1="20000" X2="-8600" Y2="36000" />
     <Zone Type="None" Id="4" Name="PvP зона" Pvp="1" X1="-8450" Y1="24773" X2="4450" Y2="31250" />
     <Zone Type="None" Id="5" Name="" NoTeleport="1" Enable="0" X1="-11800" Y1="23400" X2="-6800" Y2="32000" />
     <Zone Type="None" Id="6" Name="" NoTeleport="1" Enable="0" X1="2800" Y1="24200" X2="7200" Y2="32000" />

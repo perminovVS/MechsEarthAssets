@@ -2052,35 +2052,34 @@ flash_canon4
 
 hit_medicgun
 {
-	shader effects/glow
-	emitter_rate 250.000
-	life 1.000
-	size 1.000
-	growby 25.000
-	minspeed 300.000
-	drag 1.500
-	emitter_area box 1.000 1.000 0.000
+	shader effects/cloud_with_specks
+	colour 0.1 0.1 1.000 1.000
+	emitter_rate 450.000
 	emitter_life 0.500
 	fade_rgb
-	colour 0.600 0.300 0.300 1.000
+	life 1.300
+	size 30.000
 	direction out
-	acceleration 0.000 0.000 800.000
+	maxspeed 170.000
+	spread 1.000
+	motionblur 0.100
 }
 
 trail_medicgun
 {
-	shader effects/light02
-	colour 0.600 0.300 0.300 1.000
-	emitter_rate 150.000
-	emitter_life 2.500
-	fade_rgb
-	life 0.150
-	size 120.000
+	shader effects/circular_gradient
+	emitter_rate 1400.000
+	life 2.000
+	size 6.000
+	growby -5.000
+	colour 0.1 0.1 1.000 1.000
+	minspeed 600.000
 	direction out
-	minspeed 400.000
-	maxspeed 600.000
-	spread 1.000
-	motionblur 1.000
+	drag 8.000
+	emitter_area box 1.000 1.000 1.000
+	emitter_life 2.250
+	fade_rgb
+	direction 0.000 0.000 0.000
 }
 
 hit_canon_mega

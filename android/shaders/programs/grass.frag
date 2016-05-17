@@ -1,6 +1,6 @@
 // varying
 varying vec2 v_texCoord;
-#ifndef SETTINGS_DISABLE_FOG
+#ifndef COMPILE_WITHOUT_FOG
 varying float v_fogFactor;
 uniform vec3 u_fog_color;
 #endif
@@ -15,7 +15,7 @@ void main()
 		gl_FragColor.rgb = color.rgb;
 		gl_FragColor.a = 1.0;
 
-#ifndef SETTINGS_DISABLE_FOG
+#ifndef COMPILE_WITHOUT_FOG
 	    if( v_fogFactor < 1.0 )
 	    {
 		    gl_FragColor.rgb = (gl_FragColor * v_fogFactor + vec4(u_fog_color * (1.0 - v_fogFactor), 1.0)).rgb;

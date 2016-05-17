@@ -2,17 +2,20 @@
 // attribute
 attribute vec4 a_position;
 attribute vec2 a_texCoord;
-attribute float a_fogFactor;
 // varying
 varying vec2 v_texCoordMain;
 varying vec2 v_texCoordDetail;
-varying float distanceToEyeSquared;
+varying float v_distanceToEyeSquared;
 
-#ifndef SETTINGS_DISABLE_FOG
+#ifndef COMPILE_WITHOUT_FOG
 varying float v_fogFactor;
+varying float v_fogFactorDiscard;
+// u_fog_distance_squared.x = fogStartSquared
+// u_fog_distance_squared.y = fogEndSquared
+uniform vec2 u_fog_distance_squared;
 #endif
 
-#ifndef SETTINGS_IS_MAX_OPTIMIZATION
+#ifndef COMPILE_WITH_MAX_OPTIMIZATION
 varying float v_DistanceCameraSquared;
 varying float v_DistanceToEyeZSquared;
 uniform vec3 u_camera;
@@ -20,7 +23,6 @@ uniform vec3 u_camera;
 
 // uniform
 uniform float u_uv_scale;
-uniform float u_eye_delta;
 uniform vec3 u_eye;
 void main()
 {
@@ -28,14 +30,23 @@ void main()
     v_texCoordMain = a_texCoord;
     v_texCoordDetail = a_texCoord*u_uv_scale;
     
-#ifndef SETTINGS_DISABLE_FOG 
-    v_fogFactor = a_fogFactor;
-#endif
-    
 	vec2 distanceVectorToEye = a_position.xy - u_eye.xy;
-    distanceToEyeSquared = (distanceVectorToEye.x*distanceVectorToEye.x + distanceVectorToEye.y*distanceVectorToEye.y)*0.001;
+    float distanceToEyeSquared = (distanceVectorToEye.x*distanceVectorToEye.x + distanceVectorToEye.y*distanceVectorToEye.y);	
     
-#ifndef SETTINGS_IS_MAX_OPTIMIZATION 
+#ifndef COMPILE_WITHOUT_FOG
+	float distanceToEyeSquaredX = distanceVectorToEye.x*distanceVectorToEye.x;
+	float distanceToEyeSquaredY = distanceVectorToEye.y*distanceVectorToEye.y;
+
+	float distanceSquaredFog = u_fog_distance_squared.y - u_fog_distance_squared.x;
+	v_fogFactorDiscard = max((distanceToEyeSquaredX - u_fog_distance_squared.x) / distanceSquaredFog, (distanceToEyeSquaredY - u_fog_distance_squared.x) / distanceSquaredFog);
+	//v_fogFactor = (distanceToEyeSquared - u_fog_distance_squared.x) / distanceSquaredFog;
+	v_fogFactor = 1.0 - clamp(v_fogFactorDiscard + 0.35, 0.0, 1.0);
+#endif
+	// GL ES fragment programm no support big number in varying
+	v_distanceToEyeSquared = distanceToEyeSquared*0.001;
+    
+#ifndef COMPILE_WITH_MAX_OPTIMIZATION 
+
 	v_DistanceToEyeZSquared = a_position.z - u_eye.z;
 
 

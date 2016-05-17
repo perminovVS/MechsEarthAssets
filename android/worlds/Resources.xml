@@ -32,37 +32,37 @@
     <Resource Idx="30" Name="models/world/sky_box/cylinder" />
     <Resource Idx="31" Name="models/world/sky_box/hemispherical" />
     <Resource Idx="32" Name="models/mech/player/new_year" />
-    <Resource Idx="33" Name="models/stone03_01" />
-    <Resource Idx="34" Name="models/stone03_02" />
+    <Resource Idx="33" Name="models/mech/player/26" />
+    <Resource Idx="34" Name="models/mech/player/27" />
     <Resource Idx="35" Name="models/stone03_11" />
     <Resource Idx="36" Name="models/stone03_12" />
     <Resource Idx="37" Name="models/stone03_13" />
     <Resource Idx="38" Name="models/stone03_14" />
-    <Resource Idx="39" Name="none" />
-    <Resource Idx="40" Name="none" />
+    <Resource Idx="39" Name="models/mech/player/30" />
+    <Resource Idx="40" Name="models/mech/player/31" />
     <Resource Idx="41" Name="models/world/house/house04" />
     <Resource Idx="42" Name="models/world/house/house05" />
     <Resource Idx="43" Name="models/world/house/house07" />
     <Resource Idx="44" Name="models/world/house/house06" />
-    <Resource Idx="45" Name="none" />
-    <Resource Idx="46" Name="none" />
-    <Resource Idx="47" Name="none" />
-    <Resource Idx="48" Name="none" />
-    <Resource Idx="49" Name="models/stone03_08" />
-    <Resource Idx="50" Name="models/rock01" />
-    <Resource Idx="51" Name="models/rock02" />
-    <Resource Idx="52" Name="models/rock03" />
-    <Resource Idx="53" Name="models/rock04" />
-    <Resource Idx="54" Name="models/rock05" />
-    <Resource Idx="55" Name="models/rock06" />
-    <Resource Idx="56" Name="models/rock07" />
-    <Resource Idx="57" Name="models/wall36" />
-    <Resource Idx="58" Name="models/wall37" />
+    <Resource Idx="45" Name="models/mech/player/32_FREE" />
+    <Resource Idx="46" Name="models/mech/player/33" />
+    <Resource Idx="47" Name="models/mech/player/34" />
+    <Resource Idx="48" Name="models/mech/player/35" />
+    <Resource Idx="49" Name="models/mech/player/36" />
+    <Resource Idx="50" Name="models/mech/player/37" />
+    <Resource Idx="51" Name="models/mech/player/38" />
+    <Resource Idx="52" Name="models/mech/player/39" />
+    <Resource Idx="53" Name="models/mech/player/40" />
+    <Resource Idx="54" Name="models/mech/player/41" />
+    <Resource Idx="55" Name="models/mech/player/42" />
+    <Resource Idx="56" Name="models/mech/player/43" />
+    <Resource Idx="57" Name="models/mech/player/44" />
+    <Resource Idx="58" Name="models/mech/player/45" />
     <Resource Idx="59" Name="models/world/tube/01" />
     <Resource Idx="60" Name="models/world/tube/02" />
     <Resource Idx="61" Name="models/interface/path01" />
-    <Resource Idx="62" Name="models/fighter02" />
-    <Resource Idx="63" Name="models/fighter01" />
+    <Resource Idx="62" Name="models/mech/player/46" />
+    <Resource Idx="63" Name="models/mech/player/47" />
     <Resource Idx="64" Name="models/scout01" />
     <Resource Idx="65" Name="models/mech/krot/02" />
     <Resource Idx="66" Name="models/miner01" />
@@ -1005,7 +1005,7 @@
     <Resource Idx="295" Name="icons/cargo/lut_03_01" />
     <Resource Idx="296" Name="mech/player/17" />
     <Resource Idx="297" Name="mech/player/17_01" />
-    <Resource Idx="298" Name="none" />
+    <Resource Idx="298" Name="mech/player/27" />
     <Resource Idx="299" Name="none" />
     <Resource Idx="300" Name="icons/cargo/lut_04_old" />
     <Resource Idx="301" Name="icons/cargo/lut_08" />
@@ -1032,16 +1032,16 @@
     <Resource Idx="322" Name="world/floor/layer_x2/pesok/01" />
     <Resource Idx="323" Name="icons/cargo/lut_06_05_old" />
     <Resource Idx="324" Name="world/floor/layer_x2/trava/04" />
-    <Resource Idx="325" Name="none" />
-    <Resource Idx="326" Name="none" />
-    <Resource Idx="327" Name="none" />
-    <Resource Idx="328" Name="none" />
-    <Resource Idx="329" Name="none" />
-    <Resource Idx="330" Name="none" />
-    <Resource Idx="331" Name="none" />
-    <Resource Idx="332" Name="none" />
-    <Resource Idx="333" Name="none" />
-    <Resource Idx="334" Name="none" />
+    <Resource Idx="325" Name="mech/player/26" />
+    <Resource Idx="326" Name="mech/player/26_01" />
+    <Resource Idx="327" Name="mech/player/26_02" />
+    <Resource Idx="328" Name="icons/robots/26" />
+    <Resource Idx="329" Name="icons/robots/26_01" />
+    <Resource Idx="330" Name="icons/robots/26_02" />
+    <Resource Idx="331" Name="mech/player/44" />
+    <Resource Idx="332" Name="mech/player/45" />
+    <Resource Idx="333" Name="mech/player/46" />
+    <Resource Idx="334" Name="mech/player/47" />
     <Resource Idx="335" Name="none" />
     <Resource Idx="336" Name="none" />
     <Resource Idx="337" Name="none" />
@@ -1230,12 +1230,12 @@
     <Resource Idx="520" Name="mech/device/01" />
     <Resource Idx="521" Name="mech/device/01_01" />
     <Resource Idx="522" Name="icons/cargo/ball" />
-    <Resource Idx="523" Name="fighter03_2" />
-    <Resource Idx="524" Name="none" />
-    <Resource Idx="525" Name="none" />
-    <Resource Idx="526" Name="game/pointselect" />
-    <Resource Idx="527" Name="none" />
-    <Resource Idx="528" Name="none" />
+    <Resource Idx="523" Name="none" />
+	<Resource Idx="524" Name="game/range_max" />
+	<Resource Idx="525" Name="game/range_max" />
+	<Resource Idx="526" Name="game/pointselect" />
+	<Resource Idx="527" Name="game/range_min" />
+	<Resource Idx="528" Name="game/range_min" />
     <Resource Idx="529" Name="world/terrain/detail" />
     <Resource Idx="530" Name="icons/used_upgrade/armour" />
     <Resource Idx="531" Name="icons/used_upgrade/armour_pak" />
@@ -1271,7 +1271,7 @@
     <Resource Idx="561" Name="icons/weapon/repair/01_blue" />
     <Resource Idx="562" Name="icons/weapon/repair/01_yellow" />
     <Resource Idx="563" Name="icons/used_upgrade/defense_pak" />
-    <Resource Idx="564" Name="trader01_3" />
+    <Resource Idx="564" Name="none" />
     <Resource Idx="565" Name="none" />
     <Resource Idx="566" Name="none" />
     <Resource Idx="567" Name="none" />
@@ -1405,20 +1405,20 @@
     <Resource Idx="695" Name="mech/monster/boss_07" />
     <Resource Idx="696" Name="mech/monster/boss_08" />
     <Resource Idx="697" Name="mech/monster/boss_09" />
-    <Resource Idx="698" Name="none" />
-    <Resource Idx="699" Name="none" />
-    <Resource Idx="700" Name="none" />
-    <Resource Idx="701" Name="none" />
-    <Resource Idx="702" Name="none" />
-    <Resource Idx="703" Name="none" />
-    <Resource Idx="704" Name="none" />
-    <Resource Idx="705" Name="none" />
-    <Resource Idx="706" Name="none" />
-    <Resource Idx="707" Name="none" />
-    <Resource Idx="708" Name="none" />
-    <Resource Idx="709" Name="none" />
-    <Resource Idx="710" Name="none" />
-    <Resource Idx="711" Name="none" />
+    <Resource Idx="698" Name="mech/player/30" />
+    <Resource Idx="699" Name="mech/player/31" />
+    <Resource Idx="700" Name="mech/player/32_FREE" />
+    <Resource Idx="701" Name="mech/player/33" />
+    <Resource Idx="702" Name="mech/player/34" />
+    <Resource Idx="703" Name="mech/player/35" />
+    <Resource Idx="704" Name="mech/player/36" />
+    <Resource Idx="705" Name="mech/player/37" />
+    <Resource Idx="706" Name="mech/player/38" />
+    <Resource Idx="707" Name="mech/player/39" />
+    <Resource Idx="708" Name="mech/player/40" />
+    <Resource Idx="709" Name="mech/player/41" />
+    <Resource Idx="710" Name="mech/player/42" />
+    <Resource Idx="711" Name="mech/player/43" />
     <Resource Idx="712" Name="world/sky_box/anomaly_01" />
     <Resource Idx="713" Name="world/sky_box/anomaly_00" />
     <Resource Idx="714" Name="world/sky_box/clear_01" />
@@ -1593,7 +1593,7 @@
     <Resource Idx="883" Name="mech/player/04_03" />
     <Resource Idx="884" Name="mech/player/05_01" />
     <Resource Idx="885" Name="mech/player/05_02" />
-    <Resource Idx="886" Name="mech/player/05_03" />
+    <Resource Idx="886" Name="none" />
     <Resource Idx="887" Name="world/house/house_44" />
     <Resource Idx="888" Name="mech/player/06_01" />
     <Resource Idx="889" Name="mech/player/06_02" />
