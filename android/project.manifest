@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "1.78.12",
+    "version": "1.78.12.6",
     "engineVersion": "3.11",
     "assets": {
         "ClientConfig.xml": {
@@ -1170,10 +1170,10 @@
             "md5": "426df02c61ef25d55d0dd00b649239c4"
         },
         "shaders/programs/common.frag": {
-            "md5": "a8046b2b409ed37330e80d3781a987cd"
+            "md5": "e5f01cd5dc2f1d55ff8504926bb8dcc8"
         },
         "shaders/programs/common.vert": {
-            "md5": "ea57ec0dc6babd9879ec2199a1584ebc"
+            "md5": "31b6cb597d4a5c2bc55efe7a50091e50"
         },
         "shaders/programs/crystals.frag": {
             "md5": "8da69bb8de1c2d3097c9b6002f313724"

@@ -3,7 +3,6 @@
 varying vec2 v_texCoord;
 #ifndef COMPILE_WITHOUT_FOG
 varying float v_fogFactor;
-varying float v_fogFactorDiscard;
 uniform vec3 u_fog_color;
 #endif
 // uniform
@@ -41,10 +40,5 @@ void main()
     
 #ifndef COMPILE_WITHOUT_FOG
 	gl_FragColor.rgb = (gl_FragColor * v_fogFactor + vec4(u_fog_color * (1.0 - v_fogFactor), 1.0)).rgb;
-
-	if(v_fogFactorDiscard > 0.65)
-	{
-		discard;
-	}
 #endif
 }

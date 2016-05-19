@@ -10,7 +10,6 @@ varying vec2 v_texCoord;
 
 #ifndef COMPILE_WITHOUT_FOG
 varying float v_fogFactor;
-varying float v_fogFactorDiscard;
 uniform vec3 u_eye_mv;
 // u_fog_distance_squared.x = fogStartSquared
 // u_fog_distance_squared.y = fogEndSquared
