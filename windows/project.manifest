@@ -2,11 +2,11 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "1.78.12.6",
+    "version": "1.78.12.10",
     "engineVersion": "3.11",
     "assets": {
         "ClientConfig.xml": {
-            "md5": "86ff41c13d507452ee769697255315cf"
+            "md5": "da94767ee032987221c6ffe587b47cbc"
         },
         "ClientGameSettings.xml": {
             "md5": "a7fa4f9c913e0fc22577fa7914973df2"
