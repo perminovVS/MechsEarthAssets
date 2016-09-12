@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <World>
     <WorldName Name="база КРАДА" />
-    <WorldNation Nation="4" UseWorldNationOnly="0" WorldMaxLvl="0" />
+    <WorldNation Nation="4" UseWorldNationOnly="0" WorldMaxLvl="0" xExp="1.0" />
     <Terrain Use="1">
         <Size X="1025" Y="1025" Cell="128" DeltaHeight="32768" HeightScale="2.000000" />
         <Texture Name="worlds/6/terrain" />

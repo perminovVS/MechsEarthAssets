@@ -48,18 +48,13 @@
       <Text Text="params_hero_skill_extraction" Info="tooltip_params_hero_skill_extraction" Align="LEFT" FontSet="small" ENB="1" X="43" Y="325" W="34" H="9" VIS="1" />
       <Text Text="params_hero_skill_engineering" Info="tooltip_params_hero_skill_engineering" Align="LEFT" FontSet="small" ENB="1" X="43" Y="335" W="52" H="9" VIS="1" />
       <Text Text="params_hero_skill_trade" Info="tooltip_params_hero_skill_trade" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="345" W="39" H="9" />
-      <Item Name="ExpGroup1">
-        <Text Text="params_hero_skill_missile" Info="tooltip_params_hero_skill_missile" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="356" W="39" H="9" />
-        <Text Text="params_hero_skill_bullet" Info="tooltip_params_hero_skill_bullet" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="366" W="39" H="9" />
-        <Text Text="params_hero_skill_empp" Info="tooltip_params_hero_skill_empp" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="376" W="39" H="9" />
-        <Text Text="params_hero_skill_faser" Info="tooltip_params_hero_skill_faser" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="386" W="39" H="9" />
-        <Text Text="params_hero_skill_rk" Info="tooltip_params_hero_skill_rk" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="396" W="39" H="9" />
-        <Text Text="params_hero_skill_rk_eng" Info="tooltip_params_hero_skill_rk_eng" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="406" W="39" H="9" />
-      </Item>
-      <Item Name="ExpGroup2">
-        <Text Text="params_hero_skill_howitzer" Info="tooltip_params_hero_skill_howitzer" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="356" W="39" H="9" />
-        <Text Text="params_hero_skill_launcher" Info="tooltip_params_hero_skill_launcher" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="366" W="39" H="9" />
-        <Text Text="params_hero_skill_bulleteng" Info="tooltip_params_hero_skill_bulleteng" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="376" W="80" H="9" />
+      <Item Name="ExpGroup">
+        <Text Text="empty" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="356" W="150" H="9" />
+        <Text Text="empty" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="366" W="150" H="9" />
+        <Text Text="empty" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="376" W="150" H="9" />
+        <Text Text="empty" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="386" W="150" H="9" />
+        <Text Text="empty" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="396" W="150" H="9" />
+        <Text Text="empty" Align="LEFT" FontSet="small" ENB="1" VIS="1" X="43" Y="406" W="150" H="9" />
       </Item>
       <Text Text="params_hero_weapon" Info="tooltip_params_hero_weapon" Align="LEFT" FontSet="small" ENB="1" X="43" Y="451" W="30" H="9" VIS="1" UseHooks="1" />
       <Text Text="params_hero_used_shield" Info="tooltip_params_hero_used_shield" Align="LEFT" FontSet="small" ENB="1" X="43" Y="476" W="30" H="9" VIS="1" UseHooks="1" />
@@ -72,18 +67,13 @@
       <Text Name="SkillExtraction" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="325" W="160" H="9" VIS="1" />
       <Text Name="SkillEngineering" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="335" W="160" H="9" VIS="1" />
       <Text Name="SkillTrade" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="345" W="160" H="9" VIS="1" />
-      <Item Name="ExpGroup1">
-        <Text Name="SkillMissile" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="356" W="160" H="9" VIS="1" />
-        <Text Name="SkillBullet" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="366" W="160" H="9" VIS="1" />
-        <Text Name="SkillEmpp" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="376" W="160" H="9" VIS="1" />
-        <Text Name="SkillFaser" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="386" W="160" H="9" VIS="1" />
-        <Text Name="SkillRk" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="396" W="160" H="9" VIS="1" />
-        <Text Name="SkillRkEng" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="406" W="160" H="9" VIS="1" />
-      </Item>
-      <Item Name="ExpGroup2">
-        <Text Name="SkillHowitzer" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="356" W="160" H="9" VIS="1" />
-        <Text Name="SkillLauncher" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="366" W="160" H="9" VIS="1" />
-        <Text Name="SkillBulletEng" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="376" W="160" H="9" VIS="1" />
+      <Item Name="ExpGroup">
+        <Text Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="356" W="160" H="9" VIS="1" />
+        <Text Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="366" W="160" H="9" VIS="1" />
+        <Text Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="376" W="160" H="9" VIS="1" />
+        <Text Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="386" W="160" H="9" VIS="1" />
+        <Text Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="396" W="160" H="9" VIS="1" />
+        <Text Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="406" W="160" H="9" VIS="1" />
       </Item>
       <Text Name="SkillWeapon" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="452" W="160" H="9" VIS="1" />
       <Text Name="SkillShield" Text="empty" Align="RIGHT" FontSet="params_small" ENB="1" X="82" Y="476" W="160" H="9" VIS="1" />

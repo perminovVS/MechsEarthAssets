@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- Диалог: Апгрейд меха -->
 <UpgradeRobot Id="54000" Worker="Menu_UpgradeRobot">
-    <Image X="184" Y="93" W="400" H="350" Shader="26" VIS="1" ENB="0" />
+    <Image X="184" Y="93" W="400" H="350" Shader="26" VIS="1" ENB="1" />
     <Text Text="upgrade_title" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="239" Y="100" W="200" H="32" VIS="1" ENB="1" />
     <Text Text="upgrade_type" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="407" Y="172" W="200" H="32" VIS="1" ENB="1" />
     <Button Command="delete_menu UpgradeRobot;" Key="escape" VIS="0" ENB="1" />

@@ -2591,6 +2591,99 @@
     <Resource Idx="1881" Name="mech/player/23_01" />
     <Resource Idx="1882" Name="mech/player/23_02" />
     <Resource Idx="1883" Name="icons/cargo/upgrade_05" />
+	<Resource Idx="1884" Name="icons/weapon/bullet_heavy/01_01" />
+    <Resource Idx="1885" Name="icons/weapon/bullet_heavy/01_05" />
+    <Resource Idx="1886" Name="icons/weapon/bullet_heavy/01_02" />
+    <Resource Idx="1887" Name="icons/weapon/bullet_heavy/05_07" />
+    <Resource Idx="1888" Name="icons/weapon/bullet_heavy/05_05" />
+    <Resource Idx="1889" Name="icons/weapon/bullet_heavy/05_01" />
+    <Resource Idx="1890" Name="icons/weapon/bullet_heavy/04_01" />
+    <Resource Idx="1891" Name="icons/weapon/bullet_heavy/04_02" />
+    <Resource Idx="1892" Name="icons/weapon/bullet_heavy/04_05" />
+    <Resource Idx="1893" Name="icons/weapon/bullet_heavy/02_03" />
+    <Resource Idx="1894" Name="icons/weapon/bullet_heavy/02_06" />
+    <Resource Idx="1895" Name="icons/weapon/bullet_heavy/02_05" />
+    <Resource Idx="1896" Name="icons/weapon/bullet_heavy/03_03" />
+    <Resource Idx="1897" Name="icons/weapon/bullet_heavy/03_05" />
+    <Resource Idx="1898" Name="icons/weapon/bullet_heavy/03_01" />
+    <Resource Idx="1899" Name="icons/weapon/howitzer_eng/05_02" />
+    <Resource Idx="1900" Name="icons/weapon/howitzer_eng/05_03" />
+    <Resource Idx="1901" Name="icons/weapon/howitzer_eng/05_05" />
+    <Resource Idx="1902" Name="icons/weapon/howitzer_eng/05_06" />
+    <Resource Idx="1903" Name="icons/weapon/howitzer_eng/05_03" />
+    <Resource Idx="1904" Name="icons/weapon/howitzer_eng/05_01" />
+    <Resource Idx="1905" Name="icons/weapon/howitzer_eng/02_04" />
+    <Resource Idx="1906" Name="icons/weapon/howitzer_eng/02_08" />
+    <Resource Idx="1907" Name="icons/weapon/howitzer_eng/02_09" />
+    <Resource Idx="1908" Name="icons/weapon/howitzer_eng/03_01" />
+    <Resource Idx="1909" Name="icons/weapon/howitzer_eng/03_06" />
+    <Resource Idx="1910" Name="icons/weapon/howitzer_eng/03_04" />
+    <Resource Idx="1911" Name="icons/weapon/howitzer_eng/01_01" />
+    <Resource Idx="1912" Name="icons/weapon/howitzer_eng/01_03" />
+    <Resource Idx="1913" Name="icons/weapon/howitzer_eng/01_05" />
+    <Resource Idx="1914" Name="icons/weapon/howitzer_eng/04_01" />
+    <Resource Idx="1915" Name="icons/weapon/howitzer_eng/04_03" />
+    <Resource Idx="1916" Name="icons/weapon/howitzer_eng/04_05" />
+    <Resource Idx="1917" Name="icons/weapon/launcher_eng/05_06" />
+    <Resource Idx="1918" Name="icons/weapon/launcher_eng/05_03" />
+    <Resource Idx="1919" Name="icons/weapon/launcher_eng/05_01" />
+    <Resource Idx="1920" Name="icons/weapon/launcher_eng/01_01" />
+    <Resource Idx="1921" Name="icons/weapon/launcher_eng/01_02" />
+    <Resource Idx="1922" Name="icons/weapon/launcher_eng/01_05" />
+    <Resource Idx="1923" Name="icons/weapon/launcher_eng/04_01" />
+    <Resource Idx="1924" Name="icons/weapon/launcher_eng/04_02" />
+    <Resource Idx="1925" Name="icons/weapon/launcher_eng/04_03" />
+    <Resource Idx="1926" Name="icons/weapon/launcher_eng/02_03" />
+    <Resource Idx="1927" Name="icons/weapon/launcher_eng/02_07" />
+    <Resource Idx="1928" Name="icons/weapon/launcher_eng/02_05" />
+    <Resource Idx="1929" Name="icons/weapon/launcher_eng/03_01" />
+    <Resource Idx="1930" Name="icons/weapon/launcher_eng/03_05" />
+    <Resource Idx="1931" Name="icons/weapon/launcher_eng/03_07" />
+    <Resource Idx="1932" Name="icons/weapon/missile_eng/01_01" />
+    <Resource Idx="1933" Name="icons/weapon/missile_eng/01_02" />
+    <Resource Idx="1934" Name="icons/weapon/missile_eng/01_03" />
+    <Resource Idx="1935" Name="icons/weapon/missile_eng/02_01" />
+    <Resource Idx="1936" Name="icons/weapon/missile_eng/02_05" />
+    <Resource Idx="1937" Name="icons/weapon/missile_eng/02_03" />
+    <Resource Idx="1938" Name="icons/weapon/missile_eng/03_01" />
+    <Resource Idx="1939" Name="icons/weapon/missile_eng/03_05" />
+    <Resource Idx="1940" Name="icons/weapon/missile_eng/03_02" />
+    <Resource Idx="1941" Name="icons/weapon/missile_eng/05_01" />
+    <Resource Idx="1942" Name="icons/weapon/missile_eng/05_02" />
+    <Resource Idx="1943" Name="icons/weapon/missile_eng/05_05" />
+    <Resource Idx="1944" Name="icons/weapon/missile_eng/04_01" />
+    <Resource Idx="1945" Name="icons/weapon/missile_eng/04_02" />
+    <Resource Idx="1946" Name="icons/weapon/missile_eng/04_04" />
+    <Resource Idx="1947" Name="icons/weapon/mortar/01_05" />
+    <Resource Idx="1948" Name="icons/weapon/mortar/01_02" />
+    <Resource Idx="1949" Name="icons/weapon/mortar/01_01" />
+    <Resource Idx="1950" Name="icons/weapon/mortar/02_06" />
+    <Resource Idx="1951" Name="icons/weapon/mortar/02_01" />
+    <Resource Idx="1952" Name="icons/weapon/mortar/02_03" />
+    <Resource Idx="1953" Name="icons/weapon/mortar/03_01" />
+    <Resource Idx="1954" Name="icons/weapon/mortar/03_03" />
+    <Resource Idx="1955" Name="icons/weapon/mortar/03_06" />
+    <Resource Idx="1956" Name="icons/weapon/mortar/04_05" />
+    <Resource Idx="1957" Name="icons/weapon/mortar/04_04" />
+    <Resource Idx="1958" Name="icons/weapon/mortar/04_02" />
+    <Resource Idx="1959" Name="icons/weapon/mortar/05_04" />
+    <Resource Idx="1960" Name="icons/weapon/mortar/05_05" />
+    <Resource Idx="1961" Name="icons/weapon/mortar/05_03" />
+    <Resource Idx="1962" Name="icons/bullets/bullet_heavy_01" />
+    <Resource Idx="1963" Name="icons/bullets/bullet_heavy_04" />
+    <Resource Idx="1964" Name="icons/bullets/bullet_heavy_02" />
+    <Resource Idx="1965" Name="icons/bullets/howitzer_eng_07" />
+    <Resource Idx="1966" Name="icons/bullets/howitzer_eng_04" />
+    <Resource Idx="1967" Name="icons/bullets/howitzer_eng_02" />
+    <Resource Idx="1968" Name="icons/bullets/launcher_eng_05" />
+    <Resource Idx="1969" Name="icons/bullets/launcher_eng_01" />
+    <Resource Idx="1970" Name="icons/bullets/launcher_eng_03" />
+    <Resource Idx="1971" Name="icons/bullets/missile_eng_05" />
+    <Resource Idx="1972" Name="icons/bullets/missile_eng_04" />
+    <Resource Idx="1973" Name="icons/bullets/missile_eng_03" />
+    <Resource Idx="1974" Name="icons/bullets/mortar_04" />
+    <Resource Idx="1975" Name="icons/bullets/mortar_02" />
+    <Resource Idx="1976" Name="icons/bullets/mortar_03" />
 </Shaders>
 <Flares>
     <Resource Idx="1" Name="lensflare/atomic" />
@@ -2727,7 +2820,22 @@
     <Resource Idx="129" Name="shield" />
     <Resource Idx="130" Name="smoke_hp_small" />
     <Resource Idx="131" Name="smoke_hp_middle" />
-    <Resource Idx="132" Name="trail_medicgun1" />
+    <Resource Idx="132" Name="bullet_heavy_flash" />
+    <Resource Idx="133" Name="mortar_hit1" />
+    <Resource Idx="134" Name="mortar_hit2" />
+    <Resource Idx="135" Name="bullet_heavy_trail" />
+    <Resource Idx="136" Name="bullet_heavy_hit" />
+	<Resource Idx="137" Name="howitzer_eng_flash" />
+    <Resource Idx="138" Name="howitzer_eng_trail" />
+    <Resource Idx="139" Name="howitzer_eng_hit" />	
+    <Resource Idx="140" Name="eng_rocket" />
+    <Resource Idx="141" Name="launcher_eng_trail" />
+    <Resource Idx="142" Name="launcher_eng_hit" />	
+    <Resource Idx="143" Name="missile_eng_flash" />
+    <Resource Idx="144" Name="missile_eng_trail" />
+    <Resource Idx="145" Name="missile_eng_hit" />
+    <Resource Idx="146" Name="howitzer_eng_hit2" />
+    <Resource Idx="147" Name="missile_eng_hit2" />
 </Effects>
 <Sounds>
     <Resource Idx="1" Name="robots/01/move01" />

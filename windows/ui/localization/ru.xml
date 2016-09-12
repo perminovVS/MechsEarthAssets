@@ -15,6 +15,7 @@
 	<Text Key="version" Value="версия" />
   <Text Key="common_count_holder" 	Value="Введи количество" />
   <Text Key="common_text_holder" 	Value="Введи текст" />
+	<Text Key="test_mode" Value="ТЕСТОВАЯ ВЕРСИЯ" />
   
 	<Text Key="disconnect" 	Value="НЕТ соединения с сервером" />
 	<Text Key="registration_wrong_symbols" 	Value="В нике персонажа использованы недопустимые символы.\nИспользуйте только символы 0-9, a-z, A-Z, '_'." />
@@ -172,17 +173,17 @@
 	<Text Key="tooltip_params_robot_type" 	Value="ТИП - ОЧЕНЬ ВАЖНАЯ ХАРАКТЕРИСТИКА МОДЕЛИ МЕХА\nВСЕГО ЕСТЬ 4 ТИПА:\n- БОЕЦ, ХОРОШАЯ БРОНЯ И ПРОЧНОСТЬ\n- РАЗВЕДЧИК, БЫСТР И ПОВОРОТЛИВ\n- ТРАНСПОРТ, ВМЕСТИТЕЛЕН\n- ДОБЫТЧИК, ПОЛЕЗЕН ПРИ ДОБЫЧЕ ПОЛЕЗНЫХ ИСКОПАЕМЫХ" />
 
 	<Text Key="tooltip_params_robot_health" 	Value="ПРОЧНОСТЬ МЕХА - СКОЛЬКО ПОВРЕЖДЕНИЙ\nМОЖНО ПОЛУЧИТЬ ДО ПОЛНОГО РАЗРУШЕНИЯ" />
-	<Text Key="tooltip_params_robot_capacity" 	Value="ВМЕСТИМОСТЬ МЕХА - СКОЛЬКО МОЖНО\nУНЕСТИ НА БОРТУ ГРУЗА И ОБОРУДОВАНИЯ" />
+	<Text Key="tooltip_params_robot_capacity" 	Value="ТРЮМ МЕХА - СКОЛЬКО МОЖНО\nУНЕСТИ НА БОРТУ ГРУЗА И ОБОРУДОВАНИЯ" />
 	<Text Key="tooltip_params_robot_speed" 	Value="СКОРОСТЬ МЕХА - НА СКОЛЬКО БЫСТРО\nПРОИСХОДИТ ДВИЖЕНИЕ, ЗАВИСИТ ОТ\nМОЩНОСТИ ДВИГАТЕЛЬНОЙ СИСТЕМЫ" />
-	<Text Key="tooltip_params_robot_energyparams" 	Value="ПОКАЗАНИЯ ДАТЧИКОВ ЭНЕРГО ОБОРУДОВАНИЯ МЕХА,\nА ТАКЖЕ СУММАРНАЯ МОЩНОСТЬ РЕАКТОРА И НАКОПИТЕЛЕЙ" />
+	<Text Key="tooltip_params_robot_energyparams" 	Value="ПОКАЗАНИЯ ДАТЧИКОВ ЭНЕРГООБОРУДОВАНИЯ МЕХА,\nА ТАКЖЕ СУММАРНАЯ МОЩНОСТЬ РЕАКТОРА И НАКОПИТЕЛЕЙ" />
 	<Text Key="tooltip_params_robot_power" 	Value="СУММАРНАЯ МОЩНОСТЬ ВСЕХ РЕАКТОРОВ\nЗАДЕЙСТВОВАННЫХ В ДАННЫЙ МОМЕНТ\nСИСТЕМОЙ ЭНЕРГООБЕСПЕЧЕНИЯ МЕХА" />
 	<Text Key="tooltip_params_robot_energy" 	Value="СУММАРНЫЙ ЕМКОСТЬ ВСЕХ НАКОПИТЕЛЕЙ\nЗАДЕЙСТВОВАННЫХ В ДАННЫЙ МОМЕНТ\nСИСТЕМОЙ ЭНЕРГООБЕСПЕЧЕНИЯ МЕХА" />
 	<Text Key="tooltip_params_robot_defence" 	Value="МЕХАНИЗМЫ ОБЕСПЕЧИВАЮЩИЕ ДОПОЛНИТЕЛЬНУЮ ЗАЩИТУ,\nС ИХ ПОМОЩЬЮ МЕХ ПОЛУЧАЕТ МЕНЬШЕ ПОВРЕЖДЕНИЙ" />
 	<Text Key="tooltip_params_robot_armour" 	Value="ДОПОЛНИТЕЛЬНЫЕ СТАЛЬНЫЕ ПЛАСТИНЫ,\nЗАЩИЩАЮЩИЕ ОТ ПРЯМЫХ УДАРНЫХ ПОВРЕЖДЕНИЙ " />
-	<Text Key="tooltip_params_robot_shield" 	Value="СОЗДАЕТ ПОЛЕ НА КОРПУСЕ МЕХА,\nУКРЕПЛЯЮЩЕЕ СТРУКТУРУ МЕТАЛЛА.\n\nБЫЛО РАЗРАБОТАНО КАК ЗАЩИТА ОТ ЭНЕРГЕТИЧЕСКОГО ОРУЖИЯ\nВЫДЕЛЯЕТ НАНО ЧИСТИЦЫ, КОТОРЫЕ ВСТУПАЮТ В ВЗАИМОДЕЙСТВИЕ\nС КРИСТАЛИЧЕСКОЙ РЕШЕТКОЙ ВЕЩЕСТВА,\nИ ПРИПЯТСТВУЮТ ПРОНИКНОВЕНИЮ ЭНЕРГИИ" />
+	<Text Key="tooltip_params_robot_shield" 	Value="СОЗДАЕТ ПОЛЕ НА КОРПУСЕ МЕХА,\nУКРЕПЛЯЮЩЕЕ СТРУКТУРУ МЕТАЛЛА.\n\nБЫЛО РАЗРАБОТАНО КАК ЗАЩИТА ОТ ЭНЕРГЕТИЧЕСКОГО ОРУЖИЯ\nВЫДЕЛЯЕТ НАНО ЧАСТИЦЫ, КОТОРЫЕ ВСТУПАЮТ В ВЗАИМОДЕЙСТВИЕ\nС КРИСТАЛЛИЧЕСКОЙ РЕШЕТКОЙ ВЕЩЕСТВА,\nИ ПРЕПЯТСТВУЮТ ПРОНИКНОВЕНИЮ ЭНЕРГИИ" />
 
 	<Text Key="tooltip_mod_robot_health" 	Value="ПРОЧНОСТЬ" />
-	<Text Key="tooltip_mod_robot_capacity" 	Value="ВМЕСТИМОСТЬ" />
+	<Text Key="tooltip_mod_robot_capacity" 	Value="ТРЮМ" />
 	<Text Key="tooltip_mod_robot_speed" 	Value="СКОРОСТЬ" />
 	<Text Key="tooltip_mod_robot_energyparams" 	Value="ЭНЕРГОСНАБЖЕНИЕ" />
 	<Text Key="tooltip_mod_robot_power" 	Value="МОЩНОСТЬ" />
@@ -194,6 +195,7 @@
 	<Text Key="tooltip_mod_robot_weapon_energy" 	Value="ЭНЕРГЕТИЧЕСКОЕ ПОВРЕЖДЕНИЕ" />
 	<Text Key="tooltip_mod_robot_weapon_rockets" 	Value="РК ПОВРЕЖДЕНИЕ" />
 	<Text Key="tooltip_mod_robot_weapon_long_range" 	Value="ДАЛЬНОБОЙНОЕ ПОВРЕЖДЕНИЕ" />
+  <Text Key="tooltip_mod_robot_weapon_long_range_eng" 	Value="ДАЛЬНОБОЙНОЕ ЭНЕРГЕТИЧЕСКОЕ ПОВРЕЖДЕНИЕ" />
 	<Text Key="tooltip_mod_robot_repair" 	Value="РЕМОНТ" />
 	<Text Key="tooltip_mod_robot_extract" 	Value="ДОБЫЧА" />
 
@@ -205,7 +207,11 @@
 	<Text Key="tooltip_mod_skill_weapon_fire" 	Value="Пушка, Пулемет" />
 	<Text Key="tooltip_mod_skill_weapon_energy" 	Value="Эмпп, Фазер" />
 	<Text Key="tooltip_mod_skill_weapon_rockets" Value="Рк, Рк Энрг" />
-	<Text Key="tooltip_mod_skill_weapon_long_range" Value="Гранатомет, Гаубица, Пулемет Энрг" />
+	<Text Key="tooltip_mod_skill_weapon_long_range" Value="Гранатомет, Гаубица" />  
+  <Text Key="tooltip_mod_skill_weapon_fire_2" 	Value="Мортира, Пулемет дальнобойный" />
+  <Text Key="tooltip_mod_skill_weapon_energy_2" 	Value="Пушка Энрг, Пулемет Энрг" />
+  <Text Key="tooltip_mod_skill_weapon_long_range_eng" Value="Гранатомет Энрг, Гаубица Энрг" />
+  
 	<Text Key="tooltip_mod_skill_shield" 	Value="ПОЛЯ" />
 	<Text Key="tooltip_mod_skill_armour" 	Value="БРОНЯ" />
 	<Text Key="tooltip_mod_skill_hold" 	Value="ТРЮМ" />
@@ -222,7 +228,7 @@
 	<Text Key="params_robot_type" 	Value="Тип" />
 
 	<Text Key="params_robot_health" 	Value="Прочность" />
-	<Text Key="params_robot_capacity" 	Value="Вместимость" />
+	<Text Key="params_robot_capacity" 	Value="Трюм" />
 	<Text Key="params_robot_speed" 	Value="Скорость" />
 
 	<Text Key="params_robot_energyparams" 	Value="Энергообеспечение" />
@@ -261,6 +267,7 @@
 	<Text Key="game_item_bullets_grenade" 	Value="РАКЕТЫ:" />
 	<Text Key="game_item_bullets_repair" 	Value="ЗАПЧАСТИ:" />
 	<Text Key="game_item_bullets_eng" 	Value="ПАТРОНЫ ЭНРГ:" />
+  <Text Key="game_item_bullets_missile_eng" 	Value="СНАРЯДЫ ЭНРГ:" />
 
 	<Text Key="game_item_weapon_repair" 	Value="РЕМОНТ:" />
 	<Text Key="game_item_weapon_impact_damage" 	Value="УДАР:" />
@@ -281,7 +288,7 @@
 
 	<Text Key="game_item_special_mining_amount" 	Value="МОЩНОСТЬ ПОДЪЕМА:" />
 
-	<Text Key="game_item_special_cargo_amount" 	Value="ВМЕСТИМОСТЬ:" />
+	<Text Key="game_item_special_cargo_amount" 	Value="ТРЮМ:" />
 
 	<Text Key="game_item_special_engine_velocity" 	Value="СКОРОСТЬ:" />
 
@@ -291,10 +298,12 @@
 
 	<Text Key="game_item_used_energy_energy" 	Value="ЭНЕРГИЯ:" />
 
-	<Text Key="game_item_used_teleport_energy" 	Value="ЭНЕРГИЯ:" />
+	<Text Key="game_item_used_teleport_energy" 	Value="ТРЕБУЕТСЯ ЭНЕРГИИ:" />
 	<Text Key="game_item_used_teleport_time" 	Value="ВРЕМЯ:" />
 
-	<Text Key="game_item_used_set_object_energy" 	Value="ЭНЕРГИЯ:" />
+	<Text Key="game_item_used_set_object_energy" 	Value="ТРЕБУЕТСЯ ЭНЕРГИИ:" />
+  <Text Key="game_item_used_upgrade_robot_energy" 	Value="ТРЕБУЕТСЯ ЭНЕРГИИ:" />
+  <Text Key="game_item_used_invisible_energy" 	Value="ПОТРЕБЛЯЕТ ЭНЕРГИИ:" />
 
 	<Text Key="game_item_cargo_amount" 	Value="КОЛИЧЕСТВО:" />
 	<Text Key="game_item_robot_case" 	Value="ТОЛЬКО ДЛЯ" />
@@ -377,6 +386,9 @@
   <Text Key="research_need_money" Value="ТРЕБУЕТСЯ БОН" />
   <Text Key="research_need_money1" Value="ТРЕБУЕТСЯ РЕГЛОВ" />
   <Text Key="research_stage" Value="ТЕКУЩИЙ УРОВЕНЬ" />
+  <Text Key="research_bonus_info" Value="Вставь \c&lt;200 200 200&gt;%s\b\nкоторый дается за задание АПГРЕЙД.\nПри вставке апгрейда, дополнительно\nресурсы, боны и реглы не требуются." />
+  <Text Key="research_item_personal" Value="Внимание! Предмет станет персональным." />
+  <Text Key="tooltip_research_item_personal" Value="Особенность персонального предмета в том,\nчто его нельзя передать другим игрокам.\nМежду персонажами аккаунта можно.\nПредмет стает персональным при установке 7 ступени навыков." />
 
   <Text Key="restore_title" Value="РЕМОНТ ТЕХНИКИ" />
   <Text Key="restore_execute" Value="ВОССТАНОВИТЬ" />
@@ -400,7 +412,7 @@
 	<Text Key="params_hero_status_pirate"			Value="Повстанец" />
 	<Text Key="params_hero_money"					Value="Боны" />
 	<Text Key="params_hero_ex_money"				Value="Реглы" />
-	<Text Key="params_hero_skills"					Value="Навыки" />
+	<Text Key="params_hero_skills"					Value="Уровни владения навыками" />
 	<Text Key="params_hero_skill_precision"			Value="Снайпер" />
 	<Text Key="params_hero_skill_extraction"		Value="Добыча" />
 	<Text Key="params_hero_skill_engineering"		Value="Специалист" />
@@ -413,7 +425,12 @@
 	<Text Key="params_hero_skill_rk_eng"			Value="Рк энрг" />
 	<Text Key="params_hero_skill_howitzer"			Value="Гаубица" />
 	<Text Key="params_hero_skill_launcher"			Value="Гранатомет" />
-	<Text Key="params_hero_skill_bulleteng"			Value="Пулемет энрг" />	
+  <Text Key="params_hero_skill_howitzereng"			Value="Гаубица энрг" />
+  <Text Key="params_hero_skill_launchereng"			Value="Гранатомет энрг" />
+	<Text Key="params_hero_skill_bulleteng"			Value="Пулемет энрг" />
+  <Text Key="params_hero_skill_missileeng"			Value="Пушка энрг" />
+  <Text Key="params_hero_skill_mortar"			Value="Мортира" />
+  <Text Key="params_hero_skill_bulletheavy"			Value="Пулемет дальнобойный" />  
 	<Text Key="params_hero_more_skill_exp"			Value="Другие" />
 	<Text Key="params_hero_weapon"					Value="Удар" />
 	<Text Key="params_hero_used"					Value="Умения" />
@@ -465,7 +482,7 @@
   <Text Key="LGN_RSP_HERO_CANT_CREATE" Value="\n\c&lt;240 40 40&gt;Ошибка создания профиля.\b" />
   <Text Key="LGN_RSP_PSWD_NOT_CHECKED" Value="\n\c&lt;240 40 40&gt;Произошла ошибка идентификации.\b" />
   <Text Key="LGN_RSP_LOGIN_OK" Value="\nПолучение сведений о мире &apos;\c&lt;40 40 240&gt;%s\b&apos;." />
-  <Text Key="LGN_RSP_LOGIN_OK_BAN" Value="\n\c&lt;240 40 40&gt;Профиль заблокирован\b\nПричина: %s\nобратитесь в службу поддержки!" />
+  <Text Key="LGN_RSP_LOGIN_OK_BAN" Value="\n\c&lt;240 40 40&gt;Профиль заблокирован\b\nПричина: %s\nОбратитесь в службу поддержки!" />
   <Text Key="LGN_RSP_LOGIN_OK_BAN_ON_HOURS" Value="\n\c&lt;240 40 40&gt;Профиль временно заблокирован,\b осталось %dд %dч %dм\nПричина: %s" />
   <Text Key="LGN_RSP_LOGIN_WRONG_HERO" Value="\nНет доступа к данному персонажу." />
   <Text Key="LGN_RSP_LOGIN_NO_MONEY" Value="\nНе достаточно средств." />
@@ -531,7 +548,7 @@
 	
 	<Text Key="tooltip_params_hero_params_apply"			Value="ПРИМЕНИТЬ" />
 	<Text Key="tooltip_params_hero_params_point"			Value="КОЛИЧЕСТВО НЕРАСПРЕДЕЛЕННЫХ ОЧКОВ\n\nОНИ ДАЮТСЯ ПРИ ДОСТИЖЕНИИ НОВОГО УРОВНЯ\nИ ПОЗВОЛЯЮТ УЛУЧШИТЬ УМЕНИЯ ВАШЕГО ПЕРСОНАЖА\n" />
-	<Text Key="tooltip_params_hero_params_point_free"		Value="КОЛИЧЕСТВО ОЧКОВ КОТОРЫЕ\n\nМОЖНО БЕСПЛАТНО ПЕРЕРАСПРЕДЕЛИТЬ\n" />
+	<Text Key="tooltip_params_hero_params_point_free"		Value="КОЛИЧЕСТВО ОЧКОВ КОТОРЫЕ МОЖНО\n\nБЕСПЛАТНО ПЕРЕРАСПРЕДЕЛИТЬ\n" />
 	<Text Key="tooltip_params_hero_name"					Value="НИК АККАУНТА, нажмите что бы изменить" />
 	<Text Key="tooltip_params_hero_name_alias"				Value="ПСЕВДОНИМ ПЕРСОНАЖА, нажмите что бы изменить" />
 	<Text Key="tooltip_params_hero_level"					Value="УРОВЕНЬ ПЕРСОНАЖА\n\nЧЕМ БОЛЬШЕ УРОВЕНЬ, ТЕМ БОЛЬШЕ ВОЗМОЖНОСТЕЙ\nИ УМЕНИЙ, БОЛЕЕ СИЛЬНЫМ МЕХОМ МОЖНО УПРАВЛЯТЬ,\nТАКЖЕ ДОСТУПНО БОЛЕЕ СИЛЬНОЕ ВООРУЖЕНИЕ\n" />
@@ -550,7 +567,7 @@
 	<Text Key="tooltip_params_hero_money"					Value="МЕСТНЫЕ ДЕНЬГИ\n\nЭТО ОСНОВНОЙ РЕСУРС НА ПЛАНЕТЕ\n, ЛЮБЫЕ ОПЕРАЦИИ КУПЛИ/ПРОДАЖИ \nВОЗМОЖНЫ ТОЛЬКО ЗА БОНЫ" />
 	<Text Key="tooltip_params_hero_ex_money"				Value="ДОПОЛНИТЕЛЬНЫЕ ДЕНЬГИ\n\nТРЕБУЮТСЯ ДЛЯ ПОКУПКИ КАКИХ ЛИБО\nУНИКАЛЬНЫХ УСЛУГ/ПРЕДМЕТОВ" />
 	<Text Key="tooltip_params_hero_skill_precision"			Value="НАВЫК СНАЙПЕРА ОЧЕНЬ ВАЖЕН,\nОН ПОМОЖЕТ ВАМ В БОРЬБЕ С МОНСТРАМИ  И ПРОТИВНИКАМИ, КОТОРЫЕ СТАРШЕ ВАС ПО  УРОВНЮ" />
-	<Text Key="tooltip_params_hero_skill_extraction"		Value="ДОБЫЧА  ИСКОПАЕМЫХ – НАВЫК ВАЖЕН,\nУВИЛИЧИВ СВОЁ УМЕНИЕ ДОБЫЧИ ПОМОЖЕТ ВАМ БОЛЕЕ  ЭФФЕКТИВНО ИСПОЛЬЗОВАТЬ СПЕЦ. ОБОРУДОВАНИЕ .\n ЧТО ЗНАЧИТЕЛЬНО ПОМОЖЕТ В ПРОЦЕССЕ, СОХРАНИТ ВАМ ВРЕМЯ И СРЕДСТВА." />
+	<Text Key="tooltip_params_hero_skill_extraction"		Value="ДОБЫЧА  ИСКОПАЕМЫХ – НАВЫК ВАЖЕН,\nУВЕЛИЧИВ СВОЁ УМЕНИЕ ДОБЫЧИ ПОМОЖЕТ ВАМ БОЛЕЕ  ЭФФЕКТИВНО ИСПОЛЬЗОВАТЬ СПЕЦ. ОБОРУДОВАНИЕ .\n ЧТО ЗНАЧИТЕЛЬНО ПОМОЖЕТ В ПРОЦЕССЕ, СОХРАНИТ ВАМ ВРЕМЯ И СРЕДСТВА." />
 	<Text Key="tooltip_params_hero_skill_engineering"		Value="ВЛАДЕНИЕ ДАННЫМ НАВЫКОМ ЗНАЧИТЕЛЬНО ОБЛЕГЧИТ ВАМ ЖИЗНЬ,\n ПОВЫСИТ  ВАШЕ УМЕНИЕ, ЧТО ПОЗВОЛИТ  УВЕЛИЧИТЬ СКОРОСТЬ РАБОТЫ РЕМ. ДРОЙДОВ" />
 	<Text Key="tooltip_params_hero_skill_trade"				Value="НАВЫК ТОРГОВЛИ ПОМОЖЕТ ВАМ ПРОИЗВОДИТЬ\nОПЕРАЦИИ ПРОДАЖ В МАГАЗИНЫ БОЛЕЕ ВЫГОДНО " />
 	<Text Key="tooltip_params_hero_weapon"					Value="НАВЫК УДАР:\nУВЕЛИЧИВАЕТ ПОВРЕЖДЕНИЯ, НАНОСИМЫЕ ВСЕМИ ВИДАМИ ОРУЖИЯ КРОМЕ ЛАЗЕРОВ " />
@@ -558,16 +575,20 @@
 	<Text Key="tooltip_params_hero_used_shield"				Value="ЭНЕРГЕТИЧЕСКАЯ ЗАЩИТА - \nЭТОТ НАВЫК  ПОЗВОЛИТ БОЛЕЕ ЭФФЕКТИВНО ИСПОЛЬЗОВАТЬ ЗАЩИТНЫЕ ПОЛЯ И  УВЕЛИЧИТ ЭНЕРГЕТИЧЕСКУЮ ЗАЩИТУ ВАШЕГО МЕХА." />
 	<Text Key="tooltip_params_hero_used_hold"				Value="ЛОГИСТ - \nЭТОТ НАВЫК  ПОЗВОЛИТ БЛАГОРАЗУМНО ИСПОЛЬЗОВАТЬ ВАШИ ТРЮМА (УВЕЛИЧЕНИЕ ЁМКОСТИ ТРЮМА)." />
 	<Text Key="tooltip_params_hero_used_energy"				Value="СИСТЕМА ЖИЗНЕОБЕСПЕЧЕНИЯ (Ж/О) ВАШЕГО МЕХА,\nОДИН  ИЗ НАИБОЛЕЕ ВАЖНЫХ НАВЫКОВ, ПОЗВОЛИТ МАКСИМАЛЬНО ЭФФЕКТИВНО РАСПОРЯЖАТЬСЯ ЭНЕРГИЕЙ ВАШЕГО МЕХА\nУВЕЛИЧИВАЕТ ОБЪЁМ ВАШИХ НАКОПИТЕЛЕЙ И МОЩНОСТЬ РЕАКТОРОВ." />
-
-	<Text Key="tooltip_params_hero_skill_missile"			Value="ПУШКА:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, БОЛЬШОЙ УРОН НА СРЕДНЕЙ И ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, СРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
-	<Text Key="tooltip_params_hero_skill_bullet"			Value="ПУЛЕМЕТ:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА СРЕДНЕЙ И БЛИЖНЕЙ ДИСТАНЦИИ,\nБОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
-	<Text Key="tooltip_params_hero_skill_empp"				Value="ЭМПП:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, БОЛЬШОЙ УРОН НА СРЕДНЕЙ И БЛИЖНЕЙ ДИСТАНЦИИ,\nСРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
-	<Text Key="tooltip_params_hero_skill_faser"				Value="ФАЗЕР:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nБОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
-	<Text Key="tooltip_params_hero_skill_rk"				Value="РАКЕТНЫЙ КОМПЛЕКС:\nРАКЕТНОЕ ОРУДИЕ, ОСНОВНОЙ УДАР ОГНЕСТРЕЛЬНЫЙ,\nСРЕДНИЙ УРОН НА ВСЕЙ ДИСТАНЦИИ, БОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
-	<Text Key="tooltip_params_hero_skill_rk_eng"			Value="РАКЕТНЫЙ КОМПЛЕКС ЭНЕРГЕТИЧЕСКИЙ:\nРАКЕТНОЕ ОРУДИЕ, ОСНОВНОЙ УДАР ЭНЕРГЕТИЧЕСКИЙ,\nСРЕДНИЙ УРОН НА ВСЕЙ ДИСТАНЦИИ, БОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
-	<Text Key="tooltip_params_hero_skill_howitzer"			Value="ГАУБИЦА:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, БОЛЬШОЙ УРОН ПО ПЛОЩАДИ ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ, СТРЕЛЯЕТ НАВЕСОМ" />
-	<Text Key="tooltip_params_hero_skill_launcher"			Value="ГРАНАТОМЕТ:\nРАКЕТНОЕ ОРУДИЕ, СРЕДНИЙ УРОН ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ" />
-	<Text Key="tooltip_params_hero_skill_bulleteng"			Value="ПУЛЕМЕТ ЭНЕРГЕТИЧЕСКИЙ:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА СРЕДНЕЙ ДИСТАНЦИИ\nНИЗКАЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_missile"			Value="ПУШКА:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, БОЛЬШОЙ УРОН НА СРЕДНЕЙ И ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, СРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_bullet"			Value="ПУЛЕМЕТ:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА СРЕДНЕЙ И БЛИЖНЕЙ ДИСТАНЦИИ,\nБОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_empp"				Value="ЭМПП:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, БОЛЬШОЙ УРОН НА СРЕДНЕЙ И БЛИЖНЕЙ ДИСТАНЦИИ,\nСРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_faser"				Value="ФАЗЕР:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nБОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_rk"				Value="РАКЕТНЫЙ КОМПЛЕКС:\nРАКЕТНОЕ ОРУДИЕ, ОСНОВНОЙ УДАР ОГНЕСТРЕЛЬНЫЙ,\nСРЕДНИЙ УРОН НА ВСЕЙ ДИСТАНЦИИ, БОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_rk_eng"			Value="РАКЕТНЫЙ КОМПЛЕКС ЭНЕРГЕТИЧЕСКИЙ:\nРАКЕТНОЕ ОРУДИЕ, ОСНОВНОЙ УДАР ЭНЕРГЕТИЧЕСКИЙ,\nСРЕДНИЙ УРОН НА ВСЕЙ ДИСТАНЦИИ, БОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_howitzer"			Value="ГАУБИЦА:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, БОЛЬШОЙ УРОН ПО ПЛОЩАДИ ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ, СТРЕЛЯЕТ НАВЕСОМ" />
+  <Text Key="tooltip_params_hero_skill_launcher"			Value="ГРАНАТОМЕТ:\nРАКЕТНОЕ ОРУДИЕ, СРЕДНИЙ УРОН ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_howitzereng"		Value="ГАУБИЦА ЭНЕРГЕТИЧЕСКАЯ:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, БОЛЬШОЙ УРОН ПО ПЛОЩАДИ ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ, СТРЕЛЯЕТ НАВЕСОМ" />
+  <Text Key="tooltip_params_hero_skill_launchereng"		Value="ГРАНАТОМЕТ ЭНЕРГЕТИЧЕСКИЙ:\nРАКЕТНОЕ ОРУДИЕ, СРЕДНИЙ УРОН ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_bulleteng"			Value="ПУЛЕМЕТ ЭНЕРГЕТИЧЕСКИЙ:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА СРЕДНЕЙ ДИСТАНЦИИ\nБОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_missileeng"			Value="ПУШКА ЭНЕРГЕТИЧЕСКАЯ:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, БОЛЬШОЙ УРОН НА СРЕДНЕЙ И ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, СРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_mortar"			Value="МОРТИРА:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, БОЛЬШОЙ УРОН НА СРЕДНЕЙ И БЛИЖНЕЙ ДИСТАНЦИИ,\nСРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_bulletheavy"		Value="ПУЛЕМЕТ КРУПНОКАЛИБЕРНЫЙ:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nБОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
 	
 	<Text Key="tooltip_params_hero_more_skill_exp"			Value="ПОКАЗАТЕЛЬ ДРУГИЕ ВИДЫ ОРУДИЙ" />
 
@@ -631,7 +652,7 @@
 	<Text Key="upgrade_type_armour" 	Value="БРОНЯ" />
 	<Text Key="upgrade_type_shield" 	Value="ПОЛЯ" />
 	<Text Key="upgrade_type_health" 	Value="ПРОЧНОСТЬ" />
-	<Text Key="upgrade_type_capacity" 	Value="ВМЕСТИМОСТЬ" />
+	<Text Key="upgrade_type_capacity" 	Value="ТРЮМ" />
 	<Text Key="upgrade_type_speed" 	Value="СКОРОСТЬ" />
 
   <Text Key="chat_my_send_message" 	Value="вы=&gt; %s" />
@@ -643,6 +664,7 @@
 
   <Text Key="chat_entity_changes_hero_experience" 	Value="Опыт: %+d" />
   <Text Key="chat_entity_changes_hero_params_points" 	Value="Очки параметров: %+d" />
+  <Text Key="chat_entity_changes_hero_free_re_sp" 	Value="Очки перераспределения параметров: %+d" />
   <Text Key="chat_entity_changes_hero_money" 	Value="Боны: %+d" />
   <Text Key="chat_entity_changes_hero_money_1" 	Value="Реглы: %+d" />
   <Text Key="chat_entity_changes_heroskills_precision" 	Value="Снайпер: %+d" />
@@ -666,6 +688,11 @@
   <Text Key="chat_entity_changes_heroskills_howitzer" 	Value="Опыт владения гаубицей: %+d" />
   <Text Key="chat_entity_changes_heroskills_launcher" 	Value="Опыт владения гранатометом: %+d" />
   <Text Key="chat_entity_changes_heroskills_bulleteng" 	Value="Опыт владения энрг пулеметом: %+d" />
+  <Text Key="chat_entity_changes_heroskills_missileeng" 	Value="Опыт владения пушкой энрг: %+d" />
+  <Text Key="chat_entity_changes_heroskills_howitzereng" 	Value="Опыт владения гаубицей энрг: %+d" />
+  <Text Key="chat_entity_changes_heroskills_launchereng" 	Value="Опыт владения гранатометом энрг: %+d" />
+  <Text Key="chat_entity_changes_heroskills_mortar" 	Value="Опыт владения мортирой: %+d" />
+  <Text Key="chat_entity_changes_heroskills_bulletheavy" 	Value="Опыт владения дальнобойным пулеметом: %+d" />
 
 	<Text Key="chat_shot_far" 	Value="Выстрел невозможен [далеко]" />
 	<Text Key="chat_shot_near" 	Value="Выстрел невозможен [слишком близко]" />
@@ -690,8 +717,8 @@
 	<Text Key="chat_robot_damage_itself" 	Value="Вы ударили себя на %d урона" />
 	<Text Key="chat_robot_damage_from_unknown" 	Value="Вы получили %d урона" />
 	<Text Key="chat_monster_death" 	Value="Вы убили \c&lt;50 50 200&gt;%s\b" />
-	<Text Key="chat_extract_mineral" 	Value="Добыто %d энерона[ов] %d энергии" />
-	<Text Key="chat_extract_metal" 	Value="Добыто %d аместонита за %d энергии" />
+	<Text Key="chat_extract_mineral" 	Value="Добыто %d минерол[ов] за %d энергии" />
+	<Text Key="chat_extract_metal" 	Value="Добыто %d металла[ов] за %d энергии" />
 	<Text Key="chat_extract_crystal" 	Value="Добыто %d кристалл[ов] за %d энергии" />
 	<Text Key="chat_extract_interrupted" 	Value="Добыча прервана" />
 	<Text Key="chat_extract_need_energy" 	Value="Добыча не возможна [не хватает энергии]" />
@@ -702,7 +729,7 @@
 	<Text Key="chat_quest_complete" 	Value="Задание выполнено" />
 	<Text Key="chat_quest_cancel_reject" 	Value="Сейчас нельзя прекратить выполнение задания" />
 	<Text Key="chat_item_level_low" 	Value="Установка/Использование предмета не возможна [не достаточно опыта]" />
-	<Text Key="chat_item_skill_level_low" 	Value="Установка орудия не возможна [не достаточно умений использования данного вида орудий]" />
+	<Text Key="chat_item_skill_level_low" 	Value="Установка не возможна [не достаточно навыка использования данного вида орудий]" />
 	<Text Key="chat_item_wrong_case" 	Value="Установка/Использование предмета не возможна [тип робота не подходит]" />
 	<Text Key="chat_party_cant_invite_wait_you_confirm" 	Value="Вы не можете приглашать пока не ответили на приглашение от %s" />
 	<Text Key="chat_party_cant_invite_wait_he_response" 	Value="Вы не можете приглашать пока не получили ответа от %s" />
@@ -770,12 +797,12 @@
 
 	<Text Key="chat_enter_loc_reject_pirates" 	Value="Ангары этой базы для вас закрыты - здесь не любят повстанцев" />
 	<Text Key="chat_enter_loc_reject_pirates_by_pirates" 	Value="Сюда пускают только повстанцев" />
-	<Text Key="chat_enter_loc_reject_rangers" 	Value="Это повстанческая база, наёмнов тут не место" />
+	<Text Key="chat_enter_loc_reject_rangers" 	Value="Это повстанческая база, наёмников тут не место" />
 	<Text Key="chat_enter_loc_reject_rangers_by_rangers" 	Value="В этом городе допускаются только наёмники" />
-	<Text Key="chat_tel_reject_pirates" 	Value="Телепортер контролируется наёмниками" />
-	<Text Key="chat_tel_reject_pirates_by_pirates" 	Value="Телепортер пускает только опытных повстанцев" />
-	<Text Key="chat_tel_reject_rangers" 	Value="Телепортер контролируется повстанцами" />
-	<Text Key="chat_tel_reject_rangers_by_rangers" 	Value="Телепортер пускает только опытных наёмников" />
+	<Text Key="chat_tel_reject_pirates" 	Value="Телепорт контролируется наёмниками" />
+	<Text Key="chat_tel_reject_pirates_by_pirates" 	Value="Телепорт пускает только опытных повстанцев" />
+	<Text Key="chat_tel_reject_rangers" 	Value="Телепорт контролируется повстанцами" />
+	<Text Key="chat_tel_reject_rangers_by_rangers" 	Value="Телепорт пускает только опытных наёмников" />
 	<Text Key="chat_teleport_close" 	Value="Телепорт закрыт" />
 	<Text Key="chat_teleport_close_open_from" 	Value="Телепорт закрыт, открытие через %d мин" />
 	<Text Key="chat_teleport_open_from" 	Value="Телепорт '%s' откроется через %d мин." />
@@ -784,7 +811,7 @@
 	<Text Key="chat_lose_item" 	Value="Вы потеряли оборудование: %s" />
 	<Text Key="chat_broken_weapon" 	Value="\c&lt;205 150 150&gt;Оружие сломано\b" />
 	<Text Key="chat_broke_weapon" 	Value="\c&lt;205 150 150&gt;Оружие сломалось\b" />
-	<Text Key="chat_broke_accum" 	Value="\c&lt;205 150 150&gt;Один из установленых накопителей сломан\b" />
+	<Text Key="chat_broke_accum" 	Value="\c&lt;205 150 150&gt;Один из установленных накопителей сломан\b" />
 	<Text Key="chat_broke_generator" 	Value="\c&lt;205 150 150&gt;Отказал реактор\b" />
 	<Text Key="chat_broke_repair" 	Value="\c&lt;205 150 150&gt;Поврежден ремонтный модуль\b" />
 	<Text Key="chat_broke_shield" 	Value="\c&lt;205 150 150&gt;Поле повреждено\b" />
@@ -794,7 +821,7 @@
 	<Text Key="chat_broke_hold" 	Value="\c&lt;205 150 150&gt;Пробит дополнительный грузовой отсек\b" />
 	<Text Key="chat_broke_engine" 	Value="\c&lt;205 150 150&gt;Двигатель сломан\b" />
 	<Text Key="chat_destr_weapon" 	Value="\c&lt;205 150 150&gt;Оружие разрушено\b" />
-	<Text Key="chat_destr_accum" 	Value="\c&lt;205 150 150&gt;Накопитель рузрушен\b" />
+	<Text Key="chat_destr_accum" 	Value="\c&lt;205 150 150&gt;Накопитель разрушен\b" />
 	<Text Key="chat_destr_generator" 	Value="\c&lt;205 150 150&gt;Реактор разрушен\b" />
 	<Text Key="chat_destr_repair" 	Value="\c&lt;205 150 150&gt;Ремонтный модуль разрушен\b" />
 	<Text Key="chat_destr_shield" 	Value="\c&lt;205 150 150&gt;Поле разрушено\b" />
@@ -805,9 +832,9 @@
 	<Text Key="chat_destr_engine" 	Value="\c&lt;205 150 150&gt;Двигатель разрушен\b" />
 	<Text Key="chat_destr_bullets" 	Value="\c&lt;205 150 150&gt;Исчерпаны снаряды\b" />
 
-	<Text Key="chat_teleport_from_no_teleport_zone" 	Value="перемещение не возможно [анамальная зона]" />
-	<Text Key="chat_teleport_need_energy" 	Value="перемещение не возможно [не хватает энергии]" />
-	<Text Key="chat_teleport_interrupted" 	Value="перемещение прервано" />
+	<Text Key="chat_teleport_from_no_teleport_zone" 	Value="перемещение не возможно [аномальная зона]" />
+	<Text Key="chat_item_need_energy" 	Value="Использование не возможно [не хватает энергии]" />
+	<Text Key="chat_teleport_interrupted" 	Value="Перемещение прервано" />
 
 	<Text Key="chat_trade_invite_you" 	Value="Вы предложили %s торговать" />
 	<Text Key="chat_trade_invite" 	Value="%s предложили вам торговать" />
@@ -818,7 +845,7 @@
 	<Text Key="chat_trade_you_not_join" 	Value="Вы отказались торговать с %s" />
 	<Text Key="chat_trade_he_not_join_timeout" 	Value="%s отказался торговать с вами, время приглашения истекло" />
 	<Text Key="chat_trade_you_not_join_timeout" 	Value="Вы отказались торговать с %s, время приглашения истекло" />
-	<Text Key="chat_trade_freeze" 	Value="Во время обездвижиеня нельзя торговать" />
+	<Text Key="chat_trade_freeze" 	Value="Во время обездвиживания нельзя торговать" />
 	<Text Key="chat_trade_nonreachable" 	Value="Вы не можете торговать с %s, поскольку он вне досягаемости" />
 
 	<Text Key="chat_research_item_modifier_true" 	Value="Предмет успешно улучшен" />
@@ -839,7 +866,7 @@
 
 	<Text Key="trade_invite_confirm" 	Value="%s предложил вам торговать.\nВы согласны?" />
 	<Text Key="tooltip_trade_invite_confirm" 	Value="ПОДТВЕРДИТЬ ТОРГОВЛЮ" />
-	<Text Key="party_invite_confirm" 	Value="%s предложил вам присоедениться к партии.\nВы согласны?" />
+	<Text Key="party_invite_confirm" 	Value="%s предложил вам присоединиться к партии.\nВы согласны?" />
 	<Text Key="tooltip_party_invite_confirm" 	Value="ПОДТВЕРДИТЬ ВСТУПЛЕНИЕ В ГРУППУ" />
   <Text Key="tooltip_nation_invite_confirm" 	Value="ПОДТВЕРДИТЬ ВСТУПЛЕНИЕ В НАЦИЮ" />
 
@@ -860,12 +887,12 @@
 	<Text Key="no_clan" 	Value="Нет отряда" />
 	<Text Key="clan_name" 	Value="%s(%i уровень)" />
 	<Text Key="clan_create_btn" 	Value="Создать" />
-	<Text Key="clan_destroy_btn" 	Value="Раcпустить" />
+	<Text Key="clan_destroy_btn" 	Value="Распустить" />
 	<Text Key="clan_leave_btn" 	Value="Покинуть" />
 	<Text Key="clan_expel_btn" 	Value="Выгнать" />
 	<Text Key="clan_ch_leader_btn" 	Value="Передать управление" />
 	<Text Key="clan_set_icon_btn" 	Value="Выбрать знамя" />
-	<Text Key="clan_invite_confirm" 	Value="%s предложил вам присоедениться к отряду.\nСтоимость - %i бон. Вы согласны?" />
+	<Text Key="clan_invite_confirm" 	Value="%s предложил вам присоединиться к отряду.\nСтоимость - %i бон. Вы согласны?" />
 	<Text Key="clan_declare_war" 	Value="Объявить войну" />
 	<Text Key="clan_make_piece" 	Value="Предложить мир" />
 	<Text Key="clan_make_union" 	Value="Предложить союз" />
@@ -891,7 +918,7 @@
 	<Text Key="clan_create_cant" 	Value="\c&lt;250 120 120&gt;Вы не можете создать отряд:" />
 	<Text Key="clan_create_color_good" 	Value="\c&lt;100 250 100&gt;" />
 	<Text Key="clan_create_color_bad" 	Value="\c&lt;255 0 50&gt;" />
-	<Text Key="clan_ask_destroy" 	Value="Вы уверены !?\nОперация не обратима!\n\c&lt;250 120 120&gt;Отряд будет резрушен навсегда!!\b" />
+	<Text Key="clan_ask_destroy" 	Value="Вы уверены !?\nОперация не обратима!\n\c&lt;250 120 120&gt;Отряд будет распущен навсегда!!\b" />
 	<Text Key="clan_ask_leave" 	Value="Вы уверены !?\n\c&lt;250 120 120&gt;Назад могут и не взять!\b" />
 	<Text Key="clan_ask_expel" 	Value="Вы действительно хотите исключить\n\c&lt;100 250 100&gt;%s\b из отряда?" />
 	<Text Key="clan_ask_clan_ch_ld" 	Value="Вы действительно хотите передать\nуправление \c&lt;50 200 255&gt;%s\b!?" />

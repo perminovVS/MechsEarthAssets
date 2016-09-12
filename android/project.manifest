@@ -2,14 +2,14 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "1.78.12.10",
-    "engineVersion": "3.11",
+    "version": "2.0.0.0",
+    "engineVersion": "3.13",
     "assets": {
         "ClientConfig.xml": {
             "md5": "da94767ee032987221c6ffe587b47cbc"
         },
         "ClientGameSettings.xml": {
-            "md5": "a7fa4f9c913e0fc22577fa7914973df2"
+            "md5": "fcbfb7559188466c7f1a36616bbfb1fb"
         },
         "ClientRenderSettings.xml": {
             "md5": "cfad8583b00a304106aa734f5e13ff38"
@@ -1161,7 +1161,7 @@
             "md5": "935bca95504baded4f683cd5db8a6ded"
         },
         "shaders/particle.all": {
-            "md5": "527e742a9d5dfe196bd85231c250b25b"
+            "md5": "9cbfc70335d4780ea632d8c3fad07304"
         },
         "shaders/programs/base.vert": {
             "md5": "fba376b74aa0facdc445321623bcab0a"
@@ -1848,10 +1848,10 @@
             "md5": "4129d3994eca970de418159c571c0dfc"
         },
         "textures/atlas/icons.plist": {
-            "md5": "947622b0dacc2bf47bdf52ea7c19c86c"
+            "md5": "3c49e2dd2d96986f8fcb54de54b607d3"
         },
         "textures/atlas/icons.png": {
-            "md5": "5df77f0dbb09f4b6cbcc66a8440bf7bb"
+            "md5": "aed2acc003c7e2a2a29dcb00c403b195"
         },
         "textures/atlas/ui.plist": {
             "md5": "085917ce6881bcd933e6e47f1f863f0b"
@@ -1881,34 +1881,37 @@
             "md5": "c353957f5dafec3a368be60ec6573783"
         },
         "textures/effects/blurry_cloud.tga": {
-            "md5": "53038416ff6b499717f63980d00ca1ab"
+            "md5": "ca5a9e4bcd1987df669cb19d1c8b39c1"
         },
         "textures/effects/bubble.tga": {
             "md5": "0c7248cfe4fb11303cdd08e5d8fcfece"
         },
         "textures/effects/bubble01.tga": {
-            "md5": "46c1009bdb55bca49c0c3238b152ecac"
+            "md5": "a2130d9712fd728248f57c919d7b96b2"
         },
         "textures/effects/cloud_particle01.tga": {
-            "md5": "4f78f0a8805a342de426cd817552e75c"
+            "md5": "d69a22d17400c14c2706d204b9abe4c6"
         },
         "textures/effects/cloud_particle02.tga": {
-            "md5": "7ee8b432bc4e5bdf8266952644c5745b"
+            "md5": "51d471dbdcec2080e4dc012e9a4e2b5c"
         },
         "textures/effects/cloud_particle03.tga": {
             "md5": "f292c59c27d1f6f316f43e5f2edb060c"
+        },
+        "textures/effects/cloud_plasma1.tga": {
+            "md5": "8a72da3ddd1439ab1c0d46882e0170bf"
         },
         "textures/effects/cloud_with_specks.tga": {
             "md5": "90f56a32683587faf137dc109f4f7b0b"
         },
         "textures/effects/cresty.tga": {
-            "md5": "51366b2b84ecae68a61384705970c7a0"
+            "md5": "ebbc2a9087f3684bde7b3721a5ea7409"
         },
         "textures/effects/debris.tga": {
             "md5": "d9a9c53aeb3c8096d9456be2643d31ca"
         },
         "textures/effects/explosion.jpg": {
-            "md5": "1d9bbea2116612f0fc1373a96780c28f"
+            "md5": "d7d8e9cd2eea894665fbc89e1a022d94"
         },
         "textures/effects/explosion01.tga": {
             "md5": "f9eadf6c06865f26d08ed3f0f9d4023e"
@@ -1922,14 +1925,56 @@
         "textures/effects/glow_blue.jpg": {
             "md5": "beb4c1d0eb1e876d177219876d290447"
         },
+        "textures/effects/glow_blue_rain.tga": {
+            "md5": "29563e1d241de46dd5f79da2339331c7"
+        },
+        "textures/effects/glow_gung_rain.tga": {
+            "md5": "e52bb021f5927941630ba6b7762055e6"
+        },
         "textures/effects/gradient.jpg": {
             "md5": "e6a9c5832c7d0188c92a12f81b1a06e5"
         },
         "textures/effects/light01.tga": {
-            "md5": "4c7bc355d0c5091d840d25fdbda34837"
+            "md5": "24caa4ae592240558b8e974bb52aea7f"
         },
         "textures/effects/light02.tga": {
-            "md5": "4bf60962d62cc76a1fb85d0ddfae5c7c"
+            "md5": "58c49d27d4d89b3dd60960d45fdc30ba"
+        },
+        "textures/effects/lighting_grad.jpg": {
+            "md5": "dd5d7b8ecc5b83d5993cf468a896b74a"
+        },
+        "textures/effects/lighting_grad02.jpg": {
+            "md5": "bea91e699469d11132385d4c66533209"
+        },
+        "textures/effects/lighting_grad03.jpg": {
+            "md5": "fb90f509caa81b29fe25e3563cae2007"
+        },
+        "textures/effects/lighting_grad04.jpg": {
+            "md5": "2fdb081a18d4718fc8234e1a89683270"
+        },
+        "textures/effects/magic_ring_2_01.tga": {
+            "md5": "36434104b0bc74e4b5ea2ea6c7aaa671"
+        },
+        "textures/effects/magic_ring_2_02.tga": {
+            "md5": "de556ca3c9803b67d0868ab70bfbc951"
+        },
+        "textures/effects/magic_ring_2_03.tga": {
+            "md5": "2143a3d602ad5b2ed78de80d393a3d96"
+        },
+        "textures/effects/magic_ring_2_04.tga": {
+            "md5": "f7178333ca3b403775d0fd80c8707e34"
+        },
+        "textures/effects/magic_ring_2_05.tga": {
+            "md5": "2b1ba2af8be0b3e1e02d81966001785b"
+        },
+        "textures/effects/magic_ring_2_06.tga": {
+            "md5": "71a0647cf422920662ce5e464fa224f1"
+        },
+        "textures/effects/magic_ring_2_07.tga": {
+            "md5": "e06d18b4f7fddd19fff929f3f39c703d"
+        },
+        "textures/effects/pinwheel.tga": {
+            "md5": "97e860b4e7bc12f0fe4548ee5258c1a8"
         },
         "textures/effects/rain.tga": {
             "md5": "cda691410e6edb69c5dc49931c17dc63"
@@ -1955,6 +2000,9 @@
         "textures/effects/smoke.tga": {
             "md5": "b09762d1fa7bc98f68afbc6ee786213e"
         },
+        "textures/effects/smoke_blue.PSD": {
+            "md5": "a8dfe2412481882ce042b332aaefe5e1"
+        },
         "textures/effects/smoke_blue.tga": {
             "md5": "8781f7bde087e8cddf0ca04e090e09f7"
         },
@@ -1965,13 +2013,13 @@
             "md5": "bd91d26810a084f9b39ca18382bf4392"
         },
         "textures/effects/specks.tga": {
-            "md5": "94d582f34b26dde23a32aea8c0805a45"
+            "md5": "dff4bf28d6a734871bc75594948c81a8"
         },
         "textures/effects/spikey_star.tga": {
-            "md5": "c76922fbebf721d8e1844cec0d4d2c24"
+            "md5": "f820a9ba1c50f9e7eda6a469c1ed7129"
         },
         "textures/effects/whoopsmall.tga": {
-            "md5": "693855f31e90097b5aa49bc023b33b72"
+            "md5": "eeef6aef1a418333679ca33cda147448"
         },
         "textures/game/pointattack.tga": {
             "md5": "85e96f1d7bfaa86b75c58d3d31c7d0ec"
@@ -3924,7 +3972,7 @@
             "md5": "7ea04683a89e24d92423abdcf9163d7e"
         },
         "ui/dialogs/game/Game.xml": {
-            "md5": "3249070acea17df77105d9bacf5f4bfe"
+            "md5": "570853f82e8880bbad75d98591b30a26"
         },
         "ui/dialogs/game/GlobalMap.xml": {
             "md5": "d43e85df4d647a93d46062dca7efc83a"
@@ -3954,10 +4002,10 @@
             "md5": "83c27b34b827aa1ce3d2fde18b262beb"
         },
         "ui/dialogs/game/ParamsHero.xml": {
-            "md5": "4905049503e6e7abaa1134c899c16c92"
+            "md5": "ce48ecb9f3e674be5fe3b427342dbe3a"
         },
         "ui/dialogs/game/ParamsRobot.xml": {
-            "md5": "5fed649b75ce5bbd8c658e6f006248b0"
+            "md5": "c929464a581fe5abdbf5600ba436bbdd"
         },
         "ui/dialogs/game/Poll.xml": {
             "md5": "da41b34d62fa3d24137f94cb51aa17ab"
@@ -3975,7 +4023,7 @@
             "md5": "0f0c53e88c56a21c9292900469b2ab57"
         },
         "ui/dialogs/game/UpgradeRobot.xml": {
-            "md5": "9971de6709e5a19ecf2fda292dfd7413"
+            "md5": "d0f19f1615f9b794012607db11c6ec9f"
         },
         "ui/dialogs/game/clan/ClanMain.xml": {
             "md5": "b77515b1922b5be1479986a34702dac8"
@@ -4008,13 +4056,13 @@
             "md5": "d0d22e3af9fce23fb5d93e4f8a6da908"
         },
         "ui/dialogs/game/location/LocGetQuests.xml": {
-            "md5": "3fba0821f57126fbd4f8177face7d7f4"
+            "md5": "f0cd8d24da7264b74382eaa4345fd610"
         },
         "ui/dialogs/game/location/LocInsurance.xml": {
             "md5": "c1b120c20ac4e372a89186934837adde"
         },
         "ui/dialogs/game/location/LocResearch.xml": {
-            "md5": "a7f98a4c7398c4b05053e7a332cdb92f"
+            "md5": "a2b6eebd34cfd4de3f95de831859b049"
         },
         "ui/dialogs/game/location/LocRobotStoreHouse.xml": {
             "md5": "ef324ad6e84ad1ba6022e6b5ec514d29"
@@ -4152,7 +4200,7 @@
             "md5": "038dc8f5baab868224d830b638fade57"
         },
         "ui/localization/ru.xml": {
-            "md5": "ff08e553bfce95252a6df9b4fbb136d9"
+            "md5": "4bf0e8a1d0485efa39e9c6faca6611b8"
         },
         "ui/ui.xml": {
             "md5": "bac5181cbaf02bfa621262b9a1d997da"
@@ -4161,7 +4209,7 @@
             "md5": "62e9d3e087889605d3bf2c144862db53"
         },
         "worlds/1/Layer.mz": {
-            "md5": "26e2d517a0a4a5996836c86eaa169db8"
+            "md5": "e3b4c0f00244a1d09b081c56af335407"
         },
         "worlds/1/PassiveEntities.bin": {
             "md5": "0d7ac09bb958a5fa17c087735d4c06e0"
@@ -4170,7 +4218,7 @@
             "md5": "eaa72778ade56d73ce7446410eb7dd76"
         },
         "worlds/1/World.xml": {
-            "md5": "a2da34346351edc192dfdca749bbfe51"
+            "md5": "76b233b07f334a0496e6b511818c2677"
         },
         "worlds/1/map.jpg": {
             "md5": "d1f9c4f2558f4309e465c7b3f1b1d1b3"
@@ -4191,7 +4239,7 @@
             "md5": "7d84970932f61247f11bd3b0d316fe56"
         },
         "worlds/10/World.xml": {
-            "md5": "a2ebc45075f48be978396f6d1a236e50"
+            "md5": "7807d0ca8db402448bf54bcdef8a621a"
         },
         "worlds/10/map.jpg": {
             "md5": "b7c1f312f092bb4034bd97df721132f6"
@@ -4209,7 +4257,7 @@
             "md5": "3da23014c01a095f1ddfb9f72c197411"
         },
         "worlds/11/World.xml": {
-            "md5": "2c984875fc6c8f383bd7c1011786a98e"
+            "md5": "89b3e0c49e84bbf0070e38f24d3b0aad"
         },
         "worlds/11/map.jpg": {
             "md5": "6cb347c72d6f1dd50412bc6d0f823ffc"
@@ -4227,7 +4275,7 @@
             "md5": "9ffa2396950078b88bf608599dedc0cc"
         },
         "worlds/2/World.xml": {
-            "md5": "981d76c88ff271d88555487b587bccdd"
+            "md5": "add376a2d7d618060ccc6314a44bd516"
         },
         "worlds/2/map.jpg": {
             "md5": "d8795c646552587d06827588a31dd69d"
@@ -4236,7 +4284,7 @@
             "md5": "28dc74b11edcd9cb198940c93d4054da"
         },
         "worlds/3/Layer.mz": {
-            "md5": "e6719ab9e3de6b3268c1a69196ace786"
+            "md5": "709751ab717d1b31f560cd0b2f071a6e"
         },
         "worlds/3/PassiveEntities.bin": {
             "md5": "32b4614f9c94deee58a49742964e7966"
@@ -4245,7 +4293,7 @@
             "md5": "be858be34fde0b39499168e06a96e5d3"
         },
         "worlds/3/World.xml": {
-            "md5": "c96019749567fb8ff3e33849b86b2cd7"
+            "md5": "bdd357ea328d16b5d1bf566addca6a71"
         },
         "worlds/3/map.jpg": {
             "md5": "39893b7f7158fddf765a5edc045ea0a3"
@@ -4263,7 +4311,7 @@
             "md5": "543fcc3a472a2788c6e98ffe9b2cef29"
         },
         "worlds/4/World.xml": {
-            "md5": "27c922fe9c741aaed9c791d18d42a191"
+            "md5": "bd6a5070278fe5cc0b341cf0e64817b8"
         },
         "worlds/4/map.jpg": {
             "md5": "69dfd5949a465ce01532d97b004931cc"
@@ -4281,7 +4329,7 @@
             "md5": "30cf9dfc3e3500ca11e5b85714718009"
         },
         "worlds/5/World.xml": {
-            "md5": "28192f269d809c215823243fd71de377"
+            "md5": "a9aa54c54d6bb79e1dad82f8b693679f"
         },
         "worlds/5/map.jpg": {
             "md5": "7e4b95eda8b2892be0186ee201efefed"
@@ -4299,7 +4347,7 @@
             "md5": "b27228af88bfdc8ad2fe656e772b3b5a"
         },
         "worlds/6/World.xml": {
-            "md5": "f31fe81de1b26c9f54e28a707e39d626"
+            "md5": "acd11a124fba634a8b5f211631694bcc"
         },
         "worlds/6/map.jpg": {
             "md5": "f41b20190aeb2c5e46e31c22b401f71b"
@@ -4308,22 +4356,22 @@
             "md5": "25ba1b65fef7677f896648a016f7b019"
         },
         "worlds/7/Layer.mz": {
-            "md5": "89dad62fa8bbdd52f355734814bee07c"
+            "md5": "7b2b427826d69ae7063803f2e67136b6"
         },
         "worlds/7/PassiveEntities.bin": {
-            "md5": "933629f4bd4fc0f21c1de633ec3b8f3a"
+            "md5": "41fe4479fb7b75af0b63f282f378bbd2"
         },
         "worlds/7/Terrain.mz": {
-            "md5": "8ca7fbb32f5f1728b2c614364aefce42"
+            "md5": "264a2dde1b602a95540bb40e00451e72"
         },
         "worlds/7/World.xml": {
-            "md5": "08d9d6fcae341070447a6ab4e29a8aa0"
+            "md5": "a823fe882b30c41ffeddfd0a42df6926"
         },
         "worlds/7/map.jpg": {
-            "md5": "913ad971a3f4339662ee2b42e6f11ea6"
+            "md5": "980cc068e2a32c5d0d8dfb3aca50b2a5"
         },
         "worlds/7/terrain.jpg": {
-            "md5": "32118f1803bff5e6d665f2636f2b84a9"
+            "md5": "2605265149bae0dde78abeefd66f4092"
         },
         "worlds/8/Layer.mz": {
             "md5": "ba4dbd9afb61600b1d50dfd99957c395"
@@ -4335,7 +4383,7 @@
             "md5": "9bed62f363cbda7aa43a0501548b33e9"
         },
         "worlds/8/World.xml": {
-            "md5": "741dd505a7b3492dafc39e262d2b84ab"
+            "md5": "7f921900e480916eaf225cbb64ddc049"
         },
         "worlds/8/map.jpg": {
             "md5": "c94507bba4a9708248be4ea229086113"
@@ -4353,7 +4401,7 @@
             "md5": "b9283e77e66c9db29e74fbcf1df9afb9"
         },
         "worlds/9/World.xml": {
-            "md5": "e82c008587ee4b0f921e4e2ddee3748e"
+            "md5": "ae3db161d0ee8a05f9cbb3ba8a33970e"
         },
         "worlds/9/map.jpg": {
             "md5": "3b1bbe546d23561f2957f28d8af2e872"
@@ -4362,13 +4410,13 @@
             "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "7b609413c62a9ed00fc1fae62008fd34"
+            "md5": "9211a754bb86fe92d909d36771a85000"
         },
         "worlds/Nations.xml": {
             "md5": "629b2233f883e1072e3b6894d16bbeac"
         },
         "worlds/Resources.xml": {
-            "md5": "2bb89092054763f1ff5866f2ad2043ee"
+            "md5": "5afa907518fb9e8dc0a715e9e1f8150d"
         }
     },
     "searchPaths": []

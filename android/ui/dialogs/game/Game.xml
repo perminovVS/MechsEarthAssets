@@ -6,6 +6,7 @@
     <Button Key="escape" VIS="0" Command="create_menu InGame;" ENB="1" DebugInfo="Кнопка вызова внутриигрового меню" />
     <Item X="629" Y="0" W="176" H="78" VIS="1" ENB="1" DebugInfo="Обрабатывает клики по индикаторам и пушкам" />
     <Text Name="ZoneName" Text="empty" FontSet="zonename" ColorARGB="1 1 1 1" ENB="0" VIS="0" X="180" Y="88" W="440" H="44" DebugInfo="Отображает название зоны" />
+  <Text Name="TestMode" Text="test_mode" Font="3" Size="54" ColorARGB="0.3 1 1 1" ENB="0" VIS="0" X="0" Y="60" W="800" H="50" />
 	
     <!--<Group Id="LeftTop" HAlignAdd="LEFT" VAlignAdd="TOP">-->
 		<Item HAlignAdd="LEFT" VAlignAdd="TOP" X="132" Y="25" W="103" H="64" Name="CommandsPanel" ENB="0" VIS="0" DebugInfo="Содержит все управляющие кнопки">

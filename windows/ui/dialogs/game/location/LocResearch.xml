@@ -9,12 +9,12 @@
     <Button Name="ShowList" Text="research_show_list" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="352" Y="196" W="80" H="20" VIS="1" ENB="1" UseHooks="1" />
     <Button Name="Research" Text="research_research" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="411" Y="415" W="80" H="20" VIS="1" ENB="1" UseHooks="1" />
     <Button Name="Close" Text="research_close" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="494" Y="415" W="80" H="20" VIS="1" ENB="1" Command="delete_menu LocResearch;" UseHooks="1" />
+    <Text Name="PersonalInfo" Text="research_item_personal" Info="tooltip_research_item_personal" FontSet="button" Align="LEFT" VAlign="TOP" ColorARGB="1 0.78 0.78 0.78" X="272" Y="396" W="200" H="20" VIS="0" ENB="1" UseHooks="1" />
+  
     <Text Text="research_need_money" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="250" Y="114" W="160" H="20" VIS="1" ENB="1" UseHooks="1" />
     <Text Name="NeedMoney" FontSet="msg" Align="LEFT" ColorARGB="1 0.91 0.73 0" X="410" Y="114" W="140" H="20" VIS="1" ENB="1" UseHooks="1" />
     <Text Text="research_need_money1" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="250" Y="132" W="160" H="20" VIS="1" ENB="1" UseHooks="1" />
     <Text Name="NeedMoney1" FontSet="msg" Align="LEFT" ColorARGB="1 0.91 0.73 0" X="410" Y="132" W="140" H="20" VIS="1" ENB="1" UseHooks="1" />
-    <Text Name="StageText" Text="research_stage" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="250" Y="150" W="160" H="20" VIS="1" ENB="1" UseHooks="1" />
-    <Text Name="Stage" FontSet="msg" Align="LEFT" ColorARGB="1 0.91 0.73 0" X="410" Y="150" W="140" H="20" VIS="1" ENB="1" UseHooks="1" />
     <Image Name="SlotEmpty" Shader="123" X="0" Y="0" W="60" H="60" VIS="0" ENB="0" />
     <Image Name="SlotGreen" Shader="124" X="0" Y="0" W="60" H="60" VIS="0" ENB="0" />
     <Image Name="SlotRed" Shader="125" X="0" Y="0" W="60" H="60" VIS="0" ENB="0" />
@@ -22,7 +22,7 @@
     <Item Name="SlotDesign" ENB="0" X="272" Y="178" W="60" H="60" VIS="1" UseHooks="1">
         <Image Name="Slot" Shader="1" VIS="1" ENB="1" X="272" Y="178" W="60" H="60" UseHooks="1" />
         <Image Name="State" Shader="123" VIS="1" ENB="0" X="272" Y="178" W="60" H="60" UseHooks="1" />
-        <Text Text="research_item_info" FontSet="button" Align="CENTER" VAlign="TOP" ColorARGB="1 0.78 0.78 0.78" X="261" Y="236" W="84" H="39" VIS="1" ENB="1" UseHooks="1" />
+        <Text Text="research_item_info" FontSet="button" Align="CENTER" VAlign="TOP" ColorARGB="1 0.78 0.78 0.78" X="221" Y="236" W="164" H="39" VIS="1" ENB="1" UseHooks="1" />
     </Item>
     <Item Name="SlotItem" ENB="0" X="448" Y="176" W="63" H="62" VIS="1" UseHooks="1">
         <Image Name="Slot" Shader="1" VIS="1" ENB="1" Worker="Menu_CraftSlotItem" WorkerShow="ImageDefaultWorkShow" X="447" Y="176" W="64" H="62" UseHooks="1" />
@@ -78,8 +78,8 @@
     <!-- Список направлений апгрейда -->
     <Image Name="ListWindow" Shader="141" X="231" Y="237" W="342" H="200" VIS="1" ENB="1">
         <Text Text="research_title_list" FontSet="msg" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="270" Y="239" W="170" H="22" />
-        <List Name="List" Align="LEFT" Gap="5" VIS="1" ENB="0" X="330" Y="267" W="150" H="163" VpX="250" VpY="267" VpW="310" VpH="163">
-            <Button Name="Prototype" FontSet="small" InnerBorderH="5" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.98 0.98 0.98" Active="3" Check="4" Align="CENTER" WordWrap="1" VIS="0" ENB="0" X="330" Y="267" W="150" H="163" UseHooks="1" />
+        <List Name="List" Align="LEFT" Gap="5" VIS="1" ENB="0" X="270" Y="267" W="250" H="163" VpX="250" VpY="267" VpW="310" VpH="163">
+            <Button Name="Prototype" FontSet="small" InnerBorderH="5" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.98 0.98 0.98" Active="3" Check="4" Align="CENTER" WordWrap="1" VIS="0" ENB="0" X="330" Y="267" W="250" H="163" UseHooks="1" />
             <Image Shader="86" VIS="1" ENB="0" X="551" Y="267" W="10" H="163" />
             <Slider Name="Slider" LineRect="Research_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="550" Y="267" W="10" H="25" VIS="1" ENB="1" />
         </List>

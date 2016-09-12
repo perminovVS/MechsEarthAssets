@@ -4,5 +4,4 @@
   <InterfaceCameraRangeMax 	Value="3000.0" />
   <CameraHeight            	Value="375.0"/>
   <ToolTipsAllObject       	Value="0" />
-  <TimeUpdatePosInParty		Value="2000" />
 </GameSettings>

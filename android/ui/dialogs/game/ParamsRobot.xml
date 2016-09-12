@@ -3,8 +3,8 @@
 <ParamsRobot Id="45000" Worker="Menu_ParamsRobot" HAlignAdd="LEFT" VAlignAdd="TOP">
     <Item Name="MainPanel" ENB="1" X="0" Y="94" W="174" H="205" VIS="1" DebugInfo="панель диалога, будет отлавливать нажатия на панели">
         <Image Shader="51" ENB="0" X="-9" Y="91" W="288" H="263" VIS="1" DebugInfo="фон диалога " />
-        <Text Text="empty" Name="Name" Info="tooltip_params_robot_name" Align="LEFT" FontSet="title" ENB="1" X="10" Y="108" W="300" H="18" VIS="1" DebugInfo="название робота" />
-        <Text Text="empty" Name="Type" Info="tooltip_params_robot_type" Align="LEFT" FontSet="small" ENB="1" X="10" Y="128" W="300" H="9" VIS="1" DebugInfo="тип робота" />
+        <Text Text="empty" Name="Name" Info="tooltip_params_robot_name" Align="LEFT" FontSet="title" ENB="1" X="10" Y="100" W="150" H="40" VIS="1" DebugInfo="название робота" />
+        <Text Text="empty" Name="Type" Info="tooltip_params_robot_type" Align="LEFT" FontSet="small" ENB="1" X="10" Y="120" W="150" H="30" VIS="1" DebugInfo="тип робота" />
         <!-- Прочность -->
         <Text Text="params_robot_health" Info="tooltip_params_robot_health" Align="LEFT" FontSet="small" ENB="1" X="11" Y="146" W="46" H="9" VIS="1" />
         <Text Text="empty" Name="Health" Align="RIGHT" FontSet="params_small" ENB="1" X="58" Y="146" W="130" H="9" VIS="1" />

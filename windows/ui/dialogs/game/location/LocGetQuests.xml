@@ -8,7 +8,7 @@
     <!-- Фон окна -->
     <Item VIS="1" ENB="1" X="214" Y="71" W="385" H="360" UseHooks="1" />
     <Image Shader="102" VIS="1" ENB="0" X="214" Y="71" W="385" H="360" />
-    <Text Text="quest_get_title" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" Align="CENTER" X="337" Y="85" W="144" H="16" VIS="1" ENB="1" />
+    <Text Text="quest_get_title" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" Align="CENTER" X="309" Y="85" W="200" H="16" VIS="1" ENB="1" />
     <Text Text="quest_get_detail" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" Align="CENTER" X="320" Y="223" W="183" H="16" VIS="1" ENB="1" />
     <!-- Кнопка выхода -->
     <Button Key="escape" Info="tooltip_quest_close" Normal="103" Active="104" VIS="1" ENB="1" Command="delete_menu LocGetQuests;" X="563" Y="79" W="24" H="24" />

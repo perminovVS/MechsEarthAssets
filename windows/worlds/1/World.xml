@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <World>
     <WorldName Name="База новобранцев" />
-    <WorldNation Nation="9" UseWorldNationOnly="1" WorldMaxLvl="50" />
+    <WorldNation Nation="9" UseWorldNationOnly="1" WorldMaxLvl="50" xExp="1" />
     <Terrain Use="1">
         <Size X="1025" Y="1025" Cell="128" DeltaHeight="32768" HeightScale="2.000000" />
         <Texture Name="worlds/1/terrain" />
@@ -38,7 +38,7 @@
         <Mark Type="3" Name="КРИСТАЛЛЫ" X="-50298" Y="-36479" />
         <Mark Type="3" Name="КРИСТАЛЛЫ " X="-35704" Y="-18518" />
         <Mark Type="3" Name="КРИСТАЛЛЫ " X="-36500" Y="-18501" />
-        <Mark Type="1" Name="АПГРЕЙД МЕХОВ" X="-8671" Y="-1339" />
+        <Mark Type="1" Name="АПГРЕЙД МЕХОВ" X="-9091" Y="-1202" />
         <Mark Type="2" Name="БАЗА НОВОБРАНЦЕВ" X="-5155" Y="12918" />
         <Mark Type="2" Name="КРАДА" X="976" Y="-1285" />
         <Mark Type="2" Name="ТРЕБА" X="4633" Y="1888" />
