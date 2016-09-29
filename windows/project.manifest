@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "2.0.0.0",
+    "version": "2.0.0.1",
     "engineVersion": "3.13",
     "assets": {
         "ClientConfig.xml": {
@@ -5010,7 +5010,7 @@
             "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "9211a754bb86fe92d909d36771a85000"
+            "md5": "8188da4d7e8f549ecf84400eeaed8c09"
         },
         "worlds/Nations.xml": {
             "md5": "629b2233f883e1072e3b6894d16bbeac"
