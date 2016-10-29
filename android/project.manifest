@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "2.0.0.1",
+    "version": "2.0.0.2",
     "engineVersion": "3.13",
     "assets": {
         "ClientConfig.xml": {
@@ -4410,7 +4410,7 @@
             "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "8188da4d7e8f549ecf84400eeaed8c09"
+            "md5": "38331854bb85f0baa4db1577e7b404a5"
         },
         "worlds/Nations.xml": {
             "md5": "629b2233f883e1072e3b6894d16bbeac"
