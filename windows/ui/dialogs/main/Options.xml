@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: настройки -->
+<!-- настройки -->
 <Options Id="12000" Worker="Menu_Options">
 	<Button Command="delete_menu Options;" Rect="Common_WholeScreen" />
 	<Image Style="window" Name="Panel" X="144" Y="44" W="512" H="512">
 		<Text Style="label" Text="options_title" X="193" Y="53" W="400" H="32" />
 		<Text Text="options_soundvolume" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="90" W="200" H="16" VIS="1" ENB="1" />
-		<ProgressControl Name="ControlSound" UseHooks="1" Shader="7" Vertical="0" X="400" Y="90" W="220" H="16" VIS="1" ENB="1" />
+		<ProgressControl Name="ControlSound" Shader="7" Vertical="0" X="400" Y="90" W="220" H="16" VIS="1" ENB="1" />
 		<Text Text="options_musicvolume" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="110" W="200" H="16" VIS="1" ENB="1" />
-		<ProgressControl Name="ControlMusic" UseHooks="1" Shader="7" Vertical="0" X="400" Y="110" W="220" H="16" VIS="1" ENB="1" />
-		<Button Name="DisableSound" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="132" W="14" H="14" VIS="1" ENB="1" />
+		<ProgressControl Name="ControlMusic" Shader="7" Vertical="0" X="400" Y="110" W="220" H="16" VIS="1" ENB="1" />
+		<Button Name="DisableSound" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="132" W="14" H="14" VIS="1" ENB="1" />
 		<Text Text="options_disable_sound" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="130" W="200" H="16" VIS="1" ENB="1" />
-		<Button Name="DisableSnow" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="378" W="14" H="14" VIS="1" ENB="1" />
+		<Button Name="DisableSnow" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="378" W="14" H="14" VIS="1" ENB="1" />
 		<Text Name="TextDisableSnow" Text="options_disable_snow" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="377" W="200" H="16" VIS="1" ENB="1" />
-		<Button Name="EnableDebug" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="154" W="14" H="14" VIS="1" ENB="1" />
+		<Button Name="EnableDebug" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="154" W="14" H="14" VIS="1" ENB="1" />
 		<Text Text="options_enable_debug" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="152" W="200" H="16" VIS="1" ENB="1" />
 		<Text Text="options_distance" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="180" W="200" H="16" VIS="1" ENB="1" />
-		<ProgressControl Name="ControlDistanceView" UseHooks="1" Shader="7" Vertical="0" X="400" Y="180" W="220" H="16" VIS="1" ENB="1" />
+		<ProgressControl Name="ControlDistanceView" Shader="7" Vertical="0" X="400" Y="180" W="220" H="16" VIS="1" ENB="1" />
 		<Text Text="options_resolution" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="200" W="200" H="16" VIS="1" ENB="1" />
-		<Button Name="ResolutionInc" UseHooks="1" Normal="54" Active="55" X="501" Y="202" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
-		<Button Name="ResolutionDec" UseHooks="1" Normal="52" Active="53" X="400" Y="202" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
+		<Button Name="ResolutionInc" Normal="54" Active="55" X="501" Y="202" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
+		<Button Name="ResolutionDec" Normal="52" Active="53" X="400" Y="202" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
 		<Text Name="Resolution" Text="empty" FontSet="msg_title" Align="CENTER" ColorARGB="1 0.78 0.78 0.78" X="414" Y="200" W="88" H="16" VIS="1" ENB="1" />
-		<Button Name="WindowMode" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="222" W="14" H="14" VIS="1" ENB="1" />
+		<Button Name="WindowMode" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="222" W="14" H="14" VIS="1" ENB="1" />
 		<Text Text="options_fullscreen" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="220" W="200" H="16" VIS="1" ENB="1" />
 		<Text Text="options_move_type" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="270" W="200" H="16" VIS="1" ENB="1" />
-		<Button Name="MoveTypeControl" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="266" W="14" H="14" VIS="1" ENB="1" />
-		<Text Text="options_move_type_control" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="430" Y="264" W="200" H="16" VIS="1" ENB="1" UseHooks="1" />
-		<Button Name="MoveTypeSpeed" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="282" W="14" H="14" VIS="1" ENB="1" />
-		<Text Text="options_move_type_speed" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="430" Y="279" W="100" H="16" VIS="1" ENB="1" UseHooks="1" />
-		<Button Name="DisableColor" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="300" W="14" H="14" VIS="1" ENB="1" />
+		<Button Name="MoveTypeControl" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="266" W="14" H="14" VIS="1" ENB="1" />
+		<Text Text="options_move_type_control" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="430" Y="264" W="200" H="16" VIS="1" ENB="1" />
+		<Button Name="MoveTypeSpeed" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="282" W="14" H="14" VIS="1" ENB="1" />
+		<Text Text="options_move_type_speed" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="430" Y="279" W="100" H="16" VIS="1" ENB="1" />
+		<Button Name="DisableColor" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="300" W="14" H="14" VIS="1" ENB="1" />
 		<Text Text="options_disable_color" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="298" W="200" H="16" VIS="1" ENB="0" />
-		<Button Name="DisableEffect" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="320" W="14" H="14" VIS="1" ENB="1" />
+		<Button Name="DisableEffect" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="320" W="14" H="14" VIS="1" ENB="1" />
 		<Text Text="options_disable_effect" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="318" W="200" H="16" VIS="1" ENB="0" />
-		<Button Name="DisableDetail" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="340" W="14" H="14" VIS="1" ENB="1" />
+		<Button Name="DisableDetail" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="340" W="14" H="14" VIS="1" ENB="1" />
 		<Text Text="options_disable_detail" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="338" W="200" H="16" VIS="1" ENB="0" />
 		
 		<Text Text="options_range_antialiasing" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="398" W="200" H="16" VIS="1" ENB="1" />
-		<Button Name="AntialiasingRangeInc" UseHooks="1" Normal="54" Active="55" X="461" Y="400" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
-		<Button Name="AntialiasingRangeDec" UseHooks="1" Normal="52" Active="53" X="400" Y="400" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
+		<Button Name="AntialiasingRangeInc" Normal="54" Active="55" X="461" Y="400" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
+		<Button Name="AntialiasingRangeDec" Normal="52" Active="53" X="400" Y="400" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
 		<Text Name="Antialiasing" Text="options_tmp2" FontSet="msg_title" Align="CENTER" ColorARGB="1 0.78 0.78 0.78" X="424" Y="398" W="28" H="16" VIS="1" ENB="1" />
 		
 		<Text Text="options_range_anisotropying" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="418" W="200" H="16" VIS="1" ENB="1" />
-		<Button Name="AnisotropyingRangeInc" UseHooks="1" Normal="54" Active="55" X="461" Y="420" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
-		<Button Name="AnisotropyingRangeDec" UseHooks="1" Normal="52" Active="53" X="400" Y="420" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
+		<Button Name="AnisotropyingRangeInc" Normal="54" Active="55" X="461" Y="420" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
+		<Button Name="AnisotropyingRangeDec" Normal="52" Active="53" X="400" Y="420" W="14" H="14" VIS="1" ENB="1" TextureW="20" TextureH="22" />
 		<Text Name="Anisotropying" Text="options_tmp2" FontSet="msg_title" Align="CENTER" ColorARGB="1 0.78 0.78 0.78" X="424" Y="418" W="28" H="16" VIS="1" ENB="1" />
 
-    <Button Name="DisableVSync" UseHooks="1" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="440" W="14" H="14" VIS="1" ENB="1" />
+    <Button Name="DisableVSync" Text="empty" Normal="12" Active="12" Check="13" X="400" Y="440" W="14" H="14" VIS="1" ENB="1" />
     <Text Text="options_disable_vsync" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" X="186" Y="438" W="260" H="16" VIS="1" ENB="0" />			
 		
 		<Text Name="NeedRestart" Text="options_note" FontSet="button" Align="LEFT" ColorARGB="1 1 0.60 0.44" ENB="0" VIS="0" X="160" Y="500" W="500" H="16" />

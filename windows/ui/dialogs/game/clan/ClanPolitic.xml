@@ -2,7 +2,7 @@
 <Rectangles>
     <Rect Name="ClanPolitic_Scroll" X="577" Y="274" W="12" H="125" />
 </Rectangles>
-<!-- Диалог: ClanMain -->
+<!-- ClanMain -->
 <ClanPolitic Id="111000" Worker="Menu_ClanPolitic">
     <Item Name="MainPanel" X="199" Y="193" W="407" H="259" ENB="1" />
     <!-- фон диалога -->
@@ -13,23 +13,23 @@
     <Text Text="clan_politic_title" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" X="221" Y="206" W="292" H="16" VIS="1" ENB="0" />
     <Text Name="ClanName" Text="no_clan" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" X="218" Y="239" W="297" H="16" VIS="1" ENB="0" />
     <Image Name="ClanIcon" Shader="1" ENB="0" X="555" Y="212" W="32" H="32" VIS="1" />
-    <Button Name="DeclareWar" Text="clan_declare_war" FontSet="button" Info="tooltip_clan_create" ColorARGB="1 0.91 0.73 0" Normal="92" Active="3" VIS="1" ENB="1" X="220" Y="275" W="138" H="17" UseHooks="1" />
-    <Button Name="MakePiece" Text="clan_make_piece" FontSet="button" Info="tooltip_clan_leave" ColorARGB="1 0.91 0.73 0" Normal="92" Active="3" VIS="1" ENB="1" X="220" Y="312" W="138" H="18" UseHooks="1" />
-    <Button Name="MakeUnion" Text="clan_make_union" FontSet="button" Info="tooltip_clan_expel" ColorARGB="1 0.91 0.73 0" Normal="92" Active="3" VIS="1" ENB="1" X="220" Y="343" W="138" H="18" UseHooks="1" />
-    <Button Name="ShowWar" Text="clan_politic_war" FontSet="small" ColorARGB="1 0.91 0.73 0" Normal="3" Active="4" Check="4" VIS="1" ENB="1" X="382" Y="258" W="27" H="12" UseHooks="1" />
-    <Button Name="ShowUnion" Text="clan_politic_union" FontSet="small" ColorARGB="1 0.91 0.73 0" Normal="3" Active="4" Check="4" VIS="1" ENB="1" X="409" Y="258" W="25" H="12" UseHooks="1" />
-    <Button Name="ShowPiece" Text="clan_politic_piece" FontSet="small" ColorARGB="1 0.91 0.73 0" Normal="3" Active="4" Check="4" VIS="1" ENB="1" X="434" Y="258" W="57" H="12" UseHooks="1" />
+    <Button Name="DeclareWar" Text="clan_declare_war" FontSet="button" Info="tooltip_clan_create" ColorARGB="1 0.91 0.73 0" Normal="92" Active="3" VIS="1" ENB="1" X="220" Y="275" W="138" H="17" />
+    <Button Name="MakePiece" Text="clan_make_piece" FontSet="button" Info="tooltip_clan_leave" ColorARGB="1 0.91 0.73 0" Normal="92" Active="3" VIS="1" ENB="1" X="220" Y="312" W="138" H="18" />
+    <Button Name="MakeUnion" Text="clan_make_union" FontSet="button" Info="tooltip_clan_expel" ColorARGB="1 0.91 0.73 0" Normal="92" Active="3" VIS="1" ENB="1" X="220" Y="343" W="138" H="18" />
+    <Button Name="ShowWar" Text="clan_politic_war" FontSet="small" ColorARGB="1 0.91 0.73 0" Normal="3" Active="4" Check="4" VIS="1" ENB="1" X="382" Y="258" W="27" H="12" />
+    <Button Name="ShowUnion" Text="clan_politic_union" FontSet="small" ColorARGB="1 0.91 0.73 0" Normal="3" Active="4" Check="4" VIS="1" ENB="1" X="409" Y="258" W="25" H="12" />
+    <Button Name="ShowPiece" Text="clan_politic_piece" FontSet="small" ColorARGB="1 0.91 0.73 0" Normal="3" Active="4" Check="4" VIS="1" ENB="1" X="434" Y="258" W="57" H="12" />
     <!-- Элемент список -->
     <List Name="ClanList" Gap="3" VIS="1" ENB="0" X="390" Y="274" W="181" H="149" VpX="382" VpY="275" VpW="225" VpH="148">        
 		<Button Name="Prototype" FontSet="quests_title" InnerBorderW="5" InnerBorderH="5" ColorARGB="1 1 1 0" ActiveColorARGB="1 1 1 0" Active="3" Check="4" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="387" Y="273" W="200" H="149" Debug="Мир" />
 		<Button Name="Prototype_1" FontSet="quests_title" InnerBorderW="5" InnerBorderH="5" ColorARGB="1 0.98 0.47 0.47" ActiveColorARGB="1 0.98 0.47 0.47" Active="3" Check="4" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="387" Y="273" W="200" H="149" Debug="Война" />
 		<Button Name="Prototype_2" FontSet="quests_title" InnerBorderW="5" InnerBorderH="5" ColorARGB="1 0.39 0.98 0.39" ActiveColorARGB="1 0.39 0.98 0.39" Active="3" Check="4" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="387" Y="273" W="200" H="149" Debug="Союз" />
         <Image Shader="86" VIS="1" ENB="0" X="577" Y="274" W="12" H="150" />
-        <Slider LineRect="ClanPolitic_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="577" Y="275" W="10" H="23" VIS="1" ENB="1" UseHooks="1" />
+        <Slider LineRect="ClanPolitic_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="577" Y="275" W="10" H="23" VIS="1" ENB="1" />
     </List>
     <!-- Всплывающие подсказки -->
     <ToolTips>
-        <Image Shader="6" VIS="0" ENB="0" />
-        <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+        <Image Shader="6" />
+        <Text Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
     </ToolTips>
 </ClanPolitic>

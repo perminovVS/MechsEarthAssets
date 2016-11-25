@@ -6,10 +6,10 @@
     <Rect Name="Insurance_List" X=" 250" Y=" 278" W=" 300" H=" 82" />
     <Rect Name="Insurance_Info" X=" 254" Y=" 377" W=" 288" H=" 20" />
 </Rectangles>
-<!-- Диалог: страхование -->
+<!-- страхование -->
 <LocInsurance Id="62000" Worker="Menu_Insurance" VIS="1" ENB="1">
     <!-- Кнопка вызова внутриигрового меню -->
-    <Button Id="200" Key="escape" VIS="0" Command="create_menu InGame;" ENB="1" UseHooks="1" />
+    <Button Id="200" Key="escape" VIS="0" Command="create_menu InGame;" ENB="1" />
     <!-- фон диалога -->
     <Image Id="2" Shader="61" ENB="0" X="236" Y="238" W="512" H="250" VIS="1" />
     <!-- Заголовок локации страховки -->

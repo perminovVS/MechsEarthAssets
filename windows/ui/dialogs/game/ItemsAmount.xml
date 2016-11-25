@@ -2,7 +2,7 @@
 <Rectangles>
     <Rect Name="ItemsAmount_Scroll" X=" 319" Y=" 352" W=" 55" H=" 10" />
 </Rectangles>
-<!-- Диалог: Выбор количества предметов -->
+<!-- Выбор количества предметов -->
 <ItemsAmount Id="51000" Worker="Menu_ItemsAmount">
     <Image Id="1" Shader="5" X="-800" Y="-600" W="2400" H="1800" VIS="1" ENB="1" />
     <Image Id="2" Shader="99" ENB="1" X="272" Y="207" W="256" H="256" VIS="1" />
@@ -14,6 +14,6 @@
     <!-- Интерфейс количества предметов -->
     <Slider Id="9" LineRect="ItemsAmount_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="0" SliderPos="0" X="319" Y="352" W="15" H="10" VIS="1" ENB="1" />
     <Button Id="10" TextureW="16" TextureH="16" Normal="52" Active="53" X="306" Y="353" W="11" H="9" VIS="1" ENB="1" />
-    <Button Id="11" TextureW="16" TextureH="16" Normal="54" Active="55" X="392" Y="353" W="11" H="9" VIS="1" ENB="1" UseHooks="1" />
+    <Button Id="11" TextureW="16" TextureH="16" Normal="54" Active="55" X="392" Y="353" W="11" H="9" VIS="1" ENB="1" />
     <TextField Id="12" Style="old_edit_text" PlaceHolderKey="common_count_holder" MaxLength="6" X="321" Y="325" W="67" H="28" VIS="1" ENB="1" />
 </ItemsAmount>

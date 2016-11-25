@@ -6,28 +6,28 @@
 <!-- Задания -->
 <LocGetQuests Id="65000" Worker="Menu_GetQuest" VIS="1" ENB="1">
     <!-- Фон окна -->
-    <Item VIS="1" ENB="1" X="214" Y="71" W="385" H="360" UseHooks="1" />
+    <Item VIS="1" ENB="1" X="214" Y="71" W="385" H="360" />
     <Image Shader="102" VIS="1" ENB="0" X="214" Y="71" W="385" H="360" />
     <Text Text="quest_get_title" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" Align="CENTER" X="309" Y="85" W="200" H="16" VIS="1" ENB="1" />
     <Text Text="quest_get_detail" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" Align="CENTER" X="320" Y="223" W="183" H="16" VIS="1" ENB="1" />
     <!-- Кнопка выхода -->
     <Button Key="escape" Info="tooltip_quest_close" Normal="103" Active="104" VIS="1" ENB="1" Command="delete_menu LocGetQuests;" X="563" Y="79" W="24" H="24" />
     <!-- Элемент список -->
-    <List Name="QuestList" Gap="3" VIS="1" ENB="0" X="242" Y="121" W="322" H="78" VpX="231" VpY="119" VpW="342" VpH="84" UseHooks="1">
+    <List Name="QuestList" Gap="3" VIS="1" ENB="0" X="242" Y="121" W="322" H="78" VpX="231" VpY="119" VpW="342" VpH="84">
         <Button Name="Prototype" FontSet="quests_title" InnerBorderW="5" InnerBorderH="5" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Active="3" Check="4" Align="CENTER" WordWrap="1" VIS="0" ENB="0" X="237" Y="121" W="345" H="82" VpX="0" VpY="-15" VpW="0" VpH="0" />
-        <Image Shader="86" VIS="1" ENB="0" X="574" Y="118" W="10" H="86" UseHooks="1" />
+        <Image Shader="86" VIS="1" ENB="0" X="574" Y="118" W="10" H="86" />
         <Slider LineRect="GetQuest_Short_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="573" Y="118" W="10" H="20" VIS="1" ENB="1" />
     </List>
-    <List Name="QuestDesc" Gap="3" VIS="1" ENB="0" X="234" Y="256" W="297" H="136" VpX="232" VpY="255" VpW="335" VpH="139" UseHooks="1">
+    <List Name="QuestDesc" Gap="3" VIS="1" ENB="0" X="234" Y="256" W="297" H="136" VpX="232" VpY="255" VpW="335" VpH="139">
         <Button Name="Prototype" FontSet="quests_desc" InnerBorderW="1" InnerBorderH="5" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.78 0.78 0.78" Active="3" Check="4" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="236" Y="256" W="50" H="50" VpX="0" VpY="-15" VpW="0" VpH="0" />
         <Image Shader="86" VIS="1" ENB="0" X="570" Y="253" W="10" H="162" />
         <Slider LineRect="GetQuest_Detail_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="569" Y="253" W="10" H="20" VIS="1" ENB="1" />
     </List>
     <!-- Кнопка Отказа от квеста-->
-    <Button Name="GetQuest" Text="quest_get_get" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="105" Active="106" VIS="1" X="466" Y="397" W="103" H="16" ENB="1" UseHooks="1" />
+    <Button Name="GetQuest" Text="quest_get_get" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="105" Active="106" VIS="1" X="466" Y="397" W="103" H="16" ENB="1" />
     <!-- Всплывающие подсказки -->
-    <ToolTips Name="ToolTips" VIS="1" ENB="1">
-        <Image Shader="6" VIS="0" ENB="0" />
-        <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+    <ToolTips Name="ToolTips">
+        <Image Shader="6" />
+        <Text Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
     </ToolTips>
 </LocGetQuests>

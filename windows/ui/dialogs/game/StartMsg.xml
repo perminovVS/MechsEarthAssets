@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: Начальное приветствие игрока -->
+<!-- Начальное приветствие игрока -->
 <StartMsg Id="42000" Worker="Menu_StartMsg">
     <Image Id="2" Shader="142" X="162" Y="77" W="480" H="387" VIS="1" ENB="1" />
 	 <Text Id="3" Text="startmsg_title" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="229" Y="80" W="342" H="22" VpX="214" VpY="81" VpW="366" VpH="22" Move="1" />
     <Text Id="4" Text="startmsg_text" FontSet="msg" WordWrap="1" Align="LEFT" VAlign="TOP" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" ReplaceSrc="^" ReplaceDst="%" X="189" Y="109" W="410" H="323" VpX="185" VpY="106" VpW="450" VpH="330" />
-    <Button Id="10" Text="ok" Command="delete_menu StartMsg;" Key="escape" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="549" Y="439" W="80" H="18" VIS="1" ENB="1" UseHooks="1" />
+    <Button Id="10" Text="ok" Command="delete_menu StartMsg;" Key="escape" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="549" Y="439" W="80" H="18" VIS="1" ENB="1" />
 </StartMsg>

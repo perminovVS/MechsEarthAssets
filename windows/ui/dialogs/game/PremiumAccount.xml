@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: Приобрести/Продлить премиум аккаунт -->
+<!-- Приобрести/Продлить премиум аккаунт -->
 <PremiumAccount Id="56000" Worker="Menu_PremiumAccount">
     <Image Name="Menu" Shader="142" X="162" Y="77" W="480" H="387" VIS="1" ENB="1">
         <Text Text="premium_account_title" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="229" Y="80" W="342" H="22" VpX="214" VpY="81" VpW="366" VpH="22" />
@@ -7,10 +7,10 @@
         <Text Text="premium_account_info" FontSet="msg" Align="LEFT"  WordWrap="1"  ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="220" Y="150" W="380" H="22" />
 		
         <Text Text="premium_account_buy" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="229" Y="230" W="342" H="22"/>
-        <List Name="List" Gap="3" VIS="1" ENB="0" X="260" Y="260" W="300" H="323" VpX="162" VpY="77" VpW="480" VpH="387" UseHooks="1">
+        <List Name="List" Gap="3" VIS="1" ENB="0" X="260" Y="260" W="300" H="323" VpX="162" VpY="77" VpW="480" VpH="387">
             <Button Name="Prototype" FontSet="msg" InnerBorderW="1" InnerBorderH="5" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.78 0.78 0.78" Active="3" Check="3" Align="LEFT" VAlign="TOP" WordWrap="1" VIS="0" ENB="0" X="234" Y="276" W="297" H="136" />
         </List>
-        <List Name="ListPrice" Gap="3" VIS="1" ENB="0" X="260" Y="260" W="300" H="323" VpX="162" VpY="77" VpW="480" VpH="387" UseHooks="1">
+        <List Name="ListPrice" Gap="3" VIS="1" ENB="0" X="260" Y="260" W="300" H="323" VpX="162" VpY="77" VpW="480" VpH="387">
             <Button Name="Prototype" FontSet="msg" InnerBorderW="6" InnerBorderH="5" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.78 0.78 0.78" Active="3" Check="3" Align="RIGHT" VAlign="TOP" WordWrap="1" VIS="0" ENB="0" X="234" Y="276" W="297" H="136" />
         </List>
         <Button Name="Ok" Text="premium_account_ok" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu PremiumAccount;" X="552" Y="435" W="80" H="20" VIS="1" ENB="1" />
@@ -18,8 +18,8 @@
 				
         <!-- Всплывающие подсказки -->
         <ToolTips Name="ToolTips">
-            <Image Shader="6" VIS="0" ENB="0" />
-            <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+            <Image Shader="6" />
+            <Text Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
         </ToolTips>
     </Image>
 </PremiumAccount>

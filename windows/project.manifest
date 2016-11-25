@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "2.0.0.2",
+    "version": "2.0.1.0",
     "engineVersion": "3.13",
     "assets": {
         "ClientConfig.xml": {
@@ -15,7 +15,7 @@
             "md5": "cfad8583b00a304106aa734f5e13ff38"
         },
         "fonts/BasicFonts.xml": {
-            "md5": "cfe11150efdcdc3e8617e99e6c955cfa"
+            "md5": "3d103039fe79f4cc4c7f1d7272611101"
         },
         "fonts/a_lcdnova.ttf": {
             "md5": "0122a1624fbf20f49bd0c3dc453efb09"
@@ -156,7 +156,7 @@
             "md5": "c878167370791cda91889a8ef95b65b6"
         },
         "models/mech/player/20.mdl": {
-            "md5": "b632d7a694cd7ffafde43db6443a13e6"
+            "md5": "44099a5a5fe476991707ac4921d30a74"
         },
         "models/mech/player/21.mdl": {
             "md5": "eed862f58ce60288cafc565400d97b34"
@@ -2448,22 +2448,22 @@
             "md5": "4129d3994eca970de418159c571c0dfc"
         },
         "textures/atlas/icons.plist": {
-            "md5": "3c49e2dd2d96986f8fcb54de54b607d3"
+            "md5": "4895625d66267700bcaa5f24e9a0b0c9"
         },
         "textures/atlas/icons.png": {
-            "md5": "aed2acc003c7e2a2a29dcb00c403b195"
+            "md5": "5da04af41bddfbb987dc81170fc46a40"
         },
         "textures/atlas/ui.plist": {
-            "md5": "085917ce6881bcd933e6e47f1f863f0b"
+            "md5": "b832e955a52a2b262a6ffac68558b32e"
         },
         "textures/atlas/ui.png": {
-            "md5": "bd0159ea760571132abea39d22d48873"
+            "md5": "b081a68e2cd2188afeb5d3e4cd1fcf3d"
         },
         "textures/atlas/ui_new.plist": {
-            "md5": "55263147a712fdc8fff55953c2a66ced"
+            "md5": "3fffef50f7dc49fcb261a157214a9604"
         },
         "textures/atlas/ui_new.png": {
-            "md5": "643ef2bf5517b6abc50394539b60c7fa"
+            "md5": "6cf93f964713782b3f5ac15aa3d56a1c"
         },
         "textures/atlas/ui_window_0.plist": {
             "md5": "c45f02aa968b3ddb9bddfb23f815da98"
@@ -3717,13 +3717,13 @@
             "md5": "07e510523091759fd94ade232c55b9df"
         },
         "textures/mech/player/20.jpg": {
-            "md5": "e2f196b570e9828dfcf98694abf8d361"
+            "md5": "fe4c19a05b3c12a73b0f01215c17f0c9"
         },
         "textures/mech/player/20_01.jpg": {
-            "md5": "d7fa0448655ebbee5cd9e5ef22ef5cc5"
+            "md5": "3dc1ca892728f426bef28e036f1b0a75"
         },
         "textures/mech/player/20_02.jpg": {
-            "md5": "e2a00589d11dc60f59a8345a60b90335"
+            "md5": "eb50608d5384922ec5dab7d243ea27d6"
         },
         "textures/mech/player/21.jpg": {
             "md5": "041a98a4f3613ed8c1c298e2b4f7c37a"
@@ -4566,187 +4566,187 @@
             "md5": "2107d83dc8975c13a7c509159081821e"
         },
         "ui/dialogs/game/ChatOption.xml": {
-            "md5": "c0ff2add79a22b3d1fa97c49d4a0d31d"
+            "md5": "da28a13583032ebac33458d8ca1ba28c"
         },
         "ui/dialogs/game/EntityOption.xml": {
-            "md5": "7ea04683a89e24d92423abdcf9163d7e"
+            "md5": "6915a09f8be514bc7712764d04a22ae7"
         },
         "ui/dialogs/game/Game.xml": {
-            "md5": "570853f82e8880bbad75d98591b30a26"
+            "md5": "ff8ef912db6cbb4e43db7f03dbce10fc"
         },
         "ui/dialogs/game/GlobalMap.xml": {
-            "md5": "d43e85df4d647a93d46062dca7efc83a"
+            "md5": "61002b6db8a36666649d41be14678cd7"
         },
         "ui/dialogs/game/Help.xml": {
-            "md5": "fe936c451b83556b6beb89dd917f4348"
+            "md5": "53c8948126d155dc51936d80a3016d96"
         },
         "ui/dialogs/game/HelpMsg1.xml": {
-            "md5": "9cf4c3be8646c1c37d3ef1d4fb77059d"
+            "md5": "886833c5024723e7648fdfc8f2c21acb"
         },
         "ui/dialogs/game/HistoryChat.xml": {
-            "md5": "86d104236e314c194b79fbe231f0f42b"
+            "md5": "5efbb5f56ae31e08a5d5f090729300c8"
         },
         "ui/dialogs/game/InGame.xml": {
-            "md5": "d0cebb3f2bae67692c8d9406dc352f1a"
+            "md5": "042908a51107e3331d72c0ac2730861c"
         },
         "ui/dialogs/game/InvCargo.xml": {
-            "md5": "0ca792e81e7ebd8cf06ae1ba425e8b0d"
+            "md5": "2a32793cc7307c09ef32861d24cbe34c"
         },
         "ui/dialogs/game/InvContainer.xml": {
-            "md5": "f47407f823f672540145c896d7f9e3cc"
+            "md5": "0c871375d49b91e5681fed0c09eac181"
         },
         "ui/dialogs/game/InvInst.xml": {
-            "md5": "9070de7e76e2503f04f21bfc7f55ae49"
+            "md5": "3da4d00b592860af93f0b561a93d5448"
         },
         "ui/dialogs/game/ItemsAmount.xml": {
-            "md5": "83c27b34b827aa1ce3d2fde18b262beb"
+            "md5": "30adaec26db0c5b5dca4ff0d19725bf5"
         },
         "ui/dialogs/game/ParamsHero.xml": {
-            "md5": "ce48ecb9f3e674be5fe3b427342dbe3a"
+            "md5": "2caf9027ddf4b1817ee19f70b8b06315"
         },
         "ui/dialogs/game/ParamsRobot.xml": {
-            "md5": "c929464a581fe5abdbf5600ba436bbdd"
+            "md5": "3bdc626cfc025b38c222c8fa1c698bc8"
         },
         "ui/dialogs/game/Poll.xml": {
-            "md5": "da41b34d62fa3d24137f94cb51aa17ab"
+            "md5": "75dbaa14e422903915f8a04908f972fd"
         },
         "ui/dialogs/game/PremiumAccount.xml": {
-            "md5": "4730b3877f498b42a4d43f59e74f4230"
+            "md5": "7b19e19f074948afd3e7b06cf3a324bf"
         },
         "ui/dialogs/game/RobotDeath.xml": {
-            "md5": "4c2de179447f49d1d18a9496ed8daace"
+            "md5": "f6ffffa05c0625b65127dba9118dc341"
         },
         "ui/dialogs/game/StartMsg.xml": {
-            "md5": "6155b7b7b5831cf043f3b33441d03939"
+            "md5": "b193a940e5cd301d4f0dc53ba3dc34b9"
         },
         "ui/dialogs/game/Teleportation.xml": {
-            "md5": "0f0c53e88c56a21c9292900469b2ab57"
+            "md5": "9b3b604a379c9440ee7211e1f4c5181f"
         },
         "ui/dialogs/game/UpgradeRobot.xml": {
-            "md5": "d0f19f1615f9b794012607db11c6ec9f"
+            "md5": "b9be6a580f571052f903b42d71468cb5"
         },
         "ui/dialogs/game/clan/ClanMain.xml": {
-            "md5": "b77515b1922b5be1479986a34702dac8"
+            "md5": "68e9a934db9d8316097e67e954cccbcf"
         },
         "ui/dialogs/game/clan/ClanPolitic.xml": {
-            "md5": "e7c661f087bca4fce6c84722349b370a"
+            "md5": "686f43b1d0f78b436668f32b67c65c76"
         },
         "ui/dialogs/game/info/clan.xml": {
-            "md5": "822df7e85dcf0792245d879fb03fc123"
+            "md5": "8bad6873683ac05543573deb41b7ff4c"
         },
         "ui/dialogs/game/info/game.xml": {
-            "md5": "87cd65c1ab0997461d7bc0a03e1fa713"
+            "md5": "cd1d2769cc862a60eb4ce669ace40285"
         },
         "ui/dialogs/game/info/location.xml": {
-            "md5": "0db6e0736c73a6c08d7f80ce098e87d2"
+            "md5": "9eaa456e9bfb760f5cdb5fe159052238"
         },
         "ui/dialogs/game/info/party.xml": {
             "md5": "e0220546da5b35d006def6bcd7bd91cf"
         },
         "ui/dialogs/game/info/quest.xml": {
-            "md5": "1fb36702d9d9d774cf49304ad687fc7f"
+            "md5": "2994a07772bb0f62e01eab240d178dc8"
         },
         "ui/dialogs/game/info/trade.xml": {
-            "md5": "0b09c59a9affacf340cc7c9d105b3e1b"
+            "md5": "f3e455cc3c6224ecc02dd0b8c923dfe0"
         },
         "ui/dialogs/game/location/Color.xml": {
-            "md5": "2f8f625b092879d81264c17cc0e7f11d"
+            "md5": "4cb0fbee5423e46ddd1e23e6813f10ba"
         },
         "ui/dialogs/game/location/LocCraft.xml": {
-            "md5": "d0d22e3af9fce23fb5d93e4f8a6da908"
+            "md5": "b1243dd17d6806b51cd74afb96a37d53"
         },
         "ui/dialogs/game/location/LocGetQuests.xml": {
-            "md5": "f0cd8d24da7264b74382eaa4345fd610"
+            "md5": "c2fdf8626b0c3011aafb7cfdd0f89c64"
         },
         "ui/dialogs/game/location/LocInsurance.xml": {
-            "md5": "c1b120c20ac4e372a89186934837adde"
+            "md5": "0d35853cbed73ca64021f6059a234f1b"
         },
         "ui/dialogs/game/location/LocResearch.xml": {
-            "md5": "a2b6eebd34cfd4de3f95de831859b049"
+            "md5": "ccf1671587c41519ebd8841b01ce248e"
         },
         "ui/dialogs/game/location/LocRobotStoreHouse.xml": {
-            "md5": "ef324ad6e84ad1ba6022e6b5ec514d29"
+            "md5": "6df1492c836c581583a48422061d7152"
         },
         "ui/dialogs/game/location/LocShop.xml": {
-            "md5": "a430fca28d126a692f5e9c715b3455e6"
+            "md5": "876bbdc0837b75d36212ce96a82e1655"
         },
         "ui/dialogs/game/location/LocShopBody.xml": {
-            "md5": "e4e05047c18ddd8b297a7392b65b7344"
+            "md5": "96aef276bba91aeaea96e7de0854a344"
         },
         "ui/dialogs/game/location/LocStoreHouse.xml": {
-            "md5": "b3cc0c5e10d7fb30b7e3fdc52fedf86e"
+            "md5": "89b748a6ffd01712eeb0187ad6e07724"
         },
         "ui/dialogs/game/location/LocTeleportBeforeLocation.xml": {
-            "md5": "477be19810efd3f501ff4d60c29bb1a6"
+            "md5": "f11b846b271b993804ff38388e63139f"
         },
         "ui/dialogs/game/location/Location.xml": {
-            "md5": "664ebf00ccab8c14692573a8c3bab3d3"
+            "md5": "df18f0beb7f4cc167bf8f0bd2c7c2f35"
         },
         "ui/dialogs/game/location/Repair.xml": {
-            "md5": "4be6b69fa6c25cba9b0376d2990af5f9"
+            "md5": "2818eb4929cf92c138b42362e5f09625"
         },
         "ui/dialogs/game/location/Restore.xml": {
-            "md5": "73624bfddffa4ee6163c9921945610fc"
+            "md5": "7829c5f5c34fecf8f3e3af8996dba231"
         },
         "ui/dialogs/game/quest/NotifyMsgBig.xml": {
-            "md5": "1d01ae81463889e6f44c7e3a224e6b60"
+            "md5": "af904618212234e8b9a24a9f9d496ec3"
         },
         "ui/dialogs/game/quest/NotifyMsgMiddle.xml": {
-            "md5": "90582345f01019fe4b12470629092f73"
+            "md5": "44435887bcb43233b2fa65c57666f741"
         },
         "ui/dialogs/game/quest/NotifyMsgSmall.xml": {
-            "md5": "9505a64e6ea08c26080784c431e14b32"
+            "md5": "74496b1e87f0a3e03a64155bfd37e3a3"
         },
         "ui/dialogs/game/quest/QuestionMsgBig.xml": {
-            "md5": "64beb42c7f2b3cc43c5d0bccc8009fcb"
+            "md5": "55370aa0f3791425ae699290438024db"
         },
         "ui/dialogs/game/quest/QuestionMsgMiddle.xml": {
-            "md5": "176ecc27b30ba003edaea6517238ad9c"
+            "md5": "8871889bb99ef304d4d79cb64512ae84"
         },
         "ui/dialogs/game/quest/QuestionMsgSmall.xml": {
-            "md5": "fc387393c6adff2836ee5878908d3ba0"
+            "md5": "405fb8ac059b81c367f4666daebfd66f"
         },
         "ui/dialogs/game/quest/Quests.xml": {
-            "md5": "9c965d02270ef562cc90794f1088e575"
+            "md5": "440d342e12b265b9fc93ac8ad282ee49"
         },
         "ui/dialogs/game/trade/ConvertMoney1.xml": {
-            "md5": "3bfee2869f8ef97829f4e76ac4b62997"
+            "md5": "c164ab8cdd60d6c622f84ba99404d3d2"
         },
         "ui/dialogs/game/trade/OfferMoney.xml": {
-            "md5": "f6718b3a487dde0bcc5cc3cf7c43ba14"
+            "md5": "f3be109040601ff39a271734e376edfb"
         },
         "ui/dialogs/game/trade/OfferMoney1.xml": {
-            "md5": "5349ec385a9d8242a2330d2af8465921"
+            "md5": "6a5a20b4596559eb543216852746a07a"
         },
         "ui/dialogs/game/trade/RobotBuyConfirm.xml": {
-            "md5": "85d6f2f3fab149b836f3dbdc73b75066"
+            "md5": "792a9918a28c38b2565c1ab25cd17bc0"
         },
         "ui/dialogs/game/trade/RobotSellConfirm.xml": {
-            "md5": "6ee51617ab5ff1700f89d1c81c69f60b"
+            "md5": "012e1da986fc9d76f788d24a1098bf4a"
         },
         "ui/dialogs/game/trade/Trade.xml": {
-            "md5": "d6db69d52d54111e9810bd4ba2ed9170"
+            "md5": "1a947018129c9f6f0129ddd27f5723f3"
         },
         "ui/dialogs/main.xml": {
-            "md5": "065e4a61aa0571a66e123daebe094345"
-        },
-        "ui/dialogs/main/Launcher.xml": {
-            "md5": "c016029f6bbbfe5198c97a06395d3e48"
+            "md5": "eb9382c1e0896a471e1c792ba4caaeb2"
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "88a332bc17a77c3e36b24973525eaa1b"
+            "md5": "e4bb2b046b43a721f890fa741ce5402e"
+        },
+        "ui/dialogs/main/MainContacts.xml": {
+            "md5": "4afc2a2583b2421b56c70dd154e4dbd0"
         },
         "ui/dialogs/main/Options.xml": {
-            "md5": "8a8dd5973a3ca0f94e826fbad410dec1"
+            "md5": "2bd07f4633963d65784267d78f78cd19"
         },
         "ui/dialogs/msg.xml": {
-            "md5": "19caed85ad9ec4c82b14064c4f61ba5e"
+            "md5": "6b2a2034903ef453272e5ece0ac4a71b"
         },
         "ui/dialogs/msg/AskYesNo.xml": {
-            "md5": "8a02fd023b2d1b9b7c5841a575bb2b8c"
+            "md5": "847dd54d98b54b935f627ddb40a2e636"
         },
         "ui/dialogs/msg/MsgError.xml": {
-            "md5": "5ae105ed7a3b208d22a8aa53f7078f92"
+            "md5": "6356c53d169ec644ec18ac4212124337"
         },
         "ui/dialogs/msg/MsgWndBig01.xml": {
             "md5": "ab3b116d2f95ede429999934aa5e40e6"
@@ -4779,31 +4779,34 @@
             "md5": "9342e8b247a66c8f140a478db62ad6cd"
         },
         "ui/dialogs/msg/MsgWrongSymbols.xml": {
-            "md5": "00eb1becaf14aed2d8a7d1c136b2629f"
+            "md5": "dc06c44d76b9160dd0fbdb599f031300"
         },
         "ui/dialogs/net.xml": {
-            "md5": "290d49c64e9ae450d765031287cb91d6"
+            "md5": "b53ae488e66dc5a4db67d372cd7c4068"
         },
         "ui/dialogs/net/ConnectingError.xml": {
-            "md5": "150ec1a74868b0751eed4d4e5c19e3f0"
+            "md5": "5a5a109f6ac60732628c0d320cc6208e"
         },
         "ui/dialogs/net/Disconnect.xml": {
-            "md5": "839315f4fc800dee28bfd5c7ef89df94"
+            "md5": "1c628c7c9b4e8b911cf5560397175d3f"
         },
         "ui/dialogs/net/Login.xml": {
-            "md5": "f728ffc88873acbd4410030969bccd74"
+            "md5": "746c05b7c085ddd1126cb41f194ed4f4"
         },
         "ui/dialogs/tools.xml": {
-            "md5": "b99e06761186ba623a9a2d94857c76d4"
+            "md5": "485212da079f9cba0aa3c9969157ecd5"
         },
         "ui/dialogs/tools/DialogEditor.xml": {
-            "md5": "038dc8f5baab868224d830b638fade57"
+            "md5": "45f453c96a6c141d9060567da9ff6437"
+        },
+        "ui/dialogs/tools/DialogEditor1.xml": {
+            "md5": "051f4d390e8936fbc0424e87a6384a48"
         },
         "ui/localization/ru.xml": {
-            "md5": "4bf0e8a1d0485efa39e9c6faca6611b8"
+            "md5": "36ebf2e46f385704d3860a9b44cd14f4"
         },
         "ui/ui.xml": {
-            "md5": "bac5181cbaf02bfa621262b9a1d997da"
+            "md5": "020018f3f2c45086f01fe21ec667b08f"
         },
         "ui/ui_launcher.xml": {
             "md5": "62e9d3e087889605d3bf2c144862db53"
@@ -5010,13 +5013,13 @@
             "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "38331854bb85f0baa4db1577e7b404a5"
+            "md5": "8560fc879d3e5acd27c5cfa05c7f725c"
         },
         "worlds/Nations.xml": {
             "md5": "629b2233f883e1072e3b6894d16bbeac"
         },
         "worlds/Resources.xml": {
-            "md5": "5afa907518fb9e8dc0a715e9e1f8150d"
+            "md5": "2943f29dc17ada603a9baa2fb1aaf6de"
         }
     },
     "searchPaths": []

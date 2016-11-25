@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: Вопрос (маленькое окно) -->
+<!-- Вопрос (маленькое окно) -->
 <QuestionMsgSmall Id="91000" Worker="Menu_QuestionMsg">
 	<Image Id="1" Name="Menu" Shader="140" X="162" Y="250" W="480" H="101" Move="1" >
 		<Text Id="3" Name="Title" Text="empty" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="221" Y="255" W="343" H="22" VpX="215" VpY="253" VpW="359" VpH="27" />
 		 <Text Id="4" Name="Msg" Text="empty" FontSet="msg" Align="LEFT" VAlign="TOP" WordWrap="1" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="189" Y="280" W="410" H="44" VpX="185" VpY="278" VpW="450" VpH="52" />
-		 <Button Id="10" Text="yes" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu QuestionMsgSmall;" Key="enter" X="552" Y="326" W="80" H="18" VIS="1" ENB="1" UseHooks="1" />
-		 <Button Id="11" Text="no" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu QuestionMsgSmall;" Key="esc" X="463" Y="326" W="80" H="18" VIS="1" ENB="1" UseHooks="1" />
+		 <Button Id="10" Text="yes" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu QuestionMsgSmall;" Key="enter" X="552" Y="326" W="80" H="18" VIS="1" ENB="1" />
+		 <Button Id="11" Text="no" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu QuestionMsgSmall;" Key="esc" X="463" Y="326" W="80" H="18" VIS="1" ENB="1" />
 	</Image>
 </QuestionMsgSmall>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: Вопрос (среднее окно) -->
+<!-- Вопрос (среднее окно) -->
 <QuestionMsgMiddle Id="92000" Worker="Menu_QuestionMsg">
     <Image Id="1" Name="Menu" Shader="141" X="162" Y="196" W="480" H="184" Move="1" >
-		 <Text Id="3" Name="Title" Text="empty" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="223" Y="201" W="335" H="18" VpX="212" VpY="192" VpW="372" VpH="31" UseHooks="1" />
-		 <Text Id="4" Name="Msg" Text="empty" FontSet="msg" Align="LEFT" VAlign="TOP" WordWrap="1" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="189" Y="222" W="410" H="125" VpX="185" VpY="221" VpW="450" VpH="131" UseHooks="1" />
+		 <Text Id="3" Name="Title" Text="empty" FontSet="msg_title" Align="LEFT" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="223" Y="201" W="335" H="18" VpX="212" VpY="192" VpW="372" VpH="31" />
+		 <Text Id="4" Name="Msg" Text="empty" FontSet="msg" Align="LEFT" VAlign="TOP" WordWrap="1" ColorARGB="1 0.78 0.78 0.78" VIS="1" ENB="0" X="189" Y="222" W="410" H="125" VpX="185" VpY="221" VpW="450" VpH="131" />
 		 <Button Id="10" Text="yes" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu QuestionMsgMiddle;" Key="enter" X="552" Y="350" W="80" H="18" VIS="1" ENB="1" />
 		 <Button Id="11" Text="no" FontSet="button" Normal="144" Active="145" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu QuestionMsgMiddle;" Key="esc" X="463" Y="350" W="80" H="18" VIS="1" ENB="1" />
 	</Image>

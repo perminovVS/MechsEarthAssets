@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: Ремонт -->
+<!-- Ремонт -->
 <Repair Id="69000" Worker="Menu_Repair">
     <Image X="184" Y="107" W="432" H="100" Shader="433" VIS="1" ENB="0" />
     <Image X="293" Y="145" W="340" H="302" Shader="435" VIS="1" ENB="0" />
@@ -7,19 +7,19 @@
     <Item X="182" Y="105" W="428" H="288" VIS="1" ENB="1" />
     <Text Text="repair_title" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="294" Y="116" W="200" H="32" VIS="1" ENB="1" />
     <Button Command="delete_menu Repair;" Key="escape" VIS="0" ENB="1" />
-    <Progress Name="RepairRobot" Shader="7" Vertical="0" X="199" Y="359" W="100" H="13" VIS="1" ENB="1" UseHooks="1" DebugInfo="индикатор прочности робота" />
-    <Button Name="RepairAllItemMech" Text="repair_all_mech_item" Info="tooltip_repair_all_mech_item" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="432" Active="431" X="465" Y="357" W="130" H="18" VIS="1" ENB="1" UseHooks="1" />
-    <Button Name="RepairAllItem" Text="repair_all_item" Info="tooltip_repair_all_item" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="432" Active="431" X="502" Y="331" W="93" H="18" VIS="1" ENB="1" UseHooks="1" />
-    <Button Name="LoadWeaponMech" Text="repair_load_weapon_mech" Info="tooltip_repair_load_weapon_mech" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="432" Active="431" X="331" Y="357" W="130" H="18" VIS="1" ENB="1" UseHooks="1" />
-    <Button Name="LoadWeapon" Text="repair_load_weapon" Info="tooltip_repair_load_weapon" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="432" Active="431" X="502" Y="307" W="93" H="18" VIS="1" ENB="1" UseHooks="1" />
-    <Button Name="RepairMech" Text="repair_mech_city" Info="tooltip_repair_mech_city" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="432" Active="431" X="198" Y="336" W="104" H="18" VIS="1" ENB="1" UseHooks="1" />
+    <Progress Name="RepairRobot" Shader="7" Vertical="0" X="199" Y="359" W="100" H="13" VIS="1" ENB="1" DebugInfo="индикатор прочности робота" />
+    <Button Name="RepairAllItemMech" Text="repair_all_mech_item" Info="tooltip_repair_all_mech_item" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="432" Active="431" X="465" Y="357" W="130" H="18" VIS="1" ENB="1" />
+    <Button Name="RepairAllItem" Text="repair_all_item" Info="tooltip_repair_all_item" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="432" Active="431" X="502" Y="331" W="93" H="18" VIS="1" ENB="1" />
+    <Button Name="LoadWeaponMech" Text="repair_load_weapon_mech" Info="tooltip_repair_load_weapon_mech" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="432" Active="431" X="331" Y="357" W="130" H="18" VIS="1" ENB="1" />
+    <Button Name="LoadWeapon" Text="repair_load_weapon" Info="tooltip_repair_load_weapon" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="432" Active="431" X="502" Y="307" W="93" H="18" VIS="1" ENB="1" />
+    <Button Name="RepairMech" Text="repair_mech_city" Info="tooltip_repair_mech_city" FontSet="button" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="432" Active="431" X="198" Y="336" W="104" H="18" VIS="1" ENB="1" />
     <Model Name="Model" Scale="0.06" X="201" Y="218" W="96" H="96" VIS="1" ENB="1" />
     <Text Text="repair_price_mech" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="190" Y="154" W="80" H="17" VIS="1" ENB="1" />
     <Text Name="PriceMech" Text="empty" Align="LEFT" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="270" Y="154" W="30" H="17" VIS="1" ENB="1" />
     <Text Text="repair_price_item_mech" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="390" Y="154" W="80" H="17" VIS="1" ENB="1" />
-    <Text Name="PriceItemMech" Text="empty" Align="LEFT" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="514" Y="154" W="80" H="17" VIS="1" ENB="1" UseHooks="1" />
-    <Text Text="repair_price_item" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="390" Y="172" W="120" H="17" VIS="1" ENB="1" UseHooks="1" />
-    <Text Name="PriceItem" Text="empty" Align="LEFT" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="514" Y="172" W="83" H="17" VIS="1" ENB="1" UseHooks="1" />
+    <Text Name="PriceItemMech" Text="empty" Align="LEFT" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="514" Y="154" W="80" H="17" VIS="1" ENB="1" />
+    <Text Text="repair_price_item" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="390" Y="172" W="120" H="17" VIS="1" ENB="1" />
+    <Text Name="PriceItem" Text="empty" Align="LEFT" FontSet="big_7" ColorARGB="1 0.91 0.73 0" X="514" Y="172" W="83" H="17" VIS="1" ENB="1" />
     <Item Name="Slots">
         <Image Worker="Image_SlotItemRepair" WorkerShow="ImageDefaultWorkShow" X="336" Y="237" W="38" H="38" VIS="1" ENB="1">
             <Image Shader="3" VIS="0" ENB="0" X="336" Y="237" W="38" H="38" />
@@ -66,7 +66,7 @@
     </Item>
     <!-- Всплывающие подсказки -->
     <ToolTips Name="ToolTips">
-        <Image Shader="6" VIS="0" ENB="0" />
-        <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+        <Image Shader="6" />
+        <Text Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
     </ToolTips>
 </Repair>

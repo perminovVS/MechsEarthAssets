@@ -1,367 +1,166 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Rectangles>
-
-  <Rect Name="DialogEditorPanel" X=" 0" Y=" 0" W=" 512" H=" 512"/>
-  <Rect Name="DialogEditorPanelV" X=" 0" Y=" 0" W=" 310" H=" 350"/>
-  <Rect Name="DialogEditorButtonExit" X=" 294" Y=" 5" W=" 16" H=" 16"/>
-  <Rect Name="DialogEditorButtonApply" X=" 20" Y=" 330" W=" 50" H=" 15"/>
-  <Rect Name="DialogEditorButtonApplyAndShild" X=" 20" Y=" 315" W=" 50" H=" 15"/>
-  <Rect Name="DialogEditorButtonMoving" X=" 130" Y=" 280" W=" 16" H=" 16"/>
-  <Rect Name="DialogEditorTextMoving" X=" 20" Y=" 280" W=" 80" H=" 16"/>
-  <Rect Name="DialogEditorButtonShowHide" X=" 130" Y=" 300" W=" 16" H=" 16"/>
-  <Rect Name="DialogEditorTextShowHide" X=" 20" Y=" 300" W=" 80" H=" 16"/>
-  <Rect Name="DialogEditorUseBackground" X=" 130" Y=" 300" W=" 16" H=" 16"/>
-  <Rect Name="DialogEditorTextUseBackground" X=" 20" Y=" 300" W=" 80" H=" 16"/>
-  <Rect Name="DialogEditorUseBackgroundViewPort" X=" 130" Y=" 316" W=" 16" H=" 16"/>
-  <Rect Name="DialogEditorTextUseBackgroundViewPort" X=" 20" Y=" 316" W=" 80" H=" 16"/>
-  <Rect Name="DialogEditorUseBackgroundTexture" X=" 130" Y=" 332" W=" 16" H=" 16"/>
-  <Rect Name="DialogEditorTextUseBackgroundTexture" X=" 20" Y=" 332" W=" 80" H=" 16"/>
-
-
-  <Rect Name="DialogEditorChangeRect1" X=" 12" Y=" 32" W=" 40" H=" 15"/>
-  <Rect Name="DialogEditorChangeRect2" X=" 52" Y=" 32" W=" 40" H=" 15"/>
-  <Rect Name="DialogEditorChangeRect3" X=" 92" Y=" 32" W=" 40" H=" 15"/>
-
-  <Rect Name="DialogEditorItemType" X=" 80" Y=" 330" W=" 40" H=" 15"/>
-
-  <Rect Name="DialogEditorChangePanel1" X=" 12" Y=" 11" W=" 70" H=" 15"/>
-  <Rect Name="DialogEditorChangePanel2" X=" 82" Y=" 11" W=" 40" H=" 15"/>
-  <Rect Name="DialogEditorChangePanel3" X=" 122" Y=" 11" W=" 90" H=" 15"/>
-
-  <Rect Name="DialogEditorEditBX" X=" 84" Y=" 50" W=" 22" H=" 14"/>
-  <Rect Name="DialogEditorEditX" X=" 86" Y=" 50" W=" 20" H=" 14"/>
-  <Rect Name="DialogEditorEditTX" X=" 20" Y=" 50" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorX_Inc" X=" 106" Y=" 52" W=" 11" H=" 9"/>
-  <Rect Name="DialogEditorX_Dec" X=" 72" Y=" 52" W=" 11" H=" 9"/>
-
-  <Rect Name="DialogEditorEditBY" X=" 84" Y=" 80" W=" 22" H=" 14"/>
-  <Rect Name="DialogEditorEditY" X=" 86" Y=" 80" W=" 20" H=" 14"/>
-  <Rect Name="DialogEditorEditTY" X=" 20" Y=" 80" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorY_Inc" X=" 90" Y=" 94" W=" 11" H=" 9"/>
-  <Rect Name="DialogEditorY_Dec" X=" 90" Y=" 71" W=" 11" H=" 9"/>
-
-  <Rect Name="DialogEditorEditBW" X=" 174" Y=" 50" W=" 22" H=" 14"/>
-  <Rect Name="DialogEditorEditW" X=" 176" Y=" 50" W=" 20" H=" 14"/>
-  <Rect Name="DialogEditorEditTW" X=" 130" Y=" 50" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorW_Inc" X=" 196" Y=" 52" W=" 11" H=" 9"/>
-  <Rect Name="DialogEditorW_Dec" X=" 162" Y=" 52" W=" 11" H=" 9"/>
-
-  <Rect Name="DialogEditorEditBH" X=" 174" Y=" 80" W=" 22" H=" 14"/>
-  <Rect Name="DialogEditorEditH" X=" 176" Y=" 80" W=" 20" H=" 14"/>
-  <Rect Name="DialogEditorEditTH" X=" 130" Y=" 80" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorH_Inc" X=" 180" Y=" 94" W=" 11" H=" 9"/>
-  <Rect Name="DialogEditorH_Dec" X=" 180" Y=" 71" W=" 11" H=" 9"/>
-
-
-  <Rect Name="DialogEditorInnerBorderBW" X=" 84" Y=" 110" W=" 22" H=" 14"/>
-  <Rect Name="DialogEditorInnerBorderEditW" X=" 86" Y=" 110" W=" 20" H=" 14"/>
-  <Rect Name="DialogEditorInnerBorderTW" X=" 20" Y=" 110" W=" 40" H=" 14"/>
-
-  <Rect Name="DialogEditorInnerBorderBH" X=" 174" Y=" 110" W=" 22" H=" 14"/>
-  <Rect Name="DialogEditorInnerBorderEditH" X=" 176" Y=" 110" W=" 20" H=" 14"/>
-  <Rect Name="DialogEditorInnerBorderTH" X=" 130" Y=" 110" W=" 40" H=" 14"/>
-
-  <Rect Name="DialogEditorKeyBW" X=" 84" Y=" 130" W=" 42" H=" 14"/>
-  <Rect Name="DialogEditorKeyW" X=" 86" Y=" 130" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorKeyTW" X=" 20" Y=" 130" W=" 40" H=" 14"/>
-
-
-  <Rect Name="DialogEditorInfoBW" X=" 84" Y=" 150" W=" 102" H=" 14"/>
-  <Rect Name="DialogEditorInfoW" X=" 86" Y=" 150" W=" 97" H=" 14"/>
-  <Rect Name="DialogEditorInfoTW" X=" 20" Y=" 150" W=" 105" H=" 14"/>
-
-  <Rect Name="DialogEditorDebugInfoBW" X=" 84" Y=" 170" W=" 202" H=" 14"/>
-  <Rect Name="DialogEditorDebugInfoW" X=" 86" Y=" 170" W=" 197" H=" 14"/>
-  <Rect Name="DialogEditorDebugInfoTW" X=" 20" Y=" 170" W=" 40" H=" 14"/>
-
-  <Rect Name="DialogEditorWorkFunstionBW" X=" 84" Y=" 210" W=" 202" H=" 14"/>
-  <Rect Name="DialogEditorWorkFunstionW" X=" 86" Y=" 210" W=" 197" H=" 14"/>
-  <Rect Name="DialogEditorWorkFunstionTW" X=" 20" Y=" 210" W=" 40" H=" 14"/>
-
-  <Rect Name="DialogEditorNameBW" X=" 84" Y=" 190" W=" 102" H=" 14"/>
-  <Rect Name="DialogEditorNameW" X=" 86" Y=" 190" W=" 97" H=" 14"/>
-  <Rect Name="DialogEditorNameTW" X=" 20" Y=" 190" W=" 40" H=" 14"/>
-
-
-  <Rect Name="Dialogs_List" X=" 20" Y=" 40" W=" 250" H=" 150"/>
-  <Rect Name="Dialogs_List_ScrollBack" X=" 280" Y=" 35" W=" 14" H=" 160"/>
-  <Rect Name="Dialogs_List_Scroll" X=" 280" Y=" 35" W=" 1" H=" 140"/>
-  <Rect Name="Dialogs_List_ScrollButton" X=" 281" Y=" 174" W=" 8" H=" 20"/>
-  <Rect Name="DialogEditorButtonOpenDialog" X=" 180" Y=" 200" W=" 100" H=" 15"/>
-
-  <Rect Name="Dialogs_List_Group" X=" 20" Y=" 220" W=" 150" H=" 100"/>
-  <Rect Name="Dialogs_List_Group_ScrollBack" X=" 180" Y=" 220" W=" 14" H=" 100"/>
-  <Rect Name="Dialogs_List_Group_Scroll" X=" 180" Y=" 220" W=" 1" H=" 80"/>
-  <Rect Name="Dialogs_List_Group_ScrollButton" X=" 181" Y=" 355" W=" 8" H=" 20"/>
-
-  <Rect Name="DialogEditorDialogName" X=" 20" Y=" 30" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorDialogNameS" X=" 105" Y=" 30" W=" 100" H=" 14"/>
-  <Rect Name="DialogEditorDialogInfo" X=" 20" Y=" 42" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorDialogInfoE" X=" 105" Y=" 42" W=" 100" H=" 14"/>
-  <Rect Name="DialogEditorDialogGroup" X=" 20" Y=" 54" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorDialogGroupS" X=" 105" Y=" 54" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorButtonApply" X=" 20" Y=" 330" W=" 50" H=" 15"/>
-  <Rect Name="DialogEditorDialogFile" X=" 20" Y=" 66" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorDialogFileE" X=" 105" Y=" 66" W=" 200" H=" 14"/>
-
-  <Rect Name="DialogEditorDialogFileInfo" X=" 20" Y=" 78" W=" 40" H=" 14"/>
-  <Rect Name="DialogEditorDialogFileInfoE" X=" 105" Y=" 78" W=" 200" H=" 14"/>
-  <Rect Name="DialogEditorButtonApplyDialog" X=" 245" Y=" 327" W=" 50" H=" 15"/>
-
-  <Rect Name="DialogEditorButtonOpenChild" X=" 80" Y=" 120" W=" 50" H=" 15"/>
-  <Rect Name="DialogEditorItemHasChild" X=" 130" Y=" 120" W=" 16" H=" 16"/>
-  <Rect Name="DialogEditorButtonOpenParent" X=" 20" Y=" 120" W=" 60" H=" 15"/>
-
-  <Rect Name="Dialogs_Item_List" X=" 20" Y=" 140" W=" 250" H=" 150"/>
-  <Rect Name="Dialogs_Item_List_ScrollBack" X=" 280" Y=" 135" W=" 14" H=" 160"/>
-  <Rect Name="Dialogs_Item_List_Scroll" X=" 280" Y=" 135" W=" 1" H=" 140"/>
-  <Rect Name="Dialogs_Item_List_ScrollButton" X=" 281" Y=" 274" W=" 8" H=" 20"/>
-
-</Rectangles>
-
-
-<!-- Äèàëîã: Ðåäàêòîð äèàëîãîâ -->
 <DialogEditor Id="500000" Worker="Menu_DialogEditor">
-  <Item	Id="498" Rect="Common_WholeScreen" ENB="0"/>
-  <Item Id="499" Name="MainPanel" Rect="DialogEditorPanelV" ENB="1" Move="1">
-    <Image Id="503" Rect="DialogEditorPanel" Shader="217" ENB="0"/>
-
-    <Item Id="550" Name="ButtonsPanel" RadioGroup="1">
-      <Button Id="551" Name="CB1" Rect="DialogEditorChangePanel1"  Text="editor_edit_panel1" ColorARGB="1 0.88 0.90 0.88" FontSet="small"  Normal="92" Active="4" Check="4" ENB="1" />
-      <Button Id="552" Name="CB2" Rect="DialogEditorChangePanel2"  Text="editor_edit_panel2" ColorARGB="1 0.88 0.90 0.88" FontSet="small"  Normal="92" Active="4" Check="4" ENB="1" />
-      <Button Id="553" Name="CB3" Rect="DialogEditorChangePanel3"  Text="editor_edit_panel3" ColorARGB="1 0.88 0.90 0.88" FontSet="small"  Normal="92" Active="4" Check="4" ENB="1" />
+  <Item ENB="0" X="-800" Y="-600" W="2400" H="1800"/>
+  <Item ENB="0" X="-800" Y="-600" W="2400" H="1800"/>
+  <Image Name="MainPanel" Style="window" X="-71" Y="50" W="335" H="400" ENB="1" Move="1" Angle="180">
+    <Image Style="window" X="-71" Y="82" W="335" H="400" ENB="1" VpX="-71" VpY="89" VpW="335" VpH="400"/>
+    <Item Name="ButtonsPanel" RadioGroup="1">
+      <Button Style="editor_inset" Name="CB1" Text="editor_edit_panel1" ENB="1" X="-56" Y="68" W="86" H="18"/>
+      <Button Style="editor_inset" Name="CB2" Text="editor_edit_panel2" ENB="1" X="34" Y="68" W="86" H="18"/>
+      <Button Style="editor_inset" Name="CB3" Text="editor_edit_panel3" ENB="1" X="124" Y="68" W="86" H="18"/>
     </Item>
-
-    <Button Id="501" Rect="DialogEditorButtonExit"     FontSet="normal"  Normal="219" Active="218" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="quit;" />
-
-    <Item Id="500" Name="Panel1">
-      <Item Id="509" Name="Item">
-        <Image Id="510" Rect="DialogEditorEditBX" Shader="4" ENB="1"/>
-        <Text Id="511" Rect="DialogEditorEditTX" Align="LEFT"  Text="editor_edit_x" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="512" Name="TargetX" UseHooks="1"  Rect="DialogEditorEditX" Align="LEFT" Number="1"  MaxLength="4" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-        <Button Id="513" Name="TargetXInc" Rect="DialogEditorX_Inc"           TextureW="16" TextureH="16" Normal="54" Active="55"/>
-        <Button Id="514" Name="TargetXDec" Rect="DialogEditorX_Dec"           TextureW="16" TextureH="16" Normal="52" Active="53"/>
-
-        <Image Id="515" Rect="DialogEditorEditBY" Shader="4" ENB="1"/>
-        <Text Id="516" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_y" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="517" Name="TargetY" UseHooks="1" Rect="DialogEditorEditY" Align="LEFT" Number="1"  MaxLength="4" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-        <Button Id="518" Name="TargetYInc" Rect="DialogEditorY_Inc"           TextureW="16" TextureH="16" Normal="54" Active="55"/>
-        <Button Id="519" Name="TargetYDec" Rect="DialogEditorY_Dec"           TextureW="16" TextureH="16" Normal="52" Active="53"/>
-
-
-        <Image Id="520" Rect="DialogEditorEditBW" Shader="4" ENB="1"/>
-        <Text Id="521" Rect="DialogEditorEditTW"  Align="LEFT" Text="editor_edit_w" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="522" Name="TargetW" UseHooks="1" Rect="DialogEditorEditW" Align="LEFT" Number="1"  MaxLength="4" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-        <Button Id="523" Name="TargetWInc" Rect="DialogEditorW_Inc"           TextureW="16" TextureH="16" Normal="54" Active="55"/>
-        <Button Id="524" Name="TargetWDec" Rect="DialogEditorW_Dec"           TextureW="16" TextureH="16" Normal="52" Active="53"/>
-
-
-        <Image Id="525" Rect="DialogEditorEditBH" Shader="4" ENB="1"/>
-        <Text Id="526" Rect="DialogEditorEditTH"   Align="LEFT" Text="editor_edit_h" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="527" Name="TargetH" UseHooks="1" Rect="DialogEditorEditH" Align="LEFT" Number="1"  MaxLength="4" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-        <Button Id="528" Name="TargetHInc" Rect="DialogEditorH_Inc"           TextureW="16" TextureH="16" Normal="54" Active="55"/>
-        <Button Id="529" Name="TargetHDec" Rect="DialogEditorH_Dec"           TextureW="16" TextureH="16" Normal="52" Active="53"/>
-
-        <Image Id="580" Rect="DialogEditorInnerBorderBW" Shader="4" ENB="1"/>
-        <Text Id="581" Rect="DialogEditorInnerBorderTW"  Align="LEFT" Text="editor_edit_inner_border_w" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="582" Name="TargetInnerBorderW"  Rect="DialogEditorInnerBorderEditW" Align="LEFT" Number="1"  MaxLength="4" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-
-        <Image Id="583" Rect="DialogEditorInnerBorderBH" Shader="4" ENB="1"/>
-        <Text Id="584" Rect="DialogEditorInnerBorderTH"   Align="LEFT" Text="editor_edit_inner_border_h" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="585" Name="TargetInnerBorderH"  Rect="DialogEditorInnerBorderEditH" Align="LEFT" Number="1"  MaxLength="4" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-
-        <Image Id="590" Rect="DialogEditorKeyBW" Shader="4" ENB="1"/>
-        <Text Id="591" Rect="DialogEditorKeyTW"  Align="LEFT" Text="editor_edit_key" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="592" Name="TargetKey"  Rect="DialogEditorKeyW" Align="LEFT" MaxLength="8" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-
-        <Text Id="594" Rect="DialogEditorInfoTW"  Align="LEFT" Text="editor_edit_info" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <Text Id="595" Name="TargetInfo" Rect="DialogEditorInfoW" Align="LEFT" MaxLength="100" FontSet="small"  ColorARGB="1 0.88 0.90 0.88" />
-
-        <Image Id="596" Rect="DialogEditorDebugInfoBW" Shader="4" ENB="1"/>
-        <Text Id="597" Rect="DialogEditorDebugInfoTW"  Align="LEFT" Text="editor_edit_debug_info" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="598" Name="TargetDebugInfo" Viewport="DialogEditorDebugInfoW" InnerBorderW="2" Rect="DialogEditorDebugInfoW" Align="LEFT" MaxLength="100" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-
-        <Image Id="610" Rect="DialogEditorNameBW" Shader="4" ENB="1"/>
-        <Text Id="611" Rect="DialogEditorNameTW"  Align="LEFT" Text="editor_edit_name" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="612" Name="TargetName" Viewport="DialogEditorNameW" InnerBorderW="2"  Rect="DialogEditorNameW" Align="LEFT" MaxLength="100" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-
-        <Image Id="615" Rect="DialogEditorWorkFunstionBW" Shader="4" ENB="1"/>
-        <Text Id="616" Rect="DialogEditorWorkFunstionTW"  Align="LEFT" Text="editor_edit_work_function" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="617" Name="TargetWorkFunstion" Viewport="DialogEditorWorkFunstionW" InnerBorderW="2" Rect="DialogEditorWorkFunstionW" Align="LEFT" MaxLength="100" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-
-        <Text Id="530" Rect="DialogEditorTextMoving" Align="LEFT"  Text="editor_moving" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <Button Id="531" Name="CheckMoving" Rect="DialogEditorButtonMoving" Text="empty" Normal="12" Active="12" Check="13" />
-
-        <Text Id="532" Rect="DialogEditorTextShowHide" Align="LEFT"  Text="editor_show_hide" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <Button Id="533" Name="CheckShowHide" Rect="DialogEditorButtonShowHide" Text="empty" Normal="12" Active="12" Check="13" />
-
-        <Image Id="570" Name="ItemRect" Shader="220" VIS="0" ENB="0"/>
-        <Image Id="571" Name="ItemViewPort" Shader="221" VIS="0" ENB="0"/>
-        <Image Id="572" Name="ItemTexture" Shader="222" VIS="0" ENB="0"/>
-
-        <Item Id="560" Name="Rects" RadioGroup="1">
-          <Button Id="561" Name="rect" Rect="DialogEditorChangeRect1"  Text="editor_edit_rect1" ColorARGB="1 0.88 0.90 0.88" FontSet="small"  Normal="92" Active="4" Check="4" ENB="1" />
-          <Button Id="562" Name="viewport" Rect="DialogEditorChangeRect2"  Text="editor_edit_rect2" ColorARGB="1 0.88 0.90 0.88" FontSet="small"  Normal="92" Active="4" Check="4" ENB="1" />
-          <Button Id="563" Name="texture" Rect="DialogEditorChangeRect3"  Text="editor_edit_rect3" ColorARGB="1 0.88 0.90 0.88" FontSet="small"  Normal="92" Active="4" Check="4" ENB="1" />
+    <Button FontSet="normal" Normal="219" Active="218" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="quit;" X="236" Y="65" W="16" H="16"/>
+    <Image Name="Platform" Style="window" X="-71" Y="154" W="335" H="400" ENB="1" VpX="-71" VpY="475" VpW="335" VpH="80">
+      <Text Align="LEFT" Text="editor_edit_show_platform" Style="editor_label" X="-50" Y="477" W="312" H="14"/>
+      <Button Name="Desktop" Style="editor_inset" Text="Desktop" ENB="1" X="-45" Y="492" W="50" H="18"/>
+      <Button Name="Mobile" Style="editor_inset" Text="Mobile" ENB="1" X="-44" Y="516" W="50" H="18"/>
+      <Button Name="Win32" Style="editor_inset" Text="Win32" ENB="1" X="35" Y="492" W="50" H="18"/>
+      <Button Name="Linux" Style="editor_inset" Text="Linux" ENB="1" X="145" Y="492" W="50" H="18"/>
+      <Button Name="OSX" Style="editor_inset" Text="OSX" ENB="1" X="196" Y="492" W="50" H="18"/>
+      <Button Name="WinRT_PC" Style="editor_inset" Text="WinRT_PC" ENB="1" X="87" Y="492" W="56" H="18"/>
+      <Button Name="WinRT_Mobile" Style="editor_inset" Text="WinRT_M" ENB="1" X="87" Y="516" W="56" H="18"/>
+      <Button Name="Android" Style="editor_inset" Text="Android" ENB="1" X="35" Y="516" W="50" H="18"/>
+      <Button Name="iOS" Style="editor_inset" Text="iOS" ENB="1" X="145" Y="516" W="50" H="18"/>
+    </Image>
+    <Item Name="Panel1">
+      <Item Name="Item">
+        <Text Align="LEFT" Text="editor_edit_x" Style="editor_label" X="-50" Y="157" W="40" H="14"/>
+        <TextField Style="editor" Name="TargetX" Align="LEFT" Number="1" MaxLength="4" X="-19" Y="156" W="50" H="16"/>
+        <Button Name="TargetXInc" Style="plus" X="33" Y="156" W="16" H="16"/>
+        <Button Name="TargetXDec" Style="minus" X="-36" Y="156" W="16" H="16"/>
+        <Text Align="LEFT" Text="editor_edit_y" Style="editor_label" X="-50" Y="188" W="40" H="14"/>
+        <TextField Style="editor" Name="TargetY" Align="LEFT" Number="1" MaxLength="4" X="-19" Y="187" W="50" H="16"/>
+        <Button Name="TargetYInc" Style="plus" X="-3" Y="203" W="16" H="16"/>
+        <Button Name="TargetYDec" Style="minus" X="-3" Y="172" W="16" H="16"/>
+        <Text Align="LEFT" Text="editor_edit_w" Style="editor_label" X="92" Y="157" W="60" H="14"/>
+        <TextField Style="editor" Name="TargetW" Align="LEFT" Number="1" MaxLength="4" X="158" Y="156" W="50" H="16"/>
+        <Button Name="TargetWInc" Style="plus" X="210" Y="156" W="16" H="16"/>
+        <Button Name="TargetWDec" Style="minus" X="141" Y="156" W="16" H="16"/>
+        <Text Align="LEFT" Text="editor_edit_h" Style="editor_label" X="92" Y="188" W="60" H="14"/>
+        <TextField Style="editor" Name="TargetH" Align="LEFT" Number="1" MaxLength="4" X="158" Y="187" W="50" H="16"/>
+        <Button Name="TargetHInc" Style="plus" X="174" Y="203" W="16" H="16"/>
+        <Button Name="TargetHDec" Style="minus" X="174" Y="172" W="16" H="16"/>
+        <Text Align="LEFT" Text="editor_edit_inner_border_w" Style="editor_label" X="-50" Y="225" W="80" H="14"/>
+        <TextField Style="editor" Name="TargetInnerBorderW" Align="LEFT" Number="1" MaxLength="4" X="25" Y="224" W="40" H="16"/>
+        <Text Align="LEFT" Text="editor_edit_inner_border_h" Style="editor_label" X="92" Y="225" W="80" H="14"/>
+        <TextField Style="editor" Name="TargetInnerBorderH" Align="LEFT" Number="1" MaxLength="4" X="159" Y="224" W="40" H="16"/>
+        <Text Align="LEFT" Text="editor_edit_key" Style="editor_label" X="-50" Y="246" W="80" H="14"/>
+        <TextField Style="editor" Name="TargetKey" Align="LEFT" MaxLength="8" X="25" Y="245" W="40" H="16"/>
+        <Text Align="LEFT" Text="editor_edit_info" Style="editor_label" X="-50" Y="265" W="80" H="14"/>
+        <Text Name="TargetInfo" Align="LEFT" MaxLength="100" FontSet="small" ColorARGB="1 0.88 0.90 0.88" X="25" Y="265" W="97" H="14"/>
+        <Text Align="LEFT" Text="editor_edit_debug_info" Style="editor_label" X="-50" Y="284" W="80" H="14"/>
+        <TextField Style="editor" Name="TargetDebugInfo" Align="LEFT" MaxLength="100" X="25" Y="283" W="197" H="16"/>
+        <Text Align="LEFT" Text="editor_edit_name" Style="editor_label" X="-50" Y="305" W="80" H="14"/>
+        <TextField Style="editor" Name="TargetName" Align="LEFT" MaxLength="100" X="25" Y="304" W="97" H="16"/>
+        <Text Align="LEFT" Text="editor_edit_work_function" Style="editor_label" X="-50" Y="327" W="80" H="14"/>
+        <TextField Style="editor" Name="TargetWorkFunstion" Align="LEFT" MaxLength="100" X="25" Y="326" W="197" H="16"/>
+        <Text Align="LEFT" Text="editor_moving" Style="editor_label" X="-21" Y="351" W="140" H="16"/>
+        <Button Name="CheckMoving" Style="checkbox" Text="empty" X="-51" Y="347" W="24" H="24"/>
+        <Text Align="LEFT" Text="editor_show_hide" Style="editor_label" X="-22" Y="379" W="140" H="16"/>
+        <Button Name="CheckShowHide" Style="checkbox" Text="empty" X="-51" Y="375" W="24" H="24"/>
+        <Text Align="LEFT" Text="editor_show_tools" Style="editor_label" X="-21" Y="407" W="140" H="16"/>
+        <Button Name="CheckShowTools" Style="checkbox" Text="empty" X="-51" Y="403" W="24" H="24"/>
+        <Item Name="Rects" RadioGroup="1">
+          <Button Name="rect" Style="editor_inset" Text="editor_edit_rect1" X="-50" Y="133" W="70" H="15"/>
+          <Button Name="viewport" Style="editor_inset" Text="editor_edit_rect2" X="21" Y="133" W="110" H="15"/>
+          <Button Name="texture" Style="editor_inset" Text="editor_edit_rect3" X="132" Y="133" W="110" H="15"/>
         </Item>
       </Item>
-      <Item Id="900" Name="Image">
-        <Image Id="910" Rect="DialogEditorEditBX" Shader="4" ENB="1"/>
-        <Text Id="911" Rect="DialogEditorEditTX" Align="LEFT"  Text="editor_edit_image_shader" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="912" Name="Shader" UseHooks="1"  Rect="DialogEditorEditX" Align="LEFT" Number="1"  MaxLength="4" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-        <Text Id="913" Name="NameShader" Rect="DialogEditorEditTW"  Align="LEFT" FontSet="small"  ColorARGB="1 0.88 0.90 0.88"/>
-
-        <Image Id="920" Rect="DialogEditorEditBY" Shader="4" ENB="1"/>
-        <Text Id="921" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_image_angle" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-        <EditText Id="922" Name="Angle" UseHooks="1" Rect="DialogEditorEditY" Align="LEFT" MaxLength="4" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-
+      <Item Name="Image">
+        <Text Align="LEFT" Text="editor_edit_image_shader" Style="editor_label" X="-50" Y="142" W="80" H="14"/>
+        <TextField Style="editor" Name="Shader" Align="LEFT" Number="1" MaxLength="4" X="35" Y="142" W="40" H="14"/>
+        <Text Name="NameShader" Align="LEFT" VAlign="TOP" Style="editor_label" X="85" Y="142" W="160" H="29"/>
+        <Text Align="LEFT" Text="editor_edit_image_angle" Style="editor_label" X="-50" Y="172" W="80" H="14"/>
+        <TextField Style="editor" Name="Angle" Align="LEFT" MaxLength="4" X="35" Y="172" W="40" H="14"/>
       </Item>
-      <Item Id="1000" Name="Model">
-        <Text Id="1001" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_panel1_model" FontSet="small"  ColorARGB="1 1 1 0.56"/>
+      <Item Name="Model">
+        <Text Align="LEFT" Text="editor_edit_panel1_model"  Style="editor_label" X="-41" Y="172" W="40" H="14"/>
       </Item>
-      <Item Id="1100" Name="Text">
-        <Text Id="1101" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_panel1_text" FontSet="small"  ColorARGB="1 1 1 0.56"/>
+      <Item Name="Text">
+        <Text Align="LEFT" Text="editor_edit_panel1_text"  Style="editor_label" X="-41" Y="172" W="40" H="14"/>
       </Item>
-      <Item Id="1200" Name="ToolTips">
-        <Text Id="1201" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_panel1_tool_tips" FontSet="small"  ColorARGB="1 1 1 0.56"/>
+      <Item Name="ToolTips">
+        <Text Align="LEFT" Text="editor_edit_panel1_tool_tips"  Style="editor_label" X="-41" Y="172" W="40" H="14"/>
       </Item>
-      <Item Id="1300" Name="Progress">
-        <Text Id="1301" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_panel1_progress" FontSet="small"  ColorARGB="1 1 1 0.56"/>
+      <Item Name="Progress">
+        <Text Align="LEFT" Text="editor_edit_panel1_progress"  Style="editor_label" X="-41" Y="172" W="40" H="14"/>
       </Item>
-      <Item Id="1400" Name="Window">
-        <Text Id="1401" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_panel1_window" FontSet="small"  ColorARGB="1 1 1 0.56"/>
+      <Item Name="Window">
+        <Text Align="LEFT" Text="editor_edit_panel1_window"  Style="editor_label" X="-41" Y="172" W="40" H="14"/>
       </Item>
-      <Item Id="1500" Name="EditText">
-        <Text Id="1501" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_panel1_edit_text" FontSet="small"  ColorARGB="1 1 1 0.56"/>
+      <Item Name="EditText">
+        <Text Align="LEFT" Text="editor_edit_panel1_edit_text"  Style="editor_label" X="-41" Y="172" W="40" H="14"/>
       </Item>
-      <Item Id="1600" Name="Button">
-        <Text Id="1601" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_panel1_button" FontSet="small"  ColorARGB="1 1 1 0.56"/>
+      <Item Name="Button">
+        <Text Align="LEFT" Text="editor_edit_panel1_button"  Style="editor_label" X="-41" Y="172" W="40" H="14"/>
       </Item>
-      <Item Id="1700" Name="List">
-        <Text Id="1701" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_panel1_list" FontSet="small"  ColorARGB="1 1 1 0.56"/>
+      <Item Name="List">
+        <Text Align="LEFT" Text="editor_edit_panel1_list"  Style="editor_label" X="-41" Y="172" W="40" H="14"/>
       </Item>
-      <Item Id="1800" Name="ProgressControl">
-        <Text Id="1801" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_panel1_progress_control" FontSet="small"  ColorARGB="1 1 1 0.56"/>
+      <Item Name="ProgressControl">
+        <Text Align="LEFT" Text="editor_edit_panel1_progress_control"  Style="editor_label" X="-41" Y="172" W="40" H="14"/>
       </Item>
-      <Item Id="1900" Name="Slider">
-        <Text Id="1901" Rect="DialogEditorEditTY"  Align="LEFT" Text="editor_edit_panel1_slider" FontSet="small"  ColorARGB="1 1 1 0.56"/>
+      <Item Name="Slider">
+        <Text Align="LEFT" Text="editor_edit_slider_scroll_size" Style="editor_label" X="-50" Y="142" W="80" H="14"/>
+        <TextField Style="editor" Name="ScrollSize" Align="LEFT" Number="1" MaxLength="4" X="35" Y="142" W="40" H="14"/>
       </Item>
-
-      <Button Id="600" Name="SaveSetting" Rect="DialogEditorButtonApply"  Text="editor_edit_apply"   FontSet="small"  Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Key="enter" />
-      <Button Id="601" Name="SaveAndShildrenSetting" Rect="DialogEditorButtonApplyAndShild"  Text="editor_edit_apply_and_child"   FontSet="small"  Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Key="enter" />
-      <Item Id="650" Name="ItemType" RadioGroup="1">
-        <Button Id="651" Name="type1" Rect="DialogEditorItemType"  ColorARGB="1 0.88 0.90 0.88" FontSet="small"  Normal="92" Active="4" Check="4" ENB="0" VIS="0"  />
-        <Button Id="652" Name="type2" Rect="DialogEditorItemType"  ColorARGB="1 0.88 0.90 0.88" FontSet="small"  Normal="92" Active="4" Check="4" ENB="0" VIS="0" />
-        <Button Id="653" Name="type3" Rect="DialogEditorItemType"  ColorARGB="1 0.88 0.90 0.88" FontSet="small"  Normal="92" Active="4" Check="4" ENB="0" VIS="0" />
-        <Button Id="654" Name="type4" Rect="DialogEditorItemType"  ColorARGB="1 0.88 0.90 0.88" FontSet="small"  Normal="92" Active="4" Check="4" ENB="0" VIS="0" />
+      <Item Name="Platform">
+        <Button Name="Desktop" Style="editor_inset" Text="Desktop" ENB="1" X="-45" Y="141" W="50" H="18"/>
+        <Button Name="Mobile" Style="editor_inset" Text="Mobile" ENB="1" X="-44" Y="190" W="50" H="18"/>
+        <Button Name="Win32" Style="editor_inset" Text="Win32" ENB="1" X="15" Y="156" W="50" H="18"/>
+        <Button Name="Linux" Style="editor_inset" Text="Linux" ENB="1" X="135" Y="156" W="50" H="18"/>
+        <Button Name="OSX" Style="editor_inset" Text="OSX" ENB="1" X="191" Y="156" W="50" H="18"/>
+        <Button Name="WinRT_PC" Style="editor_inset" Text="WinRT_PC" ENB="1" X="72" Y="156" W="56" H="18"/>
+        <Button Name="WinRT_Mobile" Style="editor_inset" Text="WinRT_M" ENB="1" X="72" Y="205" W="56" H="18"/>
+        <Button Name="Android" Style="editor_inset" Text="Android" ENB="1" X="15" Y="205" W="50" H="18"/>
+        <Button Name="iOS" Style="editor_inset" Text="iOS" ENB="1" X="135" Y="205" W="50" H="18"/>
+      </Item>
+      <Button Style="editor_default" Name="SaveAndShildrenSetting" Text="editor_edit_apply_and_child" X="103" Y="440" W="146" H="24"/>
+      <Button Style="editor_default" Name="SaveSetting" Text="editor_edit_apply" X="-58" Y="440" W="146" H="24"/>
+      <Image Style="div" X="-55" Y="107" W="300" H="32" ENB="0"/>
+      <Item Name="ItemType" RadioGroup="1">
+        <Button Name="SupportPlatform" Style="editor_inset" Text="editor_edit_support_platform" ENB="1" VIS="1" X="179" Y="102" W="70" H="15"/>
+        <Button Name="type1" Style="editor_inset" ENB="1" VIS="1" X="-26" Y="102" W="40" H="15"/>
+        <Button Name="type2" Style="editor_inset" ENB="1" VIS="1" X="-26" Y="102" W="40" H="15"/>
+        <Button Name="type3" Style="editor_inset" ENB="1" VIS="1" X="-26" Y="102" W="40" H="15"/>
+        <Button Name="type4" Style="editor_inset" ENB="1" VIS="1" X="-26" Y="102" W="40" H="15"/>
       </Item>
     </Item>
-
-    <Item Id="699" Name="Panel2">
-
-      <List Id="700" Name="DialogList" Rect="Dialogs_List"                        Viewport="Dialogs_List"             Gap="3" VIS="1" ENB="0">
-        <Button Name="Prototype" Id="701" Rect="Dialogs_List" FontSet="small" InnerBorderW="5" InnerBorderH="5"    ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Active="3" Check="4" Align="LEFT" WordWrap="1" VIS="0" ENB="0" />
-        <Image  Id="702" Rect="Dialogs_List_ScrollBack"             Shader="86" VIS="1" ENB="1" />
-        <Slider Id="703" Rect="Dialogs_List_ScrollButton"           LineRect="Dialogs_List_Scroll"      ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0"/>
+    <Item Name="Panel2">
+      <Text Align="LEFT" Text="editor_edit_panel2_groups" Style="editor_label" X="-50" Y="102" W="200" H="14"/>
+      <Text Align="LEFT" Text="editor_edit_panel2_group" Style="editor_label" X="-50" Y="256" W="200" H="14"/>
+      <List Name="GroupDialogList" Style="editor_list" Gap="3" VIS="1" ENB="1" X="-41" Y="122" W="250" H="125" VpX="-41" VpY="122" VpW="250" VpH="125">
+        <Button Name="Prototype" Style="editor_list_prototype" InnerBorderW="5" InnerBorderH="5" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="-41" Y="122" W="250" H="125"/>
+        <Image Style="scroll_back" VIS="1" ENB="1" X="219" Y="122" W="14" H="125"/>
+        <Slider Style="scroll" Vertical="1" SliderPos="0" X="218" Y="122" W="16" H="41" ScrollSize="85"/>
       </List>
-      <Button Name="OpenDialog" Id="710" Rect="DialogEditorButtonOpenDialog"  Text="editor_edit_open_dialog"   FontSet="small"  Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Key="enter" />
-
-      <List Id="720" Name="GroupDialogList" Rect="Dialogs_List_Group"                        Viewport="Dialogs_List_Group"             Gap="3" VIS="1" ENB="0">
-        <Button Name="Prototype" Id="721" Rect="Dialogs_List_Group" FontSet="small" InnerBorderW="5" InnerBorderH="5"    ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Active="3" Check="4" Align="LEFT" WordWrap="1" VIS="0" ENB="0" />
-        <Image  Id="722" Rect="Dialogs_List_Group_ScrollBack"             Shader="86" VIS="1" ENB="1" />
-        <Slider Id="723" Rect="Dialogs_List_Group_ScrollButton"           LineRect="Dialogs_List_Group_Scroll"      ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0"/>
+      <List Name="DialogList" Style="editor_list" Gap="3" VIS="1" ENB="1" X="-41" Y="277" W="250" H="150" VpX="-41" VpY="277" VpW="250" VpH="150">
+        <Button Name="Prototype" Style="editor_list_prototype" InnerBorderW="5" InnerBorderH="5" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="-41" Y="277" W="250" H="150"/>
+        <Image Style="scroll_back" VIS="1" ENB="1" X="219" Y="272" W="14" H="160"/>
+        <Slider Style="scroll" Vertical="1" SliderPos="0" X="218" Y="272" W="16" H="41" ScrollSize="118"/>
       </List>
-
+      <Button Style="editor_default" Name="OpenDialog" Text="editor_edit_open_dialog" Key="enter" X="101" Y="440" W="146" H="24"/>
     </Item>
-
-    <Item Id="800" Name="Panel3">
-      <Text Id="810" Rect="DialogEditorDialogName" Align="LEFT"  Text="editor_edit_panel3_dialog" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-      <Text Id="811" Name="DialogName" Rect="DialogEditorDialogNameS" Align="LEFT" FontSet="small"  ColorARGB="1 0.88 0.90 0.88"/>
-
-
-      <Text Id="815" Rect="DialogEditorDialogInfo" Align="LEFT"  Text="editor_edit_panel3_info" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-      <EditText Id="816" Name="DialogInfo"  Rect="DialogEditorDialogInfoE" Align="LEFT" MaxLength="40" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-
-      <Text Id="820" Rect="DialogEditorDialogGroup" Align="LEFT"  Text="editor_edit_panel3_group" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-      <Text Id="821" Name="DialogGroup" Rect="DialogEditorDialogGroupS" Align="LEFT"  FontSet="small"  ColorARGB="1 0.88 0.90 0.88"/>
-
-      <Text Id="825" Rect="DialogEditorDialogFile" Align="LEFT"  Text="editor_edit_panel3_file" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-      <EditText Id="826" Name="DialogFile"  Rect="DialogEditorDialogFileE" Align="LEFT" MaxLength="40" FontSet="small"  ColorARGB="1 0.91 0.73 0" />
-
-      <Text Id="830" Rect="DialogEditorDialogFileInfo" Align="LEFT"  Text="editor_edit_panel3_file_info" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-      <Text Id="831" Name="DialogGroupFile" Rect="DialogEditorDialogFileInfoE" Align="LEFT"  FontSet="small"  ColorARGB="1 0.88 0.90 0.88"/>
-
-      <List Id="850" Name="ItemsList" Rect="Dialogs_Item_List"                        Viewport="Dialogs_Item_List"             Gap="3" VIS="1" ENB="0" >
-        <Button Name="Prototype" Id="851" Rect="Dialogs_Item_List" FontSet="small" InnerBorderW="5" InnerBorderH="5"    ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Active="3" Check="4" Align="LEFT" WordWrap="1" VIS="0" ENB="0" />
-        <Image  Id="852" Rect="Dialogs_Item_List_ScrollBack"             Shader="86" VIS="1" ENB="1" />
-        <Slider Id="853" Rect="Dialogs_Item_List_ScrollButton"           LineRect="Dialogs_Item_List_Scroll"      ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0"/>
+    <Item Name="Panel3">
+      <Text Align="LEFT" Text="editor_edit_panel3_dialog" Style="editor_label" X="-55" Y="105" W="80" H="14"/>
+      <Text Name="DialogName" Align="LEFT" FontSet="small" ColorARGB="1 0.88 0.90 0.88" X="45" Y="105" W="200" H="14"/>
+      <Text Align="LEFT" Text="editor_edit_panel3_info" Style="editor_label" X="-55" Y="122" W="80" H="14"/>
+      <TextField Style="editor" Name="DialogInfo" Align="LEFT" MaxLength="40" X="44" Y="121" W="200" H="16"/>
+      <Text Align="LEFT" Text="editor_edit_panel3_group" Style="editor_label" X="-55" Y="140" W="80" H="14"/>
+      <Text Name="DialogGroup" Align="LEFT" FontSet="small" ColorARGB="1 0.88 0.90 0.88" X="44" Y="140" W="200" H="14"/>
+      <Text Align="LEFT" Text="editor_edit_panel3_file" Style="editor_label" X="-55" Y="159" W="80" H="14"/>
+      <TextField Style="editor" Name="DialogFile" Align="LEFT" MaxLength="40" X="44" Y="158" W="200" H="16"/>
+      <Text Align="LEFT" Text="editor_edit_panel3_file_info" Style="editor_label" X="-55" Y="182" W="100" H="14"/>
+      <Text Name="DialogGroupFile" Align="LEFT" FontSet="small" ColorARGB="1 0.88 0.90 0.88" X="45" Y="181" W="200" H="14"/>
+      <List Name="ItemsList" Style="editor_list" Gap="3" VIS="1" ENB="1" X="-55" Y="232" W="275" H="200" VpX="-55" VpY="232" VpW="275" VpH="200">
+        <Button Name="Prototype" Style="editor_list_prototype" InnerBorderW="5" InnerBorderH="5" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="-55" Y="232" W="275" H="200"/>
+        <Image Style="scroll_back" VIS="1" ENB="1" X="219" Y="227" W="14" H="210"/>
+        <Slider Style="scroll" Vertical="1" SliderPos="0" X="219" Y="227" W="14" H="20" ScrollSize="190"/>
       </List>
-      <Button Id="860" Name="OpenChild" Rect="DialogEditorButtonOpenChild"  Text="editor_edit_open_child"   FontSet="small"  Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" ENB="0" />
-      <Button Id="861" Name="OpenParent" Rect="DialogEditorButtonOpenParent"  Text="editor_edit_open_parent"   FontSet="small"  Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" />
-      <Button Id="862" Name="ItemHasChild" Rect="DialogEditorItemHasChild" Normal="12" Active="12" Check="13" ENB="0" />
-
-
-      <Text Id="870" Rect="DialogEditorTextUseBackground" Align="LEFT"  Text="editor_use_background" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-      <Button Id="871" Name="UseBackground" Rect="DialogEditorUseBackground" Text="empty" Normal="12" Active="12" Check="13" />
-      <Text Id="872" Rect="DialogEditorTextUseBackgroundViewPort" Align="LEFT"  Text="editor_use_background_viewport" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-      <Button Id="873" Name="UseBackgroundViewPort" Rect="DialogEditorUseBackgroundViewPort" Text="empty" Normal="12" Active="12" Check="13" />
-      <Text Id="874" Rect="DialogEditorTextUseBackgroundTexture" Align="LEFT"  Text="editor_use_background_texture" FontSet="small"  ColorARGB="1 1 1 0.56"/>
-      <Button Id="875" Name="UseBackgroundTexture" Rect="DialogEditorUseBackgroundTexture" Text="empty" Normal="12" Active="12" Check="13" />
-
-
-
-      <Button Id="880" Name="SaveSetting" Rect="DialogEditorButtonApplyDialog"  Text="editor_edit_apply"   FontSet="small"  Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Key="enter" />
-
-
+      <Button Name="OpenChild" Style="editor_default" Text="editor_edit_open_child" ENB="0" X="29" Y="212" W="80" H="15"/>
+      <Button Name="OpenParent" Style="editor_default" Text="editor_edit_open_parent" X="-55" Y="212" W="80" H="15"/>
+      <Button Name="ItemHasChild" Style="checkbox" ENB="0" X="112" Y="207" W="24" H="24"/>
+      <Button Name="SaveSetting" Style="editor_default" Text="editor_edit_apply" X="-58" Y="440" W="146" H="24"/>
     </Item>
-
-  </Item>
+  </Image>
 </DialogEditor>
-<Localization>
-  <Text Key="editor_edit_x"										Value="ïîçèöèÿ ïî X:" />
-  <Text Key="editor_edit_y"										Value="ïîçèöèÿ ïî Y:" />
-  <Text Key="editor_edit_w"										Value="øèðèíà:" />
-  <Text Key="editor_edit_h"										Value="âûñîòà:" />
-  <Text Key="editor_edit_apply"									Value="ÑÎÕÐÀÍÈÒÜ" />
-  <Text Key="editor_edit_apply_and_child"					Value="SAVE ALL" />
-  <Text Key="editor_edit_panel1"								Value="ðåäàêòèðîâàòü" />
-  <Text Key="editor_edit_panel2"								Value="äèàëîãè" />
-  <Text Key="editor_edit_panel3"								Value="óïðàâëåíèå äèàëîãîì" />
-  <Text Key="editor_edit_panel3_info"							Value="Îïèñàíèå:" />
-  <Text Key="editor_edit_panel3_dialog"						Value="Äèàëîã:" />
-  <Text Key="editor_edit_panel3_group"						Value="Ãðóïïà:" />
-  <Text Key="editor_edit_panel3_file"							Value="Ôàéë äèàëîãà:" />
-  <Text Key="editor_edit_panel3_file_info"					Value="Ôàéë îïèñàíèÿ:" />
-  <Text Key="editor_edit_open_dialog"							Value="Îòêðûòü Äèàëîã" />
-  <Text Key="editor_use_background"							Value="Ïîäñâå÷èâàòü Rect:" />
-  <Text Key="editor_use_background_viewport"				Value="Ïîäñâå÷èâàòü ViewPort:" />
-  <Text Key="editor_use_background_texture"					Value="Ïîäñâå÷èâàòü Texture:" />
-  <Text Key="editor_moving"										Value="Ýëåìåíò ïåðåòàñêèâàåìûé:" />
-  <Text Key="editor_show_hide"									Value="Show/Hide" />
-  <Text Key="editor_edit_rect1"									Value="Rect" />
-  <Text Key="editor_edit_rect2"									Value="Viewport" />
-  <Text Key="editor_edit_rect3"									Value="Texture" />
-  <Text Key="editor_edit_inner_border_w"						Value="îòñòóï ãîð:" />
-  <Text Key="editor_edit_inner_border_h"						Value="îòñòóï âåð:" />
-  <Text Key="editor_edit_key"									Value="Ãîðÿ÷àÿ êíîïêà:" />
-  <Text Key="editor_edit_info"									Value="Ïîäñêàçêà:" />
-  <Text Key="editor_edit_debug_info"							Value="Îïèñàíèå:" />
-  <Text Key="editor_edit_name"									Value="Èìÿ ýëåìåíòà:" />
-  <Text Key="editor_edit_work_function"						Value="Îáðàáîò÷èê:" />
-  <Text Key="editor_edit_open_child"							Value="Äî÷åðíèè" />
-  <Text Key="editor_edit_open_parent"							Value="Âûøå óðîâíåì" />
-  <Text Key="editor_edit_panel1_item"							Value="Item" />
-  <Text Key="editor_edit_panel1_image"						Value="Image" />
-  <Text Key="editor_edit_panel1_text"							Value="Text" />
-  <Text Key="editor_edit_panel1_model"						Value="Model" />
-  <Text Key="editor_edit_panel1_tool_tips"					Value="ToolTips" />
-  <Text Key="editor_edit_panel1_progress"					Value="Progress" />
-  <Text Key="editor_edit_panel1_window"						Value="Window" />
-  <Text Key="editor_edit_panel1_edit_text"					Value="EditText" />
-  <Text Key="editor_edit_panel1_button"						Value="Button" />
-  <Text Key="editor_edit_panel1_list"							Value="List" />
-  <Text Key="editor_edit_panel1_progress_control"			Value="ProgressControl" />
-  <Text Key="editor_edit_panel1_slider"						Value="Slider" />
-  <Text Key="editor_edit_image_shader"						Value="Øåéäåð:" />
-  <Text Key="editor_edit_image_angle"							Value="Âðàùåíèå:" />
-</Localization>
