@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: Смерть робота --><!---->
+<!-- Смерть робота --><!---->
 <RobotDeath Id="52000" Worker="Menu_RobotDeath">
     <Item Id="4" Rect="Common_WholeScreen" VIS="1" ENB="1" />
     <Image Id="1" Rect="MsgWndSmallSystem01_Wnd" Shader="143" ENB="0" VIS="1">

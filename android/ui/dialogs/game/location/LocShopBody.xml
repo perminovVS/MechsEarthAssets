@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: магазин корпусов -->
+<!-- магазин корпусов -->
 <LocShopBody Id="64000" Worker="Menu_ShopBody" VIS="1" ENB="1">
     <!-- Кнопка вызова внутриигрового меню -->
     <Button Id="200" Key="escape" VIS="0" Command="create_menu InGame;" ENB="1" />
@@ -17,7 +17,7 @@
     <Button Id="12" TextureW="32" TextureH="32" Normal="0" Active="80" VIS="1" ENB="1" Info="tooltip_robot_buy" X="353" Y="254" W="22" H="18" />
     <!-- Имя и уровень робота -->
     <Text Id="20" Text="empty" Align="LEFT" FontSet="title" ENB="0" X="254" Y="424" W="158" H="18" VIS="1" />
-    <Text Id="21" Text="empty" Align="RIGHT" FontSet="small" ENB="0" X="448" Y="276" W="99" H="9" VIS="1" UseHooks="1" />
+    <Text Id="21" Text="empty" Align="RIGHT" FontSet="small" ENB="0" X="448" Y="276" W="99" H="9" VIS="1" />
     <!-- Здоровье -->
     <Text Id="22" Text="params_robot_health" Align="LEFT" FontSet="small" ENB="0" X="395" Y="294" W="86" H="9" VIS="1" />
     <Text Id="23" Text="empty" Align="RIGHT" FontSet="small" ENB="0" X="481" Y="294" W="67" H="9" VIS="1" />
@@ -47,8 +47,8 @@
     <Text Id="48" Text="game_robot_cost_jet" Info="tooltip_robot_jet_price" Align="LEFT" FontSet="small" ENB="1" X="258" Y="265" W="36" H="10" VIS="1" />
     <Text Id="49" Text="empty" Info="tooltip_robot_jet_price" Align="RIGHT" FontSet="small" ENB="1" X="286" Y="265" W="51" H="10" VIS="1" />
     <!-- Всплывающие подсказки -->
-    <ToolTips Id="700" VIS="1" ENB="1">
-        <Image Id="701" Shader="6" VIS="0" ENB="0" />
-        <Text Id="702" Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+    <ToolTips Id="700">
+        <Image Id="701" Shader="6" />
+        <Text Id="702" Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
     </ToolTips>
 </LocShopBody>

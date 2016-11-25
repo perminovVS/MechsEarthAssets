@@ -4794,13 +4794,10 @@
             "md5": "746c05b7c085ddd1126cb41f194ed4f4"
         },
         "ui/dialogs/tools.xml": {
-            "md5": "485212da079f9cba0aa3c9969157ecd5"
+            "md5": "b99e06761186ba623a9a2d94857c76d4"
         },
         "ui/dialogs/tools/DialogEditor.xml": {
             "md5": "45f453c96a6c141d9060567da9ff6437"
-        },
-        "ui/dialogs/tools/DialogEditor1.xml": {
-            "md5": "051f4d390e8936fbc0424e87a6384a48"
         },
         "ui/localization/ru.xml": {
             "md5": "36ebf2e46f385704d3860a9b44cd14f4"

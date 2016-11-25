@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: Запрос: Да/Нет -->
+<!-- Запрос: Да/Нет -->
 <AskYesNo Id="25000" Worker="Menu_AskYesNo">
     <Image Id="2" Rect="MsgWndSmallSystem02_Wnd" Shader="143" ENB="0">
         <Text Id="3" Text="empty" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" X="246" Y="252" W="309" H="60" VIS="1" ENB="1"  />

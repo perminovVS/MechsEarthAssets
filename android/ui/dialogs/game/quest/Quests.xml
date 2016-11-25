@@ -16,19 +16,19 @@
     <!-- Элемент список -->
     <List Name="QuestList" Gap="3" VIS="1" ENB="0" X="242" Y="141" W="322" H="78" VpX="242" VpY="141" VpW="323" VpH="78">
         <Button Name="Prototype" FontSet="quests_title" InnerBorderW="5" InnerBorderH="5" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Active="3" Check="4" Align="CENTER" WordWrap="1" VIS="0" ENB="0" X="237" Y="141" W="345" H="82" VpX="0" VpY="0" VpW="0" VpH="0" />
-        <Image Shader="86" VIS="1" ENB="0" X="574" Y="138" W="10" H="86" UseHooks="1" />
+        <Image Shader="86" VIS="1" ENB="0" X="574" Y="138" W="10" H="86" />
         <Slider LineRect="Quest_Short_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="573" Y="138" W="10" H="20" VIS="1" ENB="1" />
     </List>
-    <List Name="QuestDesc" Gap="3" VIS="1" ENB="0" X="234" Y="276" W="297" H="136" VpX="229" VpY="271" VpW="340" VpH="146" UseHooks="1">
+    <List Name="QuestDesc" Gap="3" VIS="1" ENB="0" X="234" Y="276" W="297" H="136" VpX="229" VpY="271" VpW="340" VpH="146">
         <Button Name="Prototype" FontSet="quests_desc" InnerBorderW="1" InnerBorderH="5" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.78 0.78 0.78" Active="3" Check="4" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="234" Y="276" W="297" H="136" VpX="230" VpY="272" VpW="330" VpH="134" />
         <Image Shader="86" VIS="1" ENB="0" X="570" Y="273" W="10" H="162" />
         <Slider LineRect="Quest_Detail_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="569" Y="273" W="10" H="20" VIS="1" ENB="1" />
     </List>
     <!-- Кнопка Отказа от квеста-->
-    <Button Name="QuestCancel" Text="quest_cancel" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="105" Active="106" VIS="1" X="466" Y="417" W="103" H="16" ENB="1" UseHooks="1" />
+    <Button Name="QuestCancel" Text="quest_cancel" FontSet="button" ColorARGB="1 0.91 0.73 0" Normal="105" Active="106" VIS="1" X="466" Y="417" W="103" H="16" ENB="1" />
     <!-- Всплывающие подсказки -->
     <ToolTips Name="ToolTips">
-        <Image Shader="6" VIS="0" ENB="0" />
-        <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+        <Image Shader="6" />
+        <Text Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
     </ToolTips>
 </Quests>

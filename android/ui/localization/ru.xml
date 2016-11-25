@@ -67,6 +67,7 @@
   <Text Key="command_chat_nick_enter_text_field" Value="вставить ник в чат" />
   <Text Key="command_chat_reply" Value="ответить" />
   <Text Key="command_chat_private_message" Value="написать лс" />
+  <Text Key="command_chat_gm_message" Value="написать через gm" />
   <Text Key="command_text_open_url" Value="открыть ссылку" />
   
   <Text Key="notification_chat_receive_private" 	Value="МЕХИ. Земля> «%s» пишет вам" />
@@ -84,7 +85,7 @@
 	<Text Key="tooltip_inv_cargo_capacity" 	Value="ЗАГРУЖЕННОСТЬ" />
 	<Text Key="tooltip_inv_cargo_out_all" 	Value="ВЫГРУЗИТЬ СОДЕРЖИМОЕ\nТРЮМА НА ЗЕМЛЮ" />
 
-	<Text Key="tooltip_exp" 	Value="ОПЫТ: %.2f%%%" />
+	<Text Key="tooltip_exp" 	Value="ОПЫТ: %.3f%%%" />
 	<Text Key="tooltip_life" 	Value="ПРОЧНОСТЬ МЕХА:\n%d/%d" />
 	<Text Key="tooltip_energy" 	Value="ЗАРЯЖЕННОСТЬ БАТАРЕЙ:\n%d/%d" />
 	<Text Key="tooltip_capacity" 	Value="ЗАГРУЖЕННОСТЬ" />
@@ -379,6 +380,7 @@
 
   <Text Key="research_title" Value="ЗАВОД МОДИФИКАЦИИ ОБОРУДОВАНИЯ" />
   <Text Key="research_title_list" Value="ВЫБЕРИТЕ УЛУЧШЕНИЕ" />
+  <Text Key="research_sale" Value="ЧЕРНАЯ ПЯТНИЦА\nЦЕНА -20%%%%" />
   <Text Key="research_show_list" Value="ВЫБРАТЬ" />
   <Text Key="research_research" Value="АПГРЕЙД" />
   <Text Key="research_close" Value="ЗАКРЫТЬ" />
@@ -534,15 +536,32 @@
   <Text Key="mainmenu_register" Value="Регистрация" />
   <Text Key="mainmenu_options" Value="Настройки" />
   <Text Key="mainmenu_exit" Value="Выход" />
-  <Text Key="mainmenu_url" Value="открыть сайт" />
   <Text Key="main_get_info" Value="Получение данных.." />
+  
+  <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
+  <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
+  <Text Key="tooltip_mainmenu_instagram" Value="Наш Instagram" />
+  <Text Key="tooltip_mainmenu_twitter" Value="Наша страница в Twitter" />
+  <Text Key="tooltip_mainmenu_ok" Value="Наша страница в Одноклассниках" />
+  <Text Key="tooltip_mainmenu_vk" Value="Наша группа ВКонтакте" />
+  <Text Key="tooltip_mainmenu_youtube" Value="Наш канал на YouTube" />
+  <Text Key="tooltip_mainmenu_skype" Value="Связаться с нами по Skype чату" />
+  <Text Key="tooltip_mainmenu_mail" Value="Связаться с нами по email" />
+  <Text Key="tooltip_mainmenu_site" Value="Перейти на сайт игры" />
+
+  <Text Key="mainmenu_contacts_title" Value="Наши контакты" />
+  <Text Key="mainmenu_contacts_mainmenu_skype" Value="Skype чат для связи" />
+  <Text Key="mainmenu_contacts_mainmenu_mail" Value="Email для связи" />
+  <Text Key="mainmenu_contacts_mainmenu_site" Value="Перейти на сайт игры" />
+  <Text Key="mainmenu_contacts_back" Value="Назад" />
+  <Text Key="mainmenu_contacts_open_info" Value="*Тап для открытия" />
 
   <Text Key="startmsg_title"										Value="Правительство" />
   <Text Key="startmsg_text"										Value="  Пилот, ты на Земле.\n\n  Зайди в здание правительства ( нажми кнопку войти ) и возьми ПЕРВОЕ задание.\n\n  Выжившие колонии людей возвращаются на планету предков. Многие погибли, чтобы ты чувствовал себя здесь в безопасности. Возвращение необходимо, ибо колонии переполнены и ресурсы, которыми обладает земля, очень важны. Не будем тянуть время, перейдем к главному.\n\n  Добыча ресурсов твоя основная цель, командование хорошо заплатит за них, но есть масса препятствий: это мутировавшая живность планеты и кроты, (те, кто по каким то причинам не с могли эвакуироваться и пережили все катаклизмы здесь на земле). Постоянно прибывает подкрепление и ты не останешься один, но здешний мир жесток - будь готов ко всему. Нажми F1, чтобы узнать подробности управления своим роботом и его приборами." />
 
   <Text Key="premium_account_title"				Value="Приобрести премиум аккаунт" />
   <Text Key="premium_account_buy"					Value="Продлить премиум аккаунт:" />
-  <Text Key="premium_account_info"				Value="Премиум аккаунт увеличивает получаемый опыт и опыт владения орудием на\c&lt;100 250 100&gt; 50%%%%%\b. Так же увеличивает до\c&lt;100 250 100&gt; 12 часов\b время выхода в опасных зонах.\n\nДоступны функции:\n- Следовать за выбранной целью\n- Авто подбор контейнеров\n- Авто использование комплектов запчастей из трюма" />
+  <Text Key="premium_account_info"				Value="Премиум аккаунт увеличивает получаемый опыт, ранг и опыт владения орудием на\c&lt;100 250 100&gt; 50%%%%%\b. Так же увеличивает до\c&lt;100 250 100&gt; 12 часов\b время выхода в опасных зонах.\n\nДоступны функции:\n- Следовать за выбранной целью\n- Авто подбор контейнеров\n- Авто использование комплектов запчастей из трюма" />
   <Text Key="premium_account_ok"					Value="Приобрести" />
   <Text Key="premium_account_cancel"				Value="Отмена" />
 	
@@ -555,8 +574,8 @@
 	<Text Key="tooltip_params_hero_exp"						Value="КОЛИЧЕСТВО ОПЫТА\n\nЭТО ЕЩЁ ОДНА МЕРА УРОВНЯ ПЕРСОНАЖА,\nТОЛЬКО В БОЛЕЕ ШИРОКОМ ВАРИАНТЕ;\nПРИ ДОСТИЖЕНИИ ПОРОГА ТЕКУЩЕГО ОПЫТА,\nУРОВЕНЬ ПОВЫШАЕТСЯ." />
 	<Text Key="tooltip_params_hero_nation"					Value="НАЦИЯ, В КОТОРОЙ ВЫ СОСТОИТЕ" />
 	<Text Key="tooltip_params_hero_level_nation"			Value="ВАШ РАНГ В НАЦИИ\n\nПОВЫШАЕТСЯ КОГДА ВЫ УНИЧТОЖАЕТЕ\nВРАЖЕСКИХ МЕХОВ ИЛИ ВЫПОЛНЯЕТЕ\nНАЦИОНАЛЬНЫЕ ЗАДАНИЯ" />
-  <Text Key="tooltip_params_hero_premium"					Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ И ОПЫТ ВЛАДЕНИЯ ОРУДИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ.\n\nДОСТУПНЫ ФУНКЦИИ:\n- СЛЕДОВАТЬ ЗА ВЫБРАННОЙ ЦЕЛЬЮ\n- АВТО ПОДБОР КОНТЕЙНЕРОВ\n- АВТО ИСПОЛЬЗОВАНИЕ КОМПЛЕКТОВ ЗАПЧАСТЕЙ ИЗ ТРЮМА" />
-	<Text Key="tooltip_params_params_hero_buy_premium_account"	Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ И ОПЫТ ВЛАДЕНИЯ ОРУДИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ" />
+  <Text Key="tooltip_params_hero_premium"					Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ, РАНГ И ОПЫТ ВЛАДЕНИЯ ОРУДИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ.\n\nДОСТУПНЫ ФУНКЦИИ:\n- СЛЕДОВАТЬ ЗА ВЫБРАННОЙ ЦЕЛЬЮ\n- АВТО ПОДБОР КОНТЕЙНЕРОВ\n- АВТО ИСПОЛЬЗОВАНИЕ КОМПЛЕКТОВ ЗАПЧАСТЕЙ ИЗ ТРЮМА" />
+	<Text Key="tooltip_params_params_hero_buy_premium_account"	Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ, РАНГ И ОПЫТ ВЛАДЕНИЯ ОРУДИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ" />
 	<Text Key="tooltip_params_hero_extend_premium_account"	Value="ПРЕМИУМ АККАУНТ, нажмите что бы продлить" />
 
 	<Text Key="tooltip_params_hero_status"					Value="ВАШ КРИМИНАЛЬНЫЙ СТАТУС\n\nСВИДЕТЕЛЬСТВУЕТ О ТОМ, НАРУШАЕТЕ ЛИ ВЫ ЗАКОН\nИЛИ НАПРОТИВ, БОРИТЕСЬ С НАРУШИТЕЛЯМИ\nВ НЕКОТОРЫЕ ГОРОДА ВОЗМОЖЕН ВХОД\n ТОЛЬКО С ОПРЕДЕЛЕННЫМ СТАТУСОМ" />
@@ -644,6 +663,7 @@
 	<Text Key="tooltip_repair_mech_city" 	Value="РЕМОНТ МЕХА ИСПОЛЬЗУЯ РЕАКТОР ТЕРМИНАЛА" />
 
 	<Text Key="upgrade_title" 	Value="МОДИФИКАЦИЯ МЕХА" />
+  <Text Key="upgrade_sale" 	Value="ЧЕРНАЯ ПЯТНИЦА\nЦЕНА НА ВСЕ -30%%%%\nНА СКОРОСТЬ -50%%%%" />
 	<Text Key="upgrade_type" 	Value="ТИП МОДИФИКАЦИИ" />
 	<Text Key="upgrade_need_money" 	Value="ТРЕБУЕТСЯ БОН" />
 	<Text Key="upgrade_need_money1" 	Value="ТРЕБУЕТСЯ РЕГЛОВ" />
@@ -660,6 +680,7 @@
   
   <Text Key="chat_my_send_message_pattern_for_find" 	Value="вы=&gt; " />
   <Text Key="chat_my_receive_message_pattern_for_find" 	Value="=&gt; вы" />
+  <Text Key="chat_my_receive_gmhelp_message_pattern_for_find" 	Value="Нужна помощь: " />
 
 
   <Text Key="chat_entity_changes_hero_experience" 	Value="Опыт: %+d" />
@@ -965,4 +986,53 @@
   <Text Key="chat_change_notification" 	Value="Вкл/Откл уведомление о приватных сообщениях" />
 	<Text Key="chat_open_history" 	Value="Открыть журнал" />
   <Text Key="tooltip_chat_send" 	Value="Отправить сообщение" />
+  <Text Key="editor_edit_x"										Value="X" />
+  <Text Key="editor_edit_y"										Value="Y" />
+  <Text Key="editor_edit_w"										Value="ШИРИНА" />
+  <Text Key="editor_edit_h"										Value="ВЫСОТА" />
+  <Text Key="editor_edit_apply"									Value="СОХРАНИТЬ" />
+  <Text Key="editor_edit_apply_and_child"					Value="СОХРАНИТЬ С ДОЧЕРНИМИ" />
+  <Text Key="editor_edit_panel1"								Value="редактировать" />
+  <Text Key="editor_edit_panel2"								Value="открыть" />
+  <Text Key="editor_edit_panel3"								Value="элементы" />
+  <Text Key="editor_edit_support_platform"			Value="Платформы" />
+  <Text Key="editor_edit_show_platform"			Value="ПОКАЗЫВАТЬ ПЛАТФОРМЫ" />
+  <Text Key="editor_edit_panel3_info"							Value="ОПИСАНИЕ" />
+  <Text Key="editor_edit_panel3_dialog"						Value="ДИАЛОГ" />
+  <Text Key="editor_edit_panel3_group"						Value="ГРУППА" />
+  <Text Key="editor_edit_panel3_file"							Value="ФАЙЛ ДИАЛОГА" />
+  <Text Key="editor_edit_panel3_file_info"					Value="ФАЙЛ ОПИСАНИЯ" />
+  <Text Key="editor_edit_panel2_groups"							Value="ВЫБРАТЬ ГРУППУ" />
+  <Text Key="editor_edit_panel2_group"							Value="ВЫБРАТЬ ДИАЛОГ" />
+  <Text Key="editor_edit_open_dialog"							Value="Открыть Диалог" />
+  <Text Key="editor_moving"										Value="ПЕРЕТАСКИВАЕМЫЙ" />
+  <Text Key="editor_show_hide"									Value="ПОКАЗАТЬ/СПРЯТАТЬ" />
+  <Text Key="editor_show_tools"									Value="ПОКАЗЫВАТЬ РАМКУ" />
+  <Text Key="editor_edit_rect1"									Value="Размер" />
+  <Text Key="editor_edit_rect2"									Value="Область видимости" />
+  <Text Key="editor_edit_rect3"									Value="Texture кнопки" />
+  <Text Key="editor_edit_inner_border_w"						Value="ОТСТУП X" />
+  <Text Key="editor_edit_inner_border_h"						Value="ОТСТУП Y" />
+  <Text Key="editor_edit_key"									Value="КНОПКА" />
+  <Text Key="editor_edit_info"									Value="ПОДСКАЗКА" />
+  <Text Key="editor_edit_debug_info"							Value="ОПИСАНИЕ" />
+  <Text Key="editor_edit_name"									Value="ИМЯ" />
+  <Text Key="editor_edit_work_function"						Value="ОБРАБОТЧИК" />
+  <Text Key="editor_edit_open_child"							Value="Дочерние" />
+  <Text Key="editor_edit_open_parent"							Value="Выше уровнем" />
+  <Text Key="editor_edit_panel1_item"							Value="Item" />
+  <Text Key="editor_edit_panel1_image"						Value="Image" />
+  <Text Key="editor_edit_panel1_text"							Value="Text" />
+  <Text Key="editor_edit_panel1_model"						Value="Model" />
+  <Text Key="editor_edit_panel1_tool_tips"					Value="ToolTips" />
+  <Text Key="editor_edit_panel1_progress"					Value="Progress" />
+  <Text Key="editor_edit_panel1_window"						Value="Window" />
+  <Text Key="editor_edit_panel1_edit_text"					Value="EditText" />
+  <Text Key="editor_edit_panel1_button"						Value="Button" />
+  <Text Key="editor_edit_panel1_list"							Value="List" />
+  <Text Key="editor_edit_panel1_progress_control"			Value="ProgressControl" />
+  <Text Key="editor_edit_panel1_slider"						Value="Slider" />
+  <Text Key="editor_edit_image_shader"						Value="ТЕКСТУРА" />
+  <Text Key="editor_edit_image_angle"							Value="УГОЛ ПОВОРОТА" />
+  <Text Key="editor_edit_slider_scroll_size"			Value="РАЗМЕР" />
 </Localization>

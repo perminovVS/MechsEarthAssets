@@ -2,10 +2,10 @@
 <Rectangles>
     <Rect Name="Loc_HeroList_Scroll" X=" 588" Y="97" W=" 1" H=" 88" />
 </Rectangles>
-<!-- Диалог: нахождения в локации -->
+<!-- нахождения в локации -->
 <Location Id="60000" Worker="Menu_Location" VIS="1" ENB="1">
     <!-- Кнопка вызова внутриигрового меню -->
-    <Button Key="escape" VIS="0" Command="create_menu InGame;" ENB="1" UseHooks="1" />
+    <Button Key="escape" VIS="0" Command="create_menu InGame;" ENB="1" />
     <!-- фон диалога -->
     <Image Shader="42" ENB="0" X="198" Y="49" W="486" H="445" VIS="1" />
     <!-- Название локации -->
@@ -13,30 +13,30 @@
     <!-- панель диалога, будет отлавливать нажатия на панели -->
     <Item ENB="1" X="198" Y="55" W="410" H="394" VIS="1" />
     <!-- Приветствие -->
-    <Text Name="Salutation" X="209" Y="253" W="352" H="175" VpX="205" VpY="246" VpW="388" VpH="196" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.6 0.6 0.6" FontSet="button" ENB="1" VIS="1" UseHooks="1" />
-    <Button Name="ChangeMoney1" Text="location_convert_money1" ENB="1" VIS="1" FontSet="button" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="297" Y="178" W="120" H="20" UseHooks="1" />
+    <Text Name="Salutation" X="209" Y="253" W="352" H="175" VpX="205" VpY="246" VpW="388" VpH="196" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="2" ColorARGB="1 0.6 0.6 0.6" FontSet="button" ENB="1" VIS="1" />
+    <Button Name="ChangeMoney1" Text="location_convert_money1" ENB="1" VIS="1" FontSet="button" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" X="297" Y="178" W="120" H="20" />
     <!-- Список героев -->
-    <Text X="435" Y="80" W="138" H="20" Text="location_hero_list" Align="LEFT" FontSet="signature" ENB="0" VIS="1" UseHooks="1" />
+    <Text X="435" Y="80" W="138" H="20" Text="location_hero_list" Align="LEFT" FontSet="signature" ENB="0" VIS="1" />
     <List Name="HeroList" X="434" Y="98" W="138" H="90" VpX="435" VpY="96" VpW="149" VpH="103" Gap="5" VIS="1" ENB="0">
         <Button Name="Prototype" X="452" Y="97" W="138" H="100" FontSet="normal_text" Align="LEFT" WordWrap="1" VIS="0" ENB="0" />
         <Image X="588" Y="97" W="12" H="100" Shader="86" VIS="1" ENB="0" />
         <Slider X="588" Y="137" W="12" H="12" LineRect="Loc_HeroList_Scroll" Normal="87" Active="87" Vertical="1" SliderPos="0" VIS="1" ENB="1" />
     </List>
     <!-- Деньги -->
-    <Text Name="Money" Info="tooltip_money" Text="empty" Align="RIGHT" FontSet="signature" X="207" Y="190" W="73" H="12" VIS="1" ENB="1" UseHooks="1" />
-    <Button Name="GetQuests" Info="tooltip_get_quests" TextureW="32" TextureH="32" Normal="137" Active="138" Check="139" VIS="1" ENB="1" X="220" Y="214" W="26" H="22" UseHooks="1" />
-    <Button Name="Shop" Info="tooltip_shop" TextureW="32" TextureH="32" Normal="155" Active="156" Check="157" VIS="1" ENB="1" X="258" Y="214" W="26" H="22" UseHooks="1" />
-    <Button Name="ShopRobot" Info="tooltip_shop_robot" TextureW="32" TextureH="32" Normal="158" Active="159" Check="160" VIS="1" ENB="1" X="284" Y="214" W="26" H="22" UseHooks="1" />
-    <Button Name="Insurance" Info="tooltip_insurance" TextureW="32" TextureH="32" Normal="161" Active="162" Check="163" VIS="1" ENB="1" X="325" Y="214" W="26" H="22" UseHooks="1" />
-    <Button Name="Research" Info="tooltip_research" TextureW="32" TextureH="32" Normal="164" Active="165" Check="166" VIS="1" ENB="1" X="481" Y="214" W="26" H="22" UseHooks="1" />
-    <Button Name="StoreHouse" Info="tooltip_storehouse" TextureW="32" TextureH="32" Normal="167" Active="168" Check="169" VIS="1" ENB="1" X="368" Y="214" W="26" H="22" UseHooks="1" />
-    <Button Name="StoreRobots" Info="tooltip_storerobots" TextureW="32" TextureH="32" Normal="170" Active="171" Check="172" VIS="1" ENB="1" X="395" Y="214" W="26" H="22" UseHooks="1" />
-    <Button Name="Teleport" Info="tooltip_teleport_before_location" TextureW="32" TextureH="32" Normal="173" Active="174" Check="175" VIS="1" ENB="1" X="437" Y="214" W="26" H="22" UseHooks="1" />
-    <Button Name="Craft" Info="tooltip_craft" TextureW="30" TextureH="30" Normal="337" Active="338" Check="339" VIS="1" ENB="1" X="508" Y="210" W="26" H="22" UseHooks="1" />
-	<Button Name="Color" Info="tooltip_color" TextureW="30" TextureH="30" Normal="236" Active="237" Check="238" VIS="1" ENB="1" X="258" Y="210" W="26" H="22" UseHooks="1" />
+    <Text Name="Money" Info="tooltip_money" Text="empty" Align="RIGHT" FontSet="signature" X="207" Y="190" W="73" H="12" VIS="1" ENB="1" />
+    <Button Name="GetQuests" Info="tooltip_get_quests" TextureW="32" TextureH="32" Normal="137" Active="138" Check="139" VIS="1" ENB="1" X="220" Y="214" W="26" H="22" />
+    <Button Name="Shop" Info="tooltip_shop" TextureW="32" TextureH="32" Normal="155" Active="156" Check="157" VIS="1" ENB="1" X="258" Y="214" W="26" H="22" />
+    <Button Name="ShopRobot" Info="tooltip_shop_robot" TextureW="32" TextureH="32" Normal="158" Active="159" Check="160" VIS="1" ENB="1" X="284" Y="214" W="26" H="22" />
+    <Button Name="Insurance" Info="tooltip_insurance" TextureW="32" TextureH="32" Normal="161" Active="162" Check="163" VIS="1" ENB="1" X="325" Y="214" W="26" H="22" />
+    <Button Name="Research" Info="tooltip_research" TextureW="32" TextureH="32" Normal="164" Active="165" Check="166" VIS="1" ENB="1" X="481" Y="214" W="26" H="22" />
+    <Button Name="StoreHouse" Info="tooltip_storehouse" TextureW="32" TextureH="32" Normal="167" Active="168" Check="169" VIS="1" ENB="1" X="368" Y="214" W="26" H="22" />
+    <Button Name="StoreRobots" Info="tooltip_storerobots" TextureW="32" TextureH="32" Normal="170" Active="171" Check="172" VIS="1" ENB="1" X="395" Y="214" W="26" H="22" />
+    <Button Name="Teleport" Info="tooltip_teleport_before_location" TextureW="32" TextureH="32" Normal="173" Active="174" Check="175" VIS="1" ENB="1" X="437" Y="214" W="26" H="22" />
+    <Button Name="Craft" Info="tooltip_craft" TextureW="30" TextureH="30" Normal="337" Active="338" Check="339" VIS="1" ENB="1" X="508" Y="210" W="26" H="22" />
+	<Button Name="Color" Info="tooltip_color" TextureW="30" TextureH="30" Normal="236" Active="237" Check="238" VIS="1" ENB="1" X="258" Y="210" W="26" H="22" />
     <!-- Всплывающие подсказки -->
     <ToolTips Name="ToolTips">
-        <Image Shader="6" VIS="0" ENB="0" />
-        <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+        <Image Shader="6" />
+        <Text Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
     </ToolTips>
 </Location>

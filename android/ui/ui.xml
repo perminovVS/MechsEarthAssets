@@ -2,7 +2,7 @@
 
  <Shaders>
     <Resource Name="ui/empty" />                                 <!-- 1 -->
-    <Resource Name="ui/game/cursor/cursornor01" />             <!-- 2 -->
+    <Resource Name="ui/cursor/cursornor01" />             <!-- 2 -->
     <Resource Name="ui/menupanel" />                             <!-- 3 -->
     <Resource Name="ui/menubuttona" />           <!-- 4 -->
     <Resource Name="ui/menupanel_dark" />                   	  <!-- 5 -->
@@ -220,10 +220,10 @@
     <Resource Name="ui/game/panel/helpn" />                      <!-- 147 -->
     <Resource Name="ui/game/panel/helpa" />                      <!-- 148 -->
     <Resource Name="ui/game/panel/helpc" />                      <!-- 149 -->
-    <Resource Name="ui/game/cursor/cursoratt01;ui/game/cursor/cursoratt02;ui/game/cursor/cursoratt03;ui/game/cursor/cursoratt04" />             <!-- 150 -->
+    <Resource Name="ui/cursor/cursoratt01;ui/cursor/cursoratt02;ui/cursor/cursoratt03;ui/cursor/cursoratt04" />             <!-- 150 -->
     <Resource Name="ui/help/buttonn" />                          <!-- 151 -->
     <Resource Name="ui/help/buttona" />                          <!-- 152 -->
-    <Resource Name="ui/empty" />                                 <!-- 153 -->
+    <Resource Name="ui/cursor/cursor_link" />                    <!-- 153 -->
     <Resource Name="ui/empty" />                                 <!-- 154 -->
 
 
@@ -312,12 +312,12 @@
     <Resource Name="ui/game/panel/indicator_exp" />              <!-- 214 -->
     <Resource Name="ui/game/panel/progress_exp" />               <!-- 215 -->
     <Resource Name="ui/game/panel/progress_skill" />          	 <!-- 216 -->
-    <Resource Name="ui_editor/panel" />				  <!-- 217 -->
-    <Resource Name="ui_editor/closea" />		  <!-- 218 -->
-    <Resource Name="ui_editor/close" />		  <!-- 219 -->
-    <Resource Name="ui_editor/itemrect" />          	  <!-- 220 -->
-    <Resource Name="ui_editor/itemviewport" />			  <!-- 221 -->
-    <Resource Name="ui_editor/itemtexture" />			  <!-- 222 -->
+    <Resource Name="ui/editor/panel" />				  <!-- 217 -->
+    <Resource Name="ui/editor/closea" />		  <!-- 218 -->
+    <Resource Name="ui/editor/close" />		  <!-- 219 -->
+    <Resource Name="ui/empty" />          	  <!-- 220 -->
+    <Resource Name="ui/empty" />			  <!-- 221 -->
+    <Resource Name="ui/empty" />			  <!-- 222 -->
 
 	 <!-- Элементы RenderSettings -->
     <Resource Name="ui/robot_head/progresshpfull" />		  	  <!-- 223 -->
@@ -558,8 +558,8 @@
 	 <Resource Name="ui/game/panel/chat/ch_sel_11a" />         	  <!-- 450 -->
 	 <Resource Name="ui/game/panel/chat/ch_sel_11c" />         	  <!-- 451 -->
 	 <Resource Name="ui/params/panel_hero/windows_01" />      	  <!-- 452 -->	 
-	 <Resource Name="ui_new/button/checkbox/check" /><!-- 453 -->
-	 <Resource Name="ui_new/button/checkbox/empty" /><!-- 454 -->
+	 <Resource Name="ui_new/button/checkbox/empty" /><!-- 453 -->
+	 <Resource Name="ui_new/button/checkbox/check" /><!-- 454 -->
 	 <Resource Name="ui_new/button/default/check" /><!-- 455 -->
 	 <Resource Name="ui_new/button/default/check_x2" /><!-- 456 -->
 	 <Resource Name="ui_new/button/default/check_x3" /><!-- 457 -->
@@ -589,26 +589,75 @@
 	 <Resource Name="ui_new/text/label/2x1" /><!-- 481 -->
 	 <Resource Name="ui_new/text/label/3x1" /><!-- 482 -->
 	 <Resource Name="ui_new/text/label/4x1" /><!-- 483 -->
-	 <Resource Name="ui_new/window/1x1" /><!-- 484 -->
-	 <Resource Name="ui_new/window/2x2" /><!-- 485 -->
-	 <Resource Name="ui_new/window/2x4" /><!-- 486 -->
-	 <Resource Name="ui_new/window/4x1" /><!-- 487 -->
-	 <Resource Name="ui_new/window/4x2" /><!-- 488 -->
-	 <Resource Name="ui_new/window/4x4" /><!-- 489 -->
+	 <Resource Name="ui_new/window/default/1x1" /><!-- 484 -->
+	 <Resource Name="ui_new/window/default/2x2" /><!-- 485 -->
+	 <Resource Name="ui_new/window/default/2x4" /><!-- 486 -->
+	 <Resource Name="ui_new/window/default/4x1" /><!-- 487 -->
+	 <Resource Name="ui_new/window/default/4x2" /><!-- 488 -->
+	 <Resource Name="ui_new/window/default/4x4" /><!-- 489 -->
 	 <Resource Name="ui_new/text/field/scale9" /><!-- 490 -->
+	 <Resource Name="ui_new/text/field/0.5x0.5" /><!-- 491 -->
+	 <Resource Name="ui_new/button/checkbox/active" /><!-- 492 -->
+	 <Resource Name="ui_new/scroll/back1x1" /><!-- 493 -->
+	 <Resource Name="ui_new/scroll/back1x2" /><!-- 494 -->
+	 <Resource Name="ui_new/scroll/back1x4" /><!-- 495 -->
+	 <Resource Name="ui_new/scroll/button_normal" /><!-- 496 -->
+	 <Resource Name="ui_new/scroll/button_active" /><!-- 497 -->
+   <Resource Name="ui/new/main/main/facebook" /><!-- 498 -->
+	 <Resource Name="ui/new/main/main/facebook_active" /><!-- 499 -->
+	 <Resource Name="ui/new/main/main/google-plus" /><!-- 500 -->
+	 <Resource Name="ui/new/main/main/google-plus_active" /><!-- 501 -->
+	 <Resource Name="ui/new/main/main/instagram" /><!-- 502 -->
+	 <Resource Name="ui/new/main/main/instagram_active" /><!-- 503 -->
+	 <Resource Name="ui/new/main/main/skype" /><!-- 504 -->
+	 <Resource Name="ui/new/main/main/skype_active" /><!-- 505 -->
+	 <Resource Name="ui/new/main/main/twitter" /><!-- 506 -->
+	 <Resource Name="ui/new/main/main/twitter_active" /><!-- 507 -->
+	 <Resource Name="ui/new/main/main/vk" /><!-- 508 -->
+	 <Resource Name="ui/new/main/main/vk_active" /><!-- 509 -->
+	 <Resource Name="ui/new/main/main/youtube" /><!-- 510 -->
+	 <Resource Name="ui/new/main/main/youtube_active" /><!-- 511 -->
+	 <Resource Name="ui/new/main/main/ok" /><!-- 512 -->
+	 <Resource Name="ui/new/main/main/ok_active" /><!-- 513 -->
+	 <Resource Name="ui/new/main/main/mail" /><!-- 514 -->
+	 <Resource Name="ui/new/main/main/mail_active" /><!-- 515 -->
+	 <Resource Name="ui/new/main/main/site" /><!-- 516 -->
+	 <Resource Name="ui/new/main/main/site_active" /><!-- 517 -->
+	 <Resource Name="ui_new/tooltip/default" /><!-- 518 -->
+	 <Resource Name="ui_new/pixel" ColorARGB="255 255 0 0" /><!-- 519 -->
+	 <Resource Name="ui/new/banners/bf_black_friday" ColorARGB="200 255 255 255" /><!-- 520 -->
+	 <Resource Name="ui/new/banners/bf_70_percent" ColorARGB="200 255 255 255" /><!-- 521 -->
+	 <Resource Name="ui/new/banners/bf_25_30_november" /><!-- 522 -->
+	 <Resource Name="ui/new/banners/bf_discounts_fire" ColorARGB="200 255 255 255" /><!-- 523 -->
+	 <Resource Name="ui/new/banners/bf_discounts_fire" /><!-- 524 -->
  </Shaders>
  
  <Styles>
 	<Buttons>
 		<Style Name="default" FontSet="button_default" Normal="458;459;460" Active="461;462;463" ColorARGB="255 202 231 236" ActiveColorARGB="255 222 251 255" />
+		<Style Name="text" FontSet="button_text" ColorARGB="255 202 231 236" ActiveColorARGB="255 222 251 255" />
 		<Style Name="game_unit" FontSet="button_default" Normal="458;459;460" Active="461;462;463" ColorARGB="255 150 150 150" ActiveColorARGB="255 255 255 255" />
 		<Style Name="chat_unit" FontSet="button_default" Normal="458;459;460" Active="461;462;463" ColorARGB="255 150 150 150" ActiveColorARGB="255 255 255 255" />
+    <Style Name="checkbox" Normal="453" Active="492" Check="454" />
+    <Style Name="minus" Normal="466" Active="467" />
+    <Style Name="plus" Normal="468" Active="469" />
+    <Style Name="scroll" Normal="496" Active="497" />
+		<Style Name="editor_inset" FontSet="small" Normal="458;459;460" Active="461;462;463" Check="455;456;457" ColorARGB="255 202 231 236" ActiveColorARGB="255 222 251 255" />
+    <Style Name="editor_default" FontSet="small" Normal="458;459;460" Active="461;462;463" ColorARGB="255 202 231 236" ActiveColorARGB="255 222 251 255" />
+    <Style Name="editor_list_prototype" FontSet="small" Active="3" Check="5" ColorARGB="255 202 231 236" ActiveColorARGB="255 222 251 255" />
 	</Buttons>
 	<Images>
 		<Style Name="window" Sprite="484;485;486;487;488;489" />
+    <Style Name="div" Sprite="472;473;474;475;476;477" />
+    <Style Name="scroll_back" Sprite="493;494;495" />
+    <Style Name="tooltips" Sprite="518" />
+    <Style Name="editor_list" Sprite="3" />
 	</Images>
 	<Texts>
 		<Style Name="label" FontSet="label" PlaceHolder="480;481;482;483" ColorARGB="255 202 231 236" />
+		<Style Name="label_no_place_holder" FontSet="label" ColorARGB="255 202 231 236" />
+    <Style Name="tooltips" FontSet="normal_text" ColorARGB="255 202 231 236" />
+    <Style Name="editor_label" FontSet="small" ColorARGB="255 202 231 236" />
 	</Texts>
    <TextFields>
      <Style Name="auth" FontSet="button" PlaceHolder="478;479" ColorARGB="255 202 231 236" ColorHolderARGB="255 102 131 136" />
@@ -616,6 +665,7 @@
      <Style Name="clan_name" FontSet="normal" PlaceHolder="" ColorARGB="255 230 214 143" ColorHolderARGB="255 180 164 93" />
      <Style Name="old_edit_text" FontSet="normal" PlaceHolder="" ColorARGB="255 232 186 0" ColorHolderARGB="255 182 136 0" />
      <Style Name="poll" FontSet="help_content" PlaceHolder="" ColorARGB="255 200 200 200" ColorHolderARGB="255 150 150 150" />
+     <Style Name="editor" FontSet="small" PlaceHolder="491;478;479" ColorARGB="255 202 231 236" ColorHolderARGB="255 102 131 136" />
    </TextFields>
  </Styles>
 
@@ -652,7 +702,7 @@
 
 	<!-- MAIN  -->	
 	<Resource Name="net/Login.xml" />
-
+  
 	<!-- MSG  -->
 	<Resource Name="msg/MsgWndSmallSystem00.xml" />    <!-- Маленькое окно системных сообщений без кнопок -->
 	<Resource Name="msg/MsgWndSmallSystem01.xml" />    <!-- Маленькое окно системных сообщений с одной кнопкой -->
@@ -714,5 +764,9 @@
 	<GroupDialogs Name="Диалоги Игры" >	
 		<NameFileInfo Value="game.xml"/>
 	</GroupDialogs>
+
+  <GroupToolsDialogs Name="Инструменты" >
+    <NameFileInfo Value="tools.xml"/>
+  </GroupToolsDialogs>
 
 </Dialogs>

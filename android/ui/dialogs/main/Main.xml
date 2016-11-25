@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: основное меню -->
+<!-- основное меню -->
 <Main Id="10000" Worker="Menu_Main">
-    <Image Style="window" X="240" Y="150" W="320" H="320" />
-    <Button Style="default" Text="mainmenu_connect" Command="delete_menu Main;create_menu Login;" Key="enter" X="275" Y="197" W="250" H="45" />
-    <Button Style="default" Text="mainmenu_register" Command="delete_menu Main;create_menu Login;" Key="enter" X="275" Y="249" W="250" H="45" />
-    <Button Style="default" Text="mainmenu_options" Command="create_menu Options;" X="275" Y="301" W="250" H="45" />
-    <Button Style="default" Text="mainmenu_exit" Command="quit;" Key="escape" X="275" Y="353" W="250" H="45" />
-    <Text Name="Version" HAlignAdd="RIGHT" VAlignAdd="BOTTOM" X="600" Y="582" W="196" H="16" Text="version" FontSet="signature" Align="RIGHT" VAlign="TOP" ColorARGB="1 1 1 1" />
-    <Text Name="Info" X="57" Y="460" W="327" H="104" Text="main_get_info" FontSet="normal_text" Align="LEFT" VAlign="TOP" ColorARGB="1 0.1 0.84 0.1" VpX="0" VpY="0" VpW="0" VpH="0" VIS="0" ENB="0" />
-    <Button Name="OpenUrl" Text="mainmenu_url" FontSet="normal_text" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.53 0.81 0.92" VIS="1" ENB="1" X="290" Y="547" W="110" H="16" UseHooks="1" />
+    <Image Style="window" X="240" Y="140" W="320" H="330"/>
+    <Image Shader="520" X="8" Y="0" W="433" H="150"/>
+    <Image Shader="521" X="414" Y="9" W="408" H="133"/>
+    <Image Shader="522" X="479" Y="400" W="307" H="137"/>
+    <Button MouseShader="153" Normal="523" Active="524" Command="open_url https://mechs.su/novosti/news-chernaya-pyatnica-v-mmorpg-mehi-zemlya.html" X="77" Y="459" W="619" H="147"/>
+    <Button Style="default" Text="mainmenu_connect" Command="delete_menu Main;create_menu Login;" Key="enter" X="275" Y="197" W="250" H="45"/>
+    <Button Style="default" Text="mainmenu_register" Command="delete_menu Main;create_menu Login;" X="275" Y="249" W="250" H="45"/>
+    <Button Style="default" Text="mainmenu_options" Command="create_menu Options;" X="275" Y="301" W="250" H="45"/>
+    <Button Style="default" Text="mainmenu_exit" Command="quit;" Key="escape" X="275" Y="353" W="250" H="45"/>
+    <Text Name="Version" HAlignAdd="RIGHT" VAlignAdd="BOTTOM" X="600" Y="582" W="196" H="16" Text="version" FontSet="signature" Align="RIGHT" VAlign="TOP" ColorARGB="1 1 1 1"/>
+    <Text Name="Info" X="57" Y="460" W="327" H="104" Text="main_get_info" FontSet="normal_text" Align="LEFT" VAlign="TOP" ColorARGB="1 0.1 0.84 0.1" VIS="0" ENB="0"/>
+    <Button Info="tooltip_mainmenu_vk" MouseShader="153" Normal="508" Active="509" Command="open_url https://vk.com/mechs" X="278" Y="423" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_facebook" MouseShader="153" Normal="498" Active="499" Command="open_url https://www.facebook.com/%D0%9C%D0%95%D0%A5%D0%98-%D0%97%D0%B5%D0%BC%D0%BB%D1%8F-927396230710843" X="361" Y="423" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_google-plus" MouseShader="153" Normal="500" Active="501" Command="open_url https://google.com/+MechsSuEarth-MMORPG-RobotsOnline" X="334" Y="423" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_twitter" MouseShader="153" Normal="506" Active="507" Command="open_url https://twitter.com/MechsEarth" X="389" Y="423" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_youtube" MouseShader="153" Normal="510" Active="511" Command="open_url https://www.youtube.com/channel/UCPaom1JbudI0ikXOIPGQ3nQ" X="416" Y="423" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_instagram" MouseShader="153" Normal="502" Active="503" Command="open_url https://www.instagram.com/mekhizemlia/" X="443" Y="423" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_ok" MouseShader="153" Normal="512" Active="513" Command="open_url https://ok.ru/group/54227252215919" X="306" Y="423" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_skype" MouseShader="153" Normal="504" Active="505" Command="open_url skype:support.mechs.su?chat" X="500" Y="161" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_mail" MouseShader="153" Normal="514" Active="515" Command="open_url mailto:support@mechs.su" X="465" Y="161" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_site" MouseShader="153" Normal="516" Active="517" Command="open_url https://mechs.su" X="430" Y="160" W="24" H="24"/>
+    <Button Command="create_menu MainContacts;" X="265" Y="416" W="210" H="39" Platform="2"/>
+    <Button Command="create_menu MainContacts;" X="415" Y="155" W="125" H="34" Platform="2"/>
+    <!-- Всплывающие подсказки -->
+    <ToolTips Name="ToolTips">
+        <Image Style="tooltips"/>
+        <Text Style="tooltips" Align="LEFT" WordWrap="1"/>
+    </ToolTips>
 </Main>

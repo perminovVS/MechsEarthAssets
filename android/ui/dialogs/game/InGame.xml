@@ -6,11 +6,11 @@
     <Rect Name="InGame_Options" X=" 312" Y=" 280" W=" 175" H=" 20" />
     <Rect Name="InGame_Exit" X=" 312" Y=" 314" W=" 175" H=" 20" />
 </Rectangles>
-<!-- Диалог: внутриигровое меню -->
+<!-- внутриигровое меню -->
 <InGame Id="46000">
     <Image Id="1" Rect="Common_WholeScreen" />
-    <Image Id="2" Shader="96" X="251" Y="164" W="315" H="304" VIS="1" ENB="1" UseHooks="1" />
-    <Button Id="3" Text="ingame_resume" FontSet="normal" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu InGame;" Key="escape" X="296" Y="254" W="143" H="20" VIS="1" ENB="1" UseHooks="1" />
-    <Button Id="4" Text="ingame_options" FontSet="normal" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="create_menu Options;" X="336" Y="293" W="145" H="20" VIS="1" ENB="1" UseHooks="1" />
-    <Button Id="5" Text="ingame_exit" FontSet="normal" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_all_menu; destroy_game; create_menu Main;" X="365" Y="333" W="143" H="20" VIS="1" ENB="1" UseHooks="1" />
+    <Image Id="2" Shader="96" X="251" Y="164" W="315" H="304" VIS="1" ENB="1" />
+    <Button Id="3" Text="ingame_resume" FontSet="normal" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu InGame;" Key="escape" X="296" Y="254" W="143" H="20" VIS="1" ENB="1" />
+    <Button Id="4" Text="ingame_options" FontSet="normal" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="create_menu Options;" X="336" Y="293" W="145" H="20" VIS="1" ENB="1" />
+    <Button Id="5" Text="ingame_exit" FontSet="normal" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_all_menu; destroy_game; create_menu Main;" X="365" Y="333" W="143" H="20" VIS="1" ENB="1" />
 </InGame>

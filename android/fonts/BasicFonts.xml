@@ -43,14 +43,19 @@
     <fullhd Font="4" Size="16" />
   </Set>
   <Set Name="button_default">
-    <sd Font="7" Size="26" />
-    <hd Font="7" Size="26" />
-    <fullhd Font="7" Size="26" />
+    <sd Font="6" Size="22" />
+    <hd Font="6" Size="22" />
+    <fullhd Font="6" Size="22" />
   </Set>
   <Set Name="label">
-    <sd Font="7" Size="26" />
-    <hd Font="7" Size="26" />
-    <fullhd Font="7" Size="26" />
+    <sd Font="6" Size="22" />
+    <hd Font="6" Size="22" />
+    <fullhd Font="6" Size="22" />
+  </Set>
+  <Set Name="button_text">
+    <sd Font="6" Size="22" />
+    <hd Font="6" Size="22" />
+    <fullhd Font="6" Size="22" />
   </Set>
   <Set Name="chat">
     <sd Font="3" Size="10" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: Торговля: предложить деньги -->
+<!-- Торговля: предложить деньги -->
 <OfferMoney Id="103000" Worker="Menu_OfferMoney">
     <Image Id="1" Shader="5" X="-800" Y="-600" W="2400" H="1800" VIS="1" ENB="1" />
     <Image Id="2" Shader="143" ENB="0" X="240" Y="236" W="416" H="128" VIS="1">

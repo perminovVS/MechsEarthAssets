@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: параметры робота -->
+<!-- параметры робота -->
 <ParamsRobot Id="45000" Worker="Menu_ParamsRobot" HAlignAdd="LEFT" VAlignAdd="TOP">
     <Item Name="MainPanel" ENB="1" X="0" Y="94" W="174" H="205" VIS="1" DebugInfo="панель диалога, будет отлавливать нажатия на панели">
         <Image Shader="51" ENB="0" X="-9" Y="91" W="288" H="263" VIS="1" DebugInfo="фон диалога " />
@@ -27,27 +27,27 @@
         <Text Text="params_robot_shield" Info="tooltip_params_robot_shield" Align="LEFT" FontSet="small" ENB="1" X="11" Y="266" W="23" H="9" VIS="1" />
         <Text Text="empty" Name="Shield" Align="RIGHT" FontSet="params_small" ENB="1" X="58" Y="266" W="130" H="9" VIS="1" />
         <!-- Всплывающие подсказки -->
-        <ToolTips Name="ToolTips" VIS="1" ENB="1">
-            <Image Shader="6" VIS="0" ENB="0" />
-            <Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+        <ToolTips Name="ToolTips">
+            <Image Shader="6" />
+            <Text Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
         </ToolTips>
     </Item>
 </ParamsRobot>
 <DialogData>
     <Animation>
-        <DeltaYPosInit Value="61" />
+        <DeltaYPosInit Value="66" />
         <DeltaXPosInit Value="-174" />
         <Frames>
             <Frame Name="Begin">
-                <Point MinX="5" MinY="155" MaxX="6" MaxY="155" Speed0="2.0" Acceleration="1.2" />
-                <Point MinX="-5" MinY="155" MaxX="-4" MaxY="155" Speed0="3.0" Acceleration="1.3" />
-                <Point MinX="3" MinY="155" MaxX="4" MaxY="155" Speed0="3.0" Acceleration="1.3" />
-                <Point MinX="-2" MinY="155" MaxX="-1" MaxY="155" Speed0="3.0" Acceleration="1.3" />
-                <Point MinX="1" MinY="155" MaxX="0" MaxY="155" Speed0="3.0" Acceleration="1.3" />
-                <Point MinX="0" MinY="155" MaxX="0" MaxY="155" Speed0="3.0" Acceleration="1.3" Param1="Begin" Worker="Menu_ParamsRobot_Animation" />
+                <Point MinX="5" MinY="160" MaxX="6" MaxY="160" Speed0="2.0" Acceleration="1.2" />
+                <Point MinX="-5" MinY="160" MaxX="-4" MaxY="160" Speed0="3.0" Acceleration="1.3" />
+                <Point MinX="3" MinY="160" MaxX="4" MaxY="160" Speed0="3.0" Acceleration="1.3" />
+                <Point MinX="-2" MinY="160" MaxX="-1" MaxY="160" Speed0="3.0" Acceleration="1.3" />
+                <Point MinX="1" MinY="160" MaxX="0" MaxY="160" Speed0="3.0" Acceleration="1.3" />
+                <Point MinX="0" MinY="160" MaxX="0" MaxY="160" Speed0="3.0" Acceleration="1.3" Param1="Begin" Worker="Menu_ParamsRobot_Animation" />
             </Frame>
             <Frame Name="End">
-                <Point MinX="-174" MinY="155" MaxX="-174" MaxY="155" Speed0="2.0" Acceleration="2.0" Param1="Close" Param2="ParamsRobot" Worker="Menu_ParamsRobot_Animation" />
+                <Point MinX="-174" MinY="160" MaxX="-174" MaxY="160" Speed0="2.0" Acceleration="2.0" Param1="Close" Param2="ParamsRobot" Worker="Menu_ParamsRobot_Animation" />
             </Frame>
         </Frames>
     </Animation>

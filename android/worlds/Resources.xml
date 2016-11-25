@@ -1143,7 +1143,7 @@
     <Resource Idx="433" Name="icons/used_repair/kz4" />
     <Resource Idx="434" Name="icons/used_repair/rem_pak4" />
     <Resource Idx="435" Name="icons/used_repair/rem_pak3" />
-    <Resource Idx="436" Name="none" />
+    <Resource Idx="436" Name="icons/cargo/pak_1" />
     <Resource Idx="437" Name="none" />
     <Resource Idx="438" Name="none" />
     <Resource Idx="439" Name="none" />

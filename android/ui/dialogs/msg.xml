@@ -2,17 +2,17 @@
 <DialogsInfo>
 
 	<MsgWrongSymbols	Id="20000">		
-		<Info Value="Диалог: Недопустимые символы в имени"/>
+		<Info Value="Недопустимые символы в имени"/>
 		<NameFileDialog Value="msg/MsgWrongSymbols.xml"/>
 	</MsgWrongSymbols>
 
 	<MsgError Id="21000">
-		<Info Value="Диалог: Сообщение об ошибке"/>
+		<Info Value="Сообщение об ошибке"/>
 		<NameFileDialog Value="msg/MsgError.xml"/>
 	</MsgError>
 
 	<AskYesNo Id="25000">
-		<Info Value="Диалог: Запрос: Да/Нет"/>
+		<Info Value="Запрос: Да/Нет"/>
 		<NameFileDialog Value="msg/AskYesNo.xml"/>
 	</AskYesNo>
 

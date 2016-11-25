@@ -10,26 +10,26 @@
   <Image Shader="15" VIS="1" ENB="0" X="158" Y="65" W="503" H="396" />
     <Image Shader="16" VIS="1" ENB="0" X="160" Y="68" W="104" H="111" />
     <Button Key="escape" VIS="0" Command="delete_menu Poll;" ENB="1" />
-    <Text Name="Caption" Text="empty" FontSet="help_content" Align="LEFT" VAlign="TOP" ColorARGB="1 0.78 0.78 0.78" X="315" Y="90" W="342" H="30" VIS="1" ENB="0" UseHooks="1" />
-    <Button Name="PagePrev" Normal="151" Active="152" X="270" Y="85" W="36" H="20" VIS="0" ENB="0" UseHooks="1" />
-    <Image Shader="109" Angle="-90" X="273" Y="86" W="28" H="16" VIS="1" ENB="0" UseHooks="1" />
-    <List Name="ContentList" Gap="0" VIS="1" ENB="0" X="212" Y="240" W="350" H="180" UseHooks="1" VpX="208" VpY="238" VpW="382" VpH="184" >
+    <Text Name="Caption" Text="empty" FontSet="help_content" Align="LEFT" VAlign="TOP" ColorARGB="1 0.78 0.78 0.78" X="315" Y="90" W="342" H="30" VIS="1" ENB="0" />
+    <Button Name="PagePrev" Normal="151" Active="152" X="270" Y="85" W="36" H="20" VIS="0" ENB="0" />
+    <Image Shader="109" Angle="-90" X="273" Y="86" W="28" H="16" VIS="1" ENB="0" />
+    <List Name="ContentList" Gap="0" VIS="1" ENB="0" X="212" Y="240" W="350" H="180" VpX="208" VpY="238" VpW="382" VpH="184" >
         <Button Name="Prototype" FontSet="help_question" InnerBorderW="1" InnerBorderH="0" ColorARGB="1 0.7 0.7 0.7" ActiveColorARGB="1 0.7 0.7 0.7" Active="3" Check="3" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="236" Y="276" W="50" H="50" VpX="0" VpY="0" VpW="0" VpH="0" />
         <Button Name="Prototype_1" FontSet="help_question" InnerBorderW="1" InnerBorderH="5" ColorARGB="1 0.7 0.7 0.7" ActiveColorARGB="1 0.7 0.7 0.7" Active="3" Check="3" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="236" Y="276" W="50" H="50" VpX="0" VpY="0" VpW="0" VpH="0" />
     </List>
-    <List Name="ContentListRang" Gap="0" VIS="1" ENB="0" X="594" Y="240" W="40" H="180" UseHooks="1" >
+    <List Name="ContentListRang" Gap="0" VIS="1" ENB="0" X="594" Y="240" W="40" H="180" >
         <Button Name="Prototype" FontSet="help_question" InnerBorderW="1" InnerBorderH="0" ColorARGB="1 0.7 0.7 0.7" ActiveColorARGB="1 0.7 0.7 0.7" Active="3" Check="3" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="236" Y="276" W="50" H="50" VpX="0" VpY="0" VpW="0" VpH="0" />
         <Button Name="Prototype_1" FontSet="help_question" InnerBorderW="1" InnerBorderH="5" ColorARGB="1 0.7 0.7 0.7" ActiveColorARGB="1 0.7 0.7 0.7" Active="3" Check="3" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="236" Y="276" W="50" H="50" VpX="0" VpY="0" VpW="0" VpH="0" />
     </List>
-    <Image Shader="86" VIS="1" ENB="0" X="642" Y="232" W="10" H="190" UseHooks="1" />
-    <Slider Name="SliderAnswer" LineRect="ContentListPoll_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="641" Y="221" W="10" H="20" VIS="1" ENB="1" UseHooks="1" />
-    <List Name="Content" Gap="0" VIS="1" ENB="0" X="268" Y="108" W="342" H="101" UseHooks="1">
+    <Image Shader="86" VIS="1" ENB="0" X="642" Y="232" W="10" H="190" />
+    <Slider Name="SliderAnswer" LineRect="ContentListPoll_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="641" Y="221" W="10" H="20" VIS="1" ENB="1" />
+    <List Name="Content" Gap="0" VIS="1" ENB="0" X="268" Y="108" W="342" H="101">
 		<Button Name="Prototype" FontSet="help_content" InnerBorderW="1" InnerBorderH="0" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.78 0.78 0.78" Active="3" Check="3" Align="LEFT" WordWrap="1" VIS="0" ENB="1" X="236" Y="276" W="50" H="50" VpX="0" VpY="0" VpW="0" VpH="0" />
 		<Button Name="Prototype_1" FontSet="help_content" InnerBorderW="1" InnerBorderH="4" ColorARGB="1 0.78 0.78 0.78" ActiveColorARGB="1 0.78 0.78 0.78" Active="3" Check="3" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="236" Y="276" W="50" H="50" VpX="0" VpY="0" VpW="0" VpH="0" />
-        <Image Shader="86" VIS="1" ENB="0" X="642" Y="108" W="10" H="101" UseHooks="1" />
-        <Slider Name="Slider" LineRect="ContentPoll_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="641" Y="108" W="10" H="20" VIS="1" ENB="1" UseHooks="1" />
+        <Image Shader="86" VIS="1" ENB="0" X="642" Y="108" W="10" H="101" />
+        <Slider Name="Slider" LineRect="ContentPoll_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="641" Y="108" W="10" H="20" VIS="1" ENB="1" />
     </List>
-    <Button Name="AddAnswer" Text="poll_add_answer" FontSet="button" Normal="129" Active="130" ColorARGB="1 0.91 0.73 0" X="210" Y="430" W="119" H="20" VIS="0" ENB="0" UseHooks="1" />
-    <Button Name="Poll" Text="poll_poll" FontSet="button" Normal="129" Active="130" ColorARGB="1 0.91 0.73 0" X="561" Y="430" W="81" H="20" VIS="0" ENB="0" UseHooks="1" />
+    <Button Name="AddAnswer" Text="poll_add_answer" FontSet="button" Normal="129" Active="130" ColorARGB="1 0.91 0.73 0" X="210" Y="430" W="119" H="20" VIS="0" ENB="0" />
+    <Button Name="Poll" Text="poll_poll" FontSet="button" Normal="129" Active="130" ColorARGB="1 0.91 0.73 0" X="561" Y="430" W="81" H="20" VIS="0" ENB="0" />
     <TextField Style="poll" Name="AddAnswerText" PlaceHolderKey="common_text_holder" Align="LEFT" VAlign="CENTER" MaxLength="200" X="332" Y="431" W="222" H="20" VIS="0" ENB="0" VpX="330" VpY="429" VpW="221" VpH="22" />
 </Poll>

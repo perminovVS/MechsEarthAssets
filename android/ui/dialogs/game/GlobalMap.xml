@@ -14,12 +14,12 @@
 		
 		<!-- Всплывающие подсказки -->
 		<ToolTips Name="ToolTips">
-			<Image Shader="6" VIS="0" ENB="0" />
-			<Text Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+			<Image Shader="6" />
+			<Text Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
 		</ToolTips>
     </Item>
-    <Image Shader="81" VIS="1" ENB="0" X="184" Y="94" W="440" H="424" UseHooks="1" />
-    <Image Shader="75" VIS="1" ENB="0" X="184" Y="94" W="440" H="422" UseHooks="1" />
+    <Image Shader="81" VIS="1" ENB="0" X="184" Y="94" W="440" H="424" />
+    <Image Shader="75" VIS="1" ENB="0" X="184" Y="94" W="440" H="422" />
     <!-- Закрытие глобальной карты -->
     <Button VIS="0" Key="escape" Command="delete_menu GlobalMap;" />
 </GlobalMap>

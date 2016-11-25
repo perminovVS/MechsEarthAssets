@@ -4,511 +4,722 @@
     <dict>
         <key>frames</key>
         <dict>
+            <key>ui_new/button/checkbox/active</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1,0}</string>
+                <key>spriteSize</key>
+                <string>{90,88}</string>
+                <key>spriteSourceSize</key>
+                <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{1530,1866},{90,88}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
             <key>ui_new/button/checkbox/check</key>
             <dict>
-                <key>frame</key>
-                <string>{{928,1858},{88,86}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{1,3},{88,86}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{90,88}</string>
+                <key>spriteSourceSize</key>
                 <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{1530,1956},{90,88}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/button/checkbox/empty</key>
             <dict>
-                <key>frame</key>
-                <string>{{1582,1484},{72,70}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,1}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{9,10},{72,70}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{74,72}</string>
+                <key>spriteSourceSize</key>
                 <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{276,1800},{74,72}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/default/check</key>
             <dict>
-                <key>frame</key>
-                <string>{{556,1858},{184,92}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{184,92}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{184,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{184,92}</string>
+                <key>textureRect</key>
+                <string>{{1344,1846},{184,92}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/button/default/check_x2</key>
             <dict>
-                <key>frame</key>
-                <string>{{1028,1694},{368,92}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{368,92}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{368,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{368,92}</string>
+                <key>textureRect</key>
+                <string>{{1542,756},{368,92}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/default/check_x3</key>
             <dict>
-                <key>frame</key>
-                <string>{{1546,2},{552,92}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{552,92}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{552,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{552,92}</string>
+                <key>textureRect</key>
+                <string>{{1585,2},{552,92}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/default/normal</key>
             <dict>
-                <key>frame</key>
-                <string>{{742,1858},{184,92}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{184,92}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{184,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{184,92}</string>
+                <key>textureRect</key>
+                <string>{{1344,1940},{184,92}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/button/default/normal_x2</key>
             <dict>
-                <key>frame</key>
-                <string>{{1028,1788},{368,92}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{368,92}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{368,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{368,92}</string>
+                <key>textureRect</key>
+                <string>{{1542,1126},{368,92}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/default/normal_x3</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,1858},{552,92}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{552,92}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{552,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{552,92}</string>
+                <key>textureRect</key>
+                <string>{{1028,60},{552,92}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/button/default/select</key>
             <dict>
-                <key>frame</key>
-                <string>{{1542,1298},{184,92}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{184,92}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{184,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{184,92}</string>
+                <key>textureRect</key>
+                <string>{{2,1800},{184,92}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/default/select_x2</key>
             <dict>
-                <key>frame</key>
-                <string>{{1546,556},{368,92}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{368,92}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{368,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{368,92}</string>
+                <key>textureRect</key>
+                <string>{{1542,1496},{368,92}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/default/select_x3</key>
             <dict>
-                <key>frame</key>
-                <string>{{1028,1542},{552,92}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{552,92}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{552,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{552,92}</string>
+                <key>textureRect</key>
+                <string>{{1028,154},{552,92}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/button/help/normal</key>
             <dict>
-                <key>frame</key>
-                <string>{{1582,1556},{72,70}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,1}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{9,10},{72,70}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{74,72}</string>
+                <key>spriteSourceSize</key>
                 <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{276,1876},{74,72}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/help/select</key>
             <dict>
-                <key>frame</key>
-                <string>{{1016,1882},{88,86}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{1,3},{88,86}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{90,88}</string>
+                <key>spriteSourceSize</key>
                 <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{96,1800},{90,88}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/other/minus_normal</key>
             <dict>
-                <key>frame</key>
-                <string>{{746,1952},{72,70}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,1}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{9,10},{72,70}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{74,72}</string>
+                <key>spriteSourceSize</key>
                 <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{350,1800},{74,72}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/other/minus_select</key>
             <dict>
-                <key>frame</key>
-                <string>{{1106,1882},{88,86}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{1,3},{88,86}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{90,88}</string>
+                <key>spriteSourceSize</key>
                 <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{96,1892},{90,88}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/other/plus_normal</key>
             <dict>
-                <key>frame</key>
-                <string>{{820,1952},{72,70}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,1}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{9,10},{72,70}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{74,72}</string>
+                <key>spriteSourceSize</key>
                 <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{350,1876},{74,72}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/other/plus_select</key>
             <dict>
-                <key>frame</key>
-                <string>{{1196,1882},{88,86}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{1,3},{88,86}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{90,88}</string>
+                <key>spriteSourceSize</key>
                 <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{186,1800},{90,88}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/button/setting/normal</key>
             <dict>
-                <key>frame</key>
-                <string>{{894,1952},{72,70}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,1}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{9,10},{72,70}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{74,72}</string>
+                <key>spriteSourceSize</key>
                 <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{938,1800},{74,72}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/button/setting/select</key>
             <dict>
-                <key>frame</key>
-                <string>{{1286,1882},{88,86}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{1,3},{88,86}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{90,88}</string>
+                <key>spriteSourceSize</key>
                 <string>{92,92}</string>
+                <key>textureRect</key>
+                <string>{{186,1892},{90,88}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/div/div</key>
             <dict>
-                <key>frame</key>
-                <string>{{1542,878},{30,2}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,5},{30,2}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{30,4}</string>
+                <key>spriteSourceSize</key>
                 <string>{30,12}</string>
+                <key>textureRect</key>
+                <string>{{1542,540},{30,4}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/div/div_x16</key>
             <dict>
-                <key>frame</key>
-                <string>{{1640,2},{478,2}}</string>
-                <key>offset</key>
-                <string>{1,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{2,5},{478,2}}</string>
-                <key>sourceSize</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{480,4}</string>
+                <key>spriteSourceSize</key>
                 <string>{480,12}</string>
+                <key>textureRect</key>
+                <string>{{1664,750},{480,4}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/div/div_x2</key>
             <dict>
-                <key>frame</key>
-                <string>{{928,1948},{60,2}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,5},{60,2}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{60,4}</string>
+                <key>spriteSourceSize</key>
                 <string>{60,12}</string>
+                <key>textureRect</key>
+                <string>{{1576,490},{60,4}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/div/div_x32</key>
             <dict>
-                <key>frame</key>
-                <string>{{1542,2},{874,2}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{6,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{49,5},{874,2}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{876,4}</string>
+                <key>spriteSourceSize</key>
                 <string>{960,12}</string>
+                <key>textureRect</key>
+                <string>{{1672,556},{876,4}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/div/div_x4</key>
             <dict>
-                <key>frame</key>
-                <string>{{1600,926},{120,2}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,5},{120,2}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{120,4}</string>
+                <key>spriteSourceSize</key>
                 <string>{120,12}</string>
+                <key>textureRect</key>
+                <string>{{1542,750},{120,4}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/div/div_x8</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,2010},{240,2}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,1}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,4},{240,2}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{240,4}</string>
+                <key>spriteSourceSize</key>
                 <string>{240,12}</string>
+                <key>textureRect</key>
+                <string>{{1576,248},{240,4}}</string>
+                <key>textureRotated</key>
+                <true/>
+            </dict>
+            <key>ui_new/pixel</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{128,128}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,128}</string>
+                <key>textureRect</key>
+                <string>{{1542,556},{128,128}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>ui_new/scroll/back1x1</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,128}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,128}</string>
+                <key>textureRect</key>
+                <string>{{1542,686},{32,128}}</string>
+                <key>textureRotated</key>
+                <true/>
+            </dict>
+            <key>ui_new/scroll/back1x2</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,256}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,256}</string>
+                <key>textureRect</key>
+                <string>{{1542,248},{32,256}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>ui_new/scroll/back1x4</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,512}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,512}</string>
+                <key>textureRect</key>
+                <string>{{1636,1232},{32,512}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>ui_new/scroll/button_active</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,83}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,83}</string>
+                <key>textureRect</key>
+                <string>{{1636,1746},{32,83}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>ui_new/scroll/button_normal</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,83}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,83}</string>
+                <key>textureRect</key>
+                <string>{{1636,1831},{32,83}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>ui_new/text/field/0.5x0.5</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{128,28}</string>
+                <key>spriteSourceSize</key>
+                <string>{128,28}</string>
+                <key>textureRect</key>
+                <string>{{1542,720},{128,28}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/text/field/1x1</key>
             <dict>
-                <key>frame</key>
-                <string>{{744,1800},{256,56}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{256,56}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{256,56}</string>
+                <key>spriteSourceSize</key>
+                <string>{256,56}</string>
+                <key>textureRect</key>
+                <string>{{1286,1788},{256,56}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>ui_new/text/field/2x1</key>
             <dict>
-                <key>frame</key>
-                <string>{{1028,1636},{512,56}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{512,56}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{512,56}</string>
+                <key>spriteSourceSize</key>
+                <string>{512,56}</string>
+                <key>textureRect</key>
+                <string>{{424,1800},{512,56}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/text/field/scale9</key>
             <dict>
-                <key>frame</key>
-                <string>{{1542,1636},{56,56}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{56,56}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{56,56}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,56}</string>
+                <key>textureRect</key>
+                <string>{{744,1932},{56,56}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/text/label/1x1</key>
             <dict>
-                <key>frame</key>
-                <string>{{559,1952},{185,56}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{185,56}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{185,56}</string>
+                <key>spriteSourceSize</key>
+                <string>{185,56}</string>
+                <key>textureRect</key>
+                <string>{{1344,1788},{185,56}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/text/label/2x1</key>
             <dict>
-                <key>frame</key>
-                <string>{{1542,926},{370,56}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{370,56}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{370,56}</string>
+                <key>spriteSourceSize</key>
+                <string>{370,56}</string>
+                <key>textureRect</key>
+                <string>{{424,1874},{370,56}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/text/label/3x1</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,1952},{555,56}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{555,56}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{555,56}</string>
+                <key>spriteSourceSize</key>
+                <string>{555,56}</string>
+                <key>textureRect</key>
+                <string>{{1028,2},{555,56}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>ui_new/text/label/4x1</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,1800},{740,56}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{740,56}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{740,56}</string>
-            </dict>
-            <key>ui_new/window/1x1</key>
-            <dict>
-                <key>frame</key>
-                <string>{{1398,1694},{256,256}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSourceSize</key>
+                <string>{740,56}</string>
+                <key>textureRect</key>
+                <string>{{2,1986},{740,56}}</string>
+                <key>textureRotated</key>
                 <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{256,256}}</string>
-                <key>sourceSize</key>
+            </dict>
+            <key>ui_new/tooltip/default</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,32}</string>
+                <key>textureRect</key>
+                <string>{{1542,506},{32,32}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>ui_new/window/default/1x1</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
                 <string>{256,256}</string>
-            </dict>
-            <key>ui_new/window/2x2</key>
-            <dict>
-                <key>frame</key>
-                <string>{{1028,1028},{512,512}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSourceSize</key>
+                <string>{256,256}</string>
+                <key>textureRect</key>
+                <string>{{1028,1788},{256,256}}</string>
+                <key>textureRotated</key>
                 <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{512,512}}</string>
-                <key>sourceSize</key>
+            </dict>
+            <key>ui_new/window/default/2x2</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
                 <string>{512,512}</string>
-            </dict>
-            <key>ui_new/window/2x4</key>
-            <dict>
-                <key>frame</key>
-                <string>{{1028,2},{512,1024}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSourceSize</key>
+                <string>{512,512}</string>
+                <key>textureRect</key>
+                <string>{{1028,1274},{512,512}}</string>
+                <key>textureRotated</key>
                 <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{512,1024}}</string>
-                <key>sourceSize</key>
+            </dict>
+            <key>ui_new/window/default/2x4</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
                 <string>{512,1024}</string>
-            </dict>
-            <key>ui_new/window/4x1</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,1542},{1024,256}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSourceSize</key>
+                <string>{512,1024}</string>
+                <key>textureRect</key>
+                <string>{{1028,248},{512,1024}}</string>
+                <key>textureRotated</key>
                 <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{1024,256}}</string>
-                <key>sourceSize</key>
+            </dict>
+            <key>ui_new/window/default/4x1</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
                 <string>{1024,256}</string>
-            </dict>
-            <key>ui_new/window/4x2</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,1028},{1024,512}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSourceSize</key>
+                <string>{1024,256}</string>
+                <key>textureRect</key>
+                <string>{{2,1542},{1024,256}}</string>
+                <key>textureRotated</key>
                 <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{1024,512}}</string>
-                <key>sourceSize</key>
+            </dict>
+            <key>ui_new/window/default/4x2</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
                 <string>{1024,512}</string>
-            </dict>
-            <key>ui_new/window/4x4</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,2},{1024,1024}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSourceSize</key>
+                <string>{1024,512}</string>
+                <key>textureRect</key>
+                <string>{{2,1028},{1024,512}}</string>
+                <key>textureRotated</key>
                 <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{1024,1024}}</string>
-                <key>sourceSize</key>
+            </dict>
+            <key>ui_new/window/default/4x4</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
                 <string>{1024,1024}</string>
+                <key>spriteSourceSize</key>
+                <string>{1024,1024}</string>
+                <key>textureRect</key>
+                <string>{{2,2},{1024,1024}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
         </dict>
         <key>metadata</key>
         <dict>
             <key>format</key>
-            <integer>2</integer>
+            <integer>3</integer>
             <key>realTextureFileName</key>
             <string>ui_new.png</string>
             <key>size</key>
-            <string>{1656,2025}</string>
+            <string>{1679,2046}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:75ad2be6fc046b66762ed7b009c43f28:53bd49fe0cb474bea5a2348db7080d2f:3eaf5d9cb1a82068a9f9376d18267618$</string>
+            <string>$TexturePacker:SmartUpdate:8a99eecb0f43e24c22eeacfac0f92322:5f11146dcd01d1fcc37653b6eb383f17:3eaf5d9cb1a82068a9f9376d18267618$</string>
             <key>textureFileName</key>
             <string>ui_new.png</string>
         </dict>

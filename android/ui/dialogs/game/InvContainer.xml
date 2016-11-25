@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: Inventory container -->
+<!-- Inventory container -->
 <InvContainer Id="49000" Worker="Menu_InvContainer">
     <!-- Перетаскиваемый элемент -->
     <Image Id="1" Worker="Image_DragItem" WorkerShow="ImageDefaultWorkShow" VIS="1" ENB="1" />
@@ -10,13 +10,13 @@
             <Image Id="6" Shader="46" X="456" Y="162" W="16" H="16" VIS="1" ENB="0" />
         </Button>
         <!-- Кнопки Prev и Next -->
-        <Button Id="7" Name="Prev" Normal="43" Active="44" ENB="1" VIS="1" X="321" Y="432" W="15" H="26" UseHooks="1">
+        <Button Id="7" Name="Prev" Normal="43" Active="44" ENB="1" VIS="1" X="321" Y="432" W="15" H="26">
             <Image Id="8" Shader="45" Angle="180" X="318" Y="432" W="22" H="20" VIS="1" ENB="0" />
         </Button>
-        <Button Id="10" Name="Next" Normal="43" Active="44" ENB="1" VIS="1" X="458" Y="432" W="15" H="26" UseHooks="1">
+        <Button Id="10" Name="Next" Normal="43" Active="44" ENB="1" VIS="1" X="458" Y="432" W="15" H="26">
             <Image Id="11" Shader="45" X="454" Y="432" W="22" H="20" VIS="1" ENB="0" />
         </Button>
-        <Button Id="15" Name="PickAll" Text="inv_container_pick_all" FontSet="button" Normal="43" Active="44" ColorARGB="1 0.91 0.73 0" Align="CENTER" VAlign="CENTER" ENB="1" VIS="1" X="371" Y="438" W="53" H="20" Key="z" UseHooks="1"/>
+        <Button Id="15" Name="PickAll" Text="inv_container_pick_all" FontSet="button" Normal="43" Active="44" ColorARGB="1 0.91 0.73 0" Align="CENTER" VAlign="CENTER" ENB="1" VIS="1" X="371" Y="438" W="53" H="20" Key="z"/>
         <Text Id="20" Text="inv_container_weight_all" Align="LEFT" FontSet="small" X="327" Y="164" W="60" H="14" VIS="1" ENB="0" />
         <Text Id="21" Name="Weight" Text="empty" Align="RIGHT" FontSet="small" X="387" Y="164" W="58" H="14" VIS="1" ENB="0" />
         <!-- Номер страницы инвентаря -->
@@ -99,8 +99,8 @@
         </Item>
         <!-- Всплывающие подсказки -->
         <ToolTips Id="700" Name="ToolTips" VIS="1" ENB="1">
-            <Image Id="701" Shader="6" VIS="0" ENB="0" />
-            <Text Id="702" Align="LEFT" WordWrap="1" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" />
+            <Image Id="701" Shader="6" />
+            <Text Id="702" Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
         </ToolTips>
     </Image>
 </InvContainer>

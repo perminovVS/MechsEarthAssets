@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Диалог: подтверждение покупки робота -->
+<!-- подтверждение покупки робота -->
 <RobotBuyConfirm Id="101000" Worker="Menu_RobotBuyConfirm">
     <Image Id="1" Rect="Common_WholeScreen" Shader="5" />
     <Image Id="2" Rect="MsgWndSmallSystem02_Wnd" Shader="143" ENB="0">
