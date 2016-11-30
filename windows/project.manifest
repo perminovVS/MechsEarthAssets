@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "2.0.1.2",
+    "version": "2.0.1.3",
     "engineVersion": "3.13",
     "assets": {
         "ClientConfig.xml": {
@@ -3717,7 +3717,7 @@
             "md5": "07e510523091759fd94ade232c55b9df"
         },
         "textures/mech/player/20.jpg": {
-            "md5": "ec3ca2367b61380159ec26df71995f18"
+            "md5": "9d63f27695093843d62f37e4c24201bc"
         },
         "textures/mech/player/20_01.jpg": {
             "md5": "78a7e1b374698ef23aacb14779a41c39"
