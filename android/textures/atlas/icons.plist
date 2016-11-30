@@ -6984,7 +6984,7 @@
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
-                <string>{0,-2}</string>
+                <string>{0,-1}</string>
                 <key>spriteSize</key>
                 <string>{64,60}</string>
                 <key>spriteSourceSize</key>
@@ -6999,7 +6999,7 @@
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
-                <string>{0,-2}</string>
+                <string>{0,-1}</string>
                 <key>spriteSize</key>
                 <string>{64,60}</string>
                 <key>spriteSourceSize</key>
@@ -7014,7 +7014,7 @@
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
-                <string>{0,-2}</string>
+                <string>{0,-1}</string>
                 <key>spriteSize</key>
                 <string>{64,60}</string>
                 <key>spriteSourceSize</key>
@@ -20624,7 +20624,7 @@
             <key>size</key>
             <string>{2042,1662}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:86f66ff5bffbe84bc97c92d5dfa06c26:6b94bb069e0f0d7215795e286ef8b14f:a73c72aca107c42120aa7eba166486e5$</string>
+            <string>$TexturePacker:SmartUpdate:ca624954877d1543ada43893caf64d57:477d6fb01c57d3cbc4b8f5e57247959d:a73c72aca107c42120aa7eba166486e5$</string>
             <key>textureFileName</key>
             <string>icons/icons.png</string>
         </dict>

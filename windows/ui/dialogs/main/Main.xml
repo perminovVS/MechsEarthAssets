@@ -2,10 +2,6 @@
 <!-- основное меню -->
 <Main Id="10000" Worker="Menu_Main">
     <Image Style="window" X="240" Y="140" W="320" H="330"/>
-    <Image Shader="520" X="8" Y="0" W="433" H="150"/>
-    <Image Shader="521" X="414" Y="9" W="408" H="133"/>
-    <Image Shader="522" X="479" Y="400" W="307" H="137"/>
-    <Button MouseShader="153" Normal="523" Active="524" Command="open_url https://mechs.su/novosti/news-chernaya-pyatnica-v-mmorpg-mehi-zemlya.html" X="77" Y="459" W="619" H="147"/>
     <Button Style="default" Text="mainmenu_connect" Command="delete_menu Main;create_menu Login;" Key="enter" X="275" Y="197" W="250" H="45"/>
     <Button Style="default" Text="mainmenu_register" Command="delete_menu Main;create_menu Login;" X="275" Y="249" W="250" H="45"/>
     <Button Style="default" Text="mainmenu_options" Command="create_menu Options;" X="275" Y="301" W="250" H="45"/>

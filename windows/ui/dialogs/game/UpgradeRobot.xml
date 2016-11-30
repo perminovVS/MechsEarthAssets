@@ -58,7 +58,7 @@
             <Text Id="407" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="417" Y="416" W="15" H="6"/>
         </Item>
     </Item>
-    <Button MouseShader="153" Text="upgrade_sale" FontSet="big_7" Align="RIGHT" ColorARGB="1 0.9 0.2 0.2" ActiveColorARGB="1 1 0.1 0.1" Command="open_url https://mechs.su/novosti/news-chernaya-pyatnica-v-mmorpg-mehi-zemlya.html" X="431" Y="100" W="140" H="61"/>
+    <Button MouseShader="153" Text="upgrade_sale" FontSet="big_7" Align="RIGHT" ColorARGB="1 0.9 0.2 0.2" ActiveColorARGB="1 1 0.1 0.1" Command="open_url https://mechs.su/novosti/news-chernaya-pyatnica-v-mmorpg-mehi-zemlya.html" X="431" Y="100" W="140" H="61" VIS="0" ENB="0"/>
     <!-- Всплывающие подсказки -->
     <ToolTips Name="ToolTips">
         <Image Shader="6"/>

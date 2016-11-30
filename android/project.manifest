@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "2.0.1.0",
+    "version": "2.0.1.2",
     "engineVersion": "3.13",
     "assets": {
         "ClientConfig.xml": {
@@ -1848,16 +1848,16 @@
             "md5": "4129d3994eca970de418159c571c0dfc"
         },
         "textures/atlas/icons.plist": {
-            "md5": "4895625d66267700bcaa5f24e9a0b0c9"
+            "md5": "1c7cfe74f9a2db12d8e31b75a4279ed6"
         },
         "textures/atlas/icons.png": {
-            "md5": "5da04af41bddfbb987dc81170fc46a40"
+            "md5": "cead79efd98000d4daebaaee421c3c6d"
         },
         "textures/atlas/ui.plist": {
-            "md5": "b832e955a52a2b262a6ffac68558b32e"
+            "md5": "c14527435d9f95ad15acfe065b2d33ad"
         },
         "textures/atlas/ui.png": {
-            "md5": "b081a68e2cd2188afeb5d3e4cd1fcf3d"
+            "md5": "ae72e7085bdd00bd0904c2e4fe70252c"
         },
         "textures/atlas/ui_new.plist": {
             "md5": "3fffef50f7dc49fcb261a157214a9604"
@@ -3117,13 +3117,13 @@
             "md5": "15226bb7abe48f9650c127628f9710a0"
         },
         "textures/mech/player/20.jpg": {
-            "md5": "578dfa55421fce773710b9aa4c46efe9"
+            "md5": "b69341d20220d83da56a7f433d12a55b"
         },
         "textures/mech/player/20_01.jpg": {
-            "md5": "f8d29590de7437a8f03bbd9cd1c8a112"
+            "md5": "99184c76da668b1be6903f77ff8e88cb"
         },
         "textures/mech/player/20_02.jpg": {
-            "md5": "310d5088d66e57cdadaa62b51b93201f"
+            "md5": "85d56d9bbf051fe57901050bdc5b104c"
         },
         "textures/mech/player/21.jpg": {
             "md5": "4dbddf9c7ca620a127727569752b5232"
@@ -4023,7 +4023,7 @@
             "md5": "9b3b604a379c9440ee7211e1f4c5181f"
         },
         "ui/dialogs/game/UpgradeRobot.xml": {
-            "md5": "b9be6a580f571052f903b42d71468cb5"
+            "md5": "48a8d5b80a41040625907c0e434ba418"
         },
         "ui/dialogs/game/clan/ClanMain.xml": {
             "md5": "68e9a934db9d8316097e67e954cccbcf"
@@ -4062,7 +4062,7 @@
             "md5": "0d35853cbed73ca64021f6059a234f1b"
         },
         "ui/dialogs/game/location/LocResearch.xml": {
-            "md5": "ccf1671587c41519ebd8841b01ce248e"
+            "md5": "278efe266227f75d62b426cdb144b181"
         },
         "ui/dialogs/game/location/LocRobotStoreHouse.xml": {
             "md5": "6df1492c836c581583a48422061d7152"
@@ -4131,7 +4131,7 @@
             "md5": "eb9382c1e0896a471e1c792ba4caaeb2"
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "e4bb2b046b43a721f890fa741ce5402e"
+            "md5": "284bf1707e93fb2c03ea5561c816339c"
         },
         "ui/dialogs/main/MainContacts.xml": {
             "md5": "4afc2a2583b2421b56c70dd154e4dbd0"
@@ -4203,7 +4203,7 @@
             "md5": "36ebf2e46f385704d3860a9b44cd14f4"
         },
         "ui/ui.xml": {
-            "md5": "020018f3f2c45086f01fe21ec667b08f"
+            "md5": "6965f7fddaf12a4fb91286c711a3435d"
         },
         "ui/ui_launcher.xml": {
             "md5": "62e9d3e087889605d3bf2c144862db53"
@@ -4410,7 +4410,7 @@
             "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "8560fc879d3e5acd27c5cfa05c7f725c"
+            "md5": "5c034aa8d220471df15e605e034e7bb3"
         },
         "worlds/Nations.xml": {
             "md5": "629b2233f883e1072e3b6894d16bbeac"

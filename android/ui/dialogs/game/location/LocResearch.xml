@@ -84,7 +84,7 @@
             <Slider Name="Slider" LineRect="Research_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="550" Y="267" W="10" H="25" VIS="1" ENB="1"/>
         </List>
     </Image>
-    <Button Name="BlackFriday" MouseShader="153" Text="research_sale" FontSet="msg" Align="LEFT" ColorARGB="1 0.9 0.2 0.2" ActiveColorARGB="1 1 0.1 0.1" Command="open_url https://mechs.su/novosti/news-chernaya-pyatnica-v-mmorpg-mehi-zemlya.html" X="278" Y="396" W="145" H="39"/>
+    <Button Name="BlackFriday" MouseShader="153" Text="research_sale" FontSet="msg" Align="LEFT" ColorARGB="1 0.9 0.2 0.2" ActiveColorARGB="1 1 0.1 0.1" Command="open_url https://mechs.su/novosti/news-chernaya-pyatnica-v-mmorpg-mehi-zemlya.html" X="278" Y="396" W="145" H="39" VIS="0" ENB="0"/>
     <!-- Всплывающие подсказки -->
     <ToolTips Name="ToolTips">
         <Image Shader="6"/>

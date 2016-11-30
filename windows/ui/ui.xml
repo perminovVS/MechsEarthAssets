@@ -625,11 +625,6 @@
 	 <Resource Name="ui/new/main/main/site_active" /><!-- 517 -->
 	 <Resource Name="ui_new/tooltip/default" /><!-- 518 -->
 	 <Resource Name="ui_new/pixel" ColorARGB="255 255 0 0" /><!-- 519 -->
-	 <Resource Name="ui/new/banners/bf_black_friday" ColorARGB="200 255 255 255" /><!-- 520 -->
-	 <Resource Name="ui/new/banners/bf_70_percent" ColorARGB="200 255 255 255" /><!-- 521 -->
-	 <Resource Name="ui/new/banners/bf_25_30_november" /><!-- 522 -->
-	 <Resource Name="ui/new/banners/bf_discounts_fire" ColorARGB="200 255 255 255" /><!-- 523 -->
-	 <Resource Name="ui/new/banners/bf_discounts_fire" /><!-- 524 -->
  </Shaders>
  
  <Styles>
