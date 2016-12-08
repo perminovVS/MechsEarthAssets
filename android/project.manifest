@@ -2,8 +2,8 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "2.0.1.3",
-    "engineVersion": "3.13",
+    "version": "2.0.2",
+    "engineVersion": "3.13.1",
     "assets": {
         "ClientConfig.xml": {
             "md5": "da94767ee032987221c6ffe587b47cbc"
@@ -1842,10 +1842,10 @@
             "md5": "26b99d14e2ad299047501bd927601b0e"
         },
         "textures/atlas/begin.plist": {
-            "md5": "d0433aa9f7b3f681931e264d961f0489"
+            "md5": "441ef3979ce168e4d9ebf6b2083e86f9"
         },
         "textures/atlas/begin.png": {
-            "md5": "4129d3994eca970de418159c571c0dfc"
+            "md5": "8e91f1de8f0b669c31f37bbd0328bf4f"
         },
         "textures/atlas/icons.plist": {
             "md5": "1c7cfe74f9a2db12d8e31b75a4279ed6"
@@ -3209,6 +3209,9 @@
         "textures/world/box.jpg": {
             "md5": "f2782ed89d9b30433a2ef0cf6dc6fb0b"
         },
+        "textures/world/box_snow.jpg": {
+            "md5": "f024785e66d7f559fefc855aaf19c0e5"
+        },
         "textures/world/bridge/01.jpg": {
             "md5": "61a3a8ab86fa28a714524b39f5249669"
         },
@@ -4053,7 +4056,7 @@
             "md5": "4cb0fbee5423e46ddd1e23e6813f10ba"
         },
         "ui/dialogs/game/location/LocCraft.xml": {
-            "md5": "b1243dd17d6806b51cd74afb96a37d53"
+            "md5": "de9702f80a38a0ac20b82f713d0a5f89"
         },
         "ui/dialogs/game/location/LocGetQuests.xml": {
             "md5": "c2fdf8626b0c3011aafb7cfdd0f89c64"
@@ -4203,7 +4206,7 @@
             "md5": "36ebf2e46f385704d3860a9b44cd14f4"
         },
         "ui/ui.xml": {
-            "md5": "6965f7fddaf12a4fb91286c711a3435d"
+            "md5": "e466b4b40eab162cba922a9c0c85625d"
         },
         "ui/ui_launcher.xml": {
             "md5": "62e9d3e087889605d3bf2c144862db53"
@@ -4338,7 +4341,7 @@
             "md5": "f017078de97df4c0e850e39cd551c754"
         },
         "worlds/6/Layer.mz": {
-            "md5": "464c024019f0fe80a732302566e07a40"
+            "md5": "01612426b9b4f9f9d8f24d6c67b544b2"
         },
         "worlds/6/PassiveEntities.bin": {
             "md5": "e2a0b30fa82f6e67d605bba7b7db33e3"
@@ -4347,7 +4350,7 @@
             "md5": "b27228af88bfdc8ad2fe656e772b3b5a"
         },
         "worlds/6/World.xml": {
-            "md5": "acd11a124fba634a8b5f211631694bcc"
+            "md5": "30743a15a42a2528d3e2e0c1476d702f"
         },
         "worlds/6/map.jpg": {
             "md5": "f41b20190aeb2c5e46e31c22b401f71b"
@@ -4410,13 +4413,13 @@
             "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "5c034aa8d220471df15e605e034e7bb3"
+            "md5": "6b7c8b02addb79db9dfaee25804c7d45"
         },
         "worlds/Nations.xml": {
             "md5": "629b2233f883e1072e3b6894d16bbeac"
         },
         "worlds/Resources.xml": {
-            "md5": "2943f29dc17ada603a9baa2fb1aaf6de"
+            "md5": "eca8c0991df73a4fd9d4f55e9415ed1d"
         }
     },
     "searchPaths": []

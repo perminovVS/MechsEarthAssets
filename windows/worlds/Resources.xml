@@ -692,6 +692,7 @@
     <Resource Idx="690" Name="models/world/house/house_68" />
 </Models>
 <ShadersWinter>
+  <Resource Idx="270" Name="world/box_snow" />
   <Resource Idx="732" Name="world/ut/tree/snow/frond_01" />
   <Resource Idx="736" Name="world/ut/grass/snow/01" />
   <Resource Idx="741" Name="world/ut/tree/snow/trunk_07" />

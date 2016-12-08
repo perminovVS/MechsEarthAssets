@@ -69,7 +69,7 @@
     </Item>
     <!-- Всплывающие подсказки -->
     <ToolTips Name="ToolTips">
-        <Image Shader="6" VIS="0" ENB="0" />
+        <Image Shader="6" />
         <Text Align="LEFT" WordWrap="1" FontSet="small" ColorARGB="1 1 1 1" />
     </ToolTips>
 </LocCraft>
