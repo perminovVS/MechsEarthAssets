@@ -33,11 +33,11 @@
     <Resource Idx="31" Name="models/world/sky_box/hemispherical" />
     <Resource Idx="32" Name="models/mech/player/new_year" />
     <Resource Idx="33" Name="models/mech/player/26" />
-    <Resource Idx="34" Name="models/mech/player/27" />
-    <Resource Idx="35" Name="models/stone03_11" />
-    <Resource Idx="36" Name="models/stone03_12" />
-    <Resource Idx="37" Name="models/stone03_13" />
-    <Resource Idx="38" Name="models/stone03_14" />
+    <Resource Idx="34" Name="models/mech/player/mc_ltmed/lt/fox/elf_cannon_lvl3" />
+    <Resource Idx="35" Name="models/mech/player/mc_ltmed/lt/fox/machinegun_lvl3" />
+    <Resource Idx="36" Name="models/mech/player/mc_ltmed/lt_med/copter/laser_lvl4" />
+    <Resource Idx="37" Name="models/mech/player/mc_ltmed/lt_med/copter/lt_frame_laser_lvl4" />
+    <Resource Idx="38" Name="models/mech/player/mc_ltmed/lt_med/copter/med_wall_laser_lvl4" />
     <Resource Idx="39" Name="models/mech/player/30" />
     <Resource Idx="40" Name="models/mech/player/31" />
     <Resource Idx="41" Name="models/world/house/house04" />
@@ -63,10 +63,10 @@
     <Resource Idx="61" Name="models/interface/path01" />
     <Resource Idx="62" Name="models/mech/player/46" />
     <Resource Idx="63" Name="models/mech/player/47" />
-    <Resource Idx="64" Name="models/scout01" />
+    <Resource Idx="64" Name="models/mech/player/mc_ltmed/lt_med/tractor/med_frame_laser_lvl5" />
     <Resource Idx="65" Name="models/mech/krot/02" />
-    <Resource Idx="66" Name="models/miner01" />
-    <Resource Idx="67" Name="models/trader01" />
+    <Resource Idx="66" Name="models/mech/player/mc_ltmed/med/copter/laser_lvl1" />
+    <Resource Idx="67" Name="models/mech/player/mc_ltmed/med/tractor/med_shield_cannon_lvl5" />
     <Resource Idx="68" Name="models/world/tube/03" />
     <Resource Idx="69" Name="models/world/wall/01" />
     <Resource Idx="70" Name="models/mutant01" />
@@ -78,7 +78,7 @@
     <Resource Idx="76" Name="models/vulcan03_01" />
     <Resource Idx="77" Name="models/vulcan03_02" />
     <Resource Idx="78" Name="models/crater03_01" />
-    <Resource Idx="79" Name="none" />
+    <Resource Idx="79" Name="models/world/tree/ny" />
     <Resource Idx="80" Name="none" />
     <Resource Idx="81" Name="none" />
     <Resource Idx="82" Name="none" />
@@ -1006,7 +1006,7 @@
     <Resource Idx="295" Name="icons/cargo/lut_03_01" />
     <Resource Idx="296" Name="mech/player/17" />
     <Resource Idx="297" Name="mech/player/17_01" />
-    <Resource Idx="298" Name="mech/player/27" />
+    <Resource Idx="298" Name="icons/default_close" />
     <Resource Idx="299" Name="none" />
     <Resource Idx="300" Name="icons/cargo/lut_04_old" />
     <Resource Idx="301" Name="icons/cargo/lut_08" />
@@ -1043,14 +1043,14 @@
     <Resource Idx="332" Name="mech/player/45" />
     <Resource Idx="333" Name="mech/player/46" />
     <Resource Idx="334" Name="mech/player/47" />
-    <Resource Idx="335" Name="none" />
-    <Resource Idx="336" Name="none" />
-    <Resource Idx="337" Name="none" />
-    <Resource Idx="338" Name="none" />
-    <Resource Idx="339" Name="none" />
-    <Resource Idx="340" Name="none" />
-    <Resource Idx="341" Name="none" />
-    <Resource Idx="342" Name="none" />
+	<Resource Idx="335" Name="icons/robots/mc_ltmed/lt/fox/elf_cannon_lvl3" />
+    <Resource Idx="336" Name="icons/robots/mc_ltmed/lt/fox/machinegun_lvl3" />
+    <Resource Idx="337" Name="icons/robots/mc_ltmed/lt_med/copter/laser_lvl4" />
+    <Resource Idx="338" Name="icons/robots/mc_ltmed/lt_med/copter/lt_frame_laser_lvl4" />
+    <Resource Idx="339" Name="icons/robots/mc_ltmed/lt_med/copter/med_wall_laser_lvl4" />
+    <Resource Idx="340" Name="icons/robots/mc_ltmed/lt_med/tractor/med_frame_laser_lvl5" />
+    <Resource Idx="341" Name="icons/robots/mc_ltmed/med/copter/laser_lvl1" />
+    <Resource Idx="342" Name="icons/robots/mc_ltmed/med/tractor/med_shield_cannon_lvl5" />
     <Resource Idx="343" Name="icons/quest_items/mail_box" />
     <Resource Idx="344" Name="none" />
     <Resource Idx="345" Name="none" />
@@ -1594,7 +1594,7 @@
     <Resource Idx="883" Name="mech/player/04_03" />
     <Resource Idx="884" Name="mech/player/05_01" />
     <Resource Idx="885" Name="mech/player/05_02" />
-    <Resource Idx="886" Name="none" />
+    <Resource Idx="886" Name="world/tree/ny" />
     <Resource Idx="887" Name="world/house/house_44" />
     <Resource Idx="888" Name="mech/player/06_01" />
     <Resource Idx="889" Name="mech/player/06_02" />
@@ -1612,15 +1612,15 @@
     <Resource Idx="901" Name="world/house/house_46" />
     <Resource Idx="902" Name="world/house/house_47" />
     <Resource Idx="903" Name="world/house/house_48" />
-    <Resource Idx="904" Name="none" />
-    <Resource Idx="905" Name="none" />
-    <Resource Idx="906" Name="none" />
-    <Resource Idx="907" Name="none" />
-    <Resource Idx="908" Name="none" />
-    <Resource Idx="909" Name="none" />
-    <Resource Idx="910" Name="none" />
-    <Resource Idx="911" Name="none" />
-    <Resource Idx="912" Name="none" />
+	<Resource Idx="904" Name="mech/player/mc_ltmed/beige" />
+	<Resource Idx="905" Name="mech/player/mc_ltmed/black" />
+	<Resource Idx="906" Name="mech/player/mc_ltmed/blue" />
+	<Resource Idx="907" Name="mech/player/mc_ltmed/green" />
+	<Resource Idx="908" Name="mech/player/mc_ltmed/purple" />
+	<Resource Idx="909" Name="mech/player/mc_ltmed/red" />
+	<Resource Idx="910" Name="mech/player/mc_ltmed/rusty" />
+	<Resource Idx="911" Name="mech/player/mc_ltmed/white" />
+	<Resource Idx="912" Name="mech/player/mc_ltmed/yellow" />
     <Resource Idx="913" Name="none" />
     <Resource Idx="914" Name="none" />
     <Resource Idx="915" Name="none" />

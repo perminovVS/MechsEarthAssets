@@ -772,6 +772,14 @@ world/ut/tree/trunk_01_ny
 		tex map world/ut/tree/trunk_01_ny
 	}
 }
+world/tree/ny
+{
+	cull none
+	sort 8.000
+	{
+		tex frames 0.800 5.000 world/tree/ny world/tree/ny_01 world/tree/ny_02 world/tree/ny_03 world/tree/ny_04
+	}
+}
 world/ut/tube/01
 {
 	cull none

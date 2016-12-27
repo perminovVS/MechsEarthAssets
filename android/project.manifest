@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "2.0.2",
+    "version": "2.0.2-ny",
     "engineVersion": "3.13.1",
     "assets": {
         "ClientConfig.xml": {
@@ -166,6 +166,30 @@
         },
         "models/mech/player/23.mdl": {
             "md5": "61b7d83285804d39fdf5d6456dbbfc54"
+        },
+        "models/mech/player/mc_ltmed/lt/fox/elf_cannon_lvl3.mdl": {
+            "md5": "39ac673d017b398421c72dd7975567bb"
+        },
+        "models/mech/player/mc_ltmed/lt/fox/machinegun_lvl3.mdl": {
+            "md5": "9a3357b4b987f0b001741593f4237315"
+        },
+        "models/mech/player/mc_ltmed/lt_med/copter/laser_lvl4.mdl": {
+            "md5": "a71a220feb5f94fdbecf90dc3758d4a9"
+        },
+        "models/mech/player/mc_ltmed/lt_med/copter/lt_frame_laser_lvl4.mdl": {
+            "md5": "6ee8b9bf64fd93f575d87278ab12cf66"
+        },
+        "models/mech/player/mc_ltmed/lt_med/copter/med_wall_laser_lvl4.mdl": {
+            "md5": "d7f15ba1c75ff087361b1cd81a2312bc"
+        },
+        "models/mech/player/mc_ltmed/lt_med/tractor/med_frame_laser_lvl5.mdl": {
+            "md5": "01ca2996d0e13e956243f126815e55e0"
+        },
+        "models/mech/player/mc_ltmed/med/copter/laser_lvl1.mdl": {
+            "md5": "6d8334a7180756c8c3981df3e34201b7"
+        },
+        "models/mech/player/mc_ltmed/med/tractor/med_shield_cannon_lvl5.mdl": {
+            "md5": "7ecfeb929e1734d1527d92ea94dc18d4"
         },
         "models/mech/player/new_year.mdl": {
             "md5": "6a18522dee65ecd20a3cad6eeaa5d303"
@@ -487,6 +511,9 @@
         },
         "models/world/sky_box/sky_box_old.mdl": {
             "md5": "f12fbeba561cadcc947703ee4d45cdfb"
+        },
+        "models/world/tree/ny.mdl": {
+            "md5": "51b6dc892da64f4c113ec5835252e05e"
         },
         "models/world/tube/01_mobile.mdl": {
             "md5": "6fed219a26df9f18e0e8d621dbb6c126"
@@ -1206,7 +1233,7 @@
             "md5": "c2b17f27f32e8914785650e74d0bf5fc"
         },
         "shaders/shaders.all": {
-            "md5": "a47579f748fd376884743cb67d86d7f4"
+            "md5": "6cb1a76812caead98b9ee90996d9396a"
         },
         "sounds/ogg/monsters/01/death01.ogg": {
             "md5": "0fc570978b7e4038ad275622ff302d10"
@@ -1848,10 +1875,10 @@
             "md5": "8e91f1de8f0b669c31f37bbd0328bf4f"
         },
         "textures/atlas/icons.plist": {
-            "md5": "1c7cfe74f9a2db12d8e31b75a4279ed6"
+            "md5": "7da96547951aacee607efc67328b8add"
         },
         "textures/atlas/icons.png": {
-            "md5": "cead79efd98000d4daebaaee421c3c6d"
+            "md5": "d824d87f21040719dfc8d73c6c66b1cd"
         },
         "textures/atlas/ui.plist": {
             "md5": "c14527435d9f95ad15acfe065b2d33ad"
@@ -3158,6 +3185,36 @@
         "textures/mech/player/23_02.jpg": {
             "md5": "d715aae7eef320961fa45883b00cd8ed"
         },
+        "textures/mech/player/mc_ltmed/7.jpg": {
+            "md5": "345d89936bb7001dc7f4433f44080ef4"
+        },
+        "textures/mech/player/mc_ltmed/beige.jpg": {
+            "md5": "32ea42186aca39dfc8100214757ce1b9"
+        },
+        "textures/mech/player/mc_ltmed/black.jpg": {
+            "md5": "150764f4a93c7cc7a823d2b532cd26d0"
+        },
+        "textures/mech/player/mc_ltmed/blue.jpg": {
+            "md5": "e2be74f8a8782a852dd78a781f3661a8"
+        },
+        "textures/mech/player/mc_ltmed/green.jpg": {
+            "md5": "f2445f945dcee800c9596151719f1146"
+        },
+        "textures/mech/player/mc_ltmed/purple.jpg": {
+            "md5": "b928e264a672855d43216106a1559f1a"
+        },
+        "textures/mech/player/mc_ltmed/red.jpg": {
+            "md5": "29438614c36277cbfe02efeea16e61fa"
+        },
+        "textures/mech/player/mc_ltmed/rusty.jpg": {
+            "md5": "2de59102dde76ac6e52b31bd3b0bd7e3"
+        },
+        "textures/mech/player/mc_ltmed/white.jpg": {
+            "md5": "6f7ce3087224df6218a27aefce8aff48"
+        },
+        "textures/mech/player/mc_ltmed/yellow.jpg": {
+            "md5": "6eb10578bfad0d4c9c54cb3d89203a97"
+        },
         "textures/mech/player/new_year.jpg": {
             "md5": "f12e55b0839332619d389ea9a3c377d4"
         },
@@ -3529,6 +3586,21 @@
         },
         "textures/world/terrain/snow.tga": {
             "md5": "2495a3e1042a065efbb34f18d3f1e295"
+        },
+        "textures/world/tree/ny.jpg": {
+            "md5": "48ddb3c81dd3da6b344a14bf273fc164"
+        },
+        "textures/world/tree/ny_01.jpg": {
+            "md5": "46e7b9eacdbc1b86d91786879fe415d0"
+        },
+        "textures/world/tree/ny_02.jpg": {
+            "md5": "ea381cd85288ad451818f279de1ed49f"
+        },
+        "textures/world/tree/ny_03.jpg": {
+            "md5": "65bf4f05a835cd48246e2ea0b0a7c711"
+        },
+        "textures/world/tree/ny_04.jpg": {
+            "md5": "43cfdae034873ae5fd84128dbc0af757"
         },
         "textures/world/tube/00.jpg": {
             "md5": "1e028d3b14ff73b416b1c29e9875e461"
@@ -4212,10 +4284,10 @@
             "md5": "62e9d3e087889605d3bf2c144862db53"
         },
         "worlds/1/Layer.mz": {
-            "md5": "e3b4c0f00244a1d09b081c56af335407"
+            "md5": "638992b0bcd24a7675568dac887b734d"
         },
         "worlds/1/PassiveEntities.bin": {
-            "md5": "0d7ac09bb958a5fa17c087735d4c06e0"
+            "md5": "42f464e1cec68114d7612089012d0d5e"
         },
         "worlds/1/Terrain.mz": {
             "md5": "eaa72778ade56d73ce7446410eb7dd76"
@@ -4269,16 +4341,16 @@
             "md5": "59d3d871e9577c44c874c158056cacf0"
         },
         "worlds/2/Layer.mz": {
-            "md5": "010a024f638d867b5ffea58e1a04f0dc"
+            "md5": "56476bf6669f3ed76c8a942632b886c6"
         },
         "worlds/2/PassiveEntities.bin": {
-            "md5": "8f9f4db615a81326a3abe4a78d3ada38"
+            "md5": "cf008b39bc8b640036b2a21ec9d110dc"
         },
         "worlds/2/Terrain.mz": {
             "md5": "9ffa2396950078b88bf608599dedc0cc"
         },
         "worlds/2/World.xml": {
-            "md5": "add376a2d7d618060ccc6314a44bd516"
+            "md5": "24327a0eba96b1b005139b6df3da4783"
         },
         "worlds/2/map.jpg": {
             "md5": "d8795c646552587d06827588a31dd69d"
@@ -4323,16 +4395,16 @@
             "md5": "fbacf890ae9540ffdb647726a6cd3755"
         },
         "worlds/5/Layer.mz": {
-            "md5": "a98f16eceb0fe9dbbc0226848ec22897"
+            "md5": "b3abb78873da0fc105734a4e79de0bc0"
         },
         "worlds/5/PassiveEntities.bin": {
-            "md5": "3b167a0efe1e8b00623085773aa7de3f"
+            "md5": "0f78c5d888bc07af48ee50bde1c184d1"
         },
         "worlds/5/Terrain.mz": {
             "md5": "30cf9dfc3e3500ca11e5b85714718009"
         },
         "worlds/5/World.xml": {
-            "md5": "a9aa54c54d6bb79e1dad82f8b693679f"
+            "md5": "fa3e505225b8fc34d5c8871fa6985ecb"
         },
         "worlds/5/map.jpg": {
             "md5": "7e4b95eda8b2892be0186ee201efefed"
@@ -4341,10 +4413,10 @@
             "md5": "f017078de97df4c0e850e39cd551c754"
         },
         "worlds/6/Layer.mz": {
-            "md5": "01612426b9b4f9f9d8f24d6c67b544b2"
+            "md5": "c677e8e4ab313341a2dc4c041cb7054c"
         },
         "worlds/6/PassiveEntities.bin": {
-            "md5": "e2a0b30fa82f6e67d605bba7b7db33e3"
+            "md5": "0a2684ee54d6259a48a17788a4d9b95f"
         },
         "worlds/6/Terrain.mz": {
             "md5": "b27228af88bfdc8ad2fe656e772b3b5a"
@@ -4413,13 +4485,13 @@
             "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "6b7c8b02addb79db9dfaee25804c7d45"
+            "md5": "eb1757df41fbbae45a40743adf9b0be4"
         },
         "worlds/Nations.xml": {
             "md5": "629b2233f883e1072e3b6894d16bbeac"
         },
         "worlds/Resources.xml": {
-            "md5": "eca8c0991df73a4fd9d4f55e9415ed1d"
+            "md5": "c88b520ea1f4f2162e20f81abe46967a"
         }
     },
     "searchPaths": []
