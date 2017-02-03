@@ -5,11 +5,11 @@
     <Image Style="window" X="144" Y="44" W="512" H="512">
         <Text Style="label" Text="mainmenu_contacts_title" X="193" Y="69" W="400" H="32"/>
         <Button Normal="508" Active="509" Command="open_url https://vk.com/mechs" X="195" Y="120" W="48" H="48"/>
-        <Button Normal="512" Active="513" Command="open_url https://ok.ru/group/54227252215919" X="295" Y="120" W="48" H="48"/>
+        <Button Normal="512" Active="513" Command="open_url https://ok.ru/mechs" X="295" Y="120" W="48" H="48"/>
         <Button Normal="500" Active="501" Command="open_url https://google.com/+MechsSuEarth-MMORPG-RobotsOnline" X="395" Y="120" W="48" H="48"/>
-        <Button Normal="498" Active="499" Command="open_url https://www.facebook.com/%D0%9C%D0%95%D0%A5%D0%98-%D0%97%D0%B5%D0%BC%D0%BB%D1%8F-927396230710843" X="495" Y="120" W="48" H="48"/>
+        <Button Normal="498" Active="499" Command="open_url https://www.facebook.com/MechsEarth" X="495" Y="120" W="48" H="48"/>
         <Button Normal="506" Active="507" Command="open_url https://twitter.com/MechsEarth" X="295" Y="190" W="48" H="48"/>
-        <Button Normal="510" Active="511" Command="open_url https://www.youtube.com/channel/UCPaom1JbudI0ikXOIPGQ3nQ" X="195" Y="190" W="48" H="48"/>
+        <Button Normal="510" Active="511" Command="open_url https://www.youtube.com/c/MechsSuEarth-MMORPG-RobotsOnline" X="195" Y="190" W="48" H="48"/>
         <Button Normal="502" Active="503" Command="open_url https://www.instagram.com/mekhizemlia/" X="395" Y="190" W="48" H="48"/>
         <Button Normal="516" Active="517" Command="open_url https://mechs.su" X="195" Y="295" W="48" H="48"/>
         <Button Style="text" Text="mainmenu_contacts_mainmenu_site" Command="open_url https://mechs.su" Align="LEFT" X="255" Y="295" W="375" H="48"/>

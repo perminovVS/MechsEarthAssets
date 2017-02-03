@@ -9,12 +9,12 @@
     <Text Name="Version" HAlignAdd="RIGHT" VAlignAdd="BOTTOM" X="600" Y="582" W="196" H="16" Text="version" FontSet="signature" Align="RIGHT" VAlign="TOP" ColorARGB="1 1 1 1"/>
     <Text Name="Info" X="57" Y="460" W="327" H="104" Text="main_get_info" FontSet="normal_text" Align="LEFT" VAlign="TOP" ColorARGB="1 0.1 0.84 0.1" VIS="0" ENB="0"/>
     <Button Info="tooltip_mainmenu_vk" MouseShader="153" Normal="508" Active="509" Command="open_url https://vk.com/mechs" X="278" Y="423" W="24" H="24"/>
-    <Button Info="tooltip_mainmenu_facebook" MouseShader="153" Normal="498" Active="499" Command="open_url https://www.facebook.com/%D0%9C%D0%95%D0%A5%D0%98-%D0%97%D0%B5%D0%BC%D0%BB%D1%8F-927396230710843" X="361" Y="423" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_facebook" MouseShader="153" Normal="498" Active="499" Command="open_url https://www.facebook.com/MechsEarth" X="361" Y="423" W="24" H="24"/>
     <Button Info="tooltip_mainmenu_google-plus" MouseShader="153" Normal="500" Active="501" Command="open_url https://google.com/+MechsSuEarth-MMORPG-RobotsOnline" X="334" Y="423" W="24" H="24"/>
     <Button Info="tooltip_mainmenu_twitter" MouseShader="153" Normal="506" Active="507" Command="open_url https://twitter.com/MechsEarth" X="389" Y="423" W="24" H="24"/>
-    <Button Info="tooltip_mainmenu_youtube" MouseShader="153" Normal="510" Active="511" Command="open_url https://www.youtube.com/channel/UCPaom1JbudI0ikXOIPGQ3nQ" X="416" Y="423" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_youtube" MouseShader="153" Normal="510" Active="511" Command="open_url https://www.youtube.com/c/MechsSuEarth-MMORPG-RobotsOnline" X="416" Y="423" W="24" H="24"/>
     <Button Info="tooltip_mainmenu_instagram" MouseShader="153" Normal="502" Active="503" Command="open_url https://www.instagram.com/mekhizemlia/" X="443" Y="423" W="24" H="24"/>
-    <Button Info="tooltip_mainmenu_ok" MouseShader="153" Normal="512" Active="513" Command="open_url https://ok.ru/group/54227252215919" X="306" Y="423" W="24" H="24"/>
+    <Button Info="tooltip_mainmenu_ok" MouseShader="153" Normal="512" Active="513" Command="open_url https://ok.ru/mechs" X="306" Y="423" W="24" H="24"/>
     <Button Info="tooltip_mainmenu_skype" MouseShader="153" Normal="504" Active="505" Command="open_url skype:support.mechs.su?chat" X="500" Y="161" W="24" H="24"/>
     <Button Info="tooltip_mainmenu_mail" MouseShader="153" Normal="514" Active="515" Command="open_url mailto:support@mechs.su" X="465" Y="161" W="24" H="24"/>
     <Button Info="tooltip_mainmenu_site" MouseShader="153" Normal="516" Active="517" Command="open_url https://mechs.su" X="430" Y="160" W="24" H="24"/>
