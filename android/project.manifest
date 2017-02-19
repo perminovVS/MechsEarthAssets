@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "2.0.3-opora",
+    "version": "2.0.3--opora",
     "engineVersion": "3.13.2",
     "assets": {
         "ClientConfig.xml": {
@@ -4485,7 +4485,7 @@
             "md5": "fa2aacf495e84d23474c5d87b53a4d24"
         },
         "worlds/Nations.xml": {
-            "md5": "af85e501db3d6e66b06f6ad2a887284f"
+            "md5": "a45472572b73cd514db8d020d69bb195"
         },
         "worlds/Resources.xml": {
             "md5": "c88b520ea1f4f2162e20f81abe46967a"
