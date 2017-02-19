@@ -209,7 +209,7 @@
 	<Text Key="tooltip_mod_skill_weapon_energy" 	Value="Эмпп, Фазер" />
 	<Text Key="tooltip_mod_skill_weapon_rockets" Value="Рк, Рк Энрг" />
 	<Text Key="tooltip_mod_skill_weapon_long_range" Value="Гранатомет, Гаубица" />  
-  <Text Key="tooltip_mod_skill_weapon_fire_2" 	Value="Мортира, Пулемет дальнобойный" />
+  <Text Key="tooltip_mod_skill_weapon_fire_2" 	Value="Мортира, Пулемет крупнокалиберный" />
   <Text Key="tooltip_mod_skill_weapon_energy_2" 	Value="Пушка Энрг, Пулемет Энрг" />
   <Text Key="tooltip_mod_skill_weapon_long_range_eng" Value="Гранатомет Энрг, Гаубица Энрг" />
   
@@ -432,7 +432,7 @@
 	<Text Key="params_hero_skill_bulleteng"			Value="Пулемет энрг" />
   <Text Key="params_hero_skill_missileeng"			Value="Пушка энрг" />
   <Text Key="params_hero_skill_mortar"			Value="Мортира" />
-  <Text Key="params_hero_skill_bulletheavy"			Value="Пулемет дальнобойный" />  
+  <Text Key="params_hero_skill_bulletheavy"			Value="Пулемет крупнокалиберный" />  
 	<Text Key="params_hero_more_skill_exp"			Value="Другие" />
 	<Text Key="params_hero_weapon"					Value="Удар" />
 	<Text Key="params_hero_used"					Value="Умения" />
@@ -557,7 +557,7 @@
   <Text Key="mainmenu_contacts_open_info" Value="*Тап для открытия" />
 
   <Text Key="startmsg_title"										Value="Правительство" />
-  <Text Key="startmsg_text"										Value="  Пилот, ты на Земле.\n\n  Зайди в здание правительства ( нажми кнопку войти ) и возьми ПЕРВОЕ задание.\n\n  Выжившие колонии людей возвращаются на планету предков. Многие погибли, чтобы ты чувствовал себя здесь в безопасности. Возвращение необходимо, ибо колонии переполнены и ресурсы, которыми обладает земля, очень важны. Не будем тянуть время, перейдем к главному.\n\n  Добыча ресурсов твоя основная цель, командование хорошо заплатит за них, но есть масса препятствий: это мутировавшая живность планеты и кроты, (те, кто по каким то причинам не с могли эвакуироваться и пережили все катаклизмы здесь на земле). Постоянно прибывает подкрепление и ты не останешься один, но здешний мир жесток - будь готов ко всему. Нажми F1, чтобы узнать подробности управления своим роботом и его приборами." />
+  <Text Key="startmsg_text"										Value="  Пилот, ты на Земле.\n\n  Для ознакомления с управлением и основами игры, выполни ПЕРВОЕ задание, которое уже добавлено тебе.\n\n Мобильная версия игры пока не полностью адаптирована под маленькие экраны, на сайте https://mechs.su можно скачать полную версию игры для ПК и ноутбуков.\n\n  Выжившие колонии людей возвращаются на планету предков. Многие погибли, чтобы ты чувствовал себя здесь в безопасности. Возвращение необходимо, ибо колонии переполнены и ресурсы, которыми обладает земля, очень важны. Не будем тянуть время, перейдем к главному.\n\n  Добыча ресурсов твоя основная цель, командование хорошо заплатит за них, но есть масса препятствий: это мутировавшая живность планеты и кроты, (те, кто по каким то причинам не с могли эвакуироваться и пережили все катаклизмы здесь на земле). Постоянно прибывает подкрепление и ты не останешься один, но здешний мир жесток - будь готов ко всему. Нажми F1, чтобы узнать подробности управления своим роботом и его приборами." />
 
   <Text Key="premium_account_title"				Value="Приобрести премиум аккаунт" />
   <Text Key="premium_account_buy"					Value="Продлить премиум аккаунт:" />
@@ -713,7 +713,7 @@
   <Text Key="chat_entity_changes_heroskills_howitzereng" 	Value="Опыт владения гаубицей энрг: %+d" />
   <Text Key="chat_entity_changes_heroskills_launchereng" 	Value="Опыт владения гранатометом энрг: %+d" />
   <Text Key="chat_entity_changes_heroskills_mortar" 	Value="Опыт владения мортирой: %+d" />
-  <Text Key="chat_entity_changes_heroskills_bulletheavy" 	Value="Опыт владения дальнобойным пулеметом: %+d" />
+  <Text Key="chat_entity_changes_heroskills_bulletheavy" 	Value="Опыт владения крупнокалиберным пулеметом: %+d" />
 
 	<Text Key="chat_shot_far" 	Value="Выстрел невозможен [далеко]" />
 	<Text Key="chat_shot_near" 	Value="Выстрел невозможен [слишком близко]" />

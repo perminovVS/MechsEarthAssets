@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/windows/",
     "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "2.0.3",
+    "version": "2.0.3-opora",
     "engineVersion": "3.13.1",
     "assets": {
         "ClientConfig.xml": {
@@ -2469,10 +2469,10 @@
             "md5": "26b99d14e2ad299047501bd927601b0e"
         },
         "textures/atlas/begin.plist": {
-            "md5": "441ef3979ce168e4d9ebf6b2083e86f9"
+            "md5": "a2e617cc5cd562421591003cc69fc1b1"
         },
         "textures/atlas/begin.png": {
-            "md5": "8e91f1de8f0b669c31f37bbd0328bf4f"
+            "md5": "4c8bde90ab5129581cfe94eca9bb8154"
         },
         "textures/atlas/icons.plist": {
             "md5": "7da96547951aacee607efc67328b8add"
@@ -4185,7 +4185,7 @@
             "md5": "bff7083628ef45d58a9c558120042307"
         },
         "textures/world/tree/ny.jpg": {
-            "md5": "48ddb3c81dd3da6b344a14bf273fc164"
+            "md5": "ba5435cd302ffec69c01440f15849635"
         },
         "textures/world/tree/ny_01.jpg": {
             "md5": "46e7b9eacdbc1b86d91786879fe415d0"
@@ -4872,7 +4872,7 @@
             "md5": "45f453c96a6c141d9060567da9ff6437"
         },
         "ui/localization/ru.xml": {
-            "md5": "36ebf2e46f385704d3860a9b44cd14f4"
+            "md5": "84c7f9c0edce854b14cc88d5a91552c5"
         },
         "ui/ui.xml": {
             "md5": "e466b4b40eab162cba922a9c0c85625d"
@@ -5082,10 +5082,10 @@
             "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "45cecf7b3df264318b876438233797cf"
+            "md5": "fa2aacf495e84d23474c5d87b53a4d24"
         },
         "worlds/Nations.xml": {
-            "md5": "629b2233f883e1072e3b6894d16bbeac"
+            "md5": "af85e501db3d6e66b06f6ad2a887284f"
         },
         "worlds/Resources.xml": {
             "md5": "c88b520ea1f4f2162e20f81abe46967a"
