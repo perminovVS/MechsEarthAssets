@@ -432,7 +432,7 @@
 	<Text Key="params_hero_skill_bulleteng"			Value="Пулемет энрг" />
   <Text Key="params_hero_skill_missileeng"			Value="Пушка энрг" />
   <Text Key="params_hero_skill_mortar"			Value="Мортира" />
-  <Text Key="params_hero_skill_bulletheavy"			Value="Пулемет крупнокалиберный" />  
+  <Text Key="params_hero_skill_bulletheavy"			Value="Пулемет крупнокалиб." />  
 	<Text Key="params_hero_more_skill_exp"			Value="Другие" />
 	<Text Key="params_hero_weapon"					Value="Удар" />
 	<Text Key="params_hero_used"					Value="Умения" />
@@ -537,6 +537,8 @@
   <Text Key="mainmenu_options" Value="Настройки" />
   <Text Key="mainmenu_exit" Value="Выход" />
   <Text Key="main_get_info" Value="Получение данных.." />
+
+  <Text Key="mainmenu_sale" Value="Cупер акция! Только 1 апреля\nCкидки: Прокачка роботов до 50%%%%%.\nРоботы 95 уровня - 75%%%%%.\nРегл. патроны - 50%%%%%.\nНажми что бы узнать подробнее." />
   
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- основное меню -->
 <Main Id="10000" Worker="Menu_Main">
+    <Button Text="mainmenu_sale" FontSet="button_text" Normal="518" Active="518" Align="CENTER" ColorARGB="1 0.9 0.9 0.9" ActiveColorARGB="1 0.9 0.4 0.4" MouseShader="153" Command="open_url https://vk.com/mechs" X="140" Y="459" W="520" H="130"/>
     <Image Style="window" X="240" Y="140" W="320" H="330"/>
     <Button Style="default" Text="mainmenu_connect" Command="delete_menu Main;create_menu Login;" Key="enter" X="275" Y="197" W="250" H="45"/>
     <Button Style="default" Text="mainmenu_register" Command="delete_menu Main;create_menu Login;" X="275" Y="249" W="250" H="45"/>

@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "2.0.3-newrobot",
+    "version": "2.0.3-1april",
     "engineVersion": "3.13.2",
     "assets": {
         "ClientConfig.xml": {
@@ -4203,7 +4203,7 @@
             "md5": "eb9382c1e0896a471e1c792ba4caaeb2"
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "4ee019c7f31ef5cbb6eef34e7785df27"
+            "md5": "e365f5bbfa724f01589404a5e062e21c"
         },
         "ui/dialogs/main/MainContacts.xml": {
             "md5": "1c4630118fb0b6bd8d1e99da6931f625"
@@ -4272,7 +4272,7 @@
             "md5": "45f453c96a6c141d9060567da9ff6437"
         },
         "ui/localization/ru.xml": {
-            "md5": "84c7f9c0edce854b14cc88d5a91552c5"
+            "md5": "79a16dd1d26aa5af8c1eea326a3dbae3"
         },
         "ui/ui.xml": {
             "md5": "e466b4b40eab162cba922a9c0c85625d"
@@ -4482,7 +4482,7 @@
             "md5": "0bf197bbb93bd825c706888113bb4ce1"
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "fc24280596a3969849f06927411130f3"
+            "md5": "a837c5ca07e1c627d6f15d7880da33f9"
         },
         "worlds/Nations.xml": {
             "md5": "a45472572b73cd514db8d020d69bb195"
