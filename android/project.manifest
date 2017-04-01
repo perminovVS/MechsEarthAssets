@@ -2,7 +2,7 @@
     "packageUrl": "http://mechs.su/assets/android/",
     "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
     "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "2.0.3-1april-end",
+    "version": "2.0.3.04",
     "engineVersion": "3.13.2",
     "assets": {
         "ClientConfig.xml": {
@@ -4203,7 +4203,7 @@
             "md5": "eb9382c1e0896a471e1c792ba4caaeb2"
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "e365f5bbfa724f01589404a5e062e21c"
+            "md5": "672be2f97d820ffcbffcfc6d7280dd2f"
         },
         "ui/dialogs/main/MainContacts.xml": {
             "md5": "1c4630118fb0b6bd8d1e99da6931f625"
