@@ -1,7 +1,7 @@
 {
-    "packageUrl": "http://mechs.su/assets/windows/",
-    "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
-    "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "2.0.3.04",
-    "engineVersion": "3.13.1"
+    "packageUrl": "http://assets.mechs.su/windows/",
+    "remoteManifestUrl": "http://assets.mechs.su/windows/project.manifest",
+    "remoteVersionUrl": "http://assets.mechs.su/windows/version.manifest",
+    "version": "2.0.4",
+    "engineVersion": "3.15"
 }

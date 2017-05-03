@@ -1,9 +1,9 @@
 {
-    "packageUrl": "http://mechs.su/assets/windows/",
-    "remoteManifestUrl": "http://mechs.su/assets/windows/project.manifest",
-    "remoteVersionUrl": "http://mechs.su/assets/windows/version.manifest",
-    "version": "2.0.3.04",
-    "engineVersion": "3.13.1",
+    "packageUrl": "http://assets.mechs.su/windows/",
+    "remoteManifestUrl": "http://assets.mechs.su/windows/project.manifest",
+    "remoteVersionUrl": "http://assets.mechs.su/windows/version.manifest",
+    "version": "2.0.4",
+    "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
             "md5": "da94767ee032987221c6ffe587b47cbc",
@@ -2356,30 +2356,6 @@
         "models/world/wall/34_mobile.mdl": {
             "md5": "5c84f7d384684b2744e4ccbae3a36fd2",
             "size": 6356
-        },
-        "platforms/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
-        },
-        "platforms/linux/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
-        },
-        "platforms/mac/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
-        },
-        "platforms/mobile/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
-        },
-        "platforms/user/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
-        },
-        "platforms/win32/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
         },
         "shaders/particle.all": {
             "md5": "9cbfc70335d4780ea632d8c3fad07304",
