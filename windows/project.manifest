@@ -1,7 +1,7 @@
 {
-    "packageUrl": "http://assets.mechs.su/windows/",
-    "remoteManifestUrl": "http://assets.mechs.su/windows/project.manifest",
-    "remoteVersionUrl": "http://assets.mechs.su/windows/version.manifest",
+    "packageUrl": "http://assets.mechs.su/",
+    "remoteManifestUrl": "http://assets.mechs.su/project.manifest",
+    "remoteVersionUrl": "http://assets.mechs.su/version.manifest",
     "version": "2.0.4",
     "engineVersion": "3.15",
     "assets": {
@@ -17,9 +17,13 @@
             "md5": "cfad8583b00a304106aa734f5e13ff38",
             "size": 5683
         },
+        "GenerateManifestsIgnore": {
+            "md5": "37d52aca2b10034395634722136a1d18",
+            "size": 85
+        },
         "fonts/BasicFonts.xml": {
-            "md5": "3d103039fe79f4cc4c7f1d7272611101",
-            "size": 3974
+            "md5": "7a0e6ceaa6d3aca98489707fc8430de3",
+            "size": 4133
         },
         "fonts/a_lcdnova.ttf": {
             "md5": "0122a1624fbf20f49bd0c3dc453efb09",
@@ -50,8 +54,8 @@
             "size": 155384
         },
         "lensflare/lensflare.lf": {
-            "md5": "ba09a696b69ba701c37e4bca062ae5d2",
-            "size": 1977
+            "md5": "848ef6bdc50759d23cae391b54f8277c",
+            "size": 2044
         },
         "models/interface/attack_radius.mdl": {
             "md5": "bb6e54845c988d48ac3cf22bc3c4e6a5",
@@ -3266,48 +3270,48 @@
             "size": 465
         },
         "textures/atlas/begin.plist": {
-            "md5": "a2e617cc5cd562421591003cc69fc1b1",
-            "size": 14534
+            "md5": "701bc8c8ec874729cd6d5f0938bb66cd",
+            "size": 14931
         },
         "textures/atlas/begin.png": {
             "md5": "4c8bde90ab5129581cfe94eca9bb8154",
             "size": 4548646
         },
         "textures/atlas/icons.plist": {
-            "md5": "7da96547951aacee607efc67328b8add",
-            "size": 764012
+            "md5": "1c0938f92081adea7c4851b307d4fca6",
+            "size": 784779
         },
         "textures/atlas/icons.png": {
             "md5": "d824d87f21040719dfc8d73c6c66b1cd",
             "size": 5007902
         },
         "textures/atlas/ui.plist": {
-            "md5": "c14527435d9f95ad15acfe065b2d33ad",
-            "size": 241809
+            "md5": "0c0ee276fb18c38fec5e12a1d55fca2b",
+            "size": 248401
         },
         "textures/atlas/ui.png": {
             "md5": "ae72e7085bdd00bd0904c2e4fe70252c",
             "size": 1083955
         },
         "textures/atlas/ui_new.plist": {
-            "md5": "3fffef50f7dc49fcb261a157214a9604",
-            "size": 26788
+            "md5": "01b395cc2dd6d6b151cb6e0276765c47",
+            "size": 27515
         },
         "textures/atlas/ui_new.png": {
             "md5": "6cf93f964713782b3f5ac15aa3d56a1c",
             "size": 974272
         },
         "textures/atlas/ui_window_0.plist": {
-            "md5": "c45f02aa968b3ddb9bddfb23f815da98",
-            "size": 10401
+            "md5": "23deb1aea9b7401811ad338e50e8be30",
+            "size": 10683
         },
         "textures/atlas/ui_window_0.png": {
             "md5": "5bc2c8e9ef252c0c8defbb8b302a9f3f",
             "size": 3528676
         },
         "textures/atlas/ui_window_1.plist": {
-            "md5": "cf6a1539247dc8fef1bd63572c7094c7",
-            "size": 10424
+            "md5": "f7fec1eb72f451ae62ccde43c1f30ded",
+            "size": 10706
         },
         "textures/atlas/ui_window_1.png": {
             "md5": "7258fde05f931b6990850a079d3d4fed",
@@ -6750,12 +6754,12 @@
             "size": 1096839
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "7d95ac0a2777f6dca6b14555b234c570",
+            "md5": "f2d2338a8ccf3a66e1003806addda069",
             "size": 710552
         },
         "worlds/Nations.xml": {
-            "md5": "a45472572b73cd514db8d020d69bb195",
-            "size": 3190
+            "md5": "e5d1d2b7cae6e327b979151a98eefe30",
+            "size": 3293
         },
         "worlds/Resources.xml": {
             "md5": "c88b520ea1f4f2162e20f81abe46967a",

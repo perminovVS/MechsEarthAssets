@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!-- Сообщение об ошибке -->
-<MsgError Id="21000" Worker="Menu_MsgError">
-    <Image Id="1" Rect="MsgWndSmallSystem01_Wnd" Shader="143">
-        <Text Id="2" Text="empty" FontSet="normal" Align="CENTER" ColorARGB="1 0.9 0.84 0.56" WordWrap="1" X="247" Y="253" W="307" H="60" VIS="1" ENB="1"  />
-    </Image>
-    <Button Id="3" Text="ok" FontSet="button" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu MsgError;" Key="enter" X="366" Y="321" W="80" H="18" VIS="1" ENB="1"  />
-</MsgError>

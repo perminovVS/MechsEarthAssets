@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!-- сервер отсоединил клиента -->
-<Disconnect Id="33000" Worker="Menu_Disconnect">
-    <!--Image Id=4 Rect=Common_WholeScreen Shader=5/-->
-    <Image Id="1" Rect="MsgWndSmallSystem01_Wnd" Shader="143">
-        <Text Id="2" Text="disconnect" FontSet="normal" ColorARGB="1 0.9 0.84 0.56" WordWrap="1" X="162" Y="247" W="474" H="60" VIS="1" ENB="1"  />
-    </Image>
-    <Button Id="3" Text="ok" FontSet="normal" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_all_menu; destroy_game; create_menu Main;" Key="enter" X="355" Y="316" W="80" H="18" VIS="1" ENB="1"  />
-</Disconnect>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!-- Недопустимые символы в имени -->
-<MsgWrongSymbols Id="20000">
-    <!-- Image Id=4 Rect=Common_WholeScreen Shader=5/-->
-    <Image Id="1" Shader="143" X="59" Y="236" W="687" H="128" VIS="1" ENB="1">
-        <Text Id="2" Text="registration_wrong_symbols" FontSet="normal" Align="CENTER" ColorARGB="1 0.9 0.84 0.56" WordWrap="1" X="246" Y="251" W="311" H="80" VIS="1" ENB="1"  />
-    </Image>
-    <Button Id="3" Text="ok" FontSet="normal" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_menu MsgWrongSymbols;" Key="enter" X="356" Y="324" W="80" H="18" VIS="1" ENB="1"  />
-</MsgWrongSymbols>

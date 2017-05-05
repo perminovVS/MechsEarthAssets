@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!-- Ошибка соединения с сервером -->
-<ConnectingError Id="32000" Worker="Menu_Disconnect">
-    <!-- Image Id=4 Rect=Common_WholeScreen Shader=5/-->
-    <Image Id="1" Rect="MsgWndSmallSystem01_Wnd" Shader="143">
-        <Text Id="2" Text="empty" FontSet="normal" Align="CENTER" ColorARGB="1 0.9 0.84 0.56" WordWrap="1" X="248" Y="252" W="307" H="60" VIS="1" ENB="1" />
-    </Image>
-    <Button Id="3" Text="ok" FontSet="normal" Normal="92" Active="4" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="delete_all_menu; create_menu Main;" Key="enter" X="361" Y="319" W="80" H="18" VIS="1" ENB="1"  />
-</ConnectingError>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<GameSettings>
-  <InterfaceCameraRangeMin 	Value="300.0" />
-  <InterfaceCameraRangeMax 	Value="3000.0" />
-  <CameraHeight            	Value="375.0"/>
-  <ToolTipsAllObject       	Value="0" />
-</GameSettings>

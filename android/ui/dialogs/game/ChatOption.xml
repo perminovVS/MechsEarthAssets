@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!-- Всплывающие команды работы с чатом -->
-<ChatOption Id="58000" Worker="Menu_ChatOption">
-    <Image Rect="Common_WholeScreen" Shader="5" />
-    <Button Command="delete_menu EntityOption;" HoverAlways="1" Rect="Common_WholeScreen" />
-    <Button Name="Prototype" Style="game_unit" Text="" X="0" Y="0" W="300" H="45" VIS="0" ENB="0" />
-</ChatOption>

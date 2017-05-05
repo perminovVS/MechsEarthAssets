@@ -1,9 +1,9 @@
 {
-    "packageUrl": "http://mechs.su/assets/android/",
-    "remoteManifestUrl": "http://mechs.su/assets/android/project.manifest",
-    "remoteVersionUrl": "http://mechs.su/assets/android/version.manifest",
-    "version": "2.0.3.04",
-    "engineVersion": "3.13.2",
+    "packageUrl": "http://assets-mobile.mechs.su/",
+    "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
+    "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
+    "version": "2.0.4",
+    "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
             "md5": "da94767ee032987221c6ffe587b47cbc",
@@ -16,6 +16,10 @@
         "ClientRenderSettings.xml": {
             "md5": "cfad8583b00a304106aa734f5e13ff38",
             "size": 5683
+        },
+        "GenerateManifestsIgnore": {
+            "md5": "37d52aca2b10034395634722136a1d18",
+            "size": 85
         },
         "fonts/BasicFonts.xml": {
             "md5": "3d103039fe79f4cc4c7f1d7272611101",
@@ -1556,30 +1560,6 @@
         "models/world/wall/34_mobile.mdl": {
             "md5": "5c84f7d384684b2744e4ccbae3a36fd2",
             "size": 6356
-        },
-        "platforms/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
-        },
-        "platforms/linux/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
-        },
-        "platforms/mac/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
-        },
-        "platforms/mobile/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
-        },
-        "platforms/user/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
-        },
-        "platforms/win32/.gitkeep": {
-            "md5": "935bca95504baded4f683cd5db8a6ded",
-            "size": 8
         },
         "shaders/particle.all": {
             "md5": "9cbfc70335d4780ea632d8c3fad07304",
@@ -5974,7 +5954,7 @@
             "size": 1096839
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "7d95ac0a2777f6dca6b14555b234c570",
+            "md5": "f2d2338a8ccf3a66e1003806addda069",
             "size": 710552
         },
         "worlds/Nations.xml": {
